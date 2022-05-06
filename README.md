@@ -6,6 +6,12 @@
 - RAZAVET Romain
 - ANICA Sean
 - EL KHATIBI EL HANANA Laila
-- Maggouh Naoufal
+- MAGGOUH Naoufal
+
+**Enseignant encadrant** : M. Bob-Antoine Jerry Ménélas
+
+## aperçu de l'application
+
+```insérer des screens de l'application```
 
 ## Principe de l'application
