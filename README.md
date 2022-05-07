@@ -1,4 +1,5 @@
 # *Projet de trimestre d'été de l'uqac : PortDuSaguenay*
+# *Développé dans le cadre du cours 8INF950 : Sujets spéciaux*
 ## Équipe
 
 - ALHABAJ Mahmod
@@ -24,3 +25,7 @@ L'utilisateur sera invité à interagir avec différents éléments du port (marchand
 et effectuer les activités proposées par notre application.
 
 [Contexte de l'application](https://docs.google.com/document/d/1pwcEbQwK07xHl-ZD4HcTFjl_ZeTIopkiK4terzdiKPg/edit?pli=1)
+
+## Spécifications
+
+**Développé sous : Unity 2021.3.1f1**
