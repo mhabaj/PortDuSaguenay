@@ -15,3 +15,12 @@
 ```insérer des screens de l'application```
 
 ## Principe de l'application
+
+Le but de notre application de réalité augmentée est de faire connaître l'importance du port de Chicoutimi aux
+gens à l'aide de l'une des technologies les plus utilisées du marché : le smartphone. 
+Lorsque l'utilisateur se trouve au port, il verra des éléments en 3D se superposer sur ce que capture sa
+caméra (des bateaux au milieu des réservoirs, des travailleurs, un train passant sur un chemin de fer).
+L'utilisateur sera invité à interagir avec différents éléments du port (marchandises, cargaisons, etc...)
+et effectuer les activités proposées par notre application.
+
+[Contexte de l'application](https://docs.google.com/document/d/1pwcEbQwK07xHl-ZD4HcTFjl_ZeTIopkiK4terzdiKPg/edit?pli=1)
