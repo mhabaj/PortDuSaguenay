@@ -44,7 +44,13 @@ extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 // 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
 extern void ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD (void);
-static Il2CppMethodPointer s_methodPointers[16] = 
+// 0x00000011 System.Void TrainScript::Start()
+extern void TrainScript_Start_mCCA9994E17A602D4221138FE852EB29E42E6B7E6 (void);
+// 0x00000012 System.Void TrainScript::Update()
+extern void TrainScript_Update_m277ED4983C9FC1E50B91B311E0E65A14F7418D33 (void);
+// 0x00000013 System.Void TrainScript::.ctor()
+extern void TrainScript__ctor_mAEE1F34895C59A521A137497033C108D5BDA0E29 (void);
+static Il2CppMethodPointer s_methodPointers[19] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -62,31 +68,37 @@ static Il2CppMethodPointer s_methodPointers[16] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD,
+	TrainScript_Start_mCCA9994E17A602D4221138FE852EB29E42E6B7E6,
+	TrainScript_Update_m277ED4983C9FC1E50B91B311E0E65A14F7418D33,
+	TrainScript__ctor_mAEE1F34895C59A521A137497033C108D5BDA0E29,
 };
-static const int32_t s_InvokerIndices[16] = 
+static const int32_t s_InvokerIndices[19] = 
 {
-	5080,
-	4120,
-	5175,
-	5175,
-	5175,
-	5175,
-	8211,
-	5121,
-	4153,
-	5175,
-	5175,
-	5175,
-	4015,
-	4120,
-	5175,
-	8211,
+	5082,
+	4122,
+	5177,
+	5177,
+	5177,
+	5177,
+	8213,
+	5123,
+	4155,
+	5177,
+	5177,
+	5177,
+	4017,
+	4122,
+	5177,
+	8213,
+	5177,
+	5177,
+	5177,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	16,
+	19,
 	s_methodPointers,
 	0,
 	NULL,
