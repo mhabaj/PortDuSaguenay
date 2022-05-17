@@ -13,69 +13,24 @@ MonoBehaviour:
   m_Name: AR Location Path
   m_EditorClassIdentifier: 
   Locations:
-  - Latitude: 48.42059
-    Longitude: -71.04471
-    Altitude: 0
+  - Latitude: 48.4199
+    Longitude: -71.05322
+    Altitude: 10
     AltitudeMode: 0
     Label: 
-  - Latitude: 48.42057
-    Longitude: -71.04471
-    Altitude: 0
+  - Latitude: 48.41989
+    Longitude: -71.05318
+    Altitude: 10
     AltitudeMode: 0
     Label: 
-  - Latitude: 48.42054
-    Longitude: -71.04471
-    Altitude: 0
+  - Latitude: 48.41988
+    Longitude: -71.05314
+    Altitude: 10
     AltitudeMode: 0
     Label: 
-  - Latitude: 48.42052
-    Longitude: -71.04473
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42049
-    Longitude: -71.04477
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42049
-    Longitude: 71.04481
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42047
-    Longitude: -71.04484
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42045
-    Longitude: -71.04483
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42043
-    Longitude: -71.04483
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42043
-    Longitude: -71.04485
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42041
-    Longitude: -71.04487
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42041
-    Longitude: -71.0449
-    Altitude: 0
-    AltitudeMode: 0
-    Label: 
-  - Latitude: 48.42044
-    Longitude: -71.04492
-    Altitude: 0
+  - Latitude: 48.41986
+    Longitude: -71.0531
+    Altitude: 10
     AltitudeMode: 0
     Label: 
   SplineType: 0
