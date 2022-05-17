@@ -31384,7 +31384,7 @@ IL_00ea_1:
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_40 = V_6;
 				NullCheck(L_39);
 				bool L_41;
-				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
+				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
 				if (!L_41)
 				{
 					goto IL_02c9_1;

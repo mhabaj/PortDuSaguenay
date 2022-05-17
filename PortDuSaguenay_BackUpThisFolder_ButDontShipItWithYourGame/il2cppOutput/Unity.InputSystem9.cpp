@@ -25972,7 +25972,7 @@ IL_001f:
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
+		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
 		if (L_7)
 		{
 			goto IL_002e;
@@ -29039,7 +29039,7 @@ IL_0139:
 		L_56 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_55, NULL);
 		NullCheck(L_56);
 		Type_t* L_57;
-		L_57 = VirtualFuncInvoker0< Type_t* >::Invoke(111 /* System.Type System.Type::GetEnumUnderlyingType() */, L_56);
+		L_57 = VirtualFuncInvoker0< Type_t* >::Invoke(112 /* System.Type System.Type::GetEnumUnderlyingType() */, L_56);
 		// var underlyingTypeCode = Type.GetTypeCode(underlyingType);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		int32_t L_58;
@@ -33596,7 +33596,7 @@ IL_0042:
 		Type_t* L_10 = ___type0;
 		NullCheck(L_10);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_11;
-		L_11 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(108 /* System.Type[] System.Type::GetInterfaces() */, L_10);
+		L_11 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(109 /* System.Type[] System.Type::GetInterfaces() */, L_10);
 		// var haveFoundInterface = false;
 		V_0 = (bool)0;
 		// foreach (var element in interfaces)
@@ -33707,7 +33707,7 @@ IL_0091:
 		Type_t* L_34 = ___type0;
 		NullCheck(L_34);
 		Type_t* L_35;
-		L_35 = VirtualFuncInvoker0< Type_t* >::Invoke(106 /* System.Type System.Type::get_BaseType() */, L_34);
+		L_35 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_34);
 		___type0 = L_35;
 		// if (type == null || type == typeof(object))
 		Type_t* L_36 = ___type0;
@@ -33745,7 +33745,7 @@ IL_00b9:
 		Type_t* L_42 = ___type0;
 		NullCheck(L_42);
 		Type_t* L_43;
-		L_43 = VirtualFuncInvoker0< Type_t* >::Invoke(106 /* System.Type System.Type::get_BaseType() */, L_42);
+		L_43 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_42);
 		___type0 = L_43;
 		// if (type == typeof(object))
 		Type_t* L_44 = ___type0;

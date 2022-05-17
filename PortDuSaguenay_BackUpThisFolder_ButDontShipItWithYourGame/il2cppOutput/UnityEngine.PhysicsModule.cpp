@@ -738,6 +738,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.RaycastHit::get_distance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Collider::Raycast_Injected(UnityEngine.Ray&,System.Single,System.Boolean&,UnityEngine.RaycastHit&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___ray0, float ___maxDistance1, bool* ___hasHit2, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___ret3, const RuntimeMethod* method) ;
+// UnityEngine.RaycastHit UnityEngine.Collider::Raycast(UnityEngine.Ray,System.Single,System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 Collider_Raycast_mBFA55E4B9BD7EE4E8D4107ADF24D2FA0F165FA2C (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray0, float ___maxDistance1, bool* ___hasHit2, const RuntimeMethod* method) ;
 // System.String UnityEngine.UnityString::Format(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityString_Format_m560566B98CA1AC19A6C2B424AE640F6E95D3B9B0 (String_t* ___fmt0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
 // System.String UnityEngine.PhysicsScene::ToString()
@@ -1991,6 +1995,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider::set_enabled(System.Boolean)");
 	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.RaycastHit UnityEngine.Collider::Raycast(UnityEngine.Ray,System.Single,System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 Collider_Raycast_mBFA55E4B9BD7EE4E8D4107ADF24D2FA0F165FA2C (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray0, float ___maxDistance1, bool* ___hasHit2, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___maxDistance1;
+		bool* L_1 = ___hasHit2;
+		Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3(__this, (&___ray0), L_0, L_1, (&V_0), NULL);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean UnityEngine.Collider::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_Raycast_mD7683E94051173B3FFC0862F4A17847E94AEB938 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray0, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___hitInfo1, float ___maxDistance2, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		V_0 = (bool)0;
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = ___hitInfo1;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_1 = ___ray0;
+		float L_2 = ___maxDistance2;
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_3;
+		L_3 = Collider_Raycast_mBFA55E4B9BD7EE4E8D4107ADF24D2FA0F165FA2C(__this, L_1, L_2, (&V_0), NULL);
+		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_0 = L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+// System.Void UnityEngine.Collider::Raycast_Injected(UnityEngine.Ray&,System.Single,System.Boolean&,UnityEngine.RaycastHit&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___ray0, float ___maxDistance1, bool* ___hasHit2, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___ret3, const RuntimeMethod* method) 
+{
+	typedef void (*Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3_ftn) (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76*, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, bool*, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*);
+	static Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Collider_Raycast_Injected_mAFAD355B658765116985B737217587C68BF257A3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider::Raycast_Injected(UnityEngine.Ray&,System.Single,System.Boolean&,UnityEngine.RaycastHit&)");
+	_il2cpp_icall_func(__this, ___ray0, ___maxDistance1, ___hasHit2, ___ret3);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

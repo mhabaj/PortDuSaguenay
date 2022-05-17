@@ -2522,6 +2522,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_renderMode_m1BEF259548C6CA
 	int32_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
+// System.Void UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, int32_t);
+	static Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Boolean UnityEngine.Canvas::get_isRootCanvas()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_isRootCanvas_m57410F800ED6E96C75E2703468B66DE0D5AC6846 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
