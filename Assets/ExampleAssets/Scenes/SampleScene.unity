@@ -1951,8 +1951,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a35ebd5d8f35a41955cdd524b40cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: []
   amplitude: 1
   speed: 1
+  y0: 0
 --- !u!4 &1303460501
 Transform:
   m_ObjectHideFlags: 0
@@ -2797,7 +2799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: debugText.
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
