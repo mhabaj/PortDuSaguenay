@@ -2015,7 +2015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1382609444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,8 +2033,8 @@ MonoBehaviour:
       LocationInputType: 0
       LocationData: {fileID: 0}
       Location:
-        Latitude: 48.42071
-        Longitude: -71.04559
+        Latitude: 48.42085955841129
+        Longitude: -71.04589949262376
         Altitude: -3
         AltitudeMode: 0
         Label: 
@@ -2044,11 +2044,11 @@ MonoBehaviour:
         AltitudeMode: 0
   PlacementOptions:
     MovementSmoothing: 0.05
-    MaxNumberOfLocationUpdates: 1
+    MaxNumberOfLocationUpdates: 4
     UseMovingAverage: 0
     HideObjectUntilItIsPlaced: 1
     ShowObjectAfterThisManyUpdates: 1
-  DebugMode: 0
+  DebugMode: 1
   ObjectLocationUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -2998,20 +2998,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1720346564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720346559}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfa3f78ce757c044a8d33b3d949916cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  animSpeed: 0.6
 --- !u!1 &1788743036
 GameObject:
   m_ObjectHideFlags: 0
