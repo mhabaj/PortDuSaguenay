@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/selectphoto_button_register"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#00FFFFFF"
+                android:text="Select Photo"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/selectphoto_imageview_register"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_constraintBottom_toBottomOf="@+id/selectphoto_button_register"
+                app:layout_constraintEnd_toEndOf="@+id/selectphoto_button_register"
+                app:layout_constraintStart_toStartOf="@+id/selectphoto_button_register"
+                app:layout_constraintTop_toTopOf="@+id/selectphoto_button_register" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_bg_profile"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Name"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_gravity="bottom"
+                            android:enabled="false"
+                            android:hint="City" />
+
+                        <Button
+                            android:id="@+id/buttonModif"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            app:icon="@drawable/ic_icons_dark_edit"
+                            app:iconSize="20dp"
+                            android:onClick="switchCity"
+                            app:iconTint="@color/black">
+
+                        </Button>
+
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp">
+
+                        <EditText
+                            android:id="@+id/age"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_gravity="bottom"
+                            android:enabled="false"
+                            android:inputType="number"
+                            android:hint="Age" />
+
+
+                        <Button
+                            android:id="@+id/buttonModifAge"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            android:onClick="switcher"
+                            app:icon="@drawable/ic_icons_dark_edit"
+                            app:iconSize="20dp"
+                            app:iconTint="@color/black">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/buttonvalider"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            android:onClick="valider"
+                            android:visibility="invisible"
+                            app:icon="@drawable/valider"
+                            app:iconSize="20dp"
+                            app:iconTint="#4CAF50">
+
+                        </Button>
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:background="@drawable/ic_bg_textfield"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="message"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_chat"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="#9599B3" />
+
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_photos"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="#B7EFE2" />
+
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_course"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="#46C2A4" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="@string/chat" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="@string/photos" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="@string/course" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/buttonFriends"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:onClick="friend"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_friends"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="#46C2A4" />
+
+                        <Button
+                            android:id="@+id/buttonSettings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:onClick="settings"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_settings"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="@color/black" />
+
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            app:backgroundTint="#FFFFFF"
+                            app:icon="@drawable/ic_notification"
+                            app:iconGravity="textTop"
+                            app:iconSize="30dp"
+                            app:iconTint="#9599B3" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="@string/friends" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/settings" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="@string/notification" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:clickable="true"
+                    app:backgroundTint="#FFFFFF"
+                    app:srcCompat="@drawable/ic_icon_add"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

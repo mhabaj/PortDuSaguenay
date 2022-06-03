@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerItem">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/whiteGrey</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uqac.portdusaguenay">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Permission for camera -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!-- Limits app visibility in the Google Play Store to ARCore supported devices
+         (https://developers.google.com/ar/devices). -->
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PortDuSaguenay">
+        <activity
+            android:name=".activity.DisplayCoursesMap"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CourseCreation"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.Settings"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Accueil"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Recherche"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LogIn"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Enregistrer"
+            android:exported="true" />
+        <activity
+            android:name=".activity.QrCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ReadQrCode"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Friends"
+            android:exported="true" />
+        <activity android:name=".activity.ChatLogActivity"
+            android:parentActivityName=".activity.ProfileFriends" />
+        <activity
+            android:name=".activity.ProfileFriends"
+            android:exported="true" />
+        <activity android:name=".activity.FeedActivity"
+            android:parentActivityName=".activity.CourseDetails" />
+        <activity
+            android:name=".activity.CourseDetails"
+            android:exported="true"/>
+
+        <activity
+            android:name=".activity.MessageActivity"
+            android:parentActivityName=".activity.Profile"  />
+        <activity
+            android:name=".activity.Profile"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+
+
+        <activity
+            android:name=".activity.CourseCreationMap"
+            android:exported="true"
+            android:label="@string/title_activity_course_creation_map" />
+    </application>
+
+</manifest>
