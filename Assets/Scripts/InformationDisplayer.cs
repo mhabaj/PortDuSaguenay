@@ -4,6 +4,13 @@ using TMPro;
 using UnityEngine;
 
 /// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
 /// Information displayer class that allows us to display an information on top of an object.
 /// you specify a tmppro text and the ar camera, then you can click on the object to activate or
 /// deactivate the text displayed.

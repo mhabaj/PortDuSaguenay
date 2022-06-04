@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
+/// Class that manages the capture of the photo.
+/// </summary>
 public class PhotoCapture : MonoBehaviour
 {
     /// <summary>

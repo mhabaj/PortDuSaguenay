@@ -1146,8 +1146,6 @@ struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 struct AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
-// UnityEngine.Animator
-struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
 // UnityEngine.Events.ArgumentCache
 struct ArgumentCache_t30F5878E7190B37456E045E039655C33EB27FF1D;
 // System.Collections.ArrayList
@@ -34360,15 +34358,6 @@ struct TMP_SubMesh_t03A386328B843ADDDC3D5C53D901B38294142214  : public MonoBehav
 	bool ___m_isRegisteredForEvents_16;
 };
 
-// TrainScript
-struct TrainScript_t17196DD0F240F7206DA061729FF96E830FDFBA7F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.Animator TrainScript::anim
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim_4;
-	// System.Single TrainScript::animSpeed
-	float ___animSpeed_5;
-};
-
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -34384,6 +34373,17 @@ struct UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9  : public MonoBeha
 // UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
 struct ValveIndexControllerProfile_tB00771C9F4DA589B16B2D9C8488CDBFF1ACB169B  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {
+};
+
+// WeatherData
+struct WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TMP_Text WeatherData::currentWeatherText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___currentWeatherText_4;
+	// UnityEngine.ParticleSystem WeatherData::effect
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___effect_5;
+	// UnityEngine.GameObject WeatherData::weather
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___weather_6;
 };
 
 // ARLocation.WebMapLoader
@@ -40990,15 +40990,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4813[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4814[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CCaptureItU3Ed__1_tF95A26ADF389F7AE5130AAEE3CF76CF51348052C, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CCaptureItU3Ed__1_tF95A26ADF389F7AE5130AAEE3CF76CF51348052C, ___U3CU3E2__current_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4816[2] = 
-{
-	static_cast<int32_t>(offsetof(TrainScript_t17196DD0F240F7206DA061729FF96E830FDFBA7F, ___anim_4)),static_cast<int32_t>(offsetof(TrainScript_t17196DD0F240F7206DA061729FF96E830FDFBA7F, ___animSpeed_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4817[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4816[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CStartLocationServiceU3Ed__2_t37DBA94DE6B241D0C63EB935671A9ED4B6808646, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CStartLocationServiceU3Ed__2_t37DBA94DE6B241D0C63EB935671A9ED4B6808646, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CStartLocationServiceU3Ed__2_t37DBA94DE6B241D0C63EB935671A9ED4B6808646, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4818[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4817[1] = 
 {
 	static_cast<int32_t>(offsetof(UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9, ___debug_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4818[3] = 
+{
+	static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___currentWeatherText_4)),static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___effect_5)),static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___weather_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4819[7] = 
 {
 	static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___Path_4)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___MaxNumberOfUpdates_5)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___locationProvider_6)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___lineRenderer_7)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___arLocationRoot_8)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___initialized_9)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___updateCount_10)),};

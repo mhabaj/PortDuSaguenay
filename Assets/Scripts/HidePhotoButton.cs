@@ -3,6 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
+/// Class that hides the button of the screen shoter in order to save a clean photo,
+/// and plays the sound of photography.
+/// </summary>
 public class HidePhotoButton : MonoBehaviour
 {
     // button that will be pressed
