@@ -25,16 +25,18 @@
         app:queryHint="Search Location"/>
 
     <Button
+        android:id="@+id/confirm_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/confirm_button"
-        android:text="Select course"
-        android:enabled="false"
-        android:layout_margin="10dp"
-        android:layout_marginEnd="25dp"
         android:layout_alignBottom="@id/map"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
 
-        android:backgroundTint="#339933"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_bg_button"
+        app:backgroundTint="#00AEF0"
+        android:enabled="false"
         android:onClick="selectCourse"
-        />
+        android:text="Activer Réalité Augmentée" />
 </RelativeLayout>

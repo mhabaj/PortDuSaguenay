@@ -32,7 +32,7 @@
                 android:background="@drawable/ic_bg_button"
                 android:text="Sign_in"
                 android:textColor="#A6A6A6"
-                app:backgroundTint="#25BF72" />
+                app:backgroundTint="#00AEF0" />
 
             <Button
                 android:id="@+id/button2"
@@ -42,7 +42,7 @@
                 android:background="@drawable/ic_bg_button"
                 android:text="Sign"
                 android:textColor="#FFFFFF"
-                app:backgroundTint="#25BF72"
+                app:backgroundTint="#00AEF0"
                 android:onClick="LogIn"/>
 
         </LinearLayout>
@@ -97,7 +97,7 @@
             android:onClick="Continue"
             android:text="@string/next"
             android:textColor="#FFFFFF"
-            app:backgroundTint="#25BF72" />
+            app:backgroundTint="#00AEF0" />
 
 
 

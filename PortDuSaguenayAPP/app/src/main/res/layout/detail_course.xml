@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#133231">
+    android:background="#002B3B">
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_bg_course_detail"
-        android:gravity="bottom"
+        android:gravity="center_vertical"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,6 +24,7 @@
 
             <Button
                 android:id="@+id/joinBox"
+                android:layout_marginTop="150dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_icon_add"
@@ -32,7 +33,7 @@
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:onClick="joinCourse"
-                android:backgroundTint="#25BF72"
+                android:backgroundTint="#00AEF0"
                 />
 
         </FrameLayout>
@@ -42,51 +43,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center">
 
-            <Button
-                android:id="@+id/createGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_friends"
-                android:drawableTint="#2b2b2a"
-                android:fontFamily="@font/montserrat"
-                android:text="@string/create_group"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                android:onClick="createGroup"
-                android:backgroundTint="#e2e2e2"
-                />
 
         </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="20dp">
 
-            <EditText
-                android:id="@+id/editTextDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="top|center"
-                android:hint="10/11/2021"
-                android:inputType="date"
-                android:textColor="#000000"
-                android:textColorHint="#000000" />
-
-            <EditText
-                android:id="@+id/editTextTime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:ems="10"
-                android:gravity="top|center"
-                android:hint="12:00"
-                android:inputType="time"
-                android:textColor="#000000"
-                android:textColorHint="#000000" />
-        </FrameLayout>
 
     </LinearLayout>
 
@@ -95,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_bg_course"
-        android:backgroundTint="#25BF72"
+        android:backgroundTint="#00AEF0"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -178,30 +138,7 @@
                     android:onClick="openNav"/>
             </FrameLayout>
 
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:paddingTop="20dp">
 
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_heart"
-                    tools:ignore="VectorDrawableCompat" />
-
-                <TextView
-                    android:id="@+id/courseInterestView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
-                    android:fontFamily="@font/montserrat"
-                    android:text="@string/interests"
-                    android:textColor="#FFFFFF"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </FrameLayout>
 
             <TextView
                 android:id="@+id/descriptionView"

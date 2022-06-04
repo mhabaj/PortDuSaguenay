@@ -6,25 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/image"
+    android:backgroundTint="#efeff0"
     >
 
 
+    <ImageView
+        android:id="@+id/logo"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:background="@drawable/logo"
+
+    android:layout_marginBottom="28dp"
+    android:layout_gravity="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+
+    android:layout_marginTop="60dp"
+    />
+
+    <ImageView
+
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/image"
+
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="328dp"
-        android:layout_height="36dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="28dp"
+
         android:fontFamily="@font/montserrat"
         android:gravity="center"
         android:text="Plongez dans le passé du Saguenay"
         android:textColor="#FFFFFF"
-        android:textSize="12sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/logIn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:layout_marginBottom="50dp"
+        />
 
     <Button
         android:id="@+id/logIn"
@@ -36,9 +64,9 @@
         android:paddingTop="20dp"
         android:text="@string/log"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
-        app:backgroundTint="#25BF72"
+        app:backgroundTint="#00AEF0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:onClick="logIn"/>
@@ -56,34 +84,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:onClick="signUp"/>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="61dp"
-        android:layout_marginTop="60dp"
-        android:fontFamily="@font/montserrat"
-        android:text="Port"
-        android:textColor="#25BF72"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:fontFamily="@font/montserrat"
-        android:text="Saguenay"
-        android:textColor="#FFFFFF"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

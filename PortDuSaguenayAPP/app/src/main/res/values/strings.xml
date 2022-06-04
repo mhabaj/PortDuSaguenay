@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">PortDuSaguenay</string>
     <string name="title_activity_course_creation_map">CourseCreationMap</string>
-    <string name="sign">SIGN UP</string>
-    <string name="sign_in">SIGN IN</string>
-    <string name="log">LOG IN</string>
-    <string name="next">CONTINUE</string>
-    <string name="forgot">FORGOT PASSWORD</string>
-    <string name="course">Course</string>
-    <string name="history">History</string>
+    <string name="sign">S\'INSCRIRE</string>
+    <string name="sign_in">S\'INSCRIRE</string>
+    <string name="log">SE CONNECTER</string>
+    <string name="next">CONTINUER</string>
+    <string name="forgot">MOT DE PASSE OUBLIÉ</string>
+    <string name="course">Parcours</string>
+    <string name="history">Historique</string>
     <string name="profil">Profil</string>
     <string name="notification">Notification</string>
-    <string name="settings">Settings</string>
-    <string name="search">Search</string>
+    <string name="settings">Paramètres</string>
+    <string name="search">Recherche</string>
     <string name="distance">Distance</string>
     <string name="difficulty">Difficulty :</string>
     <string name="interests">Interests</string>
@@ -32,7 +32,7 @@
     <string name="action_settings">Settings</string>
     <string name="scanned_data">Scanned Data</string>
     <string name="creation">Creation</string>
-    <string name="get_to_location">Get to Location</string>
+    <string name="get_to_location">Calculer l\'itinéraire</string>
     <string name="create_group">Create Group</string>
     <string name="join_course">Join Course</string>
     <string name="name">Name:</string>
