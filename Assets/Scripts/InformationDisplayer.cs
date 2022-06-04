@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Information displayer class that allows us to display an information on top of an object.
+/// you specify a tmppro text and the ar camera, then you can click on the object to activate or
+/// deactivate the text displayed.
+/// </summary>
 public class InformationDisplayer : MonoBehaviour
 {
     [SerializeField]
@@ -25,14 +30,18 @@ public class InformationDisplayer : MonoBehaviour
         }
     }
 
-    public TMP_Text text;
+    [SerializeField]
+    private TMP_Text text;
 
     // Start is called before the first frame update
     void Start()
     {
     }
 
-    // Update is called once per frame
+    
+    /// <summary>
+    /// update function used to check if the object is selected or not.
+    /// </summary>
     void Update()
     {
         //say if the object is touched
@@ -46,25 +55,28 @@ public class InformationDisplayer : MonoBehaviour
                 Ray ray = arCamera.ScreenPointToRay(touch.position);
                 RaycastHit hitObject;
 
+                //if the object is hit by finger
                 if (Physics.Raycast(ray, out hitObject))
                 {
-                    Selected = true;
-                }
-                
-                if(Physics.Raycast(ray, out hitObject) && Selected == true)
-                {
-                    Selected = false;
+                    if(Selected == false)
+                    {
+                        Selected = true;
+                    }
+                    else
+                    {
+                        Selected = false;
+                    }
                 }
             }
-
         }
         
-        //if touched, display text, if not, don't
+        //if the object is touched, then the text will activate.
         if(Selected)
         {
             text.gameObject.SetActive(true);
         }
         
+        //if the object is touched and the text is activated, then the text will be hidden.
         if(Selected == false)
         {
             text.gameObject.SetActive(false);
