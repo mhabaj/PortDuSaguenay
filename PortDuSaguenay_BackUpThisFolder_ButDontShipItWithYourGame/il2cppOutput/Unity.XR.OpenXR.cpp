@@ -6700,7 +6700,7 @@ IL_000b:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_6 = V_2;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
+		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(113 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
 		if (!L_7)
 		{
 			goto IL_001a;
@@ -6777,7 +6777,7 @@ IL_0011:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_7 = V_3;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(113 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		if (!L_8)
 		{
 			goto IL_0025;
@@ -6857,7 +6857,7 @@ IL_0011:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_7 = V_2;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(113 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		if (!L_8)
 		{
 			goto IL_0025;
@@ -12423,7 +12423,7 @@ IL_0005:
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_1 = ___func0;
 		NullCheck(L_1);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_2;
-		L_2 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_1);
+		L_2 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(10 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_1);
 		V_0 = L_2;
 		V_1 = 0;
 		goto IL_0032;

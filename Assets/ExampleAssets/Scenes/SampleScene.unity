@@ -6805,12 +6805,12 @@ GameObject:
   - component: {fileID: 1106955258}
   - component: {fileID: 1106955257}
   m_Layer: 0
-  m_Name: infos
+  m_Name: infosTrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1106955256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17289,7 +17289,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
