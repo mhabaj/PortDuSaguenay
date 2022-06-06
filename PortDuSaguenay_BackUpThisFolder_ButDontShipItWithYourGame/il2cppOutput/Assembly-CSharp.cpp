@@ -987,7 +987,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB556ED0B6045A48C6E215194D890B688B1A92581
 IL2CPP_EXTERN_C String_t* _stringLiteralB6881B5FA66A845E6085CCCBEE53450D6186282B;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA7762595B69C9A936DBB312B1FB323878FD86F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB89F38B35E17F588ED8B5A23231B728C97338A7;
-IL2CPP_EXTERN_C String_t* _stringLiteralBCC71F9D13107E9F2F1606A28A7F4812DFC3201B;
 IL2CPP_EXTERN_C String_t* _stringLiteralBCDCBFFC654F765497344910884B3949E5D7A4CF;
 IL2CPP_EXTERN_C String_t* _stringLiteralBD83E732D165E7F02D8C087B3A10AA15A4811767;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3DDA97B232F574FBE32C98601DC72EE43753830;
@@ -5476,12 +5475,10 @@ struct UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9  : public MonoBeha
 // WeatherData
 struct WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// TMPro.TMP_Text WeatherData::currentWeatherText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___currentWeatherText_4;
 	// UnityEngine.ParticleSystem WeatherData::effect
-	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___effect_5;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___effect_4;
 	// UnityEngine.GameObject WeatherData::weather
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___weather_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___weather_5;
 };
 
 // ARLocation.WebMapLoader
@@ -10082,7 +10079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1403414CD1DE9CD8B9DAEEB415F3F51FEEFFF4FC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7598EFBF4A029BF0B3B286271D8C3B865F7A66FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB333A690479935B82E6CDCF61826ABF9E94AF419);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBCC71F9D13107E9F2F1606A28A7F4812DFC3201B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF2825CD97CC09E44DCAA90FFC337779C4AEEFB5D);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -10113,8 +10109,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		// effect = GetComponent<ParticleSystem>();
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_1;
 		L_1 = Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9(__this, Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
-		__this->___effect_5 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___effect_5), (void*)L_1);
+		__this->___effect_4 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___effect_4), (void*)L_1);
 		// DateTime springDebut = new DateTime(todayDate.Year, 03, 29);
 		int32_t L_2;
 		L_2 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
@@ -10159,7 +10155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___weather_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___weather_5;
 		NullCheck(L_14);
 		bool L_15;
 		L_15 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_14, _stringLiteralF2825CD97CC09E44DCAA90FFC337779C4AEEFB5D, NULL);
@@ -10170,7 +10166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 	}
 	{
 		// effect.Play();
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_16 = __this->___effect_5;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_16 = __this->___effect_4;
 		NullCheck(L_16);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_16, NULL);
 		return;
@@ -10190,7 +10186,7 @@ IL_00c1:
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___weather_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___weather_5;
 		NullCheck(L_21);
 		bool L_22;
 		L_22 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_21, _stringLiteralB333A690479935B82E6CDCF61826ABF9E94AF419, NULL);
@@ -10201,7 +10197,7 @@ IL_00c1:
 	}
 	{
 		// effect.Play();
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_23 = __this->___effect_5;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_23 = __this->___effect_4;
 		NullCheck(L_23);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_23, NULL);
 		return;
@@ -10221,7 +10217,7 @@ IL_00eb:
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___weather_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___weather_5;
 		NullCheck(L_28);
 		bool L_29;
 		L_29 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_28, _stringLiteral7598EFBF4A029BF0B3B286271D8C3B865F7A66FA, NULL);
@@ -10232,7 +10228,7 @@ IL_00eb:
 	}
 	{
 		// effect.Play();
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_30 = __this->___effect_5;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_30 = __this->___effect_4;
 		NullCheck(L_30);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_30, NULL);
 		return;
@@ -10248,33 +10244,28 @@ IL_0116:
 		L_34 = WeatherData_IsBetweenTwoDates_m9296DF949555CBA3448025C1B3519BCA530AAFD8(__this, L_31, L_32, L_33, NULL);
 		if (!L_34)
 		{
-			goto IL_0141;
+			goto IL_0140;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___weather_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___weather_5;
 		NullCheck(L_35);
 		bool L_36;
 		L_36 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_35, _stringLiteral1403414CD1DE9CD8B9DAEEB415F3F51FEEFFF4FC, NULL);
 		if (!L_36)
 		{
-			goto IL_0141;
+			goto IL_0140;
 		}
 	}
 	{
 		// effect.Play();
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_37 = __this->___effect_5;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_37 = __this->___effect_4;
 		NullCheck(L_37);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_37, NULL);
-		return;
 	}
 
-IL_0141:
+IL_0140:
 	{
-		// currentWeatherText.text = "aucun des cas n'est respect?";
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = __this->___currentWeatherText_4;
-		NullCheck(L_38);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_38, _stringLiteralBCC71F9D13107E9F2F1606A28A7F4812DFC3201B);
 		// }
 		return;
 	}

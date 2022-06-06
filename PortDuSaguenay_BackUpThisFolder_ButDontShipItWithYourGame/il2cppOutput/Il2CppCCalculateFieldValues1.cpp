@@ -34378,12 +34378,10 @@ struct ValveIndexControllerProfile_tB00771C9F4DA589B16B2D9C8488CDBFF1ACB169B  : 
 // WeatherData
 struct WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// TMPro.TMP_Text WeatherData::currentWeatherText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___currentWeatherText_4;
 	// UnityEngine.ParticleSystem WeatherData::effect
-	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___effect_5;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___effect_4;
 	// UnityEngine.GameObject WeatherData::weather
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___weather_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___weather_5;
 };
 
 // ARLocation.WebMapLoader
@@ -40996,9 +40994,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4816[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4817[1] = 
 {
 	static_cast<int32_t>(offsetof(UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9, ___debug_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4818[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4818[2] = 
 {
-	static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___currentWeatherText_4)),static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___effect_5)),static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___weather_6)),};
+	static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___effect_4)),static_cast<int32_t>(offsetof(WeatherData_tB65D6426A5A6674CF0D130CBB52880F4B582D981, ___weather_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4819[7] = 
 {
 	static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___Path_4)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___MaxNumberOfUpdates_5)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___locationProvider_6)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___lineRenderer_7)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___arLocationRoot_8)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___initialized_9)),static_cast<int32_t>(offsetof(NewPathLineRenderer_tE2B56B067FCC204B6CCD7780D1318509C4B6D2B3, ___updateCount_10)),};
