@@ -18,9 +18,8 @@ using UnityEngine;
 public class InformationDisplayer : MonoBehaviour
 {
     public string idText;
-    public TMP_Text debug;
 
-    private Vector2 touchPosition = default;
+    public TMP_Text debug;
 
     [SerializeField]
     private Camera arCamera;
@@ -28,6 +27,8 @@ public class InformationDisplayer : MonoBehaviour
     private bool Selected;
 
     public TMP_Text text;
+
+    public string textToDisplay;
 
     /// <summary>
     /// Function that make the text appear or disappear when an object is touched.
@@ -39,6 +40,7 @@ public class InformationDisplayer : MonoBehaviour
             if (Selected == false)
             {
                 Selected = true;
+                text.text = textToDisplay;
                 text.gameObject.SetActive(true);
             }
             else
