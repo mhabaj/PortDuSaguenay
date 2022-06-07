@@ -10067,38 +10067,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		L_1 = Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9(__this, Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
 		__this->___effect_4 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effect_4), (void*)L_1);
-		// DateTime springDebut = new DateTime(todayDate.Year, 03, 29);
+		// DateTime springDebut = new DateTime(todayDate.Year, 03, 22);
 		int32_t L_2;
 		L_2 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_1), L_2, 3, ((int32_t)29), NULL);
-		// DateTime springEnd = new DateTime(todayDate.Year, 06, 01);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_1), L_2, 3, ((int32_t)22), NULL);
+		// DateTime springEnd = new DateTime(todayDate.Year, 06, 21);
 		int32_t L_3;
 		L_3 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_2), L_3, 6, 1, NULL);
-		// DateTime summerDebut = new DateTime(todayDate.Year, 06, 02);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_2), L_3, 6, ((int32_t)21), NULL);
+		// DateTime summerDebut = new DateTime(todayDate.Year, 06, 22);
 		int32_t L_4;
 		L_4 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_3), L_4, 6, 2, NULL);
-		// DateTime summerEnd = new DateTime(todayDate.Year, 09, 01);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_3), L_4, 6, ((int32_t)22), NULL);
+		// DateTime summerEnd = new DateTime(todayDate.Year, 09, 21);
 		int32_t L_5;
 		L_5 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_4), L_5, ((int32_t)9), 1, NULL);
-		// DateTime fallDebut = new DateTime(todayDate.Year, 09, 02);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_4), L_5, ((int32_t)9), ((int32_t)21), NULL);
+		// DateTime fallDebut = new DateTime(todayDate.Year, 09, 22);
 		int32_t L_6;
 		L_6 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_5), L_6, ((int32_t)9), 2, NULL);
-		// DateTime fallEnd = new DateTime(todayDate.Year, 12, 01);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_5), L_6, ((int32_t)9), ((int32_t)22), NULL);
+		// DateTime fallEnd = new DateTime(todayDate.Year, 12, 21);
 		int32_t L_7;
 		L_7 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_6), L_7, ((int32_t)12), 1, NULL);
-		// DateTime winterDebut = new DateTime(todayDate.Year, 12, 02);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_6), L_7, ((int32_t)12), ((int32_t)21), NULL);
+		// DateTime winterDebut = new DateTime(todayDate.Year, 12, 22);
 		int32_t L_8;
 		L_8 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_7), L_8, ((int32_t)12), 2, NULL);
-		// DateTime winterEnd = new DateTime(todayDate.Year, 03, 28);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_7), L_8, ((int32_t)12), ((int32_t)22), NULL);
+		// DateTime winterEnd = new DateTime(todayDate.Year, 03, 21);
 		int32_t L_9;
 		L_9 = DateTime_get_Year_m00A88C4CEE07B7906F5F7F75C254B769808F5138((&V_0), NULL);
-		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_8), L_9, 3, ((int32_t)28), NULL);
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&V_8), L_9, 3, ((int32_t)21), NULL);
 		// if(IsBetweenTwoDates(todayDate, springDebut, springEnd) && weather.CompareTag("spring"))
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10 = V_0;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_11 = V_1;
@@ -10107,7 +10107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		L_13 = WeatherData_IsBetweenTwoDates_m9296DF949555CBA3448025C1B3519BCA530AAFD8(__this, L_10, L_11, L_12, NULL);
 		if (!L_13)
 		{
-			goto IL_00c1;
+			goto IL_00c7;
 		}
 	}
 	{
@@ -10117,7 +10117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		L_15 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_14, _stringLiteralF2825CD97CC09E44DCAA90FFC337779C4AEEFB5D, NULL);
 		if (!L_15)
 		{
-			goto IL_00c1;
+			goto IL_00c7;
 		}
 	}
 	{
@@ -10128,7 +10128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherData_Start_m17CE2AA38FB1769358807
 		return;
 	}
 
-IL_00c1:
+IL_00c7:
 	{
 		// }else if(IsBetweenTwoDates(todayDate, summerDebut, summerEnd) && weather.CompareTag("summer"))
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_17 = V_0;
@@ -10138,7 +10138,7 @@ IL_00c1:
 		L_20 = WeatherData_IsBetweenTwoDates_m9296DF949555CBA3448025C1B3519BCA530AAFD8(__this, L_17, L_18, L_19, NULL);
 		if (!L_20)
 		{
-			goto IL_00eb;
+			goto IL_00f1;
 		}
 	}
 	{
@@ -10148,7 +10148,7 @@ IL_00c1:
 		L_22 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_21, _stringLiteralB333A690479935B82E6CDCF61826ABF9E94AF419, NULL);
 		if (!L_22)
 		{
-			goto IL_00eb;
+			goto IL_00f1;
 		}
 	}
 	{
@@ -10159,7 +10159,7 @@ IL_00c1:
 		return;
 	}
 
-IL_00eb:
+IL_00f1:
 	{
 		// }else if(IsBetweenTwoDates(todayDate, fallDebut, fallEnd) && weather.CompareTag("fall"))
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_24 = V_0;
@@ -10169,7 +10169,7 @@ IL_00eb:
 		L_27 = WeatherData_IsBetweenTwoDates_m9296DF949555CBA3448025C1B3519BCA530AAFD8(__this, L_24, L_25, L_26, NULL);
 		if (!L_27)
 		{
-			goto IL_0116;
+			goto IL_011c;
 		}
 	}
 	{
@@ -10179,7 +10179,7 @@ IL_00eb:
 		L_29 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_28, _stringLiteral7598EFBF4A029BF0B3B286271D8C3B865F7A66FA, NULL);
 		if (!L_29)
 		{
-			goto IL_0116;
+			goto IL_011c;
 		}
 	}
 	{
@@ -10190,7 +10190,7 @@ IL_00eb:
 		return;
 	}
 
-IL_0116:
+IL_011c:
 	{
 		// }else if(IsBetweenTwoDates(todayDate, winterDebut, winterEnd) && weather.CompareTag("winter"))
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_31 = V_0;
@@ -10200,7 +10200,7 @@ IL_0116:
 		L_34 = WeatherData_IsBetweenTwoDates_m9296DF949555CBA3448025C1B3519BCA530AAFD8(__this, L_31, L_32, L_33, NULL);
 		if (!L_34)
 		{
-			goto IL_0140;
+			goto IL_0146;
 		}
 	}
 	{
@@ -10210,7 +10210,7 @@ IL_0116:
 		L_36 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_35, _stringLiteral1403414CD1DE9CD8B9DAEEB415F3F51FEEFFF4FC, NULL);
 		if (!L_36)
 		{
-			goto IL_0140;
+			goto IL_0146;
 		}
 	}
 	{
@@ -10220,7 +10220,7 @@ IL_0116:
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_37, NULL);
 	}
 
-IL_0140:
+IL_0146:
 	{
 		// }
 		return;

@@ -30,17 +30,17 @@ public class WeatherData : MonoBehaviour
 		effect = GetComponent<ParticleSystem>();
 
 		//date of beginning and end of seasons
-		DateTime springDebut = new DateTime(todayDate.Year, 03, 29);
-		DateTime springEnd = new DateTime(todayDate.Year, 06, 01);
+		DateTime springDebut = new DateTime(todayDate.Year, 03, 22);
+		DateTime springEnd = new DateTime(todayDate.Year, 06, 21);
 
-		DateTime summerDebut = new DateTime(todayDate.Year, 06, 02);
-		DateTime summerEnd = new DateTime(todayDate.Year, 09, 01);
+		DateTime summerDebut = new DateTime(todayDate.Year, 06, 22);
+		DateTime summerEnd = new DateTime(todayDate.Year, 09, 21);
 
-		DateTime fallDebut = new DateTime(todayDate.Year, 09, 02);
-		DateTime fallEnd = new DateTime(todayDate.Year, 12, 01);
+		DateTime fallDebut = new DateTime(todayDate.Year, 09, 22);
+		DateTime fallEnd = new DateTime(todayDate.Year, 12, 21);
 
-		DateTime winterDebut = new DateTime(todayDate.Year, 12, 02);
-		DateTime winterEnd = new DateTime(todayDate.Year, 03, 28);
+		DateTime winterDebut = new DateTime(todayDate.Year, 12, 22);
+		DateTime winterEnd = new DateTime(todayDate.Year, 03, 21);
 
 		//check which season corresponds to the date
 		if(IsBetweenTwoDates(todayDate, springDebut, springEnd) && weather.CompareTag("spring"))
