@@ -12,81 +12,40 @@ using UnityEngine;
 /// |_|     |____/    \_____/
 /// 
 /// Information displayer class that allows us to display an information on top of an object.
-/// you specify a tmppro text and the ar camera, then you can click on the object to activate or
+/// you specify a TMP_Text text and the ar camera, then you can click on the object to activate or
 /// deactivate the text displayed.
 /// </summary>
 public class InformationDisplayer : MonoBehaviour
 {
-    [SerializeField]
-    private bool IsSelected;
+    public string idText;
+    public TMP_Text debug;
 
     private Vector2 touchPosition = default;
 
     [SerializeField]
     private Camera arCamera;
 
-    public bool Selected
-    {
-        get
-        {
-            return this.IsSelected;
-        }
-        set
-        {
-            IsSelected = value;
-        }
-    }
+    private bool Selected;
 
-    [SerializeField]
-    private TMP_Text text;
+    public TMP_Text text;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    
     /// <summary>
-    /// update function used to check if the object is selected or not.
+    /// Function that make the text appear or disappear when an object is touched.
     /// </summary>
-    void Update()
+    void OnMouseDown()
     {
-        //say if the object is touched
-        if(Input.touchCount > 0)
+        if (text.name.Equals(idText))
         {
-            Touch touch = Input.GetTouch(0);
-            touchPosition = touch.position;
-
-            if(touch.phase == TouchPhase.Began)
+            if (Selected == false)
             {
-                Ray ray = arCamera.ScreenPointToRay(touch.position);
-                RaycastHit hitObject;
-
-                //if the object is hit by finger
-                if (Physics.Raycast(ray, out hitObject))
-                {
-                    if(Selected == false)
-                    {
-                        Selected = true;
-                    }
-                    else
-                    {
-                        Selected = false;
-                    }
-                }
+                Selected = true;
+                text.gameObject.SetActive(true);
             }
-        }
-        
-        //if the object is touched, then the text will activate.
-        if(Selected)
-        {
-            text.gameObject.SetActive(true);
-        }
-        
-        //if the object is touched and the text is activated, then the text will be hidden.
-        if(Selected == false)
-        {
-            text.gameObject.SetActive(false);
+            else
+            {
+                Selected = false;
+                text.gameObject.SetActive(false);
+            }
         }
     }
 }
