@@ -29604,14 +29604,14 @@ struct InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD  : public 
 	String_t* ___idText_4;
 	// TMPro.TMP_Text InformationDisplayer::debug
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___debug_5;
-	// UnityEngine.Vector2 InformationDisplayer::touchPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___touchPosition_6;
 	// UnityEngine.Camera InformationDisplayer::arCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCamera_7;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCamera_6;
 	// System.Boolean InformationDisplayer::Selected
-	bool ___Selected_8;
+	bool ___Selected_7;
 	// TMPro.TMP_Text InformationDisplayer::text
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___text_9;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___text_8;
+	// System.String InformationDisplayer::textToDisplay
+	String_t* ___textToDisplay_9;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile
