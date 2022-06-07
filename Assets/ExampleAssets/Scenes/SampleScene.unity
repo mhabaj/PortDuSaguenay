@@ -302,6 +302,7 @@ MonoBehaviour:
   arCamera: {fileID: 22732920}
   text: {fileID: 777901653}
   textToDisplay: :'(
+  canvas: {fileID: 1698814782}
 --- !u!65 &103047380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1459,6 +1460,7 @@ MonoBehaviour:
   arCamera: {fileID: 22732920}
   text: {fileID: 1288821503}
   textToDisplay: :D
+  canvas: {fileID: 1163585298}
 --- !u!135 &643294782
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23644,7 +23646,8 @@ MonoBehaviour:
   debug: {fileID: 1771191230}
   arCamera: {fileID: 22732920}
   text: {fileID: 1106955257}
-  textToDisplay: 
+  textToDisplay: les infos du train
+  canvas: {fileID: 0}
 --- !u!1001 &2054291499
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -29612,6 +29612,8 @@ struct InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD  : public 
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___text_8;
 	// System.String InformationDisplayer::textToDisplay
 	String_t* ___textToDisplay_9;
+	// UnityEngine.Canvas InformationDisplayer::canvas
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___canvas_10;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile

@@ -30,6 +30,8 @@ public class InformationDisplayer : MonoBehaviour
 
     public string textToDisplay;
 
+    public Canvas canvas;
+
     /// <summary>
     /// Function that make the text appear or disappear when an object is touched.
     /// </summary>
@@ -42,11 +44,13 @@ public class InformationDisplayer : MonoBehaviour
                 Selected = true;
                 text.text = textToDisplay;
                 text.gameObject.SetActive(true);
+                canvas.gameObject.SetActive(true);
             }
             else
             {
                 Selected = false;
                 text.gameObject.SetActive(false);
+                canvas.gameObject.SetActive(false);
             }
         }
     }
