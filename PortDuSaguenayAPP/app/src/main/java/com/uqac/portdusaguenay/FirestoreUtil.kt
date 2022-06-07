@@ -1,15 +1,9 @@
 package com.uqac.portdusaguenay
 
-import android.content.Context
-import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.ListenerRegistration
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
-import com.uqac.geoexplore.model.*
+import com.uqac.portdusaguenay.model.User
 
 
 object FirestoreUtil {

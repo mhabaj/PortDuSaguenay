@@ -6,11 +6,10 @@ import android.os.Bundle
 
 import android.view.View
 import com.google.firebase.auth.FirebaseAuth
-import com.uqac.geoexplore.activity.Accueil
+import com.uqac.portdusaguenay.activity.Accueil
 
-import com.uqac.geoexplore.activity.Enregistrer
-import com.uqac.geoexplore.activity.LogIn
-import com.uqac.geoexplore.model.User
+import com.uqac.portdusaguenay.activity.Enregistrer
+import com.uqac.portdusaguenay.activity.LogIn
 
 
 class MainActivity : AppCompatActivity() {

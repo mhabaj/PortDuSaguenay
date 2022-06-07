@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.ContentValues.TAG
 import android.content.Context
@@ -31,8 +31,6 @@ import com.google.android.gms.maps.model.CircleOptions
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
-import com.uqac.geoexplore.R
-import com.uqac.geoexplore.model.Course
 import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.model.Course
 import java.io.IOException
@@ -201,7 +199,7 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     fun goToLocation(view: android.view.View) {
         var startPoint = LatLng(lastLocation.latitude, lastLocation.longitude)
         var destination =
-            LatLng(selectedCourse.location.latitude, selectedCourse.location.longitude)
+            LatLng(selectedCourse.location!!.latitude, selectedCourse.location!!.longitude)
 
     }
 

@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.model
+package com.uqac.portdusaguenay.model
 
 import android.net.Uri
 

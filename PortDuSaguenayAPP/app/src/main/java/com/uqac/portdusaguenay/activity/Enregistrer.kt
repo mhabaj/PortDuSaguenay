@@ -1,11 +1,8 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
-import android.app.Activity
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import android.text.TextUtils
 import android.util.Log
 import android.view.View
@@ -15,9 +12,8 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.FirebaseStorage
-import com.uqac.geoexplore.R
-import com.uqac.geoexplore.model.User
+import com.uqac.portdusaguenay.model.User
+import com.uqac.portdusaguenay.R
 import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.activity_enregistrer.*
 import java.util.*

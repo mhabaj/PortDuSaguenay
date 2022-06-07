@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,9 +10,10 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.uqac.geoexplore.ForgotPasswordDialogFragement
-import com.uqac.geoexplore.MainActivity
-import com.uqac.geoexplore.R
+import com.uqac.portdusaguenay.ForgotPasswordDialogFragement
+import com.uqac.portdusaguenay.activity.Accueil
+import com.uqac.portdusaguenay.activity.Enregistrer
+import com.uqac.portdusaguenay.R
 
 class LogIn : AppCompatActivity() {
     private var m_email: EditText? = null

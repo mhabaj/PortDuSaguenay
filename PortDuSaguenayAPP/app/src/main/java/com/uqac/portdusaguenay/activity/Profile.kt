@@ -11,10 +11,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.Glide.with
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -24,17 +21,13 @@ import com.google.firebase.storage.FirebaseStorage
 import com.squareup.picasso.Picasso
 import com.uqac.geoexplore.Functions
 import com.uqac.geoexplore.R
-import com.uqac.geoexplore.model.User
+import com.uqac.portdusaguenay.activity.Settings
+import com.uqac.portdusaguenay.model.User
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.android.synthetic.main.profil_friends.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
-import java.lang.System.load
 import java.util.*
-
-import android.widget.ViewSwitcher
-
-
 
 
 class Profile : AppCompatActivity() {

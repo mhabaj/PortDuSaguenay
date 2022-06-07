@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -14,11 +14,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.GeoPoint
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.uqac.geoexplore.R
-import com.uqac.geoexplore.model.Course
-import com.uqac.geoexplore.model.CourseMiscDetails
-import com.uqac.geoexplore.model.Feed
-import com.uqac.geoexplore.model.User
+import com.uqac.portdusaguenay.R
+import com.uqac.portdusaguenay.model.Course
+import com.uqac.portdusaguenay.model.CourseMiscDetails
+import com.uqac.portdusaguenay.model.User
 import java.time.Instant
 import java.util.*
 import kotlin.collections.ArrayList
@@ -85,8 +84,6 @@ class CourseCreation : AppCompatActivity() {
             }
             else {
                 val newCourse = Course(courseName.text.toString(), courseDetails, locationLatLng, groups = ArrayList())
-                newCourse.feed = Feed()
-                newCourse.feed!!.comments = ArrayList()
 
                 db.collection("Course")
                     .add(newCourse)

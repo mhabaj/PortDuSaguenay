@@ -1,20 +1,13 @@
 package com.uqac.portdusaguenay
 
-import android.content.ContentValues.TAG
 import android.util.Log
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
-import com.uqac.geoexplore.model.User
-import com.google.android.gms.tasks.Tasks;
+import com.uqac.portdusaguenay.model.User
 import com.uqac.geoexplore.model.Course
-import com.uqac.geoexplore.model.Group
+import com.uqac.portdusaguenay.model.Group
 
-import com.google.firebase.firestore.DocumentChange
-import com.google.firebase.firestore.EventListener
-import com.google.firebase.firestore.FirebaseFirestoreException
-import com.google.firebase.firestore.QuerySnapshot
-import com.google.firebase.auth.FirebaseUser
 import kotlinx.coroutines.tasks.await
 
 class Functions {

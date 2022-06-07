@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.Context
 import android.content.Intent
@@ -26,7 +26,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.CircleOptions
-import com.uqac.geoexplore.R
+import com.uqac.portdusaguenay.R
 import java.io.IOException
 import java.lang.IndexOutOfBoundsException
 

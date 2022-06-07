@@ -1,10 +1,11 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.uqac.geoexplore.R
+import com.uqac.geoexplore.activity.Profile
+import com.uqac.portdusaguenay.R
 
 class Accueil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +26,7 @@ class Accueil : AppCompatActivity() {
 
     }
 
-    fun displayMap(view: android.view.View) {
+    fun displayMap(view: View) {
         startActivity(Intent(this, DisplayCoursesMap::class.java))
     }
 
@@ -34,7 +35,7 @@ class Accueil : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun createCourse(view: android.view.View) {
+    fun createCourse(view: View) {
         startActivity(Intent(this, CourseCreationMap::class.java))
     }
 

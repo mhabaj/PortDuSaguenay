@@ -1,13 +1,12 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
-import com.uqac.geoexplore.R
-import com.uqac.geoexplore.model.Course
+import com.uqac.portdusaguenay.R
+import com.uqac.portdusaguenay.model.Course
 
 class MyAdapter( private val courseList : ArrayList<Course>): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
