@@ -5319,18 +5319,14 @@ struct InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD  : public 
 {
 	// System.String InformationDisplayer::idText
 	String_t* ___idText_4;
-	// TMPro.TMP_Text InformationDisplayer::debug
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___debug_5;
-	// UnityEngine.Camera InformationDisplayer::arCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___arCamera_6;
 	// System.Boolean InformationDisplayer::Selected
-	bool ___Selected_7;
+	bool ___Selected_5;
 	// TMPro.TMP_Text InformationDisplayer::text
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___text_8;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___text_6;
 	// System.String InformationDisplayer::textToDisplay
-	String_t* ___textToDisplay_9;
+	String_t* ___textToDisplay_7;
 	// UnityEngine.Canvas InformationDisplayer::canvas
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___canvas_10;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___canvas_8;
 };
 
 // ARLocation.MoveAlongPath
@@ -9346,7 +9342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InformationDisplayer_OnMouseDown_m47735F
 {
 	{
 		// if (text.name.Equals(idText))
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___text_8;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___text_6;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_0, NULL);
@@ -9361,7 +9357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InformationDisplayer_OnMouseDown_m47735F
 	}
 	{
 		// if (Selected == false)
-		bool L_4 = __this->___Selected_7;
+		bool L_4 = __this->___Selected_5;
 		if (L_4)
 		{
 			goto IL_005b;
@@ -9369,21 +9365,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InformationDisplayer_OnMouseDown_m47735F
 	}
 	{
 		// Selected = true;
-		__this->___Selected_7 = (bool)1;
+		__this->___Selected_5 = (bool)1;
 		// text.text = textToDisplay;
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___text_8;
-		String_t* L_6 = __this->___textToDisplay_9;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___text_6;
+		String_t* L_6 = __this->___textToDisplay_7;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_5, L_6);
 		// text.gameObject.SetActive(true);
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = __this->___text_8;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = __this->___text_6;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
 		// canvas.gameObject.SetActive(true);
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_9 = __this->___canvas_10;
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_9 = __this->___canvas_8;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
@@ -9395,16 +9391,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InformationDisplayer_OnMouseDown_m47735F
 IL_005b:
 	{
 		// Selected = false;
-		__this->___Selected_7 = (bool)0;
+		__this->___Selected_5 = (bool)0;
 		// text.gameObject.SetActive(false);
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___text_8;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___text_6;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
 		// canvas.gameObject.SetActive(false);
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_13 = __this->___canvas_10;
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_13 = __this->___canvas_8;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);

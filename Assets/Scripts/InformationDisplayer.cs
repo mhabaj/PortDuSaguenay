@@ -19,11 +19,6 @@ public class InformationDisplayer : MonoBehaviour
 {
     public string idText;
 
-    public TMP_Text debug;
-
-    [SerializeField]
-    private Camera arCamera;
-
     private bool Selected;
 
     public TMP_Text text;
