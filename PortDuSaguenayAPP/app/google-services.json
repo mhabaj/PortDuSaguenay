@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256990476624",
+    "project_id": "portdusaguenay",
+    "storage_bucket": "portdusaguenay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256990476624:android:e4e13df1af79a2b1545455",
+        "android_client_info": {
+          "package_name": "com.uqac.portdusaguenay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256990476624-slrgitfovak4ntmctopr9er5t5n7fgbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNmJYACkL3eA_0vhxBhW6bls8waVN1n8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256990476624-slrgitfovak4ntmctopr9er5t5n7fgbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
