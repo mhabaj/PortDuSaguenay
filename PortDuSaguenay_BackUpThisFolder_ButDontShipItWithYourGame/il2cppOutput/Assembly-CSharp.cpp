@@ -292,8 +292,6 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
 // TMPro.TMP_ColorGradient[]
 struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
-// TMPro.TMP_SubMeshUI[]
-struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
 // UnityEngine.Touch[]
 struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
 // UnityEngine.UIVertex[]
@@ -574,8 +572,6 @@ struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
 // UnityEngine.TextMesh
 struct TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8;
-// TMPro.TextMeshProUGUI
-struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // UnityEngine.Transform
@@ -916,6 +912,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral40EED8F902D8AD67298DAFD1C8EC72E4CFDD0B55
 IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral4568D03C8F1ACEF36DA0AC73F3B36F2C5909DDDD;
 IL2CPP_EXTERN_C String_t* _stringLiteral45891BA26B0365225A4C9F3CE45158C965A99903;
+IL2CPP_EXTERN_C String_t* _stringLiteral47BD4584E8A8FFE7A1914CF6CA716919CF81AC70;
 IL2CPP_EXTERN_C String_t* _stringLiteral48A02C703E63B6E7B99A8A70A6AD0F6E728DEB50;
 IL2CPP_EXTERN_C String_t* _stringLiteral491DA95D710C1F9CBFF5C51C5A0C0AD9D77103FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral49D1D95FB0E8E68896AD14F45B202BDADD16388D;
@@ -960,12 +957,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteral887F8C077AC6E74BC59379CCB72C738CC88771E3
 IL2CPP_EXTERN_C String_t* _stringLiteral89CC1AE032D869BCD1FF5BB2E8615B40F6BBE317;
 IL2CPP_EXTERN_C String_t* _stringLiteral8A099545C0446267BF9F207652D47B366BF3FBCD;
 IL2CPP_EXTERN_C String_t* _stringLiteral8AFC32B77ADF6E6DF6128215A3319615354738B6;
+IL2CPP_EXTERN_C String_t* _stringLiteral8F1D7891ED28BFED2DD2C218B7721882C1BC0193;
 IL2CPP_EXTERN_C String_t* _stringLiteral908C3C31EA5E7136765D031E78E687827ECEA7A7;
 IL2CPP_EXTERN_C String_t* _stringLiteral937CF4AA29E8BA035C35BA0901DC5699940902D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral940E55744DD12C8D99EEE6F376217101A3841393;
 IL2CPP_EXTERN_C String_t* _stringLiteral9446E111ADE7B211B2E0860401B5C7DEE0EE5F53;
 IL2CPP_EXTERN_C String_t* _stringLiteral9528B186D976326CE44E2F16B2A48C3163EA6A76;
-IL2CPP_EXTERN_C String_t* _stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE;
 IL2CPP_EXTERN_C String_t* _stringLiteral975F9DF152F2512CA18EBCF8953BDBDE42E7B957;
 IL2CPP_EXTERN_C String_t* _stringLiteral986B48564BFCB973B5A92E99EDBC3B782B8BAC1E;
 IL2CPP_EXTERN_C String_t* _stringLiteral98D3DEDC1B4643AE981910BC3FBC3C730DA32122;
@@ -1009,12 +1006,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD12B7C54FEA020F0994978C733D58ACF3D825FC2
 IL2CPP_EXTERN_C String_t* _stringLiteralD18017763B3238B21CD39AC2FC863777B7560FA7;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1E58C760B62DBCBB7D29BB62E5F8561392ABF62;
 IL2CPP_EXTERN_C String_t* _stringLiteralD228749943A630CD07024CCDF178A060BFDE2A06;
-IL2CPP_EXTERN_C String_t* _stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F;
 IL2CPP_EXTERN_C String_t* _stringLiteralD5DC95A1F8AB081F214CC1B47F98CB92802FAA36;
 IL2CPP_EXTERN_C String_t* _stringLiteralD72ADDF4129F43A90911945837A2BB69548C6B5E;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA238E4C01744F3B1B5CC78B2E06C0B98FCACEC0;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-IL2CPP_EXTERN_C String_t* _stringLiteralDB67126829085B4417B3C8A8C4F801153D7B857E;
 IL2CPP_EXTERN_C String_t* _stringLiteralDFAB9B09D722074B5F45867E22243166BEE72C41;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2EE8E73413D8C0EC384803067E74CF1A2A1AAFB;
 IL2CPP_EXTERN_C String_t* _stringLiteralE30F845AD6A2772EAE623C7F211CBF6ADBD5B271;
@@ -1033,6 +1028,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF674B4D5DC6C2B53197ADEC1017A0D6554252708
 IL2CPP_EXTERN_C String_t* _stringLiteralF73A1903705D0915C57ECC69F57C5934EB240151;
 IL2CPP_EXTERN_C String_t* _stringLiteralF8F01717BB6D3BE6E336FC5FAF1B89CFA7F4AE5D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD5A400C49FBF39F06CEF3472C944AC80D62361C;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFF603E61C4676428A1AA95B63D45CDD588CA93E;
 IL2CPP_EXTERN_C const RuntimeMethod* ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1FE3ECDBACC2DB89C1B110B8B6B5F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARLocationManager_ARTrackingLostCallback_m64F28672C42EB292EF3EC82158F292C669710873_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARLocationManager_ARTrackingRestoredCallback_mC80B9512E04743695D4074A9EF0EBE0C54CB1A61_RuntimeMethod_var;
@@ -3058,19 +3054,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 {
 	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
-};
-
-// UnityEngine.Rect
-struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
-{
-	// System.Single UnityEngine.Rect::m_XMin
-	float ___m_XMin_0;
-	// System.Single UnityEngine.Rect::m_YMin
-	float ___m_YMin_1;
-	// System.Single UnityEngine.Rect::m_Width
-	float ___m_Width_2;
-	// System.Single UnityEngine.Rect::m_Height
-	float ___m_Height_3;
 };
 
 // System.Single
@@ -5495,8 +5478,8 @@ struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehav
 // UserLocation
 struct UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// TMPro.TextMeshProUGUI UserLocation::debug
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___debug_4;
+	// TMPro.TMP_Text UserLocation::debug
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___debug_4;
 };
 
 // WeatherData
@@ -6566,95 +6549,6 @@ struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
 {
 	// UnityEngine.Material UnityEngine.UI.Text::s_DefaultText
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_40;
-};
-
-// TMPro.TextMeshProUGUI
-struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
-{
-	// System.Boolean TMPro.TextMeshProUGUI::m_isRebuildingLayout
-	bool ___m_isRebuildingLayout_265;
-	// UnityEngine.Coroutine TMPro.TextMeshProUGUI::m_DelayedGraphicRebuild
-	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedGraphicRebuild_266;
-	// UnityEngine.Coroutine TMPro.TextMeshProUGUI::m_DelayedMaterialRebuild
-	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedMaterialRebuild_267;
-	// UnityEngine.Rect TMPro.TextMeshProUGUI::m_ClipRect
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_ClipRect_268;
-	// System.Boolean TMPro.TextMeshProUGUI::m_ValidRect
-	bool ___m_ValidRect_269;
-	// System.Action`1<TMPro.TMP_TextInfo> TMPro.TextMeshProUGUI::OnPreRenderText
-	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText_270;
-	// System.Boolean TMPro.TextMeshProUGUI::m_hasFontAssetChanged
-	bool ___m_hasFontAssetChanged_271;
-	// TMPro.TMP_SubMeshUI[] TMPro.TextMeshProUGUI::m_subTextObjects
-	TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29* ___m_subTextObjects_272;
-	// System.Single TMPro.TextMeshProUGUI::m_previousLossyScaleY
-	float ___m_previousLossyScaleY_273;
-	// UnityEngine.Vector3[] TMPro.TextMeshProUGUI::m_RectTransformCorners
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_RectTransformCorners_274;
-	// UnityEngine.CanvasRenderer TMPro.TextMeshProUGUI::m_canvasRenderer
-	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_canvasRenderer_275;
-	// UnityEngine.Canvas TMPro.TextMeshProUGUI::m_canvas
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_canvas_276;
-	// System.Single TMPro.TextMeshProUGUI::m_CanvasScaleFactor
-	float ___m_CanvasScaleFactor_277;
-	// System.Boolean TMPro.TextMeshProUGUI::m_isFirstAllocation
-	bool ___m_isFirstAllocation_278;
-	// System.Int32 TMPro.TextMeshProUGUI::m_max_characters
-	int32_t ___m_max_characters_279;
-	// UnityEngine.Material TMPro.TextMeshProUGUI::m_baseMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_baseMaterial_280;
-	// System.Boolean TMPro.TextMeshProUGUI::m_isScrollRegionSet
-	bool ___m_isScrollRegionSet_281;
-	// UnityEngine.Vector4 TMPro.TextMeshProUGUI::m_maskOffset
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_maskOffset_282;
-	// UnityEngine.Matrix4x4 TMPro.TextMeshProUGUI::m_EnvMapMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_EnvMapMatrix_283;
-	// System.Boolean TMPro.TextMeshProUGUI::m_isRegisteredForEvents
-	bool ___m_isRegisteredForEvents_284;
-};
-
-struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_StaticFields
-{
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_GenerateTextMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextMarker_285;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_SetArraySizesMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SetArraySizesMarker_286;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_GenerateTextPhaseIMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIMarker_287;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_ParseMarkupTextMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseMarkupTextMarker_288;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_CharacterLookupMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CharacterLookupMarker_289;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleGPOSFeaturesMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleGPOSFeaturesMarker_290;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_CalculateVerticesPositionMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CalculateVerticesPositionMarker_291;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_ComputeTextMetricsMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeTextMetricsMarker_292;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleVisibleCharacterMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVisibleCharacterMarker_293;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleWhiteSpacesMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleWhiteSpacesMarker_294;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleHorizontalLineBreakingMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleHorizontalLineBreakingMarker_295;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleVerticalLineBreakingMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVerticalLineBreakingMarker_296;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_SaveGlyphVertexDataMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveGlyphVertexDataMarker_297;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_ComputeCharacterAdvanceMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeCharacterAdvanceMarker_298;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleCarriageReturnMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleCarriageReturnMarker_299;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_HandleLineTerminationMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleLineTerminationMarker_300;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_SavePageInfoMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SavePageInfoMarker_301;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_SaveProcessingStatesMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveProcessingStatesMarker_302;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_GenerateTextPhaseIIMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIMarker_303;
-	// Unity.Profiling.ProfilerMarker TMPro.TextMeshProUGUI::k_GenerateTextPhaseIIIMarker
-	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIIMarker_304;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -9662,9 +9556,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserLocation_Update_mBBC44A545DE2A8BDBC4
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47BD4584E8A8FFE7A1914CF6CA716919CF81AC70);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49D1D95FB0E8E68896AD14F45B202BDADD16388D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F1D7891ED28BFED2DD2C218B7721882C1BC0193);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFF603E61C4676428A1AA95B63D45CDD588CA93E);
 		s_Il2CppMethodInitialized = true;
 	}
 	LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 V_0;
@@ -9679,12 +9574,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserLocation_Update_mBBC44A545DE2A8BDBC4
 		L_1 = LocationService_get_status_m25B7C4012B9529265D9746BB73ED689737E9C9CD(L_0, NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
-			goto IL_0095;
+			goto IL_0096;
 		}
 	}
 	{
-		// debug.text = "(updated) Latitude : " + Input.location.lastData.latitude + " Longitude : " + Input.location.lastData.longitude + " Altitude : " + Input.location.lastData.altitude;
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___debug_4;
+		// debug.text = "(updated) Latitude : " + Input.location.lastData.latitude + "; Longitude : " + Input.location.lastData.longitude + "; Altitude : " + Input.location.lastData.altitude;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___debug_4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -9707,8 +9602,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserLocation_Update_mBBC44A545DE2A8BDBC4
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_5;
 		NullCheck(L_10);
-		ArrayElementTypeCheck (L_10, _stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
-		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
+		ArrayElementTypeCheck (L_10, _stringLiteral47BD4584E8A8FFE7A1914CF6CA716919CF81AC70);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral47BD4584E8A8FFE7A1914CF6CA716919CF81AC70);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_12;
 		L_12 = Input_get_location_m6F753D9369213F07EC556FF6240D723DCF3C689D(NULL);
@@ -9726,8 +9621,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserLocation_Update_mBBC44A545DE2A8BDBC4
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_15);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_11;
 		NullCheck(L_16);
-		ArrayElementTypeCheck (L_16, _stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
+		ArrayElementTypeCheck (L_16, _stringLiteral8F1D7891ED28BFED2DD2C218B7721882C1BC0193);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral8F1D7891ED28BFED2DD2C218B7721882C1BC0193);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_18;
 		L_18 = Input_get_location_m6F753D9369213F07EC556FF6240D723DCF3C689D(NULL);
@@ -9747,10 +9642,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserLocation_Update_mBBC44A545DE2A8BDBC4
 		L_22 = String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0(L_17, NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_2, L_22);
+		return;
 	}
 
-IL_0095:
+IL_0096:
 	{
+		// debug.text = "unable to start coroutine";
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23 = __this->___debug_4;
+		NullCheck(L_23);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_23, _stringLiteralFFF603E61C4676428A1AA95B63D45CDD588CA93E);
 		// }
 		return;
 	}
@@ -9794,20 +9694,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartLocationServiceU3Ed__2_MoveNext_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E514329EC1C71154F76406B9887E561210DE1A0);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDB67126829085B4417B3C8A8C4F801153D7B857E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2EE8E73413D8C0EC384803067E74CF1A2A1AAFB);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9* V_1 = NULL;
-	LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	float V_3 = 0.0f;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
@@ -9848,7 +9741,7 @@ IL_0017:
 		// debug.text = "User has not enabled location";
 		UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9* L_6 = V_1;
 		NullCheck(L_6);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = L_6->___debug_4;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = L_6->___debug_4;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_7, _stringLiteral6E514329EC1C71154F76406B9887E561210DE1A0);
 		// yield break;
@@ -9911,7 +9804,7 @@ IL_0068:
 		// debug.text = "Unable to determine device location";
 		UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9* L_14 = V_1;
 		NullCheck(L_14);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = L_14->___debug_4;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = L_14->___debug_4;
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_15, _stringLiteralE2EE8E73413D8C0EC384803067E74CF1A2A1AAFB);
 		// yield break;
@@ -9920,72 +9813,6 @@ IL_0068:
 
 IL_0094:
 	{
-		// debug.text = "Latitude : " + Input.location.lastData.latitude + " Longitude : " + Input.location.lastData.longitude + " Altitude : " + Input.location.lastData.altitude;
-		UserLocation_tF5DDA2612BBAF61EB47C0EEAF00F0843021556E9* L_16 = V_1;
-		NullCheck(L_16);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = L_16->___debug_4;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
-		NullCheck(L_19);
-		ArrayElementTypeCheck (L_19, _stringLiteralDB67126829085B4417B3C8A8C4F801153D7B857E);
-		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralDB67126829085B4417B3C8A8C4F801153D7B857E);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_19;
-		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_21;
-		L_21 = Input_get_location_m6F753D9369213F07EC556FF6240D723DCF3C689D(NULL);
-		NullCheck(L_21);
-		LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 L_22;
-		L_22 = LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F(L_21, NULL);
-		V_2 = L_22;
-		float L_23;
-		L_23 = LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863((&V_2), NULL);
-		V_3 = L_23;
-		String_t* L_24;
-		L_24 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_3), NULL);
-		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_24);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_24);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_20;
-		NullCheck(L_25);
-		ArrayElementTypeCheck (L_25, _stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
-		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD4E0996E4F8196153131D0A4CEFB9D63FB096F1F);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_25;
-		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_27;
-		L_27 = Input_get_location_m6F753D9369213F07EC556FF6240D723DCF3C689D(NULL);
-		NullCheck(L_27);
-		LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 L_28;
-		L_28 = LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F(L_27, NULL);
-		V_2 = L_28;
-		float L_29;
-		L_29 = LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2((&V_2), NULL);
-		V_3 = L_29;
-		String_t* L_30;
-		L_30 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_3), NULL);
-		NullCheck(L_26);
-		ArrayElementTypeCheck (L_26, L_30);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_30);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = L_26;
-		NullCheck(L_31);
-		ArrayElementTypeCheck (L_31, _stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral95FEDD9269D22EA014AE720CCFA1C0AAA4E0C0BE);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31;
-		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_33;
-		L_33 = Input_get_location_m6F753D9369213F07EC556FF6240D723DCF3C689D(NULL);
-		NullCheck(L_33);
-		LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 L_34;
-		L_34 = LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F(L_33, NULL);
-		V_2 = L_34;
-		float L_35;
-		L_35 = LocationInfo_get_altitude_m3B4BE2F447F3599F5677DD72A86C3A1A801ABAE0((&V_2), NULL);
-		V_3 = L_35;
-		String_t* L_36;
-		L_36 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_3), NULL);
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, L_36);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_36);
-		String_t* L_37;
-		L_37 = String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0(L_32, NULL);
-		NullCheck(L_17);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_17, L_37);
 		// }
 		return (bool)0;
 	}
