@@ -14,16 +14,12 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.uqac.portdusaguenay.model.User
 import com.uqac.portdusaguenay.R
-import de.hdodenhof.circleimageview.CircleImageView
-import kotlinx.android.synthetic.main.activity_enregistrer.*
-import java.util.*
 
 
 class Enregistrer : AppCompatActivity() {
 
     private  var m_name :EditText? = null
     private var m_email:EditText? = null
-    var m_image: CircleImageView? = null
     private var m_password: EditText? = null
     private val TAG = "MyActivity"
     private var progress_bar : ProgressBar? =null
@@ -38,7 +34,6 @@ class Enregistrer : AppCompatActivity() {
         m_password = findViewById<EditText>(R.id.editTextTextPassword)
         progress_bar = findViewById<ProgressBar>(R.id.progressBarRecherche)
         m_Resultat = findViewById<TextView>(R.id.textAffichageResultat)
-        m_image = findViewById(R.id.selectphoto_imageview_register)
 
 
     }
