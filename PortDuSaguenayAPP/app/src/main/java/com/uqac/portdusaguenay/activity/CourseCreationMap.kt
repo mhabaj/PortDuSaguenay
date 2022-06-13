@@ -115,10 +115,10 @@ class CourseCreationMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
         circle?.remove()
 
         circle = mMap.addCircle(CircleOptions().center(LatLng(location.latitude, location.longitude))
-            .radius(75.0)
+            .radius(100.0)
             .strokeWidth(3.0F)
-            .strokeColor(Color.argb(99, 0, 197, 100))
-            .fillColor(Color.argb(50, 0, 197, 100)))
+            .strokeColor(Color.argb(99, 0, 174, 240))
+            .fillColor(Color.argb(99, 0, 174, 240)))
 
     }
 
