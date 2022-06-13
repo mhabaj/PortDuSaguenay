@@ -5,7 +5,7 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.uqac.portdusaguenay.model.User
-import com.uqac.geoexplore.model.Course
+import com.uqac.portdusaguenay.model.Course
 import com.uqac.portdusaguenay.model.Group
 
 import kotlinx.coroutines.tasks.await
@@ -21,8 +21,6 @@ class Functions {
             } catch (e: Exception) {
                 null
             }
-
-
         }
 
 

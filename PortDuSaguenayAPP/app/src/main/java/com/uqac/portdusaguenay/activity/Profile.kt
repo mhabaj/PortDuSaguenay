@@ -19,12 +19,11 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
 import com.squareup.picasso.Picasso
-import com.uqac.geoexplore.Functions
-import com.uqac.geoexplore.R
+import com.uqac.portdusaguenay.Functions
+import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.activity.Settings
 import com.uqac.portdusaguenay.model.User
 import kotlinx.android.synthetic.main.activity_profile.*
-import kotlinx.android.synthetic.main.profil_friends.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 import java.util.*
@@ -47,7 +46,7 @@ class Profile : AppCompatActivity() {
       
 
         db = Firebase.firestore
-       dbUser = Firebase.auth.currentUser
+        dbUser = Firebase.auth.currentUser
 
         m_name!!.text = dbUser?.displayName
 
@@ -127,11 +126,6 @@ class Profile : AppCompatActivity() {
 
     }
 
-    fun friend(view: View) {
-        val intent = Intent(this, Friends::class.java)
-        startActivity(intent)
-
-    }
 
     fun switcher(view: View) {
         var m_age = findViewById<EditText>(R.id.age)
@@ -159,10 +153,6 @@ class Profile : AppCompatActivity() {
 
 
 
-    }
-    fun message(view : View){
-            val intent = Intent(this, MessageActivity::class.java)
-            startActivity(intent)
     }
 
 }

@@ -39,4 +39,5 @@
     <string name="itemCount">item_count</string>
     <string name="submit">Submit</string>
     <string name="ranking">Ranking :</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBNS_B8sdfPZIeZ_NzTaXuMLTeuZJ-KRtQ</string>
 </resources>

@@ -114,11 +114,12 @@ class CourseCreationMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     private fun addCircle(location: LatLng, strokeColor: Int, fillColor: Int) {
         circle?.remove()
 
-        circle = mMap.addCircle(CircleOptions().center(location)
-            .radius(500.0)
+        circle = mMap.addCircle(CircleOptions().center(LatLng(location.latitude, location.longitude))
+            .radius(75.0)
             .strokeWidth(3.0F)
-            .strokeColor(strokeColor)
-            .fillColor(fillColor))
+            .strokeColor(Color.argb(99, 0, 197, 100))
+            .fillColor(Color.argb(50, 0, 197, 100)))
+
     }
 
     private fun addMarker(location: LatLng) {

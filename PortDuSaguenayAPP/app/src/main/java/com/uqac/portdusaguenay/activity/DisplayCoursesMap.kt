@@ -135,10 +135,10 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     private fun addCircle(location: LatLng): Circle {
         return mMap.addCircle(
             CircleOptions().center(LatLng(location.latitude, location.longitude))
-                .radius(500.0)
+                .radius(75.0)
                 .strokeWidth(3.0F)
-                .strokeColor(Color.argb(99, 51, 153, 51))
-                .fillColor(Color.argb(50, 51, 153, 51))
+                .strokeColor(Color.argb(99, 0, 197, 100))
+                .fillColor(Color.argb(50, 0, 197, 100))
                 .clickable(true)
         )
     }
@@ -187,7 +187,7 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     override fun onCircleClick(circle: Circle) {
         addMarker(circle.center)
         findViewById<Button>(R.id.confirm_button).isEnabled = true
-        findViewById<Button>(R.id.confirm_button).setText("Course selected: " + courses[circle]?.name)
+        findViewById<Button>(R.id.confirm_button).setText("Point selectionné: " + courses[circle]?.name)
         selectedCourse = courses[circle]!!
     }
 

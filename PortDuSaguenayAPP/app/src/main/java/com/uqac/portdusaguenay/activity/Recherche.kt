@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,9 @@ import android.widget.Spinner
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.firestore.*
-import com.uqac.geoexplore.Functions
-import com.uqac.geoexplore.model.Course
+import com.uqac.portdusaguenay.Functions
+import com.uqac.portdusaguenay.R
+import com.uqac.portdusaguenay.model.Course
 import com.uqac.portdusaguenay.activity.Accueil
 import com.uqac.portdusaguenay.activity.MyAdapter
 import kotlinx.android.synthetic.main.activity_recherche.*

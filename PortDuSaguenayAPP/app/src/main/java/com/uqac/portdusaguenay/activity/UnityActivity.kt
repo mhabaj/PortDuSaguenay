@@ -5,11 +5,11 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.unity3d.player.UnityPlayer
+/*import com.unity3d.player.UnityPlayer*/
 import com.uqac.portdusaguenay.MainActivity
 
 class UnityActivity : AppCompatActivity() {
-
+/*
     val mUnityPlayer = UnityPlayer(this)
 
     // Setup activity layout
@@ -48,6 +48,7 @@ class UnityActivity : AppCompatActivity() {
     fun onUnityPlayerUnloaded() {
         showMainActivity("")
     }
+
     fun addControlsToUnityFrame() {
         val layout: FrameLayout = mUnityPlayer
         run {
@@ -75,5 +76,5 @@ class UnityActivity : AppCompatActivity() {
             myButton.setOnClickListener { finish() }
             layout.addView(myButton, 300, 200)
         }
-    }
+    }*/
 }

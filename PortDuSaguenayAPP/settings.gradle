@@ -8,3 +8,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PortDuSaguenay"
 include ':app'
+
+/*
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('androidBuild\\unityLibrary')*/

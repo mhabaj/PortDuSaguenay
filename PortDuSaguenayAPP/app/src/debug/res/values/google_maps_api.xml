@@ -1,0 +1,10 @@
+<resources>
+    <!--
+    Package name:
+    com.example.geoexplor1
+
+    SHA-1 certificate fingerprint:
+    00:39:51:5D:0C:64:BA:69:40:31:9A:C7:C3:DE:1D:20:0F:A7:06:67
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBNS_B8sdfPZIeZ_NzTaXuMLTeuZJ-KRtQ</string>
+</resources>
