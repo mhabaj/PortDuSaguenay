@@ -57,6 +57,7 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     private var marker: Marker? = null
 
     private var locationButton: Button? = null
+    private var courseButton: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -88,6 +89,8 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
         })
 
         locationButton = findViewById(R.id.getToLocation)
+        courseButton = findViewById(R.id.confirm_button)
+
         thread {
             while (true) {
                 Thread.sleep(1000)
@@ -236,6 +239,10 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
     }
 
+    fun startARActivity() {
+        startActivity(Intent(this, UnityActivity::class.java))
+    }
+
     fun checkLocation(location: Location) {
         locationButton!!.text = "Current loc : " + location.latitude + " - " + location.longitude
 
@@ -247,10 +254,12 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
             // Check if user is in a 10 meters radius of a AR point
             if (location.distanceTo(courseLocation) < 15) {
                 locationButton!!.text = "Activer la Réalité Augmentée"
-                locationButton!!.isActivated = true
+                locationButton!!.visibility = View.GONE
+                courseButton!!.visibility = View.VISIBLE
             }
             else {
-                locationButton!!.isActivated = false
+                locationButton!!.visibility = View.VISIBLE
+                courseButton!!.visibility = View.GONE
             }
         }
     }
