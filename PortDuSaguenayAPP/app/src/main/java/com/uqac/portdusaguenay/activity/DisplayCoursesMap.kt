@@ -1,5 +1,6 @@
 package com.uqac.portdusaguenay.activity
 
+import android.Manifest
 import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent
@@ -8,6 +9,7 @@ import android.graphics.Color
 import android.location.Address
 import android.location.Geocoder
 import android.location.Location
+import android.location.LocationRequest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -26,8 +28,11 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.CircleOptions
+import com.google.android.gms.tasks.OnSuccessListener
+import com.google.android.gms.tasks.OnTokenCanceledListener
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
@@ -35,6 +40,7 @@ import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.model.Course
 import java.io.IOException
 import java.lang.IndexOutOfBoundsException
+import kotlin.concurrent.thread
 
 class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleMap.OnCircleClickListener {
 
@@ -49,6 +55,8 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
     private lateinit var selectedCourse: Course
 
     private var marker: Marker? = null
+
+    private var locationButton: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -78,6 +86,31 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
             override fun onQueryTextChange(newText: String) = false
         })
+
+        locationButton = findViewById(R.id.getToLocation)
+        thread {
+            while (true) {
+                Thread.sleep(1000)
+
+                if (ActivityCompat.checkSelfPermission(
+                        this,
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                    ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
+                        this,
+                        Manifest.permission.ACCESS_COARSE_LOCATION
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    return@thread
+                }
+                fusedLocationProviderClient.lastLocation.addOnSuccessListener {
+                        location ->
+                    if (location != null) {
+                        checkLocation(location)
+                    }
+                }
+
+            }
+        }
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
@@ -201,6 +234,25 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
         var destination =
             LatLng(selectedCourse.location!!.latitude, selectedCourse.location!!.longitude)
 
+    }
+
+    fun checkLocation(location: Location) {
+        locationButton!!.text = "Current loc : " + location.latitude + " - " + location.longitude
+
+        courses.forEach { course ->
+            var courseLocation = Location("courseLocation")
+            courseLocation.latitude = course.value.location!!.latitude
+            courseLocation.longitude = course.value.location!!.longitude
+
+            // Check if user is in a 10 meters radius of a AR point
+            if (location.distanceTo(courseLocation) < 15) {
+                locationButton!!.text = "Activer la Réalité Augmentée"
+                locationButton!!.isActivated = true
+            }
+            else {
+                locationButton!!.isActivated = false
+            }
+        }
     }
 
 }
