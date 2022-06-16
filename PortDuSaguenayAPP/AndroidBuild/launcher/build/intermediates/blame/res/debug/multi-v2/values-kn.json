@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mhaba\\Desktop\\AndroidBuild\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mhaba\\.gradle\\caches\\transforms-3\\33ddbca72b4d36946162a4dae76cb4e0\\transformed\\arcore_client\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,289,401,522",
+                        "endColumns": "45,52,111,120,100",
+                        "endOffsets": "235,288,400,521,622"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,105,162,278,403",
+                        "endColumns": "49,56,115,124,104",
+                        "endOffsets": "100,157,273,398,503"
+                    }
+                }
+            ]
+        }
+    ]
+}
