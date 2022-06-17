@@ -9,7 +9,6 @@ import android.graphics.Color
 import android.location.Address
 import android.location.Geocoder
 import android.location.Location
-import android.location.LocationRequest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -17,6 +16,7 @@ import android.view.View
 import android.view.Window
 import android.view.inputmethod.InputMethodManager
 import android.widget.Button
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.core.app.ActivityCompat
@@ -28,11 +28,8 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.CircleOptions
-import com.google.android.gms.tasks.OnSuccessListener
-import com.google.android.gms.tasks.OnTokenCanceledListener
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
@@ -56,8 +53,8 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
     private var marker: Marker? = null
 
-    private var locationButton: Button? = null
-    private var courseButton: Button? = null
+    private var startARButton: Button? = null
+    private var courseButton: LinearLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -88,8 +85,8 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
             override fun onQueryTextChange(newText: String) = false
         })
 
-        locationButton = findViewById(R.id.getToLocation)
-        courseButton = findViewById(R.id.confirm_button)
+        startARButton = findViewById(R.id.confirm_button)
+        courseButton = findViewById(R.id.ARInfoButtons)
 
         thread {
             while (true) {
@@ -222,8 +219,8 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
     override fun onCircleClick(circle: Circle) {
         addMarker(circle.center)
-        findViewById<Button>(R.id.confirm_button).isEnabled = true
-        findViewById<Button>(R.id.confirm_button).setText("Point selectionné: " + courses[circle]?.name)
+        courseButton!!.visibility = View.VISIBLE
+        //findViewById<Button>(R.id.ARInfo).setText("Point selectionné: " + courses[circle]?.name)
         selectedCourse = courses[circle]!!
     }
 
@@ -237,14 +234,18 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
         var destination =
             LatLng(selectedCourse.location!!.latitude, selectedCourse.location!!.longitude)
 
+        println("Searching itinerary from " + startPoint.latitude + "," + startPoint.longitude + " to " + destination.latitude + "," + destination.longitude)
+
+        ItineraryTask(this, mMap, startPoint, destination).execute()
+
     }
 
-    fun startARActivity() {
+    fun startARActivity(view: android.view.View) {
         startActivity(Intent(this, UnityActivity::class.java))
     }
 
     fun checkLocation(location: Location) {
-        locationButton!!.text = "Current loc : " + location.latitude + " - " + location.longitude
+        //locationButton!!.text = "Current loc : " + location.latitude + " - " + location.longitude
 
         courses.forEach { course ->
             var courseLocation = Location("courseLocation")
@@ -253,13 +254,14 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
             // Check if user is in a 10 meters radius of a AR point
             if (location.distanceTo(courseLocation) < 15) {
-                locationButton!!.text = "Activer la Réalité Augmentée"
-                locationButton!!.visibility = View.GONE
-                courseButton!!.visibility = View.VISIBLE
+                startARButton!!.text = "Activer la Réalité Augmentée"
+                startARButton!!.visibility = View.VISIBLE
+                courseButton!!.visibility = View.GONE
             }
             else {
-                locationButton!!.visibility = View.VISIBLE
-                courseButton!!.visibility = View.GONE
+                startARButton!!.visibility = View.GONE
+                if(this::selectedCourse.isInitialized)
+                    courseButton!!.visibility = View.VISIBLE
             }
         }
     }

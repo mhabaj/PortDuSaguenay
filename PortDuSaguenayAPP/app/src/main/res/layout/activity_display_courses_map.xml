@@ -10,8 +10,7 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MapsActivity" />
+        android:layout_height="match_parent" />
 
     <!--search view to search our location-->
     <androidx.appcompat.widget.SearchView
@@ -42,26 +41,54 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/ic_bg_button"
             app:backgroundTint="#00AEF0"
-            android:enabled="false"
-            android:onClick="selectCourse"
-            android:text="Activer Réalité Augmentée" />
+            android:onClick="startARActivity"
+            android:text="Activer Réalité Augmentée"
 
-        <Button
-            android:id="@+id/getToLocation"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/ARInfoButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/ic_bg_button"
-            app:backgroundTint="#FFFFFF"
-            android:enabled="false"
-            android:onClick="goToLocation"
-            android:text="DEBUG LOCATION"
-
+            android:orientation="horizontal"
             android:visibility="gone"
-            />
+            >
+
+            <Button
+                android:id="@+id/ARInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="10dp"
+                android:padding="15dp"
+
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="#00AEF0"
+                android:textColor="#FFFFFF"
+                android:onClick="selectCourse"
+                android:text="Détails du point"
+                />
+
+            <Button
+                android:id="@+id/getToLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="#FFFFFF"
+                android:onClick="goToLocation"
+                android:text="Itinéraire"
+                />
+
+
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 

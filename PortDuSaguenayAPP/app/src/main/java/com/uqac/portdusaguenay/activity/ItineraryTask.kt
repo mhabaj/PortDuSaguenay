@@ -10,6 +10,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.PolylineOptions
+import com.uqac.portdusaguenay.R
 import org.w3c.dom.Element
 import org.w3c.dom.Node
 import java.lang.Exception
@@ -23,16 +24,16 @@ import javax.xml.parsers.DocumentBuilderFactory
  * ItineraireTask
  * @author Ludovic
  */
-abstract class ItineraryTask(
+class ItineraryTask(
     /** ATTRIBUTS.
      * / */
     private val context: Context,
     /** */
-    private var gMap: GoogleMap, editDepart: String, editArrivee: String
+    private var gMap: GoogleMap, editDepart: LatLng, editArrivee: LatLng
 ) :
     AsyncTask<Void?, Int?, Boolean>() {
-    private val editDepart: String
-    private val editArrivee: String
+    private val editDepart: LatLng
+    private val editArrivee: LatLng
     private val lstLatLng = ArrayList<LatLng>()
 
     /**
@@ -47,16 +48,21 @@ abstract class ItineraryTask(
      */
     override fun doInBackground(vararg p0: Void?): Boolean? {
         return try {
+            println("DEBUG MAP 0")
             //Construction de l'url à appeler
             val url =
-                StringBuilder("http://maps.googleapis.com/maps/api/directions/xml?sensor=false&language=fr")
+                StringBuilder("https://maps.googleapis.com/maps/api/directions/xml?language=fr")
             url.append("&origin=")
-            url.append(editDepart.replace(' ', '+'))
+            url.append(editDepart.latitude.toString() + "," + editDepart.longitude)
             url.append("&destination=")
-            url.append(editArrivee.replace(' ', '+'))
+            url.append(editArrivee.latitude.toString() + "," + editArrivee.longitude)
+            /*url.append("&key=")
+            url.append(R.string.google_maps_key)*/
 
             //Appel du web service
             val stream = URL(url.toString()).openStream()
+
+            println("DEBUG MAP 1")
 
             //Traitement des données
             val documentBuilderFactory = DocumentBuilderFactory.newInstance()
@@ -64,6 +70,8 @@ abstract class ItineraryTask(
             val documentBuilder = documentBuilderFactory.newDocumentBuilder()
             val document = documentBuilder.parse(stream)
             document.documentElement.normalize()
+
+            println("DEBUG MAP 2")
 
             //On récupère d'abord le status de la requête
             val status = document.getElementsByTagName("status").item(0).textContent
@@ -84,8 +92,11 @@ abstract class ItineraryTask(
                     decodePolylines(elementStep.getElementsByTagName("points").item(0).textContent)
                 }
             }
+            println("DEBUG MAP 3")
             true
         } catch (e: Exception) {
+            println("allooooooo")
+            println(e)
             false
         }
     }
