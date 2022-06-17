@@ -1,3 +1,4 @@
+using ARLocation;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -36,6 +37,12 @@ public class InformationDisplayer : MonoBehaviour
         {
             if (Selected == false)
             {
+                if(idText == "textTrain")
+                {
+                    MoveAlongPath mAP = gameObject.GetComponent<MoveAlongPath>();
+                    mAP.Speed = 1f;
+                }
+
                 Selected = true;
                 text.text = textToDisplay;
                 text.gameObject.SetActive(true);
@@ -43,6 +50,11 @@ public class InformationDisplayer : MonoBehaviour
             }
             else
             {
+                if (idText == "textTrain")
+                {
+                    MoveAlongPath mAP = gameObject.GetComponent<MoveAlongPath>();
+                    mAP.Speed = 10f;
+                }
                 Selected = false;
                 text.gameObject.SetActive(false);
                 canvas.gameObject.SetActive(false);
