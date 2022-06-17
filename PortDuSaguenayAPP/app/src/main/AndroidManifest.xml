@@ -29,6 +29,9 @@
             android:exported="true" />
 
         <activity
+            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.Settings"
             android:exported="true" />
         <activity
@@ -43,32 +46,13 @@
         <activity
             android:name=".activity.Enregistrer"
             android:exported="true" />
-        <activity
-            android:name=".activity.QrCodeActivity"
-            android:exported="true" />
-        <activity
-            android:name=".activity.ReadQrCode"
-            android:exported="true" />
-        <activity
-            android:name=".activity.Friends"
-            android:exported="true" />
-        <activity android:name=".activity.ChatLogActivity"
-            android:parentActivityName=".activity.ProfileFriends" />
-        <activity
-            android:name=".activity.ProfileFriends"
-            android:exported="true" />
-        <activity android:name=".activity.FeedActivity"
-            android:parentActivityName=".activity.CourseDetails" />
+
+
         <activity
             android:name=".activity.CourseDetails"
             android:exported="true"/>
 
-        <activity
-            android:name=".activity.MessageActivity"
-            android:parentActivityName=".activity.Profile"  />
-        <activity
-            android:name=".activity.Profile"
-            android:exported="true"/>
+
 
         <activity
             android:name=".MainActivity"

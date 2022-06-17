@@ -1,6 +1,10 @@
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        flatDir {
+            dirs "${new File('AndroidBuild\\unityLibrary')}/libs"
+
+        }
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon

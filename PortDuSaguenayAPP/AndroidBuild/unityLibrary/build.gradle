@@ -107,6 +107,7 @@ android {
             jni.srcDirs = ["src/main/Il2CppOutputProject"]
         }
     }
+    ndkVersion '21.3.6528147'
 }
 
 
