@@ -30,6 +30,7 @@ public class InformationDisplayer : MonoBehaviour
 
     /// <summary>
     /// Function that make the text appear or disappear when an object is touched.
+    /// If it's the train that is clicked, its speed will decrease.
     /// </summary>
     void OnMouseDown()
     {

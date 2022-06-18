@@ -1,7 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
+/// Script that allows to open a web page containing information about the train.
+/// </summary>
 public class webpageOpener : MonoBehaviour
 {
 
