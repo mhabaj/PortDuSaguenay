@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 696
     width: 1476
     height: 251
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 155
+  controlID: 20
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 444
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -146,8 +146,8 @@ MonoBehaviour:
     y: 0
     width: 317
     height: 696
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 161
+  controlID: 21
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 162
+  controlID: 22
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,8 +294,8 @@ MonoBehaviour:
     y: 0
     width: 752
     height: 696
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -344,22 +344,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Medias
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Medias
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Projects\PortDuSaguenay
+  m_LastProjectPath: C:\Users\naouf\OneDrive\Bureau\port\projet\PortDuSaguenay
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30300000
-    m_LastClickedID: 12336
-    m_ExpandedIDs: 00000000502d000000ca9a3bffffff7f
+    m_SelectedIDs: b42c0000
+    m_LastClickedID: 11444
+    m_ExpandedIDs: 00000000b42c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000502d0000
+    m_ExpandedIDs: 00000000b42c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,20 +517,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6cc10000
-      m_LastClickedID: 49516
-      m_ExpandedIDs: 3260ffff8060ffff8a65ffff988fffffe68fffffec94ffffce96ffff1c97ffff229cffffa69efffff49efffffaa3ffffe0a5ffff2ea6ffff34abffffa8b2ffffb0b3fffffeb3ffff02b9ffff04bbffff52bbffff56c0ffff64c2ffffb2c2ffffb4c3ffff86c4ffffd4c4ffffd6c5ffff60c8ffffaec8ffffb2cdffff66d9fffff4dcffff2efbfffff4ffffff466a0000806a0000286b00009a840000c4850000049e00002e9f000092b70000e0b7000002b8000072b80000cab800005eb9000086b9000026c1000040c100006cc100008ec10000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1efbffffc6690000dc690000066a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: debug
-        m_OriginalName: debug
+        m_Name: Train
+        m_OriginalName: Train
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 49850
+        m_UserData: 27324
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -769,9 +769,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1128.5, y: 553, z: 0}
+    m_Target: {x: -16.578815, y: 18.484743, z: 111.94601}
     speed: 2
-    m_Value: {x: 1128.5, y: 553, z: 0.0000046810906}
+    m_Value: {x: -16.578815, y: 18.484743, z: 111.94601}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -818,13 +818,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.009690941, y: -0.96092683, z: -0.2751829, w: 0.034399558}
+    m_Target: {x: 0.10988075, y: -0.20952177, z: 0.023545353, w: 0.9714249}
     speed: 2
-    m_Value: {x: -0.010101769, y: -0.9606901, z: -0.27511537, w: 0.035834044}
+    m_Value: {x: 0.10983466, y: -0.21095823, z: 0.02370785, w: 0.9710154}
   m_Size:
-    m_Target: 403.43124
+    m_Target: 66.686485
     speed: 2
-    m_Value: 386.0586
+    m_Value: 63.81482
   m_Ortho:
     m_Target: 0
     speed: 2
