@@ -32,7 +32,7 @@ public class PhotoCapture : MonoBehaviour
     {
         //photo capture actions
         string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
-        string fileName = "Photo" + timeStamp + ".png";
+        string fileName = "Photo" + timeStamp + ".jpg";
         string pathToSave = fileName;
         ScreenCapture.CaptureScreenshot(pathToSave);
         yield return new WaitForEndOfFrame();

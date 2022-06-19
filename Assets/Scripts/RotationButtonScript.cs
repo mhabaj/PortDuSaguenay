@@ -20,10 +20,12 @@ public class RotationButtonScript : MonoBehaviour
 {
     public TMP_Text text;
     public Button button;
+    public Button button2;
 
     public void rotateCanvas()
     {
         text.transform.Rotate(0,180,0);
         button.transform.Rotate(0,180,0);
+        button2.transform.Rotate(0, 180, 0);
     }
 }
