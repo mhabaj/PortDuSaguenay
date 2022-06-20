@@ -18,6 +18,7 @@ public class MoveBoats : MonoBehaviour
     public float amplitude = 1.0f;
     public float speed = 1.0f;
     float y0;
+    float[] y = new float[3];
     const float step = Mathf.PI / 10;
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class MoveBoats : MonoBehaviour
     {
         boats.Add(GameObject.Find("staticBoat_2"));
         boats.Add(GameObject.Find("staticBoat_3"));
+        boats.Add(GameObject.Find("staticBoat_4"));
 
         y0 = boats[0].transform.localPosition.y;
     }

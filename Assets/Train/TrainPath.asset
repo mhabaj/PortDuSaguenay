@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: TrainPath
   m_EditorClassIdentifier: 
   Locations:
-  - Latitude: 48.42149182557791
-    Longitude: -71.05240481100581
+  - Latitude: 48.42906183268406
+    Longitude: -71.05990258054882
     Altitude: -2
     AltitudeMode: 0
     Label: 
-  - Latitude: 48.419618739882445
-    Longitude: -71.05417244795854
+  - Latitude: 48.42911878533194
+    Longitude: -71.06297102741264
     Altitude: -2
     AltitudeMode: 0
     Label: 
