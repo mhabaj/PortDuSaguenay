@@ -9,7 +9,7 @@ import android.graphics.Color
 import android.location.Address
 import android.location.Geocoder
 import android.location.Location
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -18,25 +18,22 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.app.ActivityCompat
-
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
-import com.google.android.gms.maps.model.CircleOptions
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
 import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.model.Course
 import java.io.IOException
-import java.lang.IndexOutOfBoundsException
 import kotlin.concurrent.thread
 
 class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleMap.OnCircleClickListener {
@@ -236,16 +233,28 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
         println("Searching itinerary from " + startPoint.latitude + "," + startPoint.longitude + " to " + destination.latitude + "," + destination.longitude)
 
-        ItineraryTask(this, mMap, startPoint, destination).execute()
+        // ItineraryTask(this, mMap, startPoint, destination).execute()
+
+        val navUri = Uri.parse("http://maps.google.com/maps?&daddr=" +
+                destination.latitude + "," + destination.longitude)
+        startActivity(Intent(Intent.ACTION_VIEW).apply {
+            data = navUri
+        })
 
     }
 
     fun startARActivity(view: android.view.View) {
-        startActivity(Intent(this, UnityActivity::class.java))
+        val intent = Intent(this, UnityActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+
+        startActivity(intent)
+        
     }
 
     fun checkLocation(location: Location) {
         //locationButton!!.text = "Current loc : " + location.latitude + " - " + location.longitude
+
+        var isWithinAR = false
 
         courses.forEach { course ->
             var courseLocation = Location("courseLocation")
@@ -257,8 +266,10 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
                 startARButton!!.text = "Activer la Réalité Augmentée"
                 startARButton!!.visibility = View.VISIBLE
                 courseButton!!.visibility = View.GONE
+
+                isWithinAR = true
             }
-            else {
+            else if (!isWithinAR) {
                 startARButton!!.visibility = View.GONE
                 if(this::selectedCourse.isInitialized)
                     courseButton!!.visibility = View.VISIBLE

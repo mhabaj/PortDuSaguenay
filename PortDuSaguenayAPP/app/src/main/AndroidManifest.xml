@@ -52,7 +52,12 @@
             android:name=".activity.CourseDetails"
             android:exported="true"/>
 
-
+        <activity
+            android:screenOrientation="fullSensor" android:launchMode="singleTask"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:name="com.uqac.portdusaguenay.activity.UnityActivity">
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+        </activity>
 
         <activity
             android:name=".MainActivity"

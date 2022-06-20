@@ -1,21 +1,21 @@
 { "pid": "BuildProgram", "ph":"M", "name": "process_name", "args": {"name": "BuildProgram"} },
 { "pid": "BuildProgram", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
 { "pid": "BuildProgram", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556278645.7,"dur": 433849.4, "ph":"X", "name": "BuildProgram"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556278739.1,"dur": 39817.9, "ph":"X", "name": "BuildProgramContextCCtor"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556380703.7,"dur": 18256.3, "ph":"X", "name": "SetupConversion"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556491151,"dur": 171863.5, "ph":"X", "name": "GeneratedCode.SetupSpecificConfiguration"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556492310.6,"dur": 170702.8, "ph":"X", "name": "SetupSpecificConfigImpl libil2cpp", "args": { "detail": "release_Android_arm64"}
+{ "pid": "BuildProgram", "tid": 1,"ts": 324105935208.1,"dur": 1177076.6, "ph":"X", "name": "BuildProgram"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324105935285.2,"dur": 51034.8, "ph":"X", "name": "BuildProgramContextCCtor"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106362651.5,"dur": 18785.6, "ph":"X", "name": "SetupConversion"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106892591,"dur": 169326.1, "ph":"X", "name": "GeneratedCode.SetupSpecificConfiguration"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106893687.8,"dur": 168228.2, "ph":"X", "name": "SetupSpecificConfigImpl libil2cpp", "args": { "detail": "release_Android_arm64"}
 },
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556500707.7,"dur": 127895.5, "ph":"X", "name": "SetupSpecificConfigImpl il2cpp", "args": { "detail": "release_Android_arm64"}
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106901950.7,"dur": 99543.8, "ph":"X", "name": "SetupSpecificConfigImpl il2cpp", "args": { "detail": "release_Android_arm64"}
 },
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556501894.5,"dur": 98401.8, "ph":"X", "name": "SetupSpecificConfigImpl bdwgc", "args": { "detail": "release_Android_arm64"}
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106903156.2,"dur": 68099.6, "ph":"X", "name": "SetupSpecificConfigImpl bdwgc", "args": { "detail": "release_Android_arm64"}
 },
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556600319.3,"dur": 3454.8, "ph":"X", "name": "SetupSpecificConfigImpl zlib", "args": { "detail": "release_Android_arm64"}
+{ "pid": "BuildProgram", "tid": 1,"ts": 324106971285.6,"dur": 3614.8, "ph":"X", "name": "SetupSpecificConfigImpl zlib", "args": { "detail": "release_Android_arm64"}
 },
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556663014.9,"dur": 6512.6, "ph":"X", "name": "PostProcessBuiltNativeProgram"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556669527.7,"dur": 5902.4, "ph":"X", "name": "DeployTo"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556675433.8,"dur": 369.2, "ph":"X", "name": "DeployMetadata"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556685660.9,"dur": 4212.6, "ph":"X", "name": "OutputData.Write"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556689873.8,"dur": 22620.6, "ph":"X", "name": "Backend.Write"},
-{ "pid": "BuildProgram", "tid": 1,"ts": 429556690570.9,"dur": 19342.8, "ph":"X", "name": "JsonToString"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107061918,"dur": 6726.6, "ph":"X", "name": "PostProcessBuiltNativeProgram"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107068645,"dur": 5870.9, "ph":"X", "name": "DeployTo"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107074519.5,"dur": 378.8, "ph":"X", "name": "DeployMetadata"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107084945.1,"dur": 3783.6, "ph":"X", "name": "OutputData.Write"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107088730.6,"dur": 23553.2, "ph":"X", "name": "Backend.Write"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 324107089442.8,"dur": 20128.6, "ph":"X", "name": "JsonToString"},

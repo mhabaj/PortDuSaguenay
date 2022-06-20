@@ -842,6 +842,8 @@ int string abc_searchview_description_voice 0x0
 int string abc_shareactionprovider_share_with 0x0
 int string abc_shareactionprovider_share_with_application 0x0
 int string abc_toolbar_collapse_description 0x0
+int string app_name 0x0
+int string game_view_content_description 0x0
 int string search_menu_title 0x0
 int string status_bar_notification_info_overflow 0x0
 int string vuforia_share_chooser_title 0x0

@@ -1,27 +1,25 @@
 package com.uqac.portdusaguenay.activity
 
+/*import com.unity3d.player.UnityPlayer*/
+
 import android.content.Intent
+import android.content.Intent.getIntent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
-import androidx.appcompat.app.AppCompatActivity
-/*import com.unity3d.player.UnityPlayer*/
+import androidx.core.content.ContextCompat.startActivity
 import com.uqac.portdusaguenay.MainActivity
 
-class UnityActivity : AppCompatActivity() {
-/*
-    val mUnityPlayer = UnityPlayer(this)
+import com.unity3d.player.UnityPlayerActivity
 
+
+class UnityActivity : UnityPlayerActivity() {
     // Setup activity layout
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         addControlsToUnityFrame()
-        val intent: Intent = intent
+        val intent = intent
         handleIntent(intent)
     }
 
@@ -38,43 +36,29 @@ class UnityActivity : AppCompatActivity() {
         }
     }
 
-    private fun showMainActivity(setToColor: String?) {
+    protected fun showMainActivity(setToColor: String?) {
         val intent: Intent = Intent(this, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
         intent.putExtra("setColor", setToColor)
         startActivity(intent)
     }
 
-    fun onUnityPlayerUnloaded() {
+    override fun onUnityPlayerUnloaded() {
         showMainActivity("")
     }
 
     fun addControlsToUnityFrame() {
         val layout: FrameLayout = mUnityPlayer
-        run {
-            val myButton = Button(this)
-            myButton.text = "Show Main"
-            myButton.x = 10f
-            myButton.y = 500f
-            myButton.setOnClickListener { showMainActivity("") }
-            layout.addView(myButton, 300, 200)
-        }
 
         run {
-            val myButton: Button = Button(this)
-            myButton.text = "Unload"
-            myButton.x = 630f
-            myButton.y = 500f
-            myButton.setOnClickListener { mUnityPlayer.unload() }
-            layout.addView(myButton, 300, 200)
-        }
-        run {
             val myButton = Button(this)
-            myButton.text = "Finish"
-            myButton.x = 630f
-            myButton.y = 800f
-            myButton.setOnClickListener { finish() }
+            myButton.text = "Retour Ã  la carte"
+            myButton.x = 800f
+            myButton.y = 1800f
+            myButton.setOnClickListener { this.finish()
+                startActivity(Intent(this,DisplayCoursesMap::class.java))
+            }
             layout.addView(myButton, 300, 200)
         }
-    }*/
+    }
 }

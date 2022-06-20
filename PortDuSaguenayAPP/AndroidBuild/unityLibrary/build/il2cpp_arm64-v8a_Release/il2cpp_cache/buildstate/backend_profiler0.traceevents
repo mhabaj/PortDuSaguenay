@@ -1,14 +1,3 @@
-{ "pid": "il2cpp_in_graph", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_in_graph"} },
-{ "pid": "il2cpp_in_graph", "ph":"M", "name": "process_sort_index", "args": {"sort_index": 2} },
-{ "pid": "il2cpp_in_graph", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
-{ "pid": "il2cpp_in_graph", "tid": 1,"ts": 324215057469.3,"dur": 418806.6, "ph":"X", "name": "il2cpp.exe"},
-{ "pid": "il2cpp_in_graph", "tid": 1,"ts": 324215060776.7,"dur": 412002.3, "ph":"X", "name": "BeeDriverRunner.Execute"},
-{ "pid": "BeeDriver", "ph":"M", "name": "process_name", "args": {"name": "BeeDriver"} },
-{ "pid": "BeeDriver", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -2} },
-{ "pid": "BeeDriver", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
-{ "pid": "BeeDriver", "tid": 1,"ts": 324215073605,"dur": 0, "ph":"X", "name": "Build FinalProgram"},
-{ "pid": "BeeDriver", "tid": 1,"ts": 324215073812.7,"dur": 7174, "ph":"X", "name": "WriteBuildProgramData"},
-{ "pid": "BeeDriver", "tid": 1,"ts": 324215081145.1,"dur": 386167.5, "ph":"X", "name": "Run Backend"},
 { "cat":"", "pid":"bee_backend", "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 ,{ "pid":"bee_backend", "tid":0, "ts":324215122122, "dur":9819, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "detail":"" }}
 ,{ "pid":"bee_backend", "tid":0, "ts":324215131941, "dur":734, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}

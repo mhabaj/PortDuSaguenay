@@ -10,92 +10,92 @@
 8-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml
 9
 10    <uses-feature android:glEsVersion="0x00020000" />
-10-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-52
-10-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+10-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-52
+10-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:17-49
 11
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-65
-12-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+12-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-65
+12-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:18:20-62
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-77
-13-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:22:20-74
+13-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-77
+13-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:19:20-74
 14
 15    <uses-feature
-15-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:3-89
+15-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-89
 16        android:name="android.hardware.location.gps"
-16-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:17-61
+16-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-61
 17        android:required="false" />
-17-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:62-86
+17-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:20:62-86
 18    <uses-feature
-18-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:3-85
+18-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-85
 19        android:name="android.hardware.location"
-19-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:17-57
+19-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-57
 20        android:required="false" />
-20-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:58-82
+20-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:21:58-82
 21
 22    <uses-permission android:name="android.permission.CAMERA" />
-22-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:25:3-63
-22-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:25:20-60
+22-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-63
+22-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:22:20-60
 23
 24    <uses-feature
-24-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:26:3-83
+24-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:3-83
 25        android:name="android.hardware.camera"
-25-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:26:17-55
+25-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:17-55
 26        android:required="false" />
-26-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:26:56-80
+26-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:23:56-80
 27    <uses-feature
-27-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:3-93
+27-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:3-93
 28        android:name="android.hardware.camera.autofocus"
-28-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:17-65
+28-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:17-65
 29        android:required="false" />
-29-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:66-90
+29-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:24:66-90
 30    <uses-feature
-30-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:3-89
+30-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:25:3-89
 31        android:name="android.hardware.camera.front"
-31-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:17-61
+31-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:25:17-61
 32        android:required="false" />
-32-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:62-86
+32-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:25:62-86
 33
 34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-34-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:29:3-79
-34-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:29:20-76
+34-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:26:3-79
+34-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:26:20-76
 35
 36    <uses-feature
-36-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:3-88
+36-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:3-88
 37        android:name="android.hardware.touchscreen"
-37-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:17-60
+37-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:17-60
 38        android:required="false" />
-38-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:61-85
+38-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:27:61-85
 39    <uses-feature
-39-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:3-99
+39-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:3-99
 40        android:name="android.hardware.touchscreen.multitouch"
-40-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:17-71
+40-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:17-71
 41        android:required="false" />
-41-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:72-96
+41-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:28:72-96
 42    <uses-feature
-42-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:32:3-108
+42-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:29:3-108
 43        android:name="android.hardware.touchscreen.multitouch.distinct"
-43-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:32:17-80
+43-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:29:17-80
 44        android:required="false" />
-44-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:32:81-105
+44-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:29:81-105
 45    <uses-feature
-45-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:33:3-85
+45-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:3-85
 46        android:name="android.hardware.camera.ar"
-46-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:33:17-58
+46-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:17-58
 47        android:required="true" />
-47-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:33:59-82
+47-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:30:59-82
 48    <uses-feature
-48-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:34:3-83
+48-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:3-83
 49        android:name="com.google.ar.core.depth"
-49-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:34:17-56
+49-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:17-56
 50        android:required="true" />
-50-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:34:57-80
+50-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:31:57-80
 51
 52    <application android:extractNativeLibs="true" >
-52-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+52-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:3:3-16:17
 52-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:3:16-48
 53        <activity
-53-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+53-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:4:5-8:16
 54            android:name="com.unity3d.player.UnityPlayerActivity"
 54-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -110,73 +110,62 @@
 59-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:4:111-149
 60            android:theme="@style/UnityThemeSelector" >
 60-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-61            <intent-filter>
-61-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-62                <action android:name="android.intent.action.MAIN" />
-62-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-62-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-64-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-65            </intent-filter>
-66
-67            <meta-data
-67-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-68                android:name="unityplayer.UnityActivity"
-68-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-69                android:value="true" />
-69-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-70            <meta-data
-70-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-71                android:name="android.notch_support"
-71-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-72                android:value="true" />
-72-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-73        </activity>
-74
+61            <meta-data
+61-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+62                android:name="unityplayer.UnityActivity"
+62-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+63                android:value="true" />
+63-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+64            <meta-data
+64-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+65                android:name="android.notch_support"
+65-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+66                android:value="true" />
+66-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+67        </activity>
+68
+69        <meta-data
+69-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+70            android:name="unity.splash-mode"
+70-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+71            android:value="0" />
+71-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+72        <meta-data
+72-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+73            android:name="unity.splash-enable"
+73-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+74            android:value="True" />
+74-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:10:51-71
 75        <meta-data
-75-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-76            android:name="unity.splash-mode"
-76-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-77            android:value="0" />
-77-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+75-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+76            android:name="unity.launch-fullscreen"
+76-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+77            android:value="True" />
+77-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:11:55-75
 78        <meta-data
-78-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-79            android:name="unity.splash-enable"
-79-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-80            android:value="True" />
-80-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+78-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+79            android:name="unity.allow-resizable-window"
+79-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-59
+80            android:value="False" />
+80-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:12:60-81
 81        <meta-data
-81-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-82            android:name="unity.launch-fullscreen"
-82-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-83            android:value="True" />
-83-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+81-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+82            android:name="notch.config"
+82-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+83            android:value="portrait|landscape" />
+83-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 84        <meta-data
-84-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-85            android:name="unity.allow-resizable-window"
-85-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-86            android:value="False" />
-86-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+84-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-77
+85            android:name="com.google.ar.core"
+85-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-49
+86            android:value="required" />
+86-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:50-74
 87        <meta-data
-87-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-88            android:name="notch.config"
-88-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-89            android:value="portrait|landscape" />
-89-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-90        <meta-data
-90-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:5-77
-91            android:name="com.google.ar.core"
-91-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:16-49
-92            android:value="required" />
-92-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:50-74
-93        <meta-data
-93-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:18:5-88
-94            android:name="unityplayer.SkipPermissionsDialog"
-94-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:18:16-64
-95            android:value="true" />
-95-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:18:65-85
-96    </application>
-97
-98</manifest>
+87-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-88
+88            android:name="unityplayer.SkipPermissionsDialog"
+88-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+89            android:value="true" />
+89-->D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:65-85
+90    </application>
+91
+92</manifest>
