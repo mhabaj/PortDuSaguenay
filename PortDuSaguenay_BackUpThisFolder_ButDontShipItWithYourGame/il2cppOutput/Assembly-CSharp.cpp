@@ -458,8 +458,6 @@ struct InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 // UnityEngine.UI.LayoutElement
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
-// LineDisappearAtDistance
-struct LineDisappearAtDistance_tB17B84C32AD4C80F0A5DB307F0EE8F15C2953F43;
 // UnityEngine.LineRenderer
 struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
 // ARLocation.Location
@@ -1075,7 +1073,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisImage_tBC1D03F63B
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisParticleSystemRenderer_t576C271A363A738A6C576D4C6AEFB3B5B23E46C4_mDB29DD32DF46B9659262256BDBD5B4F1BB805023_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA_m85ECDE2ADA828F6DCB52B49189BFAA95B7D5D6C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisWorldBuilder_tA04B15938BE02CCFA9D3FB2DDC003E85674E58A4_m01A532A3B1AB0F879F178D3DA6DFC6B55BBA0863_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m0D8D0C82E13C9B64BC854FB1E45E02E60F1392CA_RuntimeMethod_var;
@@ -5372,11 +5369,6 @@ struct InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD  : public 
 	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___canvas_8;
 };
 
-// LineDisappearAtDistance
-struct LineDisappearAtDistance_tB17B84C32AD4C80F0A5DB307F0EE8F15C2953F43  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // ARLocation.MoveAlongPath
 struct MoveAlongPath_t7F72F07CA522F1EC34662641CA822F01D2195505  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7218,13 +7210,6 @@ inline MoveAlongPath_t7F72F07CA522F1EC34662641CA822F01D2195505* GameObject_GetCo
 }
 // System.Void ARLocation.MoveAlongPath::set_Speed(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveAlongPath_set_Speed_m4D200AD2238CF6A502B6B7281DA98E0F068B0024 (MoveAlongPath_t7F72F07CA522F1EC34662641CA822F01D2195505* __this, float ___value0, const RuntimeMethod* method) ;
-// T UnityEngine.Component::GetComponent<ARLocation.PlaceAtLocation>()
-inline PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* Component_GetComponent_TisPlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA_m85ECDE2ADA828F6DCB52B49189BFAA95B7D5D6C5 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
-{
-	return ((  PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
-}
-// System.Single ARLocation.PlaceAtLocation::get_SceneDistance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlaceAtLocation_get_SceneDistance_m2F312D524A13BE141AAACEB050920B733A709465 (PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* __this, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51 (String_t* ___name0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(T)
@@ -9686,66 +9671,6 @@ IL_00d5:
 }
 // System.Void InformationDisplayer::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InformationDisplayer__ctor_m814D656423913E85C0C9E3B98879203D62E7395A (InformationDisplayer_tD3AB675C5F2547FE6E5D0B8784D52FC35627C1CD* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void LineDisappearAtDistance::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineDisappearAtDistance_Update_mD6CD3FEA408CFAEDADC2CA0B822C2C13C941D052 (LineDisappearAtDistance_tB17B84C32AD4C80F0A5DB307F0EE8F15C2953F43* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA_m85ECDE2ADA828F6DCB52B49189BFAA95B7D5D6C5_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* V_0 = NULL;
-	{
-		// var placeAtLocation = GetComponent<PlaceAtLocation>();
-		PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* L_0;
-		L_0 = Component_GetComponent_TisPlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA_m85ECDE2ADA828F6DCB52B49189BFAA95B7D5D6C5(__this, Component_GetComponent_TisPlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA_m85ECDE2ADA828F6DCB52B49189BFAA95B7D5D6C5_RuntimeMethod_var);
-		V_0 = L_0;
-		// var distance = placeAtLocation.SceneDistance;
-		PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* L_1 = V_0;
-		NullCheck(L_1);
-		float L_2;
-		L_2 = PlaceAtLocation_get_SceneDistance_m2F312D524A13BE141AAACEB050920B733A709465(L_1, NULL);
-		// if(distance != 50.0f)
-		if ((((float)L_2) == ((float)(50.0f))))
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		// placeAtLocation.DebugMode = false;
-		PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* L_3 = V_0;
-		NullCheck(L_3);
-		L_3->___DebugMode_6 = (bool)0;
-		return;
-	}
-
-IL_001c:
-	{
-		// placeAtLocation.DebugMode = true;
-		PlaceAtLocation_t90F2676284F7C29CF70C564D281446A808D20DBA* L_4 = V_0;
-		NullCheck(L_4);
-		L_4->___DebugMode_6 = (bool)1;
-		// }
-		return;
-	}
-}
-// System.Void LineDisappearAtDistance::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineDisappearAtDistance__ctor_m4451E9AF4DE7237CE1C89984EA8F77B5AEC14095 (LineDisappearAtDistance_tB17B84C32AD4C80F0A5DB307F0EE8F15C2953F43* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
