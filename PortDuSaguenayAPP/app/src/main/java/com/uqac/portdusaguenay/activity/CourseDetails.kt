@@ -24,7 +24,6 @@ import kotlin.collections.ArrayList
 class CourseDetails : AppCompatActivity() {
     private lateinit var db: FirebaseFirestore
 
-    private lateinit var joinButton: Button
 
     private lateinit var course: Course
 
@@ -62,8 +61,6 @@ class CourseDetails : AppCompatActivity() {
                 course = result.first().toObject()
                 courseId = result.first().id
                 fillInformation()
-
-                checkGroups()
             }
             .addOnFailureListener { exception ->
                 Log.d(ContentValues.TAG, "Error getting documents: ", exception)
@@ -94,27 +91,9 @@ class CourseDetails : AppCompatActivity() {
         db.collection("Course").document(courseId).update("groups", course.groups)
         println("Course Joined: " + course.name)
 
-        joinButton.isEnabled = false
-        joinButton.text = "Course Joined"
-        joinButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null)
-
     }
 
-    private fun checkGroups() {
-        if (course.groups != null) {
-            for (group in course.groups!!) {
-                if (group.participants != null) {
-                    if (group.participants!!.contains(Firebase.auth.currentUser?.uid)) {
-                        joinButton.isEnabled = false
-                        joinButton.text = "Course Joined"
-                        joinButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null)
 
-                    }
-                }
-
-            }
-        }
-    }
 
 
     private fun showErrorMessage() {
