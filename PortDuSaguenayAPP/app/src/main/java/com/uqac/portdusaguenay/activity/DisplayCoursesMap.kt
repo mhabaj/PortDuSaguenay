@@ -18,6 +18,7 @@ import android.view.Window
 import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
@@ -225,6 +226,9 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
         courseButton!!.visibility = View.VISIBLE
         //findViewById<Button>(R.id.ARInfo).setText("Point selectionné: " + courses[circle]?.name)
         selectedCourse = courses[circle]!!
+
+        findViewById<TextView>(R.id.ARName).visibility = View.VISIBLE
+        findViewById<TextView>(R.id.ARName).text = courses[circle]?.name
     }
 
     fun selectCourse(view: android.view.View) {

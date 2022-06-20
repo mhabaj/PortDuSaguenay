@@ -13,6 +13,7 @@
         android:layout_height="match_parent" />
 
     <LinearLayout
+        android:id="@+id/searchBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -43,6 +44,26 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/ARName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/searchBar"
+        android:text="Nom de Point"
+
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#FFFFFF"
+        android:textColor="#00AEF0"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+
+        android:visibility="gone"
+
+        />
+
 
 
 
