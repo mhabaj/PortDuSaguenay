@@ -30,11 +30,6 @@ class CourseDetails : AppCompatActivity() {
 
     private lateinit var courseName: TextView
     private lateinit var courseDescription: TextView
-    private lateinit var courseInterests: TextView
-    private lateinit var courseDate: TextView
-    private lateinit var courseTime: TextView
-    private lateinit var courseDifficulty: TextView
-    private lateinit var courseRating: TextView
 
     private lateinit var courseId: String
 
@@ -43,8 +38,6 @@ class CourseDetails : AppCompatActivity() {
         setContentView(R.layout.detail_course)
 
         val selectedCourseName = intent.extras!!["courseName"] as String
-
-        joinButton = findViewById(R.id.joinBox)
 
         getCourseFromName(selectedCourseName)
 
@@ -58,16 +51,6 @@ class CourseDetails : AppCompatActivity() {
         courseDescription.text = course.miscInfo?.description
         //courseDate.hint = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE)
 
-        courseDifficulty = findViewById(R.id.courseDifficultyView)
-        when (course.miscInfo?.difficulty) {
-            1 -> courseDifficulty.text = "Difficulty: Easy"
-            2 -> courseDifficulty.text = "Difficulty: Medium"
-            3 -> courseDifficulty.text = "Difficulty: Hard"
-        }
-
-
-        courseRating = findViewById(R.id.courseRating)
-        courseRating.text = "%.1f".format(course.miscInfo?.rating)
     }
 
     private fun getCourseFromName(name: String){

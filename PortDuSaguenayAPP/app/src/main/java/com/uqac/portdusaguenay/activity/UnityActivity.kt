@@ -52,7 +52,7 @@ class UnityActivity : UnityPlayerActivity() {
 
         run {
             val myButton = Button(this)
-            myButton.text = "Retour Ã  la carte"
+            myButton.text = "Retour à la carte"
             myButton.x = 800f
             myButton.y = 1800f
             myButton.setOnClickListener { this.finish()
