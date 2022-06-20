@@ -12,6 +12,7 @@ import android.location.Location
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.view.Window
 import android.view.inputmethod.InputMethodManager
@@ -21,6 +22,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.app.ActivityCompat
+import androidx.core.view.GravityCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -28,11 +30,15 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
+import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
+import com.uqac.portdusaguenay.MainActivity
 import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.model.Course
+import kotlinx.android.synthetic.main.activity_display_courses_map.*
 import java.io.IOException
 import kotlin.concurrent.thread
 
@@ -265,7 +271,7 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
             if (location.distanceTo(courseLocation) < 15) {
                 startARButton!!.text = "Activer la Réalité Augmentée"
                 startARButton!!.visibility = View.VISIBLE
-                courseButton!!.visibility = View.GONE
+                // courseButton!!.visibility = View.GONE
 
                 isWithinAR = true
             }
@@ -276,5 +282,17 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
             }
         }
     }
+
+    fun LogOut(view: View?) {
+        FirebaseAuth.getInstance().signOut()
+        val intent = Intent(applicationContext, MainActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
+    fun openSettings(view: View) {
+        startActivity(Intent(this, Settings::class.java))
+    }
+
 
 }

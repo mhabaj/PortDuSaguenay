@@ -79,7 +79,7 @@ class LogIn : AppCompatActivity() {
         f_auth.signInWithEmailAndPassword(email,password).addOnCompleteListener { taskId ->
             if(taskId.isSuccessful) {
                 //m_Resultat?.text = "Logged in Succesfully ! "
-                startActivity(Intent(applicationContext, Accueil::class.java))
+                startActivity(Intent(applicationContext, DisplayCoursesMap::class.java))
             }
             else {
                 Toast.makeText(this, "Error : "+ taskId.exception!!.message, Toast.LENGTH_SHORT).show()

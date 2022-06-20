@@ -12,16 +12,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!--search view to search our location-->
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchViewLocation"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#FFFFFF"
-        android:elevation="5dp"
-        app:iconifiedByDefault="false"
-        app:queryHint="Search Location"/>
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+
+            android:layout_gravity="center"
+            android:background="@drawable/settings2"
+            android:backgroundTint="#333333"
+            android:onClick="openSettings"/>
+
+
+        <!--search view to search our location-->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:elevation="5dp"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search Location" />
+
+
+    </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,22 +52,6 @@
         android:orientation="vertical"
         android:layout_alignBottom="@id/map">
 
-        <Button
-            android:id="@+id/confirm_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/ic_bg_button"
-            app:backgroundTint="#00AEF0"
-            android:onClick="startARActivity"
-            android:text="Activer Réalité Augmentée"
-
-            android:visibility="gone"/>
 
         <LinearLayout
             android:id="@+id/ARInfoButtons"
@@ -84,12 +91,23 @@
                 android:text="Itinéraire"
                 />
 
-
-
         </LinearLayout>
 
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
 
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_bg_button"
+            app:backgroundTint="#00AEF0"
+            android:onClick="startARActivity"
+            android:text="Activer Réalité Augmentée"
+
+            android:visibility="gone"/>
     </LinearLayout>
-
 </RelativeLayout>

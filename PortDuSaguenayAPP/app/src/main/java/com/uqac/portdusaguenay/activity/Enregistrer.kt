@@ -84,7 +84,7 @@ class Enregistrer : AppCompatActivity() {
                                 .document(Firebase.auth.currentUser?.uid.toString()).set(user)
                                 .addOnSuccessListener {
 
-                                    startActivity(Intent(applicationContext, Accueil::class.java))
+                                    startActivity(Intent(applicationContext, DisplayCoursesMap::class.java))
                                 }
                                 .addOnFailureListener { e ->
                                     Log.w(TAG, "Error creating new User", e)

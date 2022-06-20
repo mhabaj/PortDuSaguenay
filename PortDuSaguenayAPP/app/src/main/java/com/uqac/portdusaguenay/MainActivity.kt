@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import com.google.firebase.auth.FirebaseAuth
 import com.uqac.portdusaguenay.activity.Accueil
+import com.uqac.portdusaguenay.activity.DisplayCoursesMap
 
 import com.uqac.portdusaguenay.activity.Enregistrer
 import com.uqac.portdusaguenay.activity.LogIn
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         var f_auth = FirebaseAuth.getInstance()
 
         if(f_auth.currentUser != null) {
-            startActivity(Intent(applicationContext, Accueil::class.java))
+            startActivity(Intent(applicationContext, DisplayCoursesMap::class.java))
             //finish()
         }
         setContentView(R.layout.activity_main)
