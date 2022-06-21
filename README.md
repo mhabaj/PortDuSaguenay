@@ -3,12 +3,11 @@
 ## Équipe
 
 - ALHABAJ Mahmod
-- PELTIER Ilona
 - RAZAVET Romain
 - ANICA Sean
 - EL KHATIBI EL HANANA Laila
 - MAGGOUH Naoufal
-
+- PELTIER Ilona
 **Enseignant encadrant** : M. Bob-Antoine Jerry Ménélas
 
 ## aperçu de l'application
@@ -29,3 +28,10 @@ et effectuer les activités proposées par notre application.
 ## Spécifications
 
 **Développé sous : Unity 2021.3.1f1**
+/!\/!\ ATTENTION A BIEN UTILISER LE SDK ET NDK COMPATIBLES AVEC LA VERSION D'UNITY INDIQUEE /!\/!\
+
+Version ndk: android-ndk-r21d à installer dans : 
+C\:\Users\[NOM_USER]\AppData\Local\Android\Sdk\ndk\android-ndk-r21d
+
+Chemin à indiquer dans local.proprieties dans android studio SI erreur NDK not found: 
+ndk.dir=C\:\\Users\\[NOM_USER]\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21d
