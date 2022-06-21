@@ -11,14 +11,13 @@ import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.uqac.portdusaguenay.ForgotPasswordDialogFragement
-import com.uqac.portdusaguenay.activity.Accueil
 import com.uqac.portdusaguenay.activity.Enregistrer
 import com.uqac.portdusaguenay.R
 
 class LogIn : AppCompatActivity() {
     private var m_email: EditText? = null
     private var m_password: EditText? = null
-    private val TAG = "MyActivity"
+    private val TAG = "Connexion"
     private var progress_bar: ProgressBar? = null
 
     private var m_Resultat: TextView? = null
@@ -59,15 +58,15 @@ class LogIn : AppCompatActivity() {
         var password = m_password?.text.toString().trim()
 
         if(TextUtils.isEmpty(email)){
-            m_email?.error = "Email is Required."
+            m_email?.error = "Email requis."
             return
         }
         if(TextUtils.isEmpty(password)){
-            m_password?.error = "Password is Required."
+            m_password?.error = "Mot de passe requis."
             return
         }
         if(m_password?.length()!! <6 ){
-            m_password?.error = "Password must have at least 6 characters."
+            m_password?.error = "Le mot de passe de 6 caractères minimum."
             return
         }
 
@@ -82,7 +81,7 @@ class LogIn : AppCompatActivity() {
                 startActivity(Intent(applicationContext, DisplayCoursesMap::class.java))
             }
             else {
-                Toast.makeText(this, "Error : "+ taskId.exception!!.message, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Erreur : "+ taskId.exception!!.message, Toast.LENGTH_SHORT).show()
 
                // m_Resultat?.text = "Error : "+ taskId.exception
                 progress_bar?.visibility = View.INVISIBLE

@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 30
+        minSdkVersion 26
         targetSdkVersion 30
         applicationId 'com.uqac.PortDuSaguenay'
         ndk {

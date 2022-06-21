@@ -12,14 +12,16 @@ import com.google.firebase.firestore.*
 import com.uqac.portdusaguenay.Functions
 import com.uqac.portdusaguenay.R
 import com.uqac.portdusaguenay.model.Course
-import com.uqac.portdusaguenay.activity.Accueil
 import com.uqac.portdusaguenay.activity.MyAdapter
 import kotlinx.android.synthetic.main.activity_recherche.*
 import kotlinx.android.synthetic.main.create_course.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 
-
+/*
+    Class non utilisée: sert à effectuer une recherche de parcours/ "Course" dans la base de données pour
+    des futures fonctionnalitées.
+ */
 class Recherche : AppCompatActivity() {
     private lateinit var db: FirebaseFirestore
     private lateinit var courseArraylist: ArrayList<Course>
@@ -69,7 +71,7 @@ class Recherche : AppCompatActivity() {
     }
 
     fun retour(view: View){
-        val intent = Intent(this, Accueil::class.java)
+        val intent = Intent(this, DisplayCoursesMap::class.java)
         startActivity(intent)
     }
 

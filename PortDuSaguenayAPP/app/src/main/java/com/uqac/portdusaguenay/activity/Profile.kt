@@ -1,4 +1,4 @@
-package com.uqac.geoexplore.activity
+package com.uqac.portdusaguenay.activity
 
 import android.app.Activity
 import android.content.ContentValues.TAG
@@ -21,13 +21,15 @@ import com.google.firebase.storage.FirebaseStorage
 import com.squareup.picasso.Picasso
 import com.uqac.portdusaguenay.Functions
 import com.uqac.portdusaguenay.R
-import com.uqac.portdusaguenay.activity.Settings
 import com.uqac.portdusaguenay.model.User
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 import java.util.*
 
+/*
+    Class non utilisée. Futur fonctionnalitée de profil utilisateur.
+ */
 
 class Profile : AppCompatActivity() {
     var user: User? = null
@@ -79,7 +81,7 @@ class Profile : AppCompatActivity() {
 
         if (requestCode == 0 && resultCode == Activity.RESULT_OK && data != null) {
             // proceed and check what the selected image was....
-            Log.d(TAG, "Photo was selected")
+            Log.d(TAG, "Photo selectionnée")
 
             selectedPhotoUri = data.data
 

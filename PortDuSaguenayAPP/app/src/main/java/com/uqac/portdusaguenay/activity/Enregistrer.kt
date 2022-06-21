@@ -21,7 +21,7 @@ class Enregistrer : AppCompatActivity() {
     private  var m_name :EditText? = null
     private var m_email:EditText? = null
     private var m_password: EditText? = null
-    private val TAG = "MyActivity"
+    private val TAG = "Enregistrer"
     private var progress_bar : ProgressBar? =null
     private var m_Resultat:TextView? = null
 
@@ -50,15 +50,15 @@ class Enregistrer : AppCompatActivity() {
         var password = m_password?.text.toString().trim()
 
         if(TextUtils.isEmpty(email)){
-            m_email?.setError("Email is Required.")
+            m_email?.setError("Email requis.")
             return
         }
         if(TextUtils.isEmpty(password)){
-            m_password?.setError("Password is Required.")
+            m_password?.setError("Mot de passe requis.")
             return
         }
         if(m_password?.length()!! <6 ){
-            m_password?.setError("Password must have at least 6 characters.")
+            m_password?.setError("Le mot de passe doit avoir au moins 6 caractères.")
             return
         }
 
@@ -69,7 +69,7 @@ class Enregistrer : AppCompatActivity() {
 
         f_auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener { taskId ->
             if(taskId.isSuccessful) {
-                m_Resultat?.setText("User Created ")
+                m_Resultat?.setText("Utilisateur enregistré")
 
                 val dbUser = Firebase.auth.currentUser
 
@@ -87,7 +87,7 @@ class Enregistrer : AppCompatActivity() {
                                     startActivity(Intent(applicationContext, DisplayCoursesMap::class.java))
                                 }
                                 .addOnFailureListener { e ->
-                                    Log.w(TAG, "Error creating new User", e)
+                                    Log.w(TAG, "Erreur création de l'utilisateur: ", e)
                                 }
                         }
                     }
@@ -95,7 +95,7 @@ class Enregistrer : AppCompatActivity() {
             }
             else {
                 //m_Resultat?.setText("Error !!"+ taskId.exception)
-                Toast.makeText(this, "Error : "+ taskId.exception!!.message, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Erreur : "+ taskId.exception!!.message, Toast.LENGTH_SHORT).show()
 
                 progress_bar?.setVisibility(View.INVISIBLE)
             }

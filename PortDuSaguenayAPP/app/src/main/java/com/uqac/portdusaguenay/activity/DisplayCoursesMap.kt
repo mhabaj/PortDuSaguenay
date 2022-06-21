@@ -273,7 +273,7 @@ class DisplayCoursesMap : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnM
 
             // Check if user is in a 10 meters radius of a AR point
             if (location.distanceTo(courseLocation) < 15) {
-                startARButton!!.text = "Activer la Réalité Augmentée"
+                startARButton!!.text = "Activer le mode Réalitée Augmentée"
                 startARButton!!.visibility = View.VISIBLE
                 // courseButton!!.visibility = View.GONE
 

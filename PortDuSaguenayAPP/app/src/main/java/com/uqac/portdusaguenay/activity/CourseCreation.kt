@@ -97,7 +97,7 @@ class CourseCreation : AppCompatActivity() {
                 println("Course créée : " + newCourse.name)
 
                 Toast.makeText(applicationContext, "Course successfully created", Toast.LENGTH_LONG).show()
-                startActivity(Intent(this, Accueil::class.java))
+                startActivity(Intent(this, DisplayCoursesMap::class.java))
             }
 
 

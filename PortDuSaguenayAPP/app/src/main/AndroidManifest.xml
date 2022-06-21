@@ -34,9 +34,7 @@
         <activity
             android:name=".activity.Settings"
             android:exported="true" />
-        <activity
-            android:name=".activity.Accueil"
-            android:exported="true" />
+
         <activity
             android:name=".activity.Recherche"
             android:exported="true" />

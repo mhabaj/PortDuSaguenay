@@ -4,7 +4,7 @@
     package="com.unity3d.player" >
 
     <uses-sdk
-        android:minSdkVersion="30"
+        android:minSdkVersion="26"
         android:targetSdkVersion="30" />
 
     <uses-feature android:glEsVersion="0x00020000" />
@@ -82,11 +82,11 @@
             android:name="notch.config"
             android:value="portrait|landscape" />
         <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
-        <meta-data
             android:name="unityplayer.SkipPermissionsDialog"
             android:value="true" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
     </application>
 
 </manifest>

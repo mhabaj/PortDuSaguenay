@@ -6,7 +6,6 @@ import android.os.Bundle
 
 import android.view.View
 import com.google.firebase.auth.FirebaseAuth
-import com.uqac.portdusaguenay.activity.Accueil
 import com.uqac.portdusaguenay.activity.DisplayCoursesMap
 
 import com.uqac.portdusaguenay.activity.Enregistrer

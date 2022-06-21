@@ -10,6 +10,10 @@ import com.uqac.portdusaguenay.model.Group
 
 import kotlinx.coroutines.tasks.await
 
+/*
+    Utility functions to retrieve data from firebase.
+ */
+
 class Functions {
     companion object {
         suspend fun getUserFromUid(uidToGet: String): User? {

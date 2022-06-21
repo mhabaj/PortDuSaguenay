@@ -73,18 +73,18 @@ ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\
 		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 	android:name
 		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
-meta-data#com.google.ar.core
-ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-77
-	android:value
-		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:50-74
-	android:name
-		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-49
 meta-data#unityplayer.SkipPermissionsDialog
-ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-88
+ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-88
 	android:value
-		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:65-85
+		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:65-85
 	android:name
-		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-64
+meta-data#com.google.ar.core
+ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-77
+	android:value
+		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:50-74
+	android:name
+		ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-49
 uses-feature#0x00020000
 ADDED from D:\Drive\Backup\backupUSB2GoNoir\FAC\5emeAnneeUQAC\ProjetPortChicout\PortDuSaguenay\PortDuSaguenayAPP\AndroidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-52
 	android:glEsVersion

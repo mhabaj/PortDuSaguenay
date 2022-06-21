@@ -1,2 +1,0 @@
-com/uqac/PortDuSaguenay/BuildConfig.java
- com.uqac.PortDuSaguenay.BuildConfig

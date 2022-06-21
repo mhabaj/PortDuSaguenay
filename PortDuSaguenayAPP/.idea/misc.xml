@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_accueil.xml" value="0.190625" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_display_courses_map.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_enregistrer.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_log_in.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_main.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_new_message.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_profile.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_recherche.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_settings2.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/course.xml" value="0.12760416666666666" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/course_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/create_course.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/detail_course.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/difficulty_spinner_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/difficulty_spinner_selected_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/Drive/Backup/backupUSB2GoNoir/FAC/5emeAnneeUQAC/ProjetPortChicout/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/fragment_dialog_forgot_pass.xml" value="0.15260416666666668" />
         <entry key="..\:/Users/romai/AndroidStudioProjects/PortDuSaguenay/app/src/main/res/layout/activity_accueil.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/romai/AndroidStudioProjects/PortDuSaguenay/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/romai/UQAC/Projet AR/PortDuSaguenay/PortDuSaguenayAPP/app/src/main/res/layout/activity_accueil.xml" value="0.28940217391304346" />
