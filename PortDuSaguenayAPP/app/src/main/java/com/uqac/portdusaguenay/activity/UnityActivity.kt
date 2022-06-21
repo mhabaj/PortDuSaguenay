@@ -52,13 +52,13 @@ class UnityActivity : UnityPlayerActivity() {
 
         run {
             val myButton = Button(this)
-            myButton.text = "Retour à la carte"
-            myButton.x = 800f
-            myButton.y = 1800f
+            myButton.text = "Retour à la carte\n"
+            myButton.x = 50f
+            myButton.y = 0f
             myButton.setOnClickListener { this.finish()
                 startActivity(Intent(this,DisplayCoursesMap::class.java))
             }
-            layout.addView(myButton, 300, 200)
+            layout.addView(myButton, 400, 200)
         }
     }
 }
