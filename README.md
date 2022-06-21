@@ -1,6 +1,6 @@
-# *Projet de trimestre d'été de l'uqac : PortDuSaguenay*
-# *Développé dans le cadre du cours 8INF950 : Sujets spéciaux*
-## Équipe
+# *Projet de trimestre d'Ã©tÃ© de l'uqac : PortDuSaguenay*
+# *DÃ©veloppÃ© dans le cadre du cours 8INF950 : Sujets spÃ©ciaux*
+## Ã‰quipe
 
 - ALHABAJ Mahmod
 - RAZAVET Romain
@@ -8,30 +8,33 @@
 - EL KHATIBI EL HANANA Laila
 - MAGGOUH Naoufal
 - PELTIER Ilona
-**Enseignant encadrant** : M. Bob-Antoine Jerry Ménélas
+**Enseignant encadrant** : M. Bob-Antoine Jerry MÃ©nÃ©las
 
-## aperçu de l'application
+## aperÃ§u de l'application
 
-```insérer des screens de l'application```
+```insÃ©rer des screens de l'application```
 
 ## Principe de l'application
 
-Le but de notre application de réalité augmentée est de faire connaître l'importance du port de Chicoutimi aux
-gens à l'aide de l'une des technologies les plus utilisées du marché : le smartphone. 
-Lorsque l'utilisateur se trouve au port, il verra des éléments en 3D se superposer sur ce que capture sa
-caméra (des bateaux au milieu des réservoirs, des travailleurs, un train passant sur un chemin de fer).
-L'utilisateur sera invité à interagir avec différents éléments du port (marchandises, cargaisons, etc...)
-et effectuer les activités proposées par notre application.
+Le but de notre application de rÃ©alitÃ© augmentÃ©e est de faire connaÃ®tre l'importance du port de Chicoutimi aux
+gens Ã  l'aide de l'une des technologies les plus utilisÃ©es du marchÃ© : le smartphone. 
+Lorsque l'utilisateur se trouve au port, il verra des Ã©lÃ©ments en 3D se superposer sur ce que capture sa
+camÃ©ra (des bateaux au milieu des rÃ©servoirs, des travailleurs, un train passant sur un chemin de fer).
+L'utilisateur sera invitÃ© Ã  interagir avec diffÃ©rents Ã©lÃ©ments du port (marchandises, cargaisons, etc...)
+et effectuer les activitÃ©s proposÃ©es par notre application.
 
 [Contexte de l'application](https://docs.google.com/document/d/1pwcEbQwK07xHl-ZD4HcTFjl_ZeTIopkiK4terzdiKPg/edit?pli=1)
 
-## Spécifications
+## SpÃ©cifications
 
-**Développé sous : Unity 2021.3.1f1**
+**DÃ©veloppÃ© sous : Unity 2021.3.1f1**
 /!\/!\ ATTENTION A BIEN UTILISER LE SDK ET NDK COMPATIBLES AVEC LA VERSION D'UNITY INDIQUEE /!\/!\
 
-Version ndk: android-ndk-r21d à installer dans : 
+Version ndk: android-ndk-r21d Ã  installer dans : 
 C\:\Users\[NOM_USER]\AppData\Local\Android\Sdk\ndk\android-ndk-r21d
 
-Chemin à indiquer dans local.proprieties dans android studio SI erreur NDK not found: 
+Chemin Ã  indiquer dans local.proprieties dans android studio SI erreur NDK not found: 
 ndk.dir=C\:\\Users\\[NOM_USER]\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21d
+
+Vuforia engine:
+com.ptc.vuforia.engine-10.7.2.tgz
