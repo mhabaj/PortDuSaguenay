@@ -1,0 +1,78 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "arcore_client"
+  }
+  digests {
+    sha256: "\206.\326\330iF5]O$U\341KI\301Z\361[zT\276]W\215S\355\234\210\255d1\033"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityARCore"
+  }
+  digests {
+    sha256: "\016)\241H\364h{A\326\233g\232P8=\234\025\037\344X\2553\355\321\024\020\331\021\226\357\376\t"
+  }
+}
+library {
+  maven_library {
+    artifactId: "VuforiaEngine"
+  }
+  digests {
+    sha256: "\3112A\264\313\212\347\2513\254\341\030N\211E\267\266d\001AuW?\016#B\324\206\210?\252\033"
+  }
+}
+library {
+  maven_library {
+    artifactId: "ARPresto"
+  }
+  digests {
+    sha256: "\001\236\200\256E\226P\241\272\317\374)\306\f1k\002\377\370O\002V\211\361\354p\016\344\361\177~f"
+  }
+}
+library {
+  maven_library {
+    artifactId: "unityandroidpermissions"
+  }
+  digests {
+    sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  digests {
+    sha256: "F\370\a\233\2532(\317FN\3476\300>fq\030RCA\312\331$\220\336M?C\311\257\314\307"
+  }
+}
+library {
+  digests {
+    sha256: "K}\333Y\251\206\177-\t%\377Po/\037\321\235r\260\227s\"\177\302\206\020\311\rZG\204\r"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 5
+  dependency_index: 6
+}

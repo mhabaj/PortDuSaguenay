@@ -902,7 +902,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral17FC0954E2BA29F862AC82AAF54615D8CF0A5190
 IL2CPP_EXTERN_C String_t* _stringLiteral1ACED21DA2103B489DA8E47436721C94C58D69DD;
 IL2CPP_EXTERN_C String_t* _stringLiteral1ADBAD5C39212B2BB6ABD0C1A214DB7EAD5A217F;
 IL2CPP_EXTERN_C String_t* _stringLiteral2130FB49D4CB4A6C571BDE45991342B2F508A1D7;
-IL2CPP_EXTERN_C String_t* _stringLiteral224CCAD81FF908EFA3EFBCF0D66F282C34A9D6C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral22DCEF3943667280535BCD2DC335816942185F65;
 IL2CPP_EXTERN_C String_t* _stringLiteral230099EEF177C2EBE18F929ED383BE96DEEE2A23;
 IL2CPP_EXTERN_C String_t* _stringLiteral23DF9991B71463C240582D176E347E7E47AEFF5A;
@@ -931,6 +930,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral48A02C703E63B6E7B99A8A70A6AD0F6E728DEB50
 IL2CPP_EXTERN_C String_t* _stringLiteral491DA95D710C1F9CBFF5C51C5A0C0AD9D77103FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral49D1D95FB0E8E68896AD14F45B202BDADD16388D;
 IL2CPP_EXTERN_C String_t* _stringLiteral49D223B632F837A87F1BAA45C3016999C8DB7505;
+IL2CPP_EXTERN_C String_t* _stringLiteral49DE1C2ACCE3C78DEE8BE30132240D794FBA0062;
 IL2CPP_EXTERN_C String_t* _stringLiteral4AF1289B90E5F556762634E4CEBD0D7049C7CC30;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B805E85BA5CA9EF7718945308872F9D0EE02CED;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D0E3C796159BC2D76CA05F16C53CE0213D101C7;
@@ -9260,14 +9260,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnterOnApp_Start_mC8FFB0184C8D4B0304CCDB
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral224CCAD81FF908EFA3EFBCF0D66F282C34A9D6C9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49DE1C2ACCE3C78DEE8BE30132240D794FBA0062);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// openingMessage.text = "Bienvenu dans le mode r?alit? augment?e !";
+		// openingMessage.text = "Bienvenue dans le mode r?alit?e augment?e. \n Soyez vigilent ? votre environnement! ";
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___openingMessage_4;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, _stringLiteral224CCAD81FF908EFA3EFBCF0D66F282C34A9D6C9);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, _stringLiteral49DE1C2ACCE3C78DEE8BE30132240D794FBA0062);
 		// StartCoroutine(onCoroutine());
 		RuntimeObject* L_1;
 		L_1 = EnterOnApp_onCoroutine_m1A3241DF2297D628A84F48BFDB36B16C63B1C297(__this, NULL);

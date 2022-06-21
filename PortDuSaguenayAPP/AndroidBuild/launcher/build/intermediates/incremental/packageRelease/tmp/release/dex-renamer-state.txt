@@ -1,0 +1,4 @@
+#Tue Jun 21 16:53:40 EDT 2022
+base.0=C\:\\Users\\mhaba\\Desktop\\AndroidBuildFinal\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
