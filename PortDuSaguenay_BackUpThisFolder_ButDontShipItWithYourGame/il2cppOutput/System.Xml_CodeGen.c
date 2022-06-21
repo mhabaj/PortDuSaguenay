@@ -1110,4167 +1110,4169 @@ extern void XmlAttributeCollection_RemoveAt_m583E3956863E0E138940CEA8231B8491743
 extern void XmlAttributeCollection_RemoveAll_mF68383A7E9C4F688F73A27EDCBC926799E66DE47 (void);
 // 0x00000256 System.Void System.Xml.XmlAttributeCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void XmlAttributeCollection_System_Collections_ICollection_CopyTo_mCE6F6C659719B2C8B224A881784DC1773895ACCE (void);
-// 0x00000257 System.Object System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_SyncRoot()
+// 0x00000257 System.Boolean System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_IsSynchronized()
+extern void XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m3622FAFE54ADE051023F578B1EF1D0D0AE4C7B74 (void);
+// 0x00000258 System.Object System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_SyncRoot()
 extern void XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m3BC4AC72765846A98383A5FF08A7D747F5E588BC (void);
-// 0x00000258 System.Int32 System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_Count()
+// 0x00000259 System.Int32 System.Xml.XmlAttributeCollection::System.Collections.ICollection.get_Count()
 extern void XmlAttributeCollection_System_Collections_ICollection_get_Count_m70C89B8FC98B2EA13CFA2CBA59BE40723D8E8014 (void);
-// 0x00000259 System.Xml.XmlNode System.Xml.XmlAttributeCollection::AddNode(System.Xml.XmlNode)
+// 0x0000025A System.Xml.XmlNode System.Xml.XmlAttributeCollection::AddNode(System.Xml.XmlNode)
 extern void XmlAttributeCollection_AddNode_mB24F8CE4497E6991D673ADE92643A3B943FA1732 (void);
-// 0x0000025A System.Xml.XmlNode System.Xml.XmlAttributeCollection::InsertNodeAt(System.Int32,System.Xml.XmlNode)
+// 0x0000025B System.Xml.XmlNode System.Xml.XmlAttributeCollection::InsertNodeAt(System.Int32,System.Xml.XmlNode)
 extern void XmlAttributeCollection_InsertNodeAt_mDF6A4A42AEF430CFCFB98A2667F5F24883872BE8 (void);
-// 0x0000025B System.Xml.XmlNode System.Xml.XmlAttributeCollection::RemoveNodeAt(System.Int32)
+// 0x0000025C System.Xml.XmlNode System.Xml.XmlAttributeCollection::RemoveNodeAt(System.Int32)
 extern void XmlAttributeCollection_RemoveNodeAt_m8F9E6BC143D009DBC4D1BF87B60CB78AE27DD15A (void);
-// 0x0000025C System.Void System.Xml.XmlAttributeCollection::Detach(System.Xml.XmlAttribute)
+// 0x0000025D System.Void System.Xml.XmlAttributeCollection::Detach(System.Xml.XmlAttribute)
 extern void XmlAttributeCollection_Detach_m1CF27E782F026A299CDBFB3CFCA08F4B615DF4B0 (void);
-// 0x0000025D System.Void System.Xml.XmlAttributeCollection::InsertParentIntoElementIdAttrMap(System.Xml.XmlAttribute)
+// 0x0000025E System.Void System.Xml.XmlAttributeCollection::InsertParentIntoElementIdAttrMap(System.Xml.XmlAttribute)
 extern void XmlAttributeCollection_InsertParentIntoElementIdAttrMap_mE1B11EE0246D167AA4CB81F8BC7C0D5C00DFFBB9 (void);
-// 0x0000025E System.Void System.Xml.XmlAttributeCollection::RemoveParentFromElementIdAttrMap(System.Xml.XmlAttribute)
+// 0x0000025F System.Void System.Xml.XmlAttributeCollection::RemoveParentFromElementIdAttrMap(System.Xml.XmlAttribute)
 extern void XmlAttributeCollection_RemoveParentFromElementIdAttrMap_m40FD15B914F888F0EB42B6E35AD9DD95BE5C28BE (void);
-// 0x0000025F System.Int32 System.Xml.XmlAttributeCollection::RemoveDuplicateAttribute(System.Xml.XmlAttribute)
+// 0x00000260 System.Int32 System.Xml.XmlAttributeCollection::RemoveDuplicateAttribute(System.Xml.XmlAttribute)
 extern void XmlAttributeCollection_RemoveDuplicateAttribute_m22D27663607A8A33332FA60A4FE2A0D122AE3F48 (void);
-// 0x00000260 System.Boolean System.Xml.XmlAttributeCollection::PrepareParentInElementIdAttrMap(System.String,System.String)
+// 0x00000261 System.Boolean System.Xml.XmlAttributeCollection::PrepareParentInElementIdAttrMap(System.String,System.String)
 extern void XmlAttributeCollection_PrepareParentInElementIdAttrMap_m2E7B9A4254641950851BE28E96829160EEAABA04 (void);
-// 0x00000261 System.Void System.Xml.XmlAttributeCollection::ResetParentInElementIdAttrMap(System.String,System.String)
+// 0x00000262 System.Void System.Xml.XmlAttributeCollection::ResetParentInElementIdAttrMap(System.String,System.String)
 extern void XmlAttributeCollection_ResetParentInElementIdAttrMap_m9E06B8B75D985035BA0C9E43A398206B8E7F59FD (void);
-// 0x00000262 System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::InternalAppendAttribute(System.Xml.XmlAttribute)
+// 0x00000263 System.Xml.XmlAttribute System.Xml.XmlAttributeCollection::InternalAppendAttribute(System.Xml.XmlAttribute)
 extern void XmlAttributeCollection_InternalAppendAttribute_m4F65B9C065CD96947359F97184962FD480989BCB (void);
-// 0x00000263 System.Void System.Xml.XmlCDataSection::.ctor(System.String,System.Xml.XmlDocument)
+// 0x00000264 System.Void System.Xml.XmlCDataSection::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlCDataSection__ctor_m19CEC86EA9EFC8153A1293493E0B3E9EF89BE2BD (void);
-// 0x00000264 System.String System.Xml.XmlCDataSection::get_Name()
+// 0x00000265 System.String System.Xml.XmlCDataSection::get_Name()
 extern void XmlCDataSection_get_Name_m20246A785A9CF1B60411B52EFFCB47DC829E0D5F (void);
-// 0x00000265 System.String System.Xml.XmlCDataSection::get_LocalName()
+// 0x00000266 System.String System.Xml.XmlCDataSection::get_LocalName()
 extern void XmlCDataSection_get_LocalName_m3C561F75CCC3D9AE2486AC061D8ED599E4695C85 (void);
-// 0x00000266 System.Xml.XmlNodeType System.Xml.XmlCDataSection::get_NodeType()
+// 0x00000267 System.Xml.XmlNodeType System.Xml.XmlCDataSection::get_NodeType()
 extern void XmlCDataSection_get_NodeType_m212ECD27BC43FF5C814C7ADC32022343EA1D98A5 (void);
-// 0x00000267 System.Xml.XmlNode System.Xml.XmlCDataSection::get_ParentNode()
+// 0x00000268 System.Xml.XmlNode System.Xml.XmlCDataSection::get_ParentNode()
 extern void XmlCDataSection_get_ParentNode_m74E52E9B99CA53C276ACA1F3E8BB90087D02ED08 (void);
-// 0x00000268 System.Xml.XmlNode System.Xml.XmlCDataSection::CloneNode(System.Boolean)
+// 0x00000269 System.Xml.XmlNode System.Xml.XmlCDataSection::CloneNode(System.Boolean)
 extern void XmlCDataSection_CloneNode_mB7E9C5D6FFC36ACC06CFD9C52149365EF78C92EB (void);
-// 0x00000269 System.Void System.Xml.XmlCDataSection::WriteTo(System.Xml.XmlWriter)
+// 0x0000026A System.Void System.Xml.XmlCDataSection::WriteTo(System.Xml.XmlWriter)
 extern void XmlCDataSection_WriteTo_mF1BE529D49F7B1ECFA447D761801316168C91BD2 (void);
-// 0x0000026A System.Void System.Xml.XmlCDataSection::WriteContentTo(System.Xml.XmlWriter)
+// 0x0000026B System.Void System.Xml.XmlCDataSection::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlCDataSection_WriteContentTo_mCBC70D9EA59E48879AA7E184A6A1C26E1EC9A557 (void);
-// 0x0000026B System.Boolean System.Xml.XmlCDataSection::get_IsText()
+// 0x0000026C System.Boolean System.Xml.XmlCDataSection::get_IsText()
 extern void XmlCDataSection_get_IsText_mDE82E0C263A248CD8BB4302DE15F62B5B0FA933C (void);
-// 0x0000026C System.Void System.Xml.XmlCharacterData::.ctor(System.String,System.Xml.XmlDocument)
+// 0x0000026D System.Void System.Xml.XmlCharacterData::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlCharacterData__ctor_m8B84C0BD8FF7329F4C5190230FA2495D808B34AF (void);
-// 0x0000026D System.String System.Xml.XmlCharacterData::get_Value()
+// 0x0000026E System.String System.Xml.XmlCharacterData::get_Value()
 extern void XmlCharacterData_get_Value_mEAD3EB1F56BA6B8CBE30131AE088F213CBB1CEB6 (void);
-// 0x0000026E System.String System.Xml.XmlCharacterData::get_InnerText()
+// 0x0000026F System.String System.Xml.XmlCharacterData::get_InnerText()
 extern void XmlCharacterData_get_InnerText_mE89F9D4F4F9FBE0CD112A2A408E05253C60DBB41 (void);
-// 0x0000026F System.String System.Xml.XmlCharacterData::get_Data()
+// 0x00000270 System.String System.Xml.XmlCharacterData::get_Data()
 extern void XmlCharacterData_get_Data_m02C9E5790F331311CB810471F6475AC610962114 (void);
-// 0x00000270 System.Boolean System.Xml.XmlCharacterData::CheckOnData(System.String)
+// 0x00000271 System.Boolean System.Xml.XmlCharacterData::CheckOnData(System.String)
 extern void XmlCharacterData_CheckOnData_mD20947276C3B576599E015E4E19C0F2779862FBA (void);
-// 0x00000271 System.Void System.Xml.XmlChildEnumerator::.ctor(System.Xml.XmlNode)
+// 0x00000272 System.Void System.Xml.XmlChildEnumerator::.ctor(System.Xml.XmlNode)
 extern void XmlChildEnumerator__ctor_mC51E8B709CB2FCB079D44B180D5EF3DF9DBC3671 (void);
-// 0x00000272 System.Boolean System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.MoveNext()
+// 0x00000273 System.Boolean System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.MoveNext()
 extern void XmlChildEnumerator_System_Collections_IEnumerator_MoveNext_m9DF8D71649BD5173C9E9859A12E9E6777450A55D (void);
-// 0x00000273 System.Boolean System.Xml.XmlChildEnumerator::MoveNext()
+// 0x00000274 System.Boolean System.Xml.XmlChildEnumerator::MoveNext()
 extern void XmlChildEnumerator_MoveNext_m038B637C00AC0482CAD4E35995F2CF2AE8E3D556 (void);
-// 0x00000274 System.Void System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.Reset()
+// 0x00000275 System.Void System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.Reset()
 extern void XmlChildEnumerator_System_Collections_IEnumerator_Reset_m3E1BD7C0BE0E5576593A8C53ABC11109F275C4EF (void);
-// 0x00000275 System.Object System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000276 System.Object System.Xml.XmlChildEnumerator::System.Collections.IEnumerator.get_Current()
 extern void XmlChildEnumerator_System_Collections_IEnumerator_get_Current_mEC0FD9B4CD70461AD71D93AB21025A3D83AE0418 (void);
-// 0x00000276 System.Xml.XmlNode System.Xml.XmlChildEnumerator::get_Current()
+// 0x00000277 System.Xml.XmlNode System.Xml.XmlChildEnumerator::get_Current()
 extern void XmlChildEnumerator_get_Current_m149208EFC92AEDC42F82839102B3D5F017DA4C46 (void);
-// 0x00000277 System.Void System.Xml.XmlChildNodes::.ctor(System.Xml.XmlNode)
+// 0x00000278 System.Void System.Xml.XmlChildNodes::.ctor(System.Xml.XmlNode)
 extern void XmlChildNodes__ctor_mE297CC7E680D376A26339D6067C7E434271234B5 (void);
-// 0x00000278 System.Int32 System.Xml.XmlChildNodes::get_Count()
+// 0x00000279 System.Int32 System.Xml.XmlChildNodes::get_Count()
 extern void XmlChildNodes_get_Count_m0B5B57A96632585A0612CF84ADBCB45557F7D8E4 (void);
-// 0x00000279 System.Collections.IEnumerator System.Xml.XmlChildNodes::GetEnumerator()
+// 0x0000027A System.Collections.IEnumerator System.Xml.XmlChildNodes::GetEnumerator()
 extern void XmlChildNodes_GetEnumerator_m79ACE972A13482959B5E446059C899FC9988A81C (void);
-// 0x0000027A System.Void System.Xml.XmlComment::.ctor(System.String,System.Xml.XmlDocument)
+// 0x0000027B System.Void System.Xml.XmlComment::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlComment__ctor_m74C0E3B050353E2B32B5218DF01F8EB8874BD819 (void);
-// 0x0000027B System.String System.Xml.XmlComment::get_Name()
+// 0x0000027C System.String System.Xml.XmlComment::get_Name()
 extern void XmlComment_get_Name_mC7F751487F2DAE35E3142370436EA9B980F09D25 (void);
-// 0x0000027C System.String System.Xml.XmlComment::get_LocalName()
+// 0x0000027D System.String System.Xml.XmlComment::get_LocalName()
 extern void XmlComment_get_LocalName_m7F13D283B7982A359227153DB8FE16FB9E818D07 (void);
-// 0x0000027D System.Xml.XmlNodeType System.Xml.XmlComment::get_NodeType()
+// 0x0000027E System.Xml.XmlNodeType System.Xml.XmlComment::get_NodeType()
 extern void XmlComment_get_NodeType_m2D707F1D87A2739654AAE27A0373D30DC3C05422 (void);
-// 0x0000027E System.Xml.XmlNode System.Xml.XmlComment::CloneNode(System.Boolean)
+// 0x0000027F System.Xml.XmlNode System.Xml.XmlComment::CloneNode(System.Boolean)
 extern void XmlComment_CloneNode_m0497FF82E6523952EE0D5DF5E61F5DC9AC1400CD (void);
-// 0x0000027F System.Void System.Xml.XmlComment::WriteTo(System.Xml.XmlWriter)
+// 0x00000280 System.Void System.Xml.XmlComment::WriteTo(System.Xml.XmlWriter)
 extern void XmlComment_WriteTo_m0EFD8476B3C8FDB142408D3225BE5172BCEF3357 (void);
-// 0x00000280 System.Void System.Xml.XmlComment::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000281 System.Void System.Xml.XmlComment::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlComment_WriteContentTo_m2321FC33BF9A442FA9478240492C4292879774AD (void);
-// 0x00000281 System.Void System.Xml.XmlDeclaration::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x00000282 System.Void System.Xml.XmlDeclaration::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlDeclaration__ctor_mBAEA7104B9DA9F3DAE632B9063BF96BF6A40B116 (void);
-// 0x00000282 System.String System.Xml.XmlDeclaration::get_Version()
+// 0x00000283 System.String System.Xml.XmlDeclaration::get_Version()
 extern void XmlDeclaration_get_Version_m50261F1E46B645E69A99504F494FFD3BF915E633 (void);
-// 0x00000283 System.Void System.Xml.XmlDeclaration::set_Version(System.String)
+// 0x00000284 System.Void System.Xml.XmlDeclaration::set_Version(System.String)
 extern void XmlDeclaration_set_Version_m0B2CCCDE1930526B6429925E8139340ED17C26D0 (void);
-// 0x00000284 System.String System.Xml.XmlDeclaration::get_Encoding()
+// 0x00000285 System.String System.Xml.XmlDeclaration::get_Encoding()
 extern void XmlDeclaration_get_Encoding_m09D89DCD8457C62A6E49B9506A65A271DDBD011F (void);
-// 0x00000285 System.Void System.Xml.XmlDeclaration::set_Encoding(System.String)
+// 0x00000286 System.Void System.Xml.XmlDeclaration::set_Encoding(System.String)
 extern void XmlDeclaration_set_Encoding_m743178C17460B204CFFEFFC0960A77E4A6289A8B (void);
-// 0x00000286 System.String System.Xml.XmlDeclaration::get_Standalone()
+// 0x00000287 System.String System.Xml.XmlDeclaration::get_Standalone()
 extern void XmlDeclaration_get_Standalone_m46CC1833EE3C478318FF865E98A6899E440DDC6C (void);
-// 0x00000287 System.Void System.Xml.XmlDeclaration::set_Standalone(System.String)
+// 0x00000288 System.Void System.Xml.XmlDeclaration::set_Standalone(System.String)
 extern void XmlDeclaration_set_Standalone_m867389C9FBF0064E3FDA7EBDEAD4CF30E84F49C2 (void);
-// 0x00000288 System.String System.Xml.XmlDeclaration::get_Value()
+// 0x00000289 System.String System.Xml.XmlDeclaration::get_Value()
 extern void XmlDeclaration_get_Value_m5ABC71244CFA7343F6AB7C5B896D28B5A33827AF (void);
-// 0x00000289 System.String System.Xml.XmlDeclaration::get_InnerText()
+// 0x0000028A System.String System.Xml.XmlDeclaration::get_InnerText()
 extern void XmlDeclaration_get_InnerText_mB8C98E0ECE11ED01970D6EBD5A14DE181A843F3A (void);
-// 0x0000028A System.String System.Xml.XmlDeclaration::get_Name()
+// 0x0000028B System.String System.Xml.XmlDeclaration::get_Name()
 extern void XmlDeclaration_get_Name_mD74DAD0D67570779DE4E6168BA6FE6718C68D96F (void);
-// 0x0000028B System.String System.Xml.XmlDeclaration::get_LocalName()
+// 0x0000028C System.String System.Xml.XmlDeclaration::get_LocalName()
 extern void XmlDeclaration_get_LocalName_m35F3DBD7733EB1E3A873468D2B0635F7D77BA26D (void);
-// 0x0000028C System.Xml.XmlNodeType System.Xml.XmlDeclaration::get_NodeType()
+// 0x0000028D System.Xml.XmlNodeType System.Xml.XmlDeclaration::get_NodeType()
 extern void XmlDeclaration_get_NodeType_m88B85D17B7799116C8FA58654201BE90F49AD3B0 (void);
-// 0x0000028D System.Xml.XmlNode System.Xml.XmlDeclaration::CloneNode(System.Boolean)
+// 0x0000028E System.Xml.XmlNode System.Xml.XmlDeclaration::CloneNode(System.Boolean)
 extern void XmlDeclaration_CloneNode_m8537F159D63D363B215663339B1A78B35B3183B5 (void);
-// 0x0000028E System.Void System.Xml.XmlDeclaration::WriteTo(System.Xml.XmlWriter)
+// 0x0000028F System.Void System.Xml.XmlDeclaration::WriteTo(System.Xml.XmlWriter)
 extern void XmlDeclaration_WriteTo_m9B2367CAE3A4D4FAC21A6EC5353C7BE510C42AF0 (void);
-// 0x0000028F System.Void System.Xml.XmlDeclaration::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000290 System.Void System.Xml.XmlDeclaration::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlDeclaration_WriteContentTo_mF41E5CE626BEBE5D1C01220C4337F36427DCEE49 (void);
-// 0x00000290 System.Boolean System.Xml.XmlDeclaration::IsValidXmlVersion(System.String)
+// 0x00000291 System.Boolean System.Xml.XmlDeclaration::IsValidXmlVersion(System.String)
 extern void XmlDeclaration_IsValidXmlVersion_m215F8DC273DFBBD9077EF86BEAB9C3EC3C590684 (void);
-// 0x00000291 System.Void System.Xml.XmlDocument::.ctor()
+// 0x00000292 System.Void System.Xml.XmlDocument::.ctor()
 extern void XmlDocument__ctor_m09B578D51E249702C90A99B87A31ABE8CE4027DC (void);
-// 0x00000292 System.Void System.Xml.XmlDocument::.ctor(System.Xml.XmlImplementation)
+// 0x00000293 System.Void System.Xml.XmlDocument::.ctor(System.Xml.XmlImplementation)
 extern void XmlDocument__ctor_m90653BB0CD6863B4328A3B32B72ED4383C97D1A8 (void);
-// 0x00000293 System.Xml.Schema.SchemaInfo System.Xml.XmlDocument::get_DtdSchemaInfo()
+// 0x00000294 System.Xml.Schema.SchemaInfo System.Xml.XmlDocument::get_DtdSchemaInfo()
 extern void XmlDocument_get_DtdSchemaInfo_mF52E9F32AB9D1914DBC6D91A8277AE843B6E1E6E (void);
-// 0x00000294 System.Void System.Xml.XmlDocument::set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo)
+// 0x00000295 System.Void System.Xml.XmlDocument::set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo)
 extern void XmlDocument_set_DtdSchemaInfo_m95A0C58965F2B17BDA49D5F4E18304A11EEC7876 (void);
-// 0x00000295 System.Void System.Xml.XmlDocument::CheckName(System.String)
+// 0x00000296 System.Void System.Xml.XmlDocument::CheckName(System.String)
 extern void XmlDocument_CheckName_m8F3B57903F80A4309ACAF9C301ABA06B63702CA5 (void);
-// 0x00000296 System.Xml.XmlName System.Xml.XmlDocument::AddXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
+// 0x00000297 System.Xml.XmlName System.Xml.XmlDocument::AddXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlDocument_AddXmlName_m0B7D502F9AA6D43E0743106B90F9CE10F459A916 (void);
-// 0x00000297 System.Xml.XmlName System.Xml.XmlDocument::GetXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
+// 0x00000298 System.Xml.XmlName System.Xml.XmlDocument::GetXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlDocument_GetXmlName_m7145F5B6BE8E6CDB52918C96324CC489569932CB (void);
-// 0x00000298 System.Xml.XmlName System.Xml.XmlDocument::AddAttrXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
+// 0x00000299 System.Xml.XmlName System.Xml.XmlDocument::AddAttrXmlName(System.String,System.String,System.String,System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlDocument_AddAttrXmlName_mB6D4F6DA50FBE350ABAC30CD5CE97D981506BB28 (void);
-// 0x00000299 System.Boolean System.Xml.XmlDocument::AddIdInfo(System.Xml.XmlName,System.Xml.XmlName)
+// 0x0000029A System.Boolean System.Xml.XmlDocument::AddIdInfo(System.Xml.XmlName,System.Xml.XmlName)
 extern void XmlDocument_AddIdInfo_mF6E5BE7379C76DA2C5E4D292380086D04009CC0E (void);
-// 0x0000029A System.Xml.XmlName System.Xml.XmlDocument::GetIDInfoByElement_(System.Xml.XmlName)
+// 0x0000029B System.Xml.XmlName System.Xml.XmlDocument::GetIDInfoByElement_(System.Xml.XmlName)
 extern void XmlDocument_GetIDInfoByElement__mB6858B03EFABCE5F79DBACEF671D8A76948FA086 (void);
-// 0x0000029B System.Xml.XmlName System.Xml.XmlDocument::GetIDInfoByElement(System.Xml.XmlName)
+// 0x0000029C System.Xml.XmlName System.Xml.XmlDocument::GetIDInfoByElement(System.Xml.XmlName)
 extern void XmlDocument_GetIDInfoByElement_mF4F7DDBFA3126D06D4AA526B1536BEC20D677AC8 (void);
-// 0x0000029C System.WeakReference System.Xml.XmlDocument::GetElement(System.Collections.ArrayList,System.Xml.XmlElement)
+// 0x0000029D System.WeakReference System.Xml.XmlDocument::GetElement(System.Collections.ArrayList,System.Xml.XmlElement)
 extern void XmlDocument_GetElement_mC0411EE67C03B9FD52F41B70C7320E51A67C2463 (void);
-// 0x0000029D System.Void System.Xml.XmlDocument::AddElementWithId(System.String,System.Xml.XmlElement)
+// 0x0000029E System.Void System.Xml.XmlDocument::AddElementWithId(System.String,System.Xml.XmlElement)
 extern void XmlDocument_AddElementWithId_m179458DD48014AD4C76126306A42F49A98433187 (void);
-// 0x0000029E System.Void System.Xml.XmlDocument::RemoveElementWithId(System.String,System.Xml.XmlElement)
+// 0x0000029F System.Void System.Xml.XmlDocument::RemoveElementWithId(System.String,System.Xml.XmlElement)
 extern void XmlDocument_RemoveElementWithId_mD930DEA6A023E00A7D376D2F5B7D5283414ECE03 (void);
-// 0x0000029F System.Xml.XmlNode System.Xml.XmlDocument::CloneNode(System.Boolean)
+// 0x000002A0 System.Xml.XmlNode System.Xml.XmlDocument::CloneNode(System.Boolean)
 extern void XmlDocument_CloneNode_m0604830BCDF3E8CF6BA604FAB35019942A85EC52 (void);
-// 0x000002A0 System.Xml.XmlNodeType System.Xml.XmlDocument::get_NodeType()
+// 0x000002A1 System.Xml.XmlNodeType System.Xml.XmlDocument::get_NodeType()
 extern void XmlDocument_get_NodeType_m49BC1016CABB8F3949B923DA9E6C89EEB676BC37 (void);
-// 0x000002A1 System.Xml.XmlNode System.Xml.XmlDocument::get_ParentNode()
+// 0x000002A2 System.Xml.XmlNode System.Xml.XmlDocument::get_ParentNode()
 extern void XmlDocument_get_ParentNode_m6D355D866D03A2671BC17D7DF8BFD3BFDB86D9E7 (void);
-// 0x000002A2 System.Xml.XmlDocumentType System.Xml.XmlDocument::get_DocumentType()
+// 0x000002A3 System.Xml.XmlDocumentType System.Xml.XmlDocument::get_DocumentType()
 extern void XmlDocument_get_DocumentType_m1140163BB68318E3D2532BD7F5C8BC96E476166F (void);
-// 0x000002A3 System.Xml.XmlDeclaration System.Xml.XmlDocument::get_Declaration()
+// 0x000002A4 System.Xml.XmlDeclaration System.Xml.XmlDocument::get_Declaration()
 extern void XmlDocument_get_Declaration_mABC644137ED057F2955C7F545529D5E5E88D4E18 (void);
-// 0x000002A4 System.Xml.XmlImplementation System.Xml.XmlDocument::get_Implementation()
+// 0x000002A5 System.Xml.XmlImplementation System.Xml.XmlDocument::get_Implementation()
 extern void XmlDocument_get_Implementation_m627A29B6D4CA09108F494BBE9AE070155CA6AE10 (void);
-// 0x000002A5 System.String System.Xml.XmlDocument::get_Name()
+// 0x000002A6 System.String System.Xml.XmlDocument::get_Name()
 extern void XmlDocument_get_Name_mDD3B83B70FA0065CE4959C41BD569084E2219C35 (void);
-// 0x000002A6 System.String System.Xml.XmlDocument::get_LocalName()
+// 0x000002A7 System.String System.Xml.XmlDocument::get_LocalName()
 extern void XmlDocument_get_LocalName_mF25545A8C83B64CB8E28DC2983997B2F860AD5A9 (void);
-// 0x000002A7 System.Xml.XmlElement System.Xml.XmlDocument::get_DocumentElement()
+// 0x000002A8 System.Xml.XmlElement System.Xml.XmlDocument::get_DocumentElement()
 extern void XmlDocument_get_DocumentElement_mE87523DCD2D59F8BA6175DBA01D70133E202A2C8 (void);
-// 0x000002A8 System.Boolean System.Xml.XmlDocument::get_IsContainer()
+// 0x000002A9 System.Boolean System.Xml.XmlDocument::get_IsContainer()
 extern void XmlDocument_get_IsContainer_m29AAC4ECD22B540A7925545514A74046A0D913D0 (void);
-// 0x000002A9 System.Xml.XmlLinkedNode System.Xml.XmlDocument::get_LastNode()
+// 0x000002AA System.Xml.XmlLinkedNode System.Xml.XmlDocument::get_LastNode()
 extern void XmlDocument_get_LastNode_mFD3B03A02F28E2CE7F57AB2A60E4FA433661072E (void);
-// 0x000002AA System.Void System.Xml.XmlDocument::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x000002AB System.Void System.Xml.XmlDocument::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlDocument_set_LastNode_m5C24F0CF42B5D0B43E8FD84DCEF3B5E043E6FA06 (void);
-// 0x000002AB System.Xml.XmlDocument System.Xml.XmlDocument::get_OwnerDocument()
+// 0x000002AC System.Xml.XmlDocument System.Xml.XmlDocument::get_OwnerDocument()
 extern void XmlDocument_get_OwnerDocument_m788476A40E88383B623B2868509E14C9BE1AD31A (void);
-// 0x000002AC System.Void System.Xml.XmlDocument::set_Schemas(System.Xml.Schema.XmlSchemaSet)
+// 0x000002AD System.Void System.Xml.XmlDocument::set_Schemas(System.Xml.Schema.XmlSchemaSet)
 extern void XmlDocument_set_Schemas_m434B1F13D18F926E959FCC426F4731C9AC385A3B (void);
-// 0x000002AD System.Boolean System.Xml.XmlDocument::get_CanReportValidity()
+// 0x000002AE System.Boolean System.Xml.XmlDocument::get_CanReportValidity()
 extern void XmlDocument_get_CanReportValidity_m71D1E8A3FCDBF648B6E83D5B7690FD0FD40F8736 (void);
-// 0x000002AE System.Boolean System.Xml.XmlDocument::get_HasSetResolver()
+// 0x000002AF System.Boolean System.Xml.XmlDocument::get_HasSetResolver()
 extern void XmlDocument_get_HasSetResolver_m7CBB11C7E27D95CD697F177B965CEB2E1E71358D (void);
-// 0x000002AF System.Xml.XmlResolver System.Xml.XmlDocument::GetResolver()
+// 0x000002B0 System.Xml.XmlResolver System.Xml.XmlDocument::GetResolver()
 extern void XmlDocument_GetResolver_m0B1F443F2DF5510E0733052D42BC984CB83F9119 (void);
-// 0x000002B0 System.Boolean System.Xml.XmlDocument::IsValidChildType(System.Xml.XmlNodeType)
+// 0x000002B1 System.Boolean System.Xml.XmlDocument::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlDocument_IsValidChildType_m9140E7E6187566178EBF6F505125509D5EDC9AC9 (void);
-// 0x000002B1 System.Boolean System.Xml.XmlDocument::HasNodeTypeInPrevSiblings(System.Xml.XmlNodeType,System.Xml.XmlNode)
+// 0x000002B2 System.Boolean System.Xml.XmlDocument::HasNodeTypeInPrevSiblings(System.Xml.XmlNodeType,System.Xml.XmlNode)
 extern void XmlDocument_HasNodeTypeInPrevSiblings_m62FDB4009BEF04A3D1A291575A005966E0E21AC3 (void);
-// 0x000002B2 System.Boolean System.Xml.XmlDocument::HasNodeTypeInNextSiblings(System.Xml.XmlNodeType,System.Xml.XmlNode)
+// 0x000002B3 System.Boolean System.Xml.XmlDocument::HasNodeTypeInNextSiblings(System.Xml.XmlNodeType,System.Xml.XmlNode)
 extern void XmlDocument_HasNodeTypeInNextSiblings_mD65FA58F532B9875E1BB7AE149C98E608BAE44A4 (void);
-// 0x000002B3 System.Boolean System.Xml.XmlDocument::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000002B4 System.Boolean System.Xml.XmlDocument::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlDocument_CanInsertAfter_m0041AFD890E382A6F754EE57E24E9BAAB764E8B5 (void);
-// 0x000002B4 System.Void System.Xml.XmlDocument::SetDefaultNamespace(System.String,System.String,System.String&)
+// 0x000002B5 System.Void System.Xml.XmlDocument::SetDefaultNamespace(System.String,System.String,System.String&)
 extern void XmlDocument_SetDefaultNamespace_m29601B584036272B65DB2F31749975711A68E245 (void);
-// 0x000002B5 System.Xml.XmlCDataSection System.Xml.XmlDocument::CreateCDataSection(System.String)
+// 0x000002B6 System.Xml.XmlCDataSection System.Xml.XmlDocument::CreateCDataSection(System.String)
 extern void XmlDocument_CreateCDataSection_m7071FBB41EB02D0C2964272D36838B500B8BE357 (void);
-// 0x000002B6 System.Xml.XmlComment System.Xml.XmlDocument::CreateComment(System.String)
+// 0x000002B7 System.Xml.XmlComment System.Xml.XmlDocument::CreateComment(System.String)
 extern void XmlDocument_CreateComment_mB58797474A14187D0236A63008EAC6C438521186 (void);
-// 0x000002B7 System.Xml.XmlDocumentType System.Xml.XmlDocument::CreateDocumentType(System.String,System.String,System.String,System.String)
+// 0x000002B8 System.Xml.XmlDocumentType System.Xml.XmlDocument::CreateDocumentType(System.String,System.String,System.String,System.String)
 extern void XmlDocument_CreateDocumentType_mFAE023ACF5683AEE94A9065D5FEAFFF354FC37BB (void);
-// 0x000002B8 System.Xml.XmlDocumentFragment System.Xml.XmlDocument::CreateDocumentFragment()
+// 0x000002B9 System.Xml.XmlDocumentFragment System.Xml.XmlDocument::CreateDocumentFragment()
 extern void XmlDocument_CreateDocumentFragment_mB628A6B883A0F50FF0D5991A923CBF52D9B9DA99 (void);
-// 0x000002B9 System.Void System.Xml.XmlDocument::AddDefaultAttributes(System.Xml.XmlElement)
+// 0x000002BA System.Void System.Xml.XmlDocument::AddDefaultAttributes(System.Xml.XmlElement)
 extern void XmlDocument_AddDefaultAttributes_mD1EF2D680D9891D533CBB7493E080240528F108C (void);
-// 0x000002BA System.Xml.Schema.SchemaElementDecl System.Xml.XmlDocument::GetSchemaElementDecl(System.Xml.XmlElement)
+// 0x000002BB System.Xml.Schema.SchemaElementDecl System.Xml.XmlDocument::GetSchemaElementDecl(System.Xml.XmlElement)
 extern void XmlDocument_GetSchemaElementDecl_m8096E8CA8850D889EF774A9DC2596486DFBA00A6 (void);
-// 0x000002BB System.Xml.XmlAttribute System.Xml.XmlDocument::PrepareDefaultAttribute(System.Xml.Schema.SchemaAttDef,System.String,System.String,System.String)
+// 0x000002BC System.Xml.XmlAttribute System.Xml.XmlDocument::PrepareDefaultAttribute(System.Xml.Schema.SchemaAttDef,System.String,System.String,System.String)
 extern void XmlDocument_PrepareDefaultAttribute_mB209B5E427A134931A258026446829B816E9A526 (void);
-// 0x000002BC System.Xml.XmlEntityReference System.Xml.XmlDocument::CreateEntityReference(System.String)
+// 0x000002BD System.Xml.XmlEntityReference System.Xml.XmlDocument::CreateEntityReference(System.String)
 extern void XmlDocument_CreateEntityReference_m50AB66E331A78B8F0CC456C076E3E2E0B377F552 (void);
-// 0x000002BD System.Xml.XmlProcessingInstruction System.Xml.XmlDocument::CreateProcessingInstruction(System.String,System.String)
+// 0x000002BE System.Xml.XmlProcessingInstruction System.Xml.XmlDocument::CreateProcessingInstruction(System.String,System.String)
 extern void XmlDocument_CreateProcessingInstruction_mBD46269C3849A35D68DF9D09ECE2EA154206EB82 (void);
-// 0x000002BE System.Xml.XmlDeclaration System.Xml.XmlDocument::CreateXmlDeclaration(System.String,System.String,System.String)
+// 0x000002BF System.Xml.XmlDeclaration System.Xml.XmlDocument::CreateXmlDeclaration(System.String,System.String,System.String)
 extern void XmlDocument_CreateXmlDeclaration_m6937F935710563ED28D567D05E34E081D8098E4A (void);
-// 0x000002BF System.Xml.XmlText System.Xml.XmlDocument::CreateTextNode(System.String)
+// 0x000002C0 System.Xml.XmlText System.Xml.XmlDocument::CreateTextNode(System.String)
 extern void XmlDocument_CreateTextNode_m3663B3E620500B81989742CDB40A79568DF88430 (void);
-// 0x000002C0 System.Xml.XmlSignificantWhitespace System.Xml.XmlDocument::CreateSignificantWhitespace(System.String)
+// 0x000002C1 System.Xml.XmlSignificantWhitespace System.Xml.XmlDocument::CreateSignificantWhitespace(System.String)
 extern void XmlDocument_CreateSignificantWhitespace_mF1237E2577D67F962082483A874C0C8F055D1596 (void);
-// 0x000002C1 System.Xml.XmlWhitespace System.Xml.XmlDocument::CreateWhitespace(System.String)
+// 0x000002C2 System.Xml.XmlWhitespace System.Xml.XmlDocument::CreateWhitespace(System.String)
 extern void XmlDocument_CreateWhitespace_m25982FFC1D64190DEFBF6DA5C2069D021464DFEC (void);
-// 0x000002C2 System.Xml.XmlNodeList System.Xml.XmlDocument::GetElementsByTagName(System.String)
+// 0x000002C3 System.Xml.XmlNodeList System.Xml.XmlDocument::GetElementsByTagName(System.String)
 extern void XmlDocument_GetElementsByTagName_m2553763C9CE3E5DAC070E91D271FDD2923A99544 (void);
-// 0x000002C3 System.Xml.XmlNode System.Xml.XmlDocument::ImportNodeInternal(System.Xml.XmlNode,System.Boolean)
+// 0x000002C4 System.Xml.XmlNode System.Xml.XmlDocument::ImportNodeInternal(System.Xml.XmlNode,System.Boolean)
 extern void XmlDocument_ImportNodeInternal_m7E70DD674E7D0CB39DC6F14B5E806AE284E9C17B (void);
-// 0x000002C4 System.Void System.Xml.XmlDocument::ImportAttributes(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000002C5 System.Void System.Xml.XmlDocument::ImportAttributes(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlDocument_ImportAttributes_mD5D3157004F6C1B559E3FFF09F2D5FBBF916CC0A (void);
-// 0x000002C5 System.Void System.Xml.XmlDocument::ImportChildren(System.Xml.XmlNode,System.Xml.XmlNode,System.Boolean)
+// 0x000002C6 System.Void System.Xml.XmlDocument::ImportChildren(System.Xml.XmlNode,System.Xml.XmlNode,System.Boolean)
 extern void XmlDocument_ImportChildren_mAB48DB0FA4C4964B00F4EC316E3942CE7AAB092B (void);
-// 0x000002C6 System.Xml.XmlNameTable System.Xml.XmlDocument::get_NameTable()
+// 0x000002C7 System.Xml.XmlNameTable System.Xml.XmlDocument::get_NameTable()
 extern void XmlDocument_get_NameTable_m4B913865A24AEA917172F75CBDCE94C81CCB7E2C (void);
-// 0x000002C7 System.Xml.XmlAttribute System.Xml.XmlDocument::CreateAttribute(System.String,System.String,System.String)
+// 0x000002C8 System.Xml.XmlAttribute System.Xml.XmlDocument::CreateAttribute(System.String,System.String,System.String)
 extern void XmlDocument_CreateAttribute_m06FB2FB42A21F9B9D62EA9379946EF1099929472 (void);
-// 0x000002C8 System.Xml.XmlAttribute System.Xml.XmlDocument::CreateDefaultAttribute(System.String,System.String,System.String)
+// 0x000002C9 System.Xml.XmlAttribute System.Xml.XmlDocument::CreateDefaultAttribute(System.String,System.String,System.String)
 extern void XmlDocument_CreateDefaultAttribute_m20A4D18805DACE680BBCA588B77CADFFA64F37EE (void);
-// 0x000002C9 System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String,System.String,System.String)
+// 0x000002CA System.Xml.XmlElement System.Xml.XmlDocument::CreateElement(System.String,System.String,System.String)
 extern void XmlDocument_CreateElement_mC8DB502E909E778655A1CC10E5AF422E551DC42C (void);
-// 0x000002CA System.Boolean System.Xml.XmlDocument::get_IsReadOnly()
+// 0x000002CB System.Boolean System.Xml.XmlDocument::get_IsReadOnly()
 extern void XmlDocument_get_IsReadOnly_m52B4DDF8C35F7E1B847720CD6CFA44F0FEFFBDBE (void);
-// 0x000002CB System.Xml.XmlNamedNodeMap System.Xml.XmlDocument::get_Entities()
+// 0x000002CC System.Xml.XmlNamedNodeMap System.Xml.XmlDocument::get_Entities()
 extern void XmlDocument_get_Entities_m72C0183C637A5D71BB38433D1D4CD9A4E87D3A80 (void);
-// 0x000002CC System.Void System.Xml.XmlDocument::set_Entities(System.Xml.XmlNamedNodeMap)
+// 0x000002CD System.Void System.Xml.XmlDocument::set_Entities(System.Xml.XmlNamedNodeMap)
 extern void XmlDocument_set_Entities_mBBF7C97889080847540A0F31B1751726E81FF756 (void);
-// 0x000002CD System.Boolean System.Xml.XmlDocument::get_IsLoading()
+// 0x000002CE System.Boolean System.Xml.XmlDocument::get_IsLoading()
 extern void XmlDocument_get_IsLoading_mD97F2D54DE1BD3B4F8B496F4D8D31C061FA8A52D (void);
-// 0x000002CE System.Void System.Xml.XmlDocument::set_IsLoading(System.Boolean)
+// 0x000002CF System.Void System.Xml.XmlDocument::set_IsLoading(System.Boolean)
 extern void XmlDocument_set_IsLoading_mB72FABCA30EF280F608CC171BFB6749813A0D8B5 (void);
-// 0x000002CF System.Boolean System.Xml.XmlDocument::get_ActualLoadingStatus()
+// 0x000002D0 System.Boolean System.Xml.XmlDocument::get_ActualLoadingStatus()
 extern void XmlDocument_get_ActualLoadingStatus_m63B8F5AD9C82FEF1D9EFA47926E4AABED6CD9D99 (void);
-// 0x000002D0 System.Xml.XmlTextReader System.Xml.XmlDocument::SetupReader(System.Xml.XmlTextReader)
+// 0x000002D1 System.Xml.XmlTextReader System.Xml.XmlDocument::SetupReader(System.Xml.XmlTextReader)
 extern void XmlDocument_SetupReader_mDBF0C1ECB089DCC5D892E790ED2ABBD794A4824E (void);
-// 0x000002D1 System.Void System.Xml.XmlDocument::Load(System.Xml.XmlReader)
+// 0x000002D2 System.Void System.Xml.XmlDocument::Load(System.Xml.XmlReader)
 extern void XmlDocument_Load_m719C7C5EAD9264BA1A5A229E2CC3AE0FDD1CA8CE (void);
-// 0x000002D2 System.Void System.Xml.XmlDocument::LoadXml(System.String)
+// 0x000002D3 System.Void System.Xml.XmlDocument::LoadXml(System.String)
 extern void XmlDocument_LoadXml_m6F86E243203A6845F8BB445E9AE234D3913A2AAE (void);
-// 0x000002D3 System.String System.Xml.XmlDocument::get_InnerXml()
+// 0x000002D4 System.String System.Xml.XmlDocument::get_InnerXml()
 extern void XmlDocument_get_InnerXml_m3A3D32A23CF09C34269DD8BF3AE2B2F925278F32 (void);
-// 0x000002D4 System.Void System.Xml.XmlDocument::set_InnerXml(System.String)
+// 0x000002D5 System.Void System.Xml.XmlDocument::set_InnerXml(System.String)
 extern void XmlDocument_set_InnerXml_mD668393952C10057FEA93AFC59EA3673D35E9313 (void);
-// 0x000002D5 System.Void System.Xml.XmlDocument::WriteTo(System.Xml.XmlWriter)
+// 0x000002D6 System.Void System.Xml.XmlDocument::WriteTo(System.Xml.XmlWriter)
 extern void XmlDocument_WriteTo_mCDA54D1509C4CB0A774B33B609C6A0157D1BF59C (void);
-// 0x000002D6 System.Void System.Xml.XmlDocument::WriteContentTo(System.Xml.XmlWriter)
+// 0x000002D7 System.Void System.Xml.XmlDocument::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlDocument_WriteContentTo_m461C8F3C604B15718495F1F82282715511744AC8 (void);
-// 0x000002D7 System.Void System.Xml.XmlDocument::add_NodeInserted(System.Xml.XmlNodeChangedEventHandler)
+// 0x000002D8 System.Void System.Xml.XmlDocument::add_NodeInserted(System.Xml.XmlNodeChangedEventHandler)
 extern void XmlDocument_add_NodeInserted_m5B03345EAC48958B104BA2033818370BA6E2243D (void);
-// 0x000002D8 System.Void System.Xml.XmlDocument::remove_NodeInserted(System.Xml.XmlNodeChangedEventHandler)
+// 0x000002D9 System.Void System.Xml.XmlDocument::remove_NodeInserted(System.Xml.XmlNodeChangedEventHandler)
 extern void XmlDocument_remove_NodeInserted_mF46D0B84DB934188F551BCC766080CDA9A787616 (void);
-// 0x000002D9 System.Void System.Xml.XmlDocument::add_NodeRemoved(System.Xml.XmlNodeChangedEventHandler)
+// 0x000002DA System.Void System.Xml.XmlDocument::add_NodeRemoved(System.Xml.XmlNodeChangedEventHandler)
 extern void XmlDocument_add_NodeRemoved_m30754B20BE8A674BD5FDECF175E2419DD2AE3E1C (void);
-// 0x000002DA System.Void System.Xml.XmlDocument::remove_NodeRemoved(System.Xml.XmlNodeChangedEventHandler)
+// 0x000002DB System.Void System.Xml.XmlDocument::remove_NodeRemoved(System.Xml.XmlNodeChangedEventHandler)
 extern void XmlDocument_remove_NodeRemoved_m33B3778BE1EB94A010FDE8F860641821A7A079A3 (void);
-// 0x000002DB System.Xml.XmlNodeChangedEventArgs System.Xml.XmlDocument::GetEventArgs(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
+// 0x000002DC System.Xml.XmlNodeChangedEventArgs System.Xml.XmlDocument::GetEventArgs(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
 extern void XmlDocument_GetEventArgs_mD80CDE5C049719A7D136EE158AB0BE13FA7EC2CD (void);
-// 0x000002DC System.Xml.XmlNodeChangedEventArgs System.Xml.XmlDocument::GetInsertEventArgsForLoad(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000002DD System.Xml.XmlNodeChangedEventArgs System.Xml.XmlDocument::GetInsertEventArgsForLoad(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlDocument_GetInsertEventArgsForLoad_mC008CD74A188F1B0ECBCFFBFD99A5F7B3DAB2661 (void);
-// 0x000002DD System.Void System.Xml.XmlDocument::BeforeEvent(System.Xml.XmlNodeChangedEventArgs)
+// 0x000002DE System.Void System.Xml.XmlDocument::BeforeEvent(System.Xml.XmlNodeChangedEventArgs)
 extern void XmlDocument_BeforeEvent_m852242E1906C0771C54889F3E5D364AD8BF957F5 (void);
-// 0x000002DE System.Void System.Xml.XmlDocument::AfterEvent(System.Xml.XmlNodeChangedEventArgs)
+// 0x000002DF System.Void System.Xml.XmlDocument::AfterEvent(System.Xml.XmlNodeChangedEventArgs)
 extern void XmlDocument_AfterEvent_m42BBD0D01A5C48CB2DE4EA46568F11FCF9746F91 (void);
-// 0x000002DF System.Xml.XmlAttribute System.Xml.XmlDocument::GetDefaultAttribute(System.Xml.XmlElement,System.String,System.String,System.String)
+// 0x000002E0 System.Xml.XmlAttribute System.Xml.XmlDocument::GetDefaultAttribute(System.Xml.XmlElement,System.String,System.String,System.String)
 extern void XmlDocument_GetDefaultAttribute_m09254F3903D8971371770B085DEB0C8E4B879D96 (void);
-// 0x000002E0 System.Xml.XmlEntity System.Xml.XmlDocument::GetEntityNode(System.String)
+// 0x000002E1 System.Xml.XmlEntity System.Xml.XmlDocument::GetEntityNode(System.String)
 extern void XmlDocument_GetEntityNode_m9A45EC68379AD8210E79FD8A88EB705D011E827A (void);
-// 0x000002E1 System.String System.Xml.XmlDocument::get_BaseURI()
+// 0x000002E2 System.String System.Xml.XmlDocument::get_BaseURI()
 extern void XmlDocument_get_BaseURI_m485E0CCFD0B00B416D93A43B273BD6BA6FA7EC05 (void);
-// 0x000002E2 System.Void System.Xml.XmlDocument::SetBaseURI(System.String)
+// 0x000002E3 System.Void System.Xml.XmlDocument::SetBaseURI(System.String)
 extern void XmlDocument_SetBaseURI_mE44F99B7DFBF6C63E7041125703303F9146C146E (void);
-// 0x000002E3 System.Xml.XmlNode System.Xml.XmlDocument::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
+// 0x000002E4 System.Xml.XmlNode System.Xml.XmlDocument::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
 extern void XmlDocument_AppendChildForLoad_m9159EA6AC056C417AB1B80C23C770341FB454D22 (void);
-// 0x000002E4 System.Void System.Xml.XmlDocument::.cctor()
+// 0x000002E5 System.Void System.Xml.XmlDocument::.cctor()
 extern void XmlDocument__cctor_m9D68A33FCB698FA7A8082651F9B2711EBA79FAC1 (void);
-// 0x000002E5 System.Void System.Xml.XmlDocumentFragment::.ctor(System.Xml.XmlDocument)
+// 0x000002E6 System.Void System.Xml.XmlDocumentFragment::.ctor(System.Xml.XmlDocument)
 extern void XmlDocumentFragment__ctor_m5DFF7FEE2576ED62871EDD2EE4B03279630D1BC2 (void);
-// 0x000002E6 System.String System.Xml.XmlDocumentFragment::get_Name()
+// 0x000002E7 System.String System.Xml.XmlDocumentFragment::get_Name()
 extern void XmlDocumentFragment_get_Name_m1874C656D4B98227EAF8F607037D5E994F264F2C (void);
-// 0x000002E7 System.String System.Xml.XmlDocumentFragment::get_LocalName()
+// 0x000002E8 System.String System.Xml.XmlDocumentFragment::get_LocalName()
 extern void XmlDocumentFragment_get_LocalName_m14B0739B28E1668FB7410828E1451D230B95DA3F (void);
-// 0x000002E8 System.Xml.XmlNodeType System.Xml.XmlDocumentFragment::get_NodeType()
+// 0x000002E9 System.Xml.XmlNodeType System.Xml.XmlDocumentFragment::get_NodeType()
 extern void XmlDocumentFragment_get_NodeType_mE874D1255245E30531C960F635C91795C5AE1CAD (void);
-// 0x000002E9 System.Xml.XmlNode System.Xml.XmlDocumentFragment::get_ParentNode()
+// 0x000002EA System.Xml.XmlNode System.Xml.XmlDocumentFragment::get_ParentNode()
 extern void XmlDocumentFragment_get_ParentNode_mD030B1BF656CB855B6079906815D1EE29C7271BC (void);
-// 0x000002EA System.Xml.XmlDocument System.Xml.XmlDocumentFragment::get_OwnerDocument()
+// 0x000002EB System.Xml.XmlDocument System.Xml.XmlDocumentFragment::get_OwnerDocument()
 extern void XmlDocumentFragment_get_OwnerDocument_m3B31F0C2CC5EC5BB67DE9C4E116539300C7A929D (void);
-// 0x000002EB System.String System.Xml.XmlDocumentFragment::get_InnerXml()
+// 0x000002EC System.String System.Xml.XmlDocumentFragment::get_InnerXml()
 extern void XmlDocumentFragment_get_InnerXml_m515E708F90848DF0D87801923E4E60F39BF5D8AA (void);
-// 0x000002EC System.Void System.Xml.XmlDocumentFragment::set_InnerXml(System.String)
+// 0x000002ED System.Void System.Xml.XmlDocumentFragment::set_InnerXml(System.String)
 extern void XmlDocumentFragment_set_InnerXml_m99A9415C53F4A9D7B1C004C9A3B38E84A6DB86C4 (void);
-// 0x000002ED System.Xml.XmlNode System.Xml.XmlDocumentFragment::CloneNode(System.Boolean)
+// 0x000002EE System.Xml.XmlNode System.Xml.XmlDocumentFragment::CloneNode(System.Boolean)
 extern void XmlDocumentFragment_CloneNode_mE7D0742D0F35A1D3EEF9F12BD4FE81EE5F327D89 (void);
-// 0x000002EE System.Boolean System.Xml.XmlDocumentFragment::get_IsContainer()
+// 0x000002EF System.Boolean System.Xml.XmlDocumentFragment::get_IsContainer()
 extern void XmlDocumentFragment_get_IsContainer_m603B307149A57669FAB18758FE440F677F1E7020 (void);
-// 0x000002EF System.Xml.XmlLinkedNode System.Xml.XmlDocumentFragment::get_LastNode()
+// 0x000002F0 System.Xml.XmlLinkedNode System.Xml.XmlDocumentFragment::get_LastNode()
 extern void XmlDocumentFragment_get_LastNode_mB32809757FC8FF9949D19C3DD9B83F6BB740EA63 (void);
-// 0x000002F0 System.Void System.Xml.XmlDocumentFragment::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x000002F1 System.Void System.Xml.XmlDocumentFragment::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlDocumentFragment_set_LastNode_m6651220BA4B604C2C6DE871D9D9B85A757F61ADF (void);
-// 0x000002F1 System.Boolean System.Xml.XmlDocumentFragment::IsValidChildType(System.Xml.XmlNodeType)
+// 0x000002F2 System.Boolean System.Xml.XmlDocumentFragment::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlDocumentFragment_IsValidChildType_m8EF115F22D56936D685DF8046D8337B427A9F8EB (void);
-// 0x000002F2 System.Boolean System.Xml.XmlDocumentFragment::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000002F3 System.Boolean System.Xml.XmlDocumentFragment::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlDocumentFragment_CanInsertAfter_m5EAF44C606F67D369B960E6C4AE8B07063C2B8C1 (void);
-// 0x000002F3 System.Void System.Xml.XmlDocumentFragment::WriteTo(System.Xml.XmlWriter)
+// 0x000002F4 System.Void System.Xml.XmlDocumentFragment::WriteTo(System.Xml.XmlWriter)
 extern void XmlDocumentFragment_WriteTo_m084D445D3B2211CA672E7704B784E4D47D133F10 (void);
-// 0x000002F4 System.Void System.Xml.XmlDocumentFragment::WriteContentTo(System.Xml.XmlWriter)
+// 0x000002F5 System.Void System.Xml.XmlDocumentFragment::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlDocumentFragment_WriteContentTo_mF71230504B7321563C9D30C9C9A1709229508A4F (void);
-// 0x000002F5 System.Void System.Xml.XmlDocumentType::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x000002F6 System.Void System.Xml.XmlDocumentType::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlDocumentType__ctor_m80A9D98B728A54F81611F785B3C6CB5E29D47344 (void);
-// 0x000002F6 System.String System.Xml.XmlDocumentType::get_Name()
+// 0x000002F7 System.String System.Xml.XmlDocumentType::get_Name()
 extern void XmlDocumentType_get_Name_m8323D4846265D13C6E393961B2EE0D7FC96812C2 (void);
-// 0x000002F7 System.String System.Xml.XmlDocumentType::get_LocalName()
+// 0x000002F8 System.String System.Xml.XmlDocumentType::get_LocalName()
 extern void XmlDocumentType_get_LocalName_m5B495551922FE2C3CC5285FA6CDE88478891E3B6 (void);
-// 0x000002F8 System.Xml.XmlNodeType System.Xml.XmlDocumentType::get_NodeType()
+// 0x000002F9 System.Xml.XmlNodeType System.Xml.XmlDocumentType::get_NodeType()
 extern void XmlDocumentType_get_NodeType_mF592A32BB36245914C8EC201A2AD5ED0611BCF17 (void);
-// 0x000002F9 System.Xml.XmlNode System.Xml.XmlDocumentType::CloneNode(System.Boolean)
+// 0x000002FA System.Xml.XmlNode System.Xml.XmlDocumentType::CloneNode(System.Boolean)
 extern void XmlDocumentType_CloneNode_mB93E09964A9CA4C47A0D172FE71B533A29375D78 (void);
-// 0x000002FA System.Boolean System.Xml.XmlDocumentType::get_IsReadOnly()
+// 0x000002FB System.Boolean System.Xml.XmlDocumentType::get_IsReadOnly()
 extern void XmlDocumentType_get_IsReadOnly_mCF02079CAB3EA39E19E8737AB07F0B51187430B3 (void);
-// 0x000002FB System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::get_Entities()
+// 0x000002FC System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::get_Entities()
 extern void XmlDocumentType_get_Entities_m0864AACCFEB94E7E935580DB42D07F5C2058B1B0 (void);
-// 0x000002FC System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::get_Notations()
+// 0x000002FD System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::get_Notations()
 extern void XmlDocumentType_get_Notations_mF39B90420713538FCE072C512A74575C6F25D117 (void);
-// 0x000002FD System.String System.Xml.XmlDocumentType::get_PublicId()
+// 0x000002FE System.String System.Xml.XmlDocumentType::get_PublicId()
 extern void XmlDocumentType_get_PublicId_m9E81FAF2D0AA9DC847D118813CBEB085F0CE1955 (void);
-// 0x000002FE System.String System.Xml.XmlDocumentType::get_SystemId()
+// 0x000002FF System.String System.Xml.XmlDocumentType::get_SystemId()
 extern void XmlDocumentType_get_SystemId_m17B225C509C0F5A4ECBB838AA81D15DED4016909 (void);
-// 0x000002FF System.String System.Xml.XmlDocumentType::get_InternalSubset()
+// 0x00000300 System.String System.Xml.XmlDocumentType::get_InternalSubset()
 extern void XmlDocumentType_get_InternalSubset_mBD8D585ED0401EE1FC02F6FD5445E2109B083FEF (void);
-// 0x00000300 System.Boolean System.Xml.XmlDocumentType::get_ParseWithNamespaces()
+// 0x00000301 System.Boolean System.Xml.XmlDocumentType::get_ParseWithNamespaces()
 extern void XmlDocumentType_get_ParseWithNamespaces_mC391046582C88CDC3C3496E4D2C0827C36D9B324 (void);
-// 0x00000301 System.Void System.Xml.XmlDocumentType::WriteTo(System.Xml.XmlWriter)
+// 0x00000302 System.Void System.Xml.XmlDocumentType::WriteTo(System.Xml.XmlWriter)
 extern void XmlDocumentType_WriteTo_m80280E9DC687ED2CC8FE47982193871FF8639FD3 (void);
-// 0x00000302 System.Void System.Xml.XmlDocumentType::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000303 System.Void System.Xml.XmlDocumentType::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlDocumentType_WriteContentTo_m6FA932203D3E8FA3B162DD8DD0BEBF1012F7B849 (void);
-// 0x00000303 System.Xml.Schema.SchemaInfo System.Xml.XmlDocumentType::get_DtdSchemaInfo()
+// 0x00000304 System.Xml.Schema.SchemaInfo System.Xml.XmlDocumentType::get_DtdSchemaInfo()
 extern void XmlDocumentType_get_DtdSchemaInfo_mDF54B3A169B037A8C8A4F186206B143AF3068259 (void);
-// 0x00000304 System.Void System.Xml.XmlDocumentType::set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo)
+// 0x00000305 System.Void System.Xml.XmlDocumentType::set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo)
 extern void XmlDocumentType_set_DtdSchemaInfo_m6E419933465D42DAB30AD7C6FFF7ACCC6D78A4E6 (void);
-// 0x00000305 System.Void System.Xml.XmlDOMTextWriter::.ctor(System.IO.TextWriter)
+// 0x00000306 System.Void System.Xml.XmlDOMTextWriter::.ctor(System.IO.TextWriter)
 extern void XmlDOMTextWriter__ctor_mF435D9DB37F13BD9A8112CC37E51C10216A2A082 (void);
-// 0x00000306 System.Void System.Xml.XmlDOMTextWriter::WriteStartElement(System.String,System.String,System.String)
+// 0x00000307 System.Void System.Xml.XmlDOMTextWriter::WriteStartElement(System.String,System.String,System.String)
 extern void XmlDOMTextWriter_WriteStartElement_mC19B63E034CCBE8620E3021C170C2AE12C8C8988 (void);
-// 0x00000307 System.Void System.Xml.XmlDOMTextWriter::WriteStartAttribute(System.String,System.String,System.String)
+// 0x00000308 System.Void System.Xml.XmlDOMTextWriter::WriteStartAttribute(System.String,System.String,System.String)
 extern void XmlDOMTextWriter_WriteStartAttribute_mA48A947EA1BA62EC353815EE0D14ADD6C0A284B7 (void);
-// 0x00000308 System.Void System.Xml.XmlElement::.ctor(System.Xml.XmlName,System.Boolean,System.Xml.XmlDocument)
+// 0x00000309 System.Void System.Xml.XmlElement::.ctor(System.Xml.XmlName,System.Boolean,System.Xml.XmlDocument)
 extern void XmlElement__ctor_m44A8D5841FC2F1A5ACC6A03DD0ACA9AB37300588 (void);
-// 0x00000309 System.Void System.Xml.XmlElement::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x0000030A System.Void System.Xml.XmlElement::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlElement__ctor_m1C80BD485FDDF4F947A67A6861C525E205D8F0C4 (void);
-// 0x0000030A System.Xml.XmlName System.Xml.XmlElement::get_XmlName()
+// 0x0000030B System.Xml.XmlName System.Xml.XmlElement::get_XmlName()
 extern void XmlElement_get_XmlName_mA93482D1053CABDD02D7E3B23EBA56F74904101D (void);
-// 0x0000030B System.Void System.Xml.XmlElement::set_XmlName(System.Xml.XmlName)
+// 0x0000030C System.Void System.Xml.XmlElement::set_XmlName(System.Xml.XmlName)
 extern void XmlElement_set_XmlName_m15166904F386EAB60030EAB490CC0FD1CB624EFC (void);
-// 0x0000030C System.Xml.XmlNode System.Xml.XmlElement::CloneNode(System.Boolean)
+// 0x0000030D System.Xml.XmlNode System.Xml.XmlElement::CloneNode(System.Boolean)
 extern void XmlElement_CloneNode_m6B12DC2EA73902C55EF7095ABC8CE19D488FAF31 (void);
-// 0x0000030D System.String System.Xml.XmlElement::get_Name()
+// 0x0000030E System.String System.Xml.XmlElement::get_Name()
 extern void XmlElement_get_Name_m7F73C3D18CDE9F8F951B144842E7669F9737DE6D (void);
-// 0x0000030E System.String System.Xml.XmlElement::get_LocalName()
+// 0x0000030F System.String System.Xml.XmlElement::get_LocalName()
 extern void XmlElement_get_LocalName_m9223F778DD26887F21E416A7A29C22468CFBA346 (void);
-// 0x0000030F System.String System.Xml.XmlElement::get_NamespaceURI()
+// 0x00000310 System.String System.Xml.XmlElement::get_NamespaceURI()
 extern void XmlElement_get_NamespaceURI_m43313283ED55D22F3EF608F3BAC9E14A08F63883 (void);
-// 0x00000310 System.String System.Xml.XmlElement::get_Prefix()
+// 0x00000311 System.String System.Xml.XmlElement::get_Prefix()
 extern void XmlElement_get_Prefix_m472626EDD13C1767B818AB5E18A3B9176331AC98 (void);
-// 0x00000311 System.Xml.XmlNodeType System.Xml.XmlElement::get_NodeType()
+// 0x00000312 System.Xml.XmlNodeType System.Xml.XmlElement::get_NodeType()
 extern void XmlElement_get_NodeType_m2335521F2F7F153B1E7C01F400883353C577CFA2 (void);
-// 0x00000312 System.Xml.XmlNode System.Xml.XmlElement::get_ParentNode()
+// 0x00000313 System.Xml.XmlNode System.Xml.XmlElement::get_ParentNode()
 extern void XmlElement_get_ParentNode_mC49B6F93B2C4EC07705EBB2E03E15775CA8B6CAB (void);
-// 0x00000313 System.Xml.XmlDocument System.Xml.XmlElement::get_OwnerDocument()
+// 0x00000314 System.Xml.XmlDocument System.Xml.XmlElement::get_OwnerDocument()
 extern void XmlElement_get_OwnerDocument_m5C1BCBD63A52F60AD17B92D8E6E4543EE747E89A (void);
-// 0x00000314 System.Boolean System.Xml.XmlElement::get_IsContainer()
+// 0x00000315 System.Boolean System.Xml.XmlElement::get_IsContainer()
 extern void XmlElement_get_IsContainer_mDD67104ADF07829FF25D89531F964953F053D387 (void);
-// 0x00000315 System.Xml.XmlNode System.Xml.XmlElement::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
+// 0x00000316 System.Xml.XmlNode System.Xml.XmlElement::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
 extern void XmlElement_AppendChildForLoad_m79C746A5400CC7AE8B19876EFEB081D9E186045B (void);
-// 0x00000316 System.Boolean System.Xml.XmlElement::get_IsEmpty()
+// 0x00000317 System.Boolean System.Xml.XmlElement::get_IsEmpty()
 extern void XmlElement_get_IsEmpty_m3FD670ABE3BE49AF263E1B75875FA606CC671B5F (void);
-// 0x00000317 System.Void System.Xml.XmlElement::set_IsEmpty(System.Boolean)
+// 0x00000318 System.Void System.Xml.XmlElement::set_IsEmpty(System.Boolean)
 extern void XmlElement_set_IsEmpty_mA8B835AE5541C20296A231855F3ABF4296A475F7 (void);
-// 0x00000318 System.Xml.XmlLinkedNode System.Xml.XmlElement::get_LastNode()
+// 0x00000319 System.Xml.XmlLinkedNode System.Xml.XmlElement::get_LastNode()
 extern void XmlElement_get_LastNode_m82CA4C67385A1AB797AE76F31CE608107FFDE430 (void);
-// 0x00000319 System.Void System.Xml.XmlElement::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x0000031A System.Void System.Xml.XmlElement::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlElement_set_LastNode_mB664A8179FB5A5C1D3C790F7CFE54D6D567B5150 (void);
-// 0x0000031A System.Boolean System.Xml.XmlElement::IsValidChildType(System.Xml.XmlNodeType)
+// 0x0000031B System.Boolean System.Xml.XmlElement::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlElement_IsValidChildType_m84A36D5274A4BB810373DDFC89EB935F23D8E5F0 (void);
-// 0x0000031B System.Xml.XmlAttributeCollection System.Xml.XmlElement::get_Attributes()
+// 0x0000031C System.Xml.XmlAttributeCollection System.Xml.XmlElement::get_Attributes()
 extern void XmlElement_get_Attributes_mD4302CEE719D5E63DF1AC612E4C0FAC682DDA27E (void);
-// 0x0000031C System.Boolean System.Xml.XmlElement::get_HasAttributes()
+// 0x0000031D System.Boolean System.Xml.XmlElement::get_HasAttributes()
 extern void XmlElement_get_HasAttributes_m3BF7AE28DC9DDC9024DD330B96DAF4A55FC2370F (void);
-// 0x0000031D System.Xml.XmlAttribute System.Xml.XmlElement::SetAttributeNode(System.Xml.XmlAttribute)
+// 0x0000031E System.Xml.XmlAttribute System.Xml.XmlElement::SetAttributeNode(System.Xml.XmlAttribute)
 extern void XmlElement_SetAttributeNode_mE0B17D7E755A784A25152EAF2B67C5B45FB0698E (void);
-// 0x0000031E System.Void System.Xml.XmlElement::WriteTo(System.Xml.XmlWriter)
+// 0x0000031F System.Void System.Xml.XmlElement::WriteTo(System.Xml.XmlWriter)
 extern void XmlElement_WriteTo_m29F6763BB5202D1F4ECB6B62092202C4FC9B76F8 (void);
-// 0x0000031F System.Void System.Xml.XmlElement::WriteElementTo(System.Xml.XmlWriter,System.Xml.XmlElement)
+// 0x00000320 System.Void System.Xml.XmlElement::WriteElementTo(System.Xml.XmlWriter,System.Xml.XmlElement)
 extern void XmlElement_WriteElementTo_mD3B70D6DAF299D9BBB93162A9801C153755F1DAF (void);
-// 0x00000320 System.Void System.Xml.XmlElement::WriteStartElement(System.Xml.XmlWriter)
+// 0x00000321 System.Void System.Xml.XmlElement::WriteStartElement(System.Xml.XmlWriter)
 extern void XmlElement_WriteStartElement_m2C7B3D5DD055CE83F1621264799CC65A1D834D1D (void);
-// 0x00000321 System.Void System.Xml.XmlElement::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000322 System.Void System.Xml.XmlElement::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlElement_WriteContentTo_m247ACC07FD9604B780F118EACCB3EE179C829FF8 (void);
-// 0x00000322 System.Void System.Xml.XmlElement::RemoveAllAttributes()
+// 0x00000323 System.Void System.Xml.XmlElement::RemoveAllAttributes()
 extern void XmlElement_RemoveAllAttributes_m8C8B9D2126A355EB6CB1AAC1E87AA5DB790C6516 (void);
-// 0x00000323 System.Void System.Xml.XmlElement::RemoveAll()
+// 0x00000324 System.Void System.Xml.XmlElement::RemoveAll()
 extern void XmlElement_RemoveAll_mAE1E049DE09BD3F4B3012E65C4D06BF069D34436 (void);
-// 0x00000324 System.Void System.Xml.XmlElement::RemoveAllChildren()
+// 0x00000325 System.Void System.Xml.XmlElement::RemoveAllChildren()
 extern void XmlElement_RemoveAllChildren_mF16BCED4E253E003DAD07D4CCB2D02644666C6CD (void);
-// 0x00000325 System.String System.Xml.XmlElement::get_InnerXml()
+// 0x00000326 System.String System.Xml.XmlElement::get_InnerXml()
 extern void XmlElement_get_InnerXml_mA6EC312FAEABE5DB7792878A01573FB30344E10B (void);
-// 0x00000326 System.Void System.Xml.XmlElement::set_InnerXml(System.String)
+// 0x00000327 System.Void System.Xml.XmlElement::set_InnerXml(System.String)
 extern void XmlElement_set_InnerXml_m8E5363696C8158F9C378D655F81D2A5674B8A0B4 (void);
-// 0x00000327 System.String System.Xml.XmlElement::get_InnerText()
+// 0x00000328 System.String System.Xml.XmlElement::get_InnerText()
 extern void XmlElement_get_InnerText_mF241C44D2B198D55128A275BA94091000B739A87 (void);
-// 0x00000328 System.Xml.XmlNode System.Xml.XmlElement::get_NextSibling()
+// 0x00000329 System.Xml.XmlNode System.Xml.XmlElement::get_NextSibling()
 extern void XmlElement_get_NextSibling_mD803FD835451761A840FC6ADE02389972444BD0C (void);
-// 0x00000329 System.Void System.Xml.XmlElement::SetParent(System.Xml.XmlNode)
+// 0x0000032A System.Void System.Xml.XmlElement::SetParent(System.Xml.XmlNode)
 extern void XmlElement_SetParent_m3E433DA01834135DE485F77F19AAA36FCFA7A110 (void);
-// 0x0000032A System.Void System.Xml.XmlElementList::.ctor(System.Xml.XmlNode)
+// 0x0000032B System.Void System.Xml.XmlElementList::.ctor(System.Xml.XmlNode)
 extern void XmlElementList__ctor_mE9CE5108CF2B91213733B81C26C40C57D5726B07 (void);
-// 0x0000032B System.Void System.Xml.XmlElementList::Finalize()
+// 0x0000032C System.Void System.Xml.XmlElementList::Finalize()
 extern void XmlElementList_Finalize_mE7104C4073E9CBBC56F2B0428E14B3645798DE93 (void);
-// 0x0000032C System.Void System.Xml.XmlElementList::ConcurrencyCheck(System.Xml.XmlNodeChangedEventArgs)
+// 0x0000032D System.Void System.Xml.XmlElementList::ConcurrencyCheck(System.Xml.XmlNodeChangedEventArgs)
 extern void XmlElementList_ConcurrencyCheck_mFC4A7DF2FC6B07D06430F714671AB3468E068386 (void);
-// 0x0000032D System.Void System.Xml.XmlElementList::.ctor(System.Xml.XmlNode,System.String)
+// 0x0000032E System.Void System.Xml.XmlElementList::.ctor(System.Xml.XmlNode,System.String)
 extern void XmlElementList__ctor_m38E1065BC153887F600A64F0FAF6D595A928BCB1 (void);
-// 0x0000032E System.Int32 System.Xml.XmlElementList::get_ChangeCount()
+// 0x0000032F System.Int32 System.Xml.XmlElementList::get_ChangeCount()
 extern void XmlElementList_get_ChangeCount_m6C653A302721EA1D8C41326E169F2ED54CD9EE34 (void);
-// 0x0000032F System.Xml.XmlNode System.Xml.XmlElementList::NextElemInPreOrder(System.Xml.XmlNode)
+// 0x00000330 System.Xml.XmlNode System.Xml.XmlElementList::NextElemInPreOrder(System.Xml.XmlNode)
 extern void XmlElementList_NextElemInPreOrder_m6AA47AD12DFF62032C6A09B5EC1879631E0E0A6C (void);
-// 0x00000330 System.Xml.XmlNode System.Xml.XmlElementList::PrevElemInPreOrder(System.Xml.XmlNode)
+// 0x00000331 System.Xml.XmlNode System.Xml.XmlElementList::PrevElemInPreOrder(System.Xml.XmlNode)
 extern void XmlElementList_PrevElemInPreOrder_m3DE0B0989925E78696BA5CAA68854052E911EE2B (void);
-// 0x00000331 System.Boolean System.Xml.XmlElementList::IsMatch(System.Xml.XmlNode)
+// 0x00000332 System.Boolean System.Xml.XmlElementList::IsMatch(System.Xml.XmlNode)
 extern void XmlElementList_IsMatch_m9459349F92B576BEB725AA24F6337126DC1DE34B (void);
-// 0x00000332 System.Xml.XmlNode System.Xml.XmlElementList::GetMatchingNode(System.Xml.XmlNode,System.Boolean)
+// 0x00000333 System.Xml.XmlNode System.Xml.XmlElementList::GetMatchingNode(System.Xml.XmlNode,System.Boolean)
 extern void XmlElementList_GetMatchingNode_m2CC1EB6A57B17D3B4A8FC7B16226F8ED1E3EC137 (void);
-// 0x00000333 System.Xml.XmlNode System.Xml.XmlElementList::GetNextNode(System.Xml.XmlNode)
+// 0x00000334 System.Xml.XmlNode System.Xml.XmlElementList::GetNextNode(System.Xml.XmlNode)
 extern void XmlElementList_GetNextNode_m54C6F8839217646D19DF43C2AB3FFE87ECABF04B (void);
-// 0x00000334 System.Int32 System.Xml.XmlElementList::get_Count()
+// 0x00000335 System.Int32 System.Xml.XmlElementList::get_Count()
 extern void XmlElementList_get_Count_m83BF8A8345FCDF944C09CF571C132CEF5A8DBDA4 (void);
-// 0x00000335 System.Collections.IEnumerator System.Xml.XmlElementList::GetEnumerator()
+// 0x00000336 System.Collections.IEnumerator System.Xml.XmlElementList::GetEnumerator()
 extern void XmlElementList_GetEnumerator_m9C65429533CBB5B262B9CBF50F87376187D99BCE (void);
-// 0x00000336 System.Void System.Xml.XmlElementList::PrivateDisposeNodeList()
+// 0x00000337 System.Void System.Xml.XmlElementList::PrivateDisposeNodeList()
 extern void XmlElementList_PrivateDisposeNodeList_m91F3D67969060E933FD09BA62FD222477C04BFAB (void);
-// 0x00000337 System.Void System.Xml.XmlElementList::Dispose(System.Boolean)
+// 0x00000338 System.Void System.Xml.XmlElementList::Dispose(System.Boolean)
 extern void XmlElementList_Dispose_mE31A421BA8D482AEE3F8FE4F0CEAFF6B03E105D3 (void);
-// 0x00000338 System.Void System.Xml.XmlElementListEnumerator::.ctor(System.Xml.XmlElementList)
+// 0x00000339 System.Void System.Xml.XmlElementListEnumerator::.ctor(System.Xml.XmlElementList)
 extern void XmlElementListEnumerator__ctor_m98B779C6190C647319FDF934EEC2C9DC22B63204 (void);
-// 0x00000339 System.Boolean System.Xml.XmlElementListEnumerator::MoveNext()
+// 0x0000033A System.Boolean System.Xml.XmlElementListEnumerator::MoveNext()
 extern void XmlElementListEnumerator_MoveNext_mAA954F4C42CDB8AF1602675835099FD6B5162ED1 (void);
-// 0x0000033A System.Void System.Xml.XmlElementListEnumerator::Reset()
+// 0x0000033B System.Void System.Xml.XmlElementListEnumerator::Reset()
 extern void XmlElementListEnumerator_Reset_mA13C38F5A39A5926F4CA0CAAF25288482366B876 (void);
-// 0x0000033B System.Object System.Xml.XmlElementListEnumerator::get_Current()
+// 0x0000033C System.Object System.Xml.XmlElementListEnumerator::get_Current()
 extern void XmlElementListEnumerator_get_Current_mA75BD3576C64F7039DD8332157BEE7683841D079 (void);
-// 0x0000033C System.Void System.Xml.XmlEmptyElementListEnumerator::.ctor(System.Xml.XmlElementList)
+// 0x0000033D System.Void System.Xml.XmlEmptyElementListEnumerator::.ctor(System.Xml.XmlElementList)
 extern void XmlEmptyElementListEnumerator__ctor_m7433D2C2DDEF90DD50C7AF1816454F41949D5314 (void);
-// 0x0000033D System.Boolean System.Xml.XmlEmptyElementListEnumerator::MoveNext()
+// 0x0000033E System.Boolean System.Xml.XmlEmptyElementListEnumerator::MoveNext()
 extern void XmlEmptyElementListEnumerator_MoveNext_m66678E54A5EC0906958E81FE3BD490AEB7613109 (void);
-// 0x0000033E System.Void System.Xml.XmlEmptyElementListEnumerator::Reset()
+// 0x0000033F System.Void System.Xml.XmlEmptyElementListEnumerator::Reset()
 extern void XmlEmptyElementListEnumerator_Reset_mFB303DE624E20111A7B8797137A84907EE82A7A4 (void);
-// 0x0000033F System.Object System.Xml.XmlEmptyElementListEnumerator::get_Current()
+// 0x00000340 System.Object System.Xml.XmlEmptyElementListEnumerator::get_Current()
 extern void XmlEmptyElementListEnumerator_get_Current_mA23B6E85AD48001156124865EA9D5C5BA94AB51F (void);
-// 0x00000340 System.Void System.Xml.XmlElementListListener::.ctor(System.Xml.XmlDocument,System.Xml.XmlElementList)
+// 0x00000341 System.Void System.Xml.XmlElementListListener::.ctor(System.Xml.XmlDocument,System.Xml.XmlElementList)
 extern void XmlElementListListener__ctor_mDCC66BFA14921AA8ADAF5ED16079AB47D603B557 (void);
-// 0x00000341 System.Void System.Xml.XmlElementListListener::OnListChanged(System.Object,System.Xml.XmlNodeChangedEventArgs)
+// 0x00000342 System.Void System.Xml.XmlElementListListener::OnListChanged(System.Object,System.Xml.XmlNodeChangedEventArgs)
 extern void XmlElementListListener_OnListChanged_mD4D9B710020444018B7CA3A06C295978B38943DD (void);
-// 0x00000342 System.Void System.Xml.XmlElementListListener::Unregister()
+// 0x00000343 System.Void System.Xml.XmlElementListListener::Unregister()
 extern void XmlElementListListener_Unregister_m200394882802F40AE1337CE7EEC60ACAA606287C (void);
-// 0x00000343 System.Void System.Xml.XmlEntity::.ctor(System.String,System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x00000344 System.Void System.Xml.XmlEntity::.ctor(System.String,System.String,System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlEntity__ctor_m3F8F45510F797944A6386162E16A5FF4EA5BCD12 (void);
-// 0x00000344 System.Xml.XmlNode System.Xml.XmlEntity::CloneNode(System.Boolean)
+// 0x00000345 System.Xml.XmlNode System.Xml.XmlEntity::CloneNode(System.Boolean)
 extern void XmlEntity_CloneNode_m98D079EB599F50756351086C356E6010C0283C49 (void);
-// 0x00000345 System.Boolean System.Xml.XmlEntity::get_IsReadOnly()
+// 0x00000346 System.Boolean System.Xml.XmlEntity::get_IsReadOnly()
 extern void XmlEntity_get_IsReadOnly_mEA1F980512D977C724750755BCC71DD0DB56121A (void);
-// 0x00000346 System.String System.Xml.XmlEntity::get_Name()
+// 0x00000347 System.String System.Xml.XmlEntity::get_Name()
 extern void XmlEntity_get_Name_mB395062CD4A35108FDC0CF0A06833F5248DB34D3 (void);
-// 0x00000347 System.String System.Xml.XmlEntity::get_LocalName()
+// 0x00000348 System.String System.Xml.XmlEntity::get_LocalName()
 extern void XmlEntity_get_LocalName_mEDE925C37A06EFFA432B1328E1A7AC9D7782C5A9 (void);
-// 0x00000348 System.String System.Xml.XmlEntity::get_InnerText()
+// 0x00000349 System.String System.Xml.XmlEntity::get_InnerText()
 extern void XmlEntity_get_InnerText_m3988DBBC75DC7644AEF924442C50A838B4E1862B (void);
-// 0x00000349 System.Boolean System.Xml.XmlEntity::get_IsContainer()
+// 0x0000034A System.Boolean System.Xml.XmlEntity::get_IsContainer()
 extern void XmlEntity_get_IsContainer_m5825441C93DE05E6C98402FA2FB963C7646AA9C4 (void);
-// 0x0000034A System.Xml.XmlLinkedNode System.Xml.XmlEntity::get_LastNode()
+// 0x0000034B System.Xml.XmlLinkedNode System.Xml.XmlEntity::get_LastNode()
 extern void XmlEntity_get_LastNode_m6F4689F5D49CCD1B7D316E6C4BFD03D1375ECF5E (void);
-// 0x0000034B System.Void System.Xml.XmlEntity::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x0000034C System.Void System.Xml.XmlEntity::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlEntity_set_LastNode_m7C708D6802A3B5DDBC360CE02DE31DCB17D51D97 (void);
-// 0x0000034C System.Boolean System.Xml.XmlEntity::IsValidChildType(System.Xml.XmlNodeType)
+// 0x0000034D System.Boolean System.Xml.XmlEntity::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlEntity_IsValidChildType_m712AB940B6563F2DB88222FA6DF2C6191114748B (void);
-// 0x0000034D System.Xml.XmlNodeType System.Xml.XmlEntity::get_NodeType()
+// 0x0000034E System.Xml.XmlNodeType System.Xml.XmlEntity::get_NodeType()
 extern void XmlEntity_get_NodeType_mFB4FA8F5D4C0373F6FCFDDB263A1377BD9BE7323 (void);
-// 0x0000034E System.String System.Xml.XmlEntity::get_SystemId()
+// 0x0000034F System.String System.Xml.XmlEntity::get_SystemId()
 extern void XmlEntity_get_SystemId_mBD4E3AB5EBAE7C852E533B9E184A316BECF47FA7 (void);
-// 0x0000034F System.String System.Xml.XmlEntity::get_InnerXml()
+// 0x00000350 System.String System.Xml.XmlEntity::get_InnerXml()
 extern void XmlEntity_get_InnerXml_m1964E8F69C242D904F44E142ACFB52FC20D77670 (void);
-// 0x00000350 System.Void System.Xml.XmlEntity::set_InnerXml(System.String)
+// 0x00000351 System.Void System.Xml.XmlEntity::set_InnerXml(System.String)
 extern void XmlEntity_set_InnerXml_m0EFAA9C52B2F23F483E6F135D920BC04F46D19A1 (void);
-// 0x00000351 System.Void System.Xml.XmlEntity::WriteTo(System.Xml.XmlWriter)
+// 0x00000352 System.Void System.Xml.XmlEntity::WriteTo(System.Xml.XmlWriter)
 extern void XmlEntity_WriteTo_mF2BFA329C556F91F882187715263EE372035A9F9 (void);
-// 0x00000352 System.Void System.Xml.XmlEntity::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000353 System.Void System.Xml.XmlEntity::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlEntity_WriteContentTo_m80097DB9A285F014639362C24DF240B257BD5563 (void);
-// 0x00000353 System.String System.Xml.XmlEntity::get_BaseURI()
+// 0x00000354 System.String System.Xml.XmlEntity::get_BaseURI()
 extern void XmlEntity_get_BaseURI_mBEE2C3D19C59C9A59F1554B612561D242506EDE3 (void);
-// 0x00000354 System.Void System.Xml.XmlEntity::SetBaseURI(System.String)
+// 0x00000355 System.Void System.Xml.XmlEntity::SetBaseURI(System.String)
 extern void XmlEntity_SetBaseURI_mFEBE0339CA3A522BDC09A278FFBA3A9D77A578B3 (void);
-// 0x00000355 System.Void System.Xml.XmlEntityReference::.ctor(System.String,System.Xml.XmlDocument)
+// 0x00000356 System.Void System.Xml.XmlEntityReference::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlEntityReference__ctor_m7AAF0A5672B04060ECEAFAB3DF7E93DA8A7B6A94 (void);
-// 0x00000356 System.String System.Xml.XmlEntityReference::get_Name()
+// 0x00000357 System.String System.Xml.XmlEntityReference::get_Name()
 extern void XmlEntityReference_get_Name_m04458DB45F333977C89A42BFEEA84DFFD336A7C6 (void);
-// 0x00000357 System.String System.Xml.XmlEntityReference::get_LocalName()
+// 0x00000358 System.String System.Xml.XmlEntityReference::get_LocalName()
 extern void XmlEntityReference_get_LocalName_mC07D5C66ED59E93E5A135FAE9C79573E2D1CE95A (void);
-// 0x00000358 System.String System.Xml.XmlEntityReference::get_Value()
+// 0x00000359 System.String System.Xml.XmlEntityReference::get_Value()
 extern void XmlEntityReference_get_Value_mB644EC609B70FBEBEADD62213FD801F3A63D52A1 (void);
-// 0x00000359 System.Xml.XmlNodeType System.Xml.XmlEntityReference::get_NodeType()
+// 0x0000035A System.Xml.XmlNodeType System.Xml.XmlEntityReference::get_NodeType()
 extern void XmlEntityReference_get_NodeType_m8EAACF32F1C09412B240CB54BFE9CD1F982290E7 (void);
-// 0x0000035A System.Xml.XmlNode System.Xml.XmlEntityReference::CloneNode(System.Boolean)
+// 0x0000035B System.Xml.XmlNode System.Xml.XmlEntityReference::CloneNode(System.Boolean)
 extern void XmlEntityReference_CloneNode_m261E6E9080D91887823308E9BEF22040F89A9F36 (void);
-// 0x0000035B System.Boolean System.Xml.XmlEntityReference::get_IsReadOnly()
+// 0x0000035C System.Boolean System.Xml.XmlEntityReference::get_IsReadOnly()
 extern void XmlEntityReference_get_IsReadOnly_mA9A5BBA9CF680F2578F2364A14A6DED08E630E08 (void);
-// 0x0000035C System.Boolean System.Xml.XmlEntityReference::get_IsContainer()
+// 0x0000035D System.Boolean System.Xml.XmlEntityReference::get_IsContainer()
 extern void XmlEntityReference_get_IsContainer_m0ADEE4CF259EA90DD34D613A9A5CC828361F8671 (void);
-// 0x0000035D System.Void System.Xml.XmlEntityReference::SetParent(System.Xml.XmlNode)
+// 0x0000035E System.Void System.Xml.XmlEntityReference::SetParent(System.Xml.XmlNode)
 extern void XmlEntityReference_SetParent_m0DB5F834F46BA9976C2C110DFB00E124EE884CCE (void);
-// 0x0000035E System.Void System.Xml.XmlEntityReference::SetParentForLoad(System.Xml.XmlNode)
+// 0x0000035F System.Void System.Xml.XmlEntityReference::SetParentForLoad(System.Xml.XmlNode)
 extern void XmlEntityReference_SetParentForLoad_mE425DA31BDDE7A43B0F0801355EA971B4BD19DC5 (void);
-// 0x0000035F System.Xml.XmlLinkedNode System.Xml.XmlEntityReference::get_LastNode()
+// 0x00000360 System.Xml.XmlLinkedNode System.Xml.XmlEntityReference::get_LastNode()
 extern void XmlEntityReference_get_LastNode_m82739AD8F8B3F63000809A23E927AB6C97AC178E (void);
-// 0x00000360 System.Void System.Xml.XmlEntityReference::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x00000361 System.Void System.Xml.XmlEntityReference::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlEntityReference_set_LastNode_mBA7486033533289A22F4ECEB0F8EC2A0F2B75ED0 (void);
-// 0x00000361 System.Boolean System.Xml.XmlEntityReference::IsValidChildType(System.Xml.XmlNodeType)
+// 0x00000362 System.Boolean System.Xml.XmlEntityReference::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlEntityReference_IsValidChildType_m8C4FC7227048C64D65DB3B14255E9453FC7E1C35 (void);
-// 0x00000362 System.Void System.Xml.XmlEntityReference::WriteTo(System.Xml.XmlWriter)
+// 0x00000363 System.Void System.Xml.XmlEntityReference::WriteTo(System.Xml.XmlWriter)
 extern void XmlEntityReference_WriteTo_m242708727821AADC64664AFC718AC090FE29D453 (void);
-// 0x00000363 System.Void System.Xml.XmlEntityReference::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000364 System.Void System.Xml.XmlEntityReference::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlEntityReference_WriteContentTo_mC0C989C0CDCAA0F370A9747D873F0BA1251435D3 (void);
-// 0x00000364 System.String System.Xml.XmlEntityReference::get_BaseURI()
+// 0x00000365 System.String System.Xml.XmlEntityReference::get_BaseURI()
 extern void XmlEntityReference_get_BaseURI_m8B0B98DF295EAA54B6A54431BDDCD05FFBA7A343 (void);
-// 0x00000365 System.String System.Xml.XmlEntityReference::ConstructBaseURI(System.String,System.String)
+// 0x00000366 System.String System.Xml.XmlEntityReference::ConstructBaseURI(System.String,System.String)
 extern void XmlEntityReference_ConstructBaseURI_mCB7DDEFDCE5D272FA11026F4FE913CCA1339B4B2 (void);
-// 0x00000366 System.String System.Xml.XmlEntityReference::get_ChildBaseURI()
+// 0x00000367 System.String System.Xml.XmlEntityReference::get_ChildBaseURI()
 extern void XmlEntityReference_get_ChildBaseURI_m0436E0491FD7F8D12694E705C57AF11BD59B62A4 (void);
-// 0x00000367 System.Void System.Xml.XmlImplementation::.ctor()
+// 0x00000368 System.Void System.Xml.XmlImplementation::.ctor()
 extern void XmlImplementation__ctor_mEBE20EB37760F63620D9DFAEF3341D2F4E138DC9 (void);
-// 0x00000368 System.Void System.Xml.XmlImplementation::.ctor(System.Xml.XmlNameTable)
+// 0x00000369 System.Void System.Xml.XmlImplementation::.ctor(System.Xml.XmlNameTable)
 extern void XmlImplementation__ctor_mE5899D3C7EA30F9EDB19D07211588DB4FEDEC04D (void);
-// 0x00000369 System.Xml.XmlDocument System.Xml.XmlImplementation::CreateDocument()
+// 0x0000036A System.Xml.XmlDocument System.Xml.XmlImplementation::CreateDocument()
 extern void XmlImplementation_CreateDocument_mE4CDDCBC487D85C40F81751C1DC54FFB1C6021D2 (void);
-// 0x0000036A System.Xml.XmlNameTable System.Xml.XmlImplementation::get_NameTable()
+// 0x0000036B System.Xml.XmlNameTable System.Xml.XmlImplementation::get_NameTable()
 extern void XmlImplementation_get_NameTable_m8951702F59619310BD4A9528D2FF471352518CDF (void);
-// 0x0000036B System.Void System.Xml.XmlLinkedNode::.ctor(System.Xml.XmlDocument)
+// 0x0000036C System.Void System.Xml.XmlLinkedNode::.ctor(System.Xml.XmlDocument)
 extern void XmlLinkedNode__ctor_mBAF93AD97DBA998E16940918D8F7EF3E585C7633 (void);
-// 0x0000036C System.Xml.XmlNode System.Xml.XmlLinkedNode::get_PreviousSibling()
+// 0x0000036D System.Xml.XmlNode System.Xml.XmlLinkedNode::get_PreviousSibling()
 extern void XmlLinkedNode_get_PreviousSibling_m049F4B495C8A154CC684EABE02C38048EF4F07E5 (void);
-// 0x0000036D System.Xml.XmlNode System.Xml.XmlLinkedNode::get_NextSibling()
+// 0x0000036E System.Xml.XmlNode System.Xml.XmlLinkedNode::get_NextSibling()
 extern void XmlLinkedNode_get_NextSibling_m2D436964437A504AED023A59BB9E11E61D3A6BCD (void);
-// 0x0000036E System.Void System.Xml.XmlLoader::.ctor()
+// 0x0000036F System.Void System.Xml.XmlLoader::.ctor()
 extern void XmlLoader__ctor_m388331A1FB63D316FDDF4D7312B6977BFEC1A050 (void);
-// 0x0000036F System.Void System.Xml.XmlLoader::Load(System.Xml.XmlDocument,System.Xml.XmlReader,System.Boolean)
+// 0x00000370 System.Void System.Xml.XmlLoader::Load(System.Xml.XmlDocument,System.Xml.XmlReader,System.Boolean)
 extern void XmlLoader_Load_m3B85C836D8C6DE323B85E868DED6E8E36D56C124 (void);
-// 0x00000370 System.Void System.Xml.XmlLoader::LoadDocSequence(System.Xml.XmlDocument)
+// 0x00000371 System.Void System.Xml.XmlLoader::LoadDocSequence(System.Xml.XmlDocument)
 extern void XmlLoader_LoadDocSequence_m7A96D61FBF4996383D5339AB7B416CE0D51D4526 (void);
-// 0x00000371 System.Xml.XmlNode System.Xml.XmlLoader::LoadNode(System.Boolean)
+// 0x00000372 System.Xml.XmlNode System.Xml.XmlLoader::LoadNode(System.Boolean)
 extern void XmlLoader_LoadNode_mDFD824F250FA615C734180BF6141A472610F7E68 (void);
-// 0x00000372 System.Xml.XmlAttribute System.Xml.XmlLoader::LoadAttributeNode()
+// 0x00000373 System.Xml.XmlAttribute System.Xml.XmlLoader::LoadAttributeNode()
 extern void XmlLoader_LoadAttributeNode_mD21D3FF205915C01F5EAA89291E816AEDE5E8567 (void);
-// 0x00000373 System.Xml.XmlAttribute System.Xml.XmlLoader::LoadDefaultAttribute()
+// 0x00000374 System.Xml.XmlAttribute System.Xml.XmlLoader::LoadDefaultAttribute()
 extern void XmlLoader_LoadDefaultAttribute_m020283A6DBFA29FF4B5D4C7D03D56DF43E4216D7 (void);
-// 0x00000374 System.Void System.Xml.XmlLoader::LoadAttributeValue(System.Xml.XmlNode,System.Boolean)
+// 0x00000375 System.Void System.Xml.XmlLoader::LoadAttributeValue(System.Xml.XmlNode,System.Boolean)
 extern void XmlLoader_LoadAttributeValue_m119C6C6063D71231F622A12A683078D77DA8B320 (void);
-// 0x00000375 System.Xml.XmlEntityReference System.Xml.XmlLoader::LoadEntityReferenceNode(System.Boolean)
+// 0x00000376 System.Xml.XmlEntityReference System.Xml.XmlLoader::LoadEntityReferenceNode(System.Boolean)
 extern void XmlLoader_LoadEntityReferenceNode_m26B083645AAB9B8E96E676B2EB5F19EADC24B628 (void);
-// 0x00000376 System.Xml.XmlDeclaration System.Xml.XmlLoader::LoadDeclarationNode()
+// 0x00000377 System.Xml.XmlDeclaration System.Xml.XmlLoader::LoadDeclarationNode()
 extern void XmlLoader_LoadDeclarationNode_m43A2FAF27DCB6A1CBFEABB7508DD4C94523F1AE6 (void);
-// 0x00000377 System.Xml.XmlDocumentType System.Xml.XmlLoader::LoadDocumentTypeNode()
+// 0x00000378 System.Xml.XmlDocumentType System.Xml.XmlLoader::LoadDocumentTypeNode()
 extern void XmlLoader_LoadDocumentTypeNode_m8869BA2D6837AF67F10647453EA32681AA71E3A9 (void);
-// 0x00000378 System.Xml.XmlNode System.Xml.XmlLoader::LoadNodeDirect()
+// 0x00000379 System.Xml.XmlNode System.Xml.XmlLoader::LoadNodeDirect()
 extern void XmlLoader_LoadNodeDirect_m2C0D5301FFB96CA298EF768E2CE903B6C6D459B7 (void);
-// 0x00000379 System.Xml.XmlAttribute System.Xml.XmlLoader::LoadAttributeNodeDirect()
+// 0x0000037A System.Xml.XmlAttribute System.Xml.XmlLoader::LoadAttributeNodeDirect()
 extern void XmlLoader_LoadAttributeNodeDirect_m700A4AD66233956704AA6D82F1D59A9204F50B4B (void);
-// 0x0000037A System.Void System.Xml.XmlLoader::ParseDocumentType(System.Xml.XmlDocumentType)
+// 0x0000037B System.Void System.Xml.XmlLoader::ParseDocumentType(System.Xml.XmlDocumentType)
 extern void XmlLoader_ParseDocumentType_m7E6901C3E8CF530A50BFE027DE91E999307F2A02 (void);
-// 0x0000037B System.Void System.Xml.XmlLoader::ParseDocumentType(System.Xml.XmlDocumentType,System.Boolean,System.Xml.XmlResolver)
+// 0x0000037C System.Void System.Xml.XmlLoader::ParseDocumentType(System.Xml.XmlDocumentType,System.Boolean,System.Xml.XmlResolver)
 extern void XmlLoader_ParseDocumentType_m19313190F3CDF2BBE2B717BFB84C5D86AE73DD41 (void);
-// 0x0000037C System.Void System.Xml.XmlLoader::LoadDocumentType(System.Xml.IDtdInfo,System.Xml.XmlDocumentType)
+// 0x0000037D System.Void System.Xml.XmlLoader::LoadDocumentType(System.Xml.IDtdInfo,System.Xml.XmlDocumentType)
 extern void XmlLoader_LoadDocumentType_mC301F9962BC7D2F1134EDE1CD6D71D2EE68E9247 (void);
-// 0x0000037D System.Xml.XmlParserContext System.Xml.XmlLoader::GetContext(System.Xml.XmlNode)
+// 0x0000037E System.Xml.XmlParserContext System.Xml.XmlLoader::GetContext(System.Xml.XmlNode)
 extern void XmlLoader_GetContext_mC3CED072E1A2C5E1B94C8542BDFE5D0B3BA48934 (void);
-// 0x0000037E System.Xml.XmlNamespaceManager System.Xml.XmlLoader::ParsePartialContent(System.Xml.XmlNode,System.String,System.Xml.XmlNodeType)
+// 0x0000037F System.Xml.XmlNamespaceManager System.Xml.XmlLoader::ParsePartialContent(System.Xml.XmlNode,System.String,System.Xml.XmlNodeType)
 extern void XmlLoader_ParsePartialContent_mB3EF08CD6158AD1D1CB317AA3A712DFF7252C1EC (void);
-// 0x0000037F System.Void System.Xml.XmlLoader::LoadInnerXmlElement(System.Xml.XmlElement,System.String)
+// 0x00000380 System.Void System.Xml.XmlLoader::LoadInnerXmlElement(System.Xml.XmlElement,System.String)
 extern void XmlLoader_LoadInnerXmlElement_mE78D161D2D91C2082F77B90FAA4DF5181915DDEB (void);
-// 0x00000380 System.Void System.Xml.XmlLoader::LoadInnerXmlAttribute(System.Xml.XmlAttribute,System.String)
+// 0x00000381 System.Void System.Xml.XmlLoader::LoadInnerXmlAttribute(System.Xml.XmlAttribute,System.String)
 extern void XmlLoader_LoadInnerXmlAttribute_mBCE3F2F2B11410937B71BA993E5E1151BE4B6C98 (void);
-// 0x00000381 System.Void System.Xml.XmlLoader::RemoveDuplicateNamespace(System.Xml.XmlElement,System.Xml.XmlNamespaceManager,System.Boolean)
+// 0x00000382 System.Void System.Xml.XmlLoader::RemoveDuplicateNamespace(System.Xml.XmlElement,System.Xml.XmlNamespaceManager,System.Boolean)
 extern void XmlLoader_RemoveDuplicateNamespace_m451D261AC3A6D4918CA6661853B922BBBE39A148 (void);
-// 0x00000382 System.String System.Xml.XmlLoader::EntitizeName(System.String)
+// 0x00000383 System.String System.Xml.XmlLoader::EntitizeName(System.String)
 extern void XmlLoader_EntitizeName_mA9639629370CE5837B6174542782588E6E1A682B (void);
-// 0x00000383 System.Void System.Xml.XmlLoader::ExpandEntity(System.Xml.XmlEntity)
+// 0x00000384 System.Void System.Xml.XmlLoader::ExpandEntity(System.Xml.XmlEntity)
 extern void XmlLoader_ExpandEntity_mF48C80ADCAA60579178B00F9BB747D3FDA3B2616 (void);
-// 0x00000384 System.Void System.Xml.XmlLoader::ExpandEntityReference(System.Xml.XmlEntityReference)
+// 0x00000385 System.Void System.Xml.XmlLoader::ExpandEntityReference(System.Xml.XmlEntityReference)
 extern void XmlLoader_ExpandEntityReference_m99D6DCC2F0FA00E28E73698D333FCC12EFCA7B2F (void);
-// 0x00000385 System.Xml.XmlReader System.Xml.XmlLoader::CreateInnerXmlReader(System.String,System.Xml.XmlNodeType,System.Xml.XmlParserContext,System.Xml.XmlDocument)
+// 0x00000386 System.Xml.XmlReader System.Xml.XmlLoader::CreateInnerXmlReader(System.String,System.Xml.XmlNodeType,System.Xml.XmlParserContext,System.Xml.XmlDocument)
 extern void XmlLoader_CreateInnerXmlReader_m9F7F526E3D4E37EAFA9469C1FE61159D2FE5CCC6 (void);
-// 0x00000386 System.Void System.Xml.XmlLoader::ParseXmlDeclarationValue(System.String,System.String&,System.String&,System.String&)
+// 0x00000387 System.Void System.Xml.XmlLoader::ParseXmlDeclarationValue(System.String,System.String&,System.String&,System.String&)
 extern void XmlLoader_ParseXmlDeclarationValue_m54F41E02A882770049D8D02C68338A7B7AF9ABA6 (void);
-// 0x00000387 System.Exception System.Xml.XmlLoader::UnexpectedNodeType(System.Xml.XmlNodeType)
+// 0x00000388 System.Exception System.Xml.XmlLoader::UnexpectedNodeType(System.Xml.XmlNodeType)
 extern void XmlLoader_UnexpectedNodeType_mA83CDA29B169FEFBB014EAC94A0D4DBFB31F84E4 (void);
-// 0x00000388 System.Xml.XmlName System.Xml.XmlName::Create(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName,System.Xml.Schema.IXmlSchemaInfo)
+// 0x00000389 System.Xml.XmlName System.Xml.XmlName::Create(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName,System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlName_Create_mC2946590436F4453D0E49D9DA15D12507BD47C12 (void);
-// 0x00000389 System.Void System.Xml.XmlName::.ctor(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName)
+// 0x0000038A System.Void System.Xml.XmlName::.ctor(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName)
 extern void XmlName__ctor_m481CD54AACBDAC664A7E9E893CB364ED11C62B24 (void);
-// 0x0000038A System.String System.Xml.XmlName::get_LocalName()
+// 0x0000038B System.String System.Xml.XmlName::get_LocalName()
 extern void XmlName_get_LocalName_mD4DE8695A21CB393834F0DDFDD6D6B610E91A64D (void);
-// 0x0000038B System.String System.Xml.XmlName::get_NamespaceURI()
+// 0x0000038C System.String System.Xml.XmlName::get_NamespaceURI()
 extern void XmlName_get_NamespaceURI_mCF07F0E78CAF17DDF53DD8CD44C5D415B4E010D1 (void);
-// 0x0000038C System.String System.Xml.XmlName::get_Prefix()
+// 0x0000038D System.String System.Xml.XmlName::get_Prefix()
 extern void XmlName_get_Prefix_m42E3E78749764ECBE9586AFC0FC3EBFD2B7A2E4E (void);
-// 0x0000038D System.Int32 System.Xml.XmlName::get_HashCode()
+// 0x0000038E System.Int32 System.Xml.XmlName::get_HashCode()
 extern void XmlName_get_HashCode_m329A9FEAF3BDEAA5F1F40CB84F7E51E1BDE58B2D (void);
-// 0x0000038E System.Xml.XmlDocument System.Xml.XmlName::get_OwnerDocument()
+// 0x0000038F System.Xml.XmlDocument System.Xml.XmlName::get_OwnerDocument()
 extern void XmlName_get_OwnerDocument_m330FA0574F04486B56352FA1E5F4336890C02A0C (void);
-// 0x0000038F System.String System.Xml.XmlName::get_Name()
+// 0x00000390 System.String System.Xml.XmlName::get_Name()
 extern void XmlName_get_Name_m77B33DD36549E6E3E728EA1AD3325E339EC30435 (void);
-// 0x00000390 System.Xml.Schema.XmlSchemaValidity System.Xml.XmlName::get_Validity()
+// 0x00000391 System.Xml.Schema.XmlSchemaValidity System.Xml.XmlName::get_Validity()
 extern void XmlName_get_Validity_m99EE72CF81E24310F68E20FBDB8D2DA67C5CD943 (void);
-// 0x00000391 System.Boolean System.Xml.XmlName::get_IsDefault()
+// 0x00000392 System.Boolean System.Xml.XmlName::get_IsDefault()
 extern void XmlName_get_IsDefault_m184C3AB9C1A20B9D78009C22DA191E2D1B23D3AC (void);
-// 0x00000392 System.Boolean System.Xml.XmlName::get_IsNil()
+// 0x00000393 System.Boolean System.Xml.XmlName::get_IsNil()
 extern void XmlName_get_IsNil_mCF15AFC4476754C40495FC1B1D15B87763B82D6A (void);
-// 0x00000393 System.Xml.Schema.XmlSchemaSimpleType System.Xml.XmlName::get_MemberType()
+// 0x00000394 System.Xml.Schema.XmlSchemaSimpleType System.Xml.XmlName::get_MemberType()
 extern void XmlName_get_MemberType_m1B22D0EC1C1532491736ADB4594C2F6C9EB55830 (void);
-// 0x00000394 System.Xml.Schema.XmlSchemaType System.Xml.XmlName::get_SchemaType()
+// 0x00000395 System.Xml.Schema.XmlSchemaType System.Xml.XmlName::get_SchemaType()
 extern void XmlName_get_SchemaType_m079DD1FDB8EDEAA7740A5A14D0312E9BCFB597A3 (void);
-// 0x00000395 System.Xml.Schema.XmlSchemaElement System.Xml.XmlName::get_SchemaElement()
+// 0x00000396 System.Xml.Schema.XmlSchemaElement System.Xml.XmlName::get_SchemaElement()
 extern void XmlName_get_SchemaElement_m973E743AD39910AFFAD74D01C45B5331209B7B1B (void);
-// 0x00000396 System.Xml.Schema.XmlSchemaAttribute System.Xml.XmlName::get_SchemaAttribute()
+// 0x00000397 System.Xml.Schema.XmlSchemaAttribute System.Xml.XmlName::get_SchemaAttribute()
 extern void XmlName_get_SchemaAttribute_m37A7CD5A03742285B2786D2449C08FC675A8495A (void);
-// 0x00000397 System.Boolean System.Xml.XmlName::Equals(System.Xml.Schema.IXmlSchemaInfo)
+// 0x00000398 System.Boolean System.Xml.XmlName::Equals(System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlName_Equals_mD34FC141124C47719D2266FD774E0598F66E257B (void);
-// 0x00000398 System.Int32 System.Xml.XmlName::GetHashCode(System.String)
+// 0x00000399 System.Int32 System.Xml.XmlName::GetHashCode(System.String)
 extern void XmlName_GetHashCode_m972577ACE7EF83D4ADE98E056F1A05DD11A789F1 (void);
-// 0x00000399 System.Void System.Xml.XmlNameEx::.ctor(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName,System.Xml.Schema.IXmlSchemaInfo)
+// 0x0000039A System.Void System.Xml.XmlNameEx::.ctor(System.String,System.String,System.String,System.Int32,System.Xml.XmlDocument,System.Xml.XmlName,System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlNameEx__ctor_m967B3032B050D5E535DC12B3F44822B3B14BE76C (void);
-// 0x0000039A System.Xml.Schema.XmlSchemaValidity System.Xml.XmlNameEx::get_Validity()
+// 0x0000039B System.Xml.Schema.XmlSchemaValidity System.Xml.XmlNameEx::get_Validity()
 extern void XmlNameEx_get_Validity_m8B63DD9F78D02F444D4E458398139C6CC07C5A17 (void);
-// 0x0000039B System.Boolean System.Xml.XmlNameEx::get_IsDefault()
+// 0x0000039C System.Boolean System.Xml.XmlNameEx::get_IsDefault()
 extern void XmlNameEx_get_IsDefault_m189F4C78A557464D6171A5D760ABFA5FDA4C0126 (void);
-// 0x0000039C System.Boolean System.Xml.XmlNameEx::get_IsNil()
+// 0x0000039D System.Boolean System.Xml.XmlNameEx::get_IsNil()
 extern void XmlNameEx_get_IsNil_m678617751E84334EC52250E6DEE482DC77F5F0D4 (void);
-// 0x0000039D System.Xml.Schema.XmlSchemaSimpleType System.Xml.XmlNameEx::get_MemberType()
+// 0x0000039E System.Xml.Schema.XmlSchemaSimpleType System.Xml.XmlNameEx::get_MemberType()
 extern void XmlNameEx_get_MemberType_m8BAB8AC74B747F439008F2201D27B4B3B38767B9 (void);
-// 0x0000039E System.Xml.Schema.XmlSchemaType System.Xml.XmlNameEx::get_SchemaType()
+// 0x0000039F System.Xml.Schema.XmlSchemaType System.Xml.XmlNameEx::get_SchemaType()
 extern void XmlNameEx_get_SchemaType_mB2B477F468C85169937AD2A4ADD90D4D17D71AAA (void);
-// 0x0000039F System.Xml.Schema.XmlSchemaElement System.Xml.XmlNameEx::get_SchemaElement()
+// 0x000003A0 System.Xml.Schema.XmlSchemaElement System.Xml.XmlNameEx::get_SchemaElement()
 extern void XmlNameEx_get_SchemaElement_m4C48EAAB159145D18B4F3DAAA1CEB279B26101A1 (void);
-// 0x000003A0 System.Xml.Schema.XmlSchemaAttribute System.Xml.XmlNameEx::get_SchemaAttribute()
+// 0x000003A1 System.Xml.Schema.XmlSchemaAttribute System.Xml.XmlNameEx::get_SchemaAttribute()
 extern void XmlNameEx_get_SchemaAttribute_m7DE58A38BFDB5F19E5A6A472587E6C2176F4498D (void);
-// 0x000003A1 System.Void System.Xml.XmlNameEx::SetValidity(System.Xml.Schema.XmlSchemaValidity)
+// 0x000003A2 System.Void System.Xml.XmlNameEx::SetValidity(System.Xml.Schema.XmlSchemaValidity)
 extern void XmlNameEx_SetValidity_m6D466FF2344CA38C5D234FEE89AE009FC900095B (void);
-// 0x000003A2 System.Void System.Xml.XmlNameEx::SetIsDefault(System.Boolean)
+// 0x000003A3 System.Void System.Xml.XmlNameEx::SetIsDefault(System.Boolean)
 extern void XmlNameEx_SetIsDefault_m74E42B17EEEDE9C419A979BD8A296B282F7ACB66 (void);
-// 0x000003A3 System.Void System.Xml.XmlNameEx::SetIsNil(System.Boolean)
+// 0x000003A4 System.Void System.Xml.XmlNameEx::SetIsNil(System.Boolean)
 extern void XmlNameEx_SetIsNil_mBEA95E9E386B8B461B171BCD5A5E88F9885630CF (void);
-// 0x000003A4 System.Boolean System.Xml.XmlNameEx::Equals(System.Xml.Schema.IXmlSchemaInfo)
+// 0x000003A5 System.Boolean System.Xml.XmlNameEx::Equals(System.Xml.Schema.IXmlSchemaInfo)
 extern void XmlNameEx_Equals_mBA8CEC2CF7A5A4C113C70D0192AF1870C96F517E (void);
-// 0x000003A5 System.Void System.Xml.XmlNamedNodeMap::.ctor(System.Xml.XmlNode)
+// 0x000003A6 System.Void System.Xml.XmlNamedNodeMap::.ctor(System.Xml.XmlNode)
 extern void XmlNamedNodeMap__ctor_mA91F36D1CB05380C6F5E60F31062962B6DE2FF08 (void);
-// 0x000003A6 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::GetNamedItem(System.String)
+// 0x000003A7 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::GetNamedItem(System.String)
 extern void XmlNamedNodeMap_GetNamedItem_m3FA60E81627626104091A0930AE6E7EF9EBB3916 (void);
-// 0x000003A7 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::SetNamedItem(System.Xml.XmlNode)
+// 0x000003A8 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::SetNamedItem(System.Xml.XmlNode)
 extern void XmlNamedNodeMap_SetNamedItem_m74E7FF2EB3E37A92BC87288C387443D030152D49 (void);
-// 0x000003A8 System.Int32 System.Xml.XmlNamedNodeMap::get_Count()
+// 0x000003A9 System.Int32 System.Xml.XmlNamedNodeMap::get_Count()
 extern void XmlNamedNodeMap_get_Count_m383C4A91707F8FE7D905507CD35A043A5A7CFF29 (void);
-// 0x000003A9 System.Collections.IEnumerator System.Xml.XmlNamedNodeMap::GetEnumerator()
+// 0x000003AA System.Collections.IEnumerator System.Xml.XmlNamedNodeMap::GetEnumerator()
 extern void XmlNamedNodeMap_GetEnumerator_mAC2C011B86BB739ECF9CE795C9B1BD9C6296F70C (void);
-// 0x000003AA System.Int32 System.Xml.XmlNamedNodeMap::FindNodeOffset(System.String)
+// 0x000003AB System.Int32 System.Xml.XmlNamedNodeMap::FindNodeOffset(System.String)
 extern void XmlNamedNodeMap_FindNodeOffset_m99B44DA4690745D017579D4CE66A8B109B3E5BAE (void);
-// 0x000003AB System.Int32 System.Xml.XmlNamedNodeMap::FindNodeOffset(System.String,System.String)
+// 0x000003AC System.Int32 System.Xml.XmlNamedNodeMap::FindNodeOffset(System.String,System.String)
 extern void XmlNamedNodeMap_FindNodeOffset_mC74472DEDF90B693B1BB71E3B136CD32854E0A66 (void);
-// 0x000003AC System.Xml.XmlNode System.Xml.XmlNamedNodeMap::AddNode(System.Xml.XmlNode)
+// 0x000003AD System.Xml.XmlNode System.Xml.XmlNamedNodeMap::AddNode(System.Xml.XmlNode)
 extern void XmlNamedNodeMap_AddNode_m8312C3D9AAF475E11F679C7165079360BD04FA6D (void);
-// 0x000003AD System.Xml.XmlNode System.Xml.XmlNamedNodeMap::AddNodeForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
+// 0x000003AE System.Xml.XmlNode System.Xml.XmlNamedNodeMap::AddNodeForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
 extern void XmlNamedNodeMap_AddNodeForLoad_m95A9C1624ACF142E0FD29FC4B572A750F5D600AF (void);
-// 0x000003AE System.Xml.XmlNode System.Xml.XmlNamedNodeMap::RemoveNodeAt(System.Int32)
+// 0x000003AF System.Xml.XmlNode System.Xml.XmlNamedNodeMap::RemoveNodeAt(System.Int32)
 extern void XmlNamedNodeMap_RemoveNodeAt_mA1F6B64903412EDC18F19D1CCE1D890207C6FEF3 (void);
-// 0x000003AF System.Xml.XmlNode System.Xml.XmlNamedNodeMap::ReplaceNodeAt(System.Int32,System.Xml.XmlNode)
+// 0x000003B0 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::ReplaceNodeAt(System.Int32,System.Xml.XmlNode)
 extern void XmlNamedNodeMap_ReplaceNodeAt_mF8FDC2FDB6E09273E44EE8399CEBC314F0C1ECB2 (void);
-// 0x000003B0 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::InsertNodeAt(System.Int32,System.Xml.XmlNode)
+// 0x000003B1 System.Xml.XmlNode System.Xml.XmlNamedNodeMap::InsertNodeAt(System.Int32,System.Xml.XmlNode)
 extern void XmlNamedNodeMap_InsertNodeAt_m72074E17CA4EC55CE99997C5BC15681BECBA0ACE (void);
-// 0x000003B1 System.Int32 System.Xml.XmlNamedNodeMap/SmallXmlNodeList::get_Count()
+// 0x000003B2 System.Int32 System.Xml.XmlNamedNodeMap/SmallXmlNodeList::get_Count()
 extern void SmallXmlNodeList_get_Count_m79F61C89FC8ABD73BCB56938310461EFF1DF14BF (void);
-// 0x000003B2 System.Object System.Xml.XmlNamedNodeMap/SmallXmlNodeList::get_Item(System.Int32)
+// 0x000003B3 System.Object System.Xml.XmlNamedNodeMap/SmallXmlNodeList::get_Item(System.Int32)
 extern void SmallXmlNodeList_get_Item_mFE828A47A297981D034EFC9244E53B3D34FC9576 (void);
-// 0x000003B3 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::Add(System.Object)
+// 0x000003B4 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::Add(System.Object)
 extern void SmallXmlNodeList_Add_m4BA68D6D8E4613E79365ACDF2413B287FA4A4F06 (void);
-// 0x000003B4 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::RemoveAt(System.Int32)
+// 0x000003B5 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::RemoveAt(System.Int32)
 extern void SmallXmlNodeList_RemoveAt_m36308613FA8129C77990E7650BB0A1CE49ABC882 (void);
-// 0x000003B5 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::Insert(System.Int32,System.Object)
+// 0x000003B6 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList::Insert(System.Int32,System.Object)
 extern void SmallXmlNodeList_Insert_m8DCFF8C4C69AAA8B19C891D4A7304EA420946344 (void);
-// 0x000003B6 System.Collections.IEnumerator System.Xml.XmlNamedNodeMap/SmallXmlNodeList::GetEnumerator()
+// 0x000003B7 System.Collections.IEnumerator System.Xml.XmlNamedNodeMap/SmallXmlNodeList::GetEnumerator()
 extern void SmallXmlNodeList_GetEnumerator_mB3807963AF68C5F75E6FF22AD8515F2F966F21CE (void);
-// 0x000003B7 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::.ctor(System.Object)
+// 0x000003B8 System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::.ctor(System.Object)
 extern void SingleObjectEnumerator__ctor_m4BB660A9DDBEED542CDBF9CC35980FAEA755DB1D (void);
-// 0x000003B8 System.Object System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::get_Current()
+// 0x000003B9 System.Object System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::get_Current()
 extern void SingleObjectEnumerator_get_Current_m465597EB2D9DBFBDA23A03FDB233FAEDA88E9BAF (void);
-// 0x000003B9 System.Boolean System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::MoveNext()
+// 0x000003BA System.Boolean System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::MoveNext()
 extern void SingleObjectEnumerator_MoveNext_mD01FEE98F7C123AAF6A9D5885666CA61C35D7DD2 (void);
-// 0x000003BA System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::Reset()
+// 0x000003BB System.Void System.Xml.XmlNamedNodeMap/SmallXmlNodeList/SingleObjectEnumerator::Reset()
 extern void SingleObjectEnumerator_Reset_m18FCFE1BFF83AA3F656DEE5E792E82380F2AB6B1 (void);
-// 0x000003BB System.Void System.Xml.XmlNode::.ctor()
+// 0x000003BC System.Void System.Xml.XmlNode::.ctor()
 extern void XmlNode__ctor_m48EA7E8280259972A9AE46D0220C05CEA99E9350 (void);
-// 0x000003BC System.Void System.Xml.XmlNode::.ctor(System.Xml.XmlDocument)
+// 0x000003BD System.Void System.Xml.XmlNode::.ctor(System.Xml.XmlDocument)
 extern void XmlNode__ctor_m4EBED07EBE4C8D8191BE58A23594E381A8E43DCA (void);
-// 0x000003BD System.String System.Xml.XmlNode::get_Name()
-// 0x000003BE System.String System.Xml.XmlNode::get_Value()
+// 0x000003BE System.String System.Xml.XmlNode::get_Name()
+// 0x000003BF System.String System.Xml.XmlNode::get_Value()
 extern void XmlNode_get_Value_m21CB160306F9CE778A143C9D753E99F8EF801592 (void);
-// 0x000003BF System.Xml.XmlNodeType System.Xml.XmlNode::get_NodeType()
-// 0x000003C0 System.Xml.XmlNode System.Xml.XmlNode::get_ParentNode()
+// 0x000003C0 System.Xml.XmlNodeType System.Xml.XmlNode::get_NodeType()
+// 0x000003C1 System.Xml.XmlNode System.Xml.XmlNode::get_ParentNode()
 extern void XmlNode_get_ParentNode_mF576AC1CF834069B79BF32E497BB1A05E3E4AF63 (void);
-// 0x000003C1 System.Xml.XmlNodeList System.Xml.XmlNode::get_ChildNodes()
+// 0x000003C2 System.Xml.XmlNodeList System.Xml.XmlNode::get_ChildNodes()
 extern void XmlNode_get_ChildNodes_m6437D40A51810BEF219E307A3821C80DB48B1FA7 (void);
-// 0x000003C2 System.Xml.XmlNode System.Xml.XmlNode::get_PreviousSibling()
+// 0x000003C3 System.Xml.XmlNode System.Xml.XmlNode::get_PreviousSibling()
 extern void XmlNode_get_PreviousSibling_mF0D096FB5E4D09F658F36BF1B5EFFC5B60377045 (void);
-// 0x000003C3 System.Xml.XmlNode System.Xml.XmlNode::get_NextSibling()
+// 0x000003C4 System.Xml.XmlNode System.Xml.XmlNode::get_NextSibling()
 extern void XmlNode_get_NextSibling_mB3B3EFD4597AF366F3010C0CC80DC5C5B6885492 (void);
-// 0x000003C4 System.Xml.XmlAttributeCollection System.Xml.XmlNode::get_Attributes()
+// 0x000003C5 System.Xml.XmlAttributeCollection System.Xml.XmlNode::get_Attributes()
 extern void XmlNode_get_Attributes_m04E6956D2BBF4491EF6310F83E382B1416378EB7 (void);
-// 0x000003C5 System.Xml.XmlDocument System.Xml.XmlNode::get_OwnerDocument()
+// 0x000003C6 System.Xml.XmlDocument System.Xml.XmlNode::get_OwnerDocument()
 extern void XmlNode_get_OwnerDocument_m202868042E0CA116D7C337701E1140E16E4624EE (void);
-// 0x000003C6 System.Xml.XmlNode System.Xml.XmlNode::get_FirstChild()
+// 0x000003C7 System.Xml.XmlNode System.Xml.XmlNode::get_FirstChild()
 extern void XmlNode_get_FirstChild_m5F667C696492597141F3F92F048DB73C5546F1CD (void);
-// 0x000003C7 System.Xml.XmlNode System.Xml.XmlNode::get_LastChild()
+// 0x000003C8 System.Xml.XmlNode System.Xml.XmlNode::get_LastChild()
 extern void XmlNode_get_LastChild_m65D979AFE8805E2D45EF2F2C8DD18727F1286E7E (void);
-// 0x000003C8 System.Boolean System.Xml.XmlNode::get_IsContainer()
+// 0x000003C9 System.Boolean System.Xml.XmlNode::get_IsContainer()
 extern void XmlNode_get_IsContainer_m10E45BD80BD1D3DA9726C923FF6E6D2093CAEA47 (void);
-// 0x000003C9 System.Xml.XmlLinkedNode System.Xml.XmlNode::get_LastNode()
+// 0x000003CA System.Xml.XmlLinkedNode System.Xml.XmlNode::get_LastNode()
 extern void XmlNode_get_LastNode_mBE8307841D326A20F838DB33C8487C53FD0394A7 (void);
-// 0x000003CA System.Void System.Xml.XmlNode::set_LastNode(System.Xml.XmlLinkedNode)
+// 0x000003CB System.Void System.Xml.XmlNode::set_LastNode(System.Xml.XmlLinkedNode)
 extern void XmlNode_set_LastNode_m1FDD89CAF833B5D2EC3134677584E14E565A805C (void);
-// 0x000003CB System.Boolean System.Xml.XmlNode::AncestorNode(System.Xml.XmlNode)
+// 0x000003CC System.Boolean System.Xml.XmlNode::AncestorNode(System.Xml.XmlNode)
 extern void XmlNode_AncestorNode_m41AA63EB8FEC823566457E333ABF6AC8AC800348 (void);
-// 0x000003CC System.Xml.XmlNode System.Xml.XmlNode::RemoveChild(System.Xml.XmlNode)
+// 0x000003CD System.Xml.XmlNode System.Xml.XmlNode::RemoveChild(System.Xml.XmlNode)
 extern void XmlNode_RemoveChild_mC3FD98E0F9D7CF77B7CA309E39E67CB5128EFB6D (void);
-// 0x000003CD System.Xml.XmlNode System.Xml.XmlNode::AppendChild(System.Xml.XmlNode)
+// 0x000003CE System.Xml.XmlNode System.Xml.XmlNode::AppendChild(System.Xml.XmlNode)
 extern void XmlNode_AppendChild_mABBDB6DB312AE2C3D643F91CA400745ED4317E61 (void);
-// 0x000003CE System.Xml.XmlNode System.Xml.XmlNode::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
+// 0x000003CF System.Xml.XmlNode System.Xml.XmlNode::AppendChildForLoad(System.Xml.XmlNode,System.Xml.XmlDocument)
 extern void XmlNode_AppendChildForLoad_mC0306A0D3E2F625F796C99A49EF27EF24593E607 (void);
-// 0x000003CF System.Boolean System.Xml.XmlNode::IsValidChildType(System.Xml.XmlNodeType)
+// 0x000003D0 System.Boolean System.Xml.XmlNode::IsValidChildType(System.Xml.XmlNodeType)
 extern void XmlNode_IsValidChildType_m082300A792D957BC10E93DED85D7ABCE30880B76 (void);
-// 0x000003D0 System.Boolean System.Xml.XmlNode::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000003D1 System.Boolean System.Xml.XmlNode::CanInsertAfter(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlNode_CanInsertAfter_m9D659F9DF24127C637AC6E404BA886887F89C422 (void);
-// 0x000003D1 System.Boolean System.Xml.XmlNode::get_HasChildNodes()
+// 0x000003D2 System.Boolean System.Xml.XmlNode::get_HasChildNodes()
 extern void XmlNode_get_HasChildNodes_mE74F770AA6E73A09034C67119BA55D56184528D9 (void);
-// 0x000003D2 System.Xml.XmlNode System.Xml.XmlNode::CloneNode(System.Boolean)
-// 0x000003D3 System.Void System.Xml.XmlNode::CopyChildren(System.Xml.XmlDocument,System.Xml.XmlNode,System.Boolean)
+// 0x000003D3 System.Xml.XmlNode System.Xml.XmlNode::CloneNode(System.Boolean)
+// 0x000003D4 System.Void System.Xml.XmlNode::CopyChildren(System.Xml.XmlDocument,System.Xml.XmlNode,System.Boolean)
 extern void XmlNode_CopyChildren_mC2C0D811A1C20E5BB229C1F12A52B690D18CB5C6 (void);
-// 0x000003D4 System.String System.Xml.XmlNode::get_NamespaceURI()
+// 0x000003D5 System.String System.Xml.XmlNode::get_NamespaceURI()
 extern void XmlNode_get_NamespaceURI_mE894547F6A17FE4B59E2733E1C0BF2046B50A494 (void);
-// 0x000003D5 System.String System.Xml.XmlNode::get_Prefix()
+// 0x000003D6 System.String System.Xml.XmlNode::get_Prefix()
 extern void XmlNode_get_Prefix_m3169E64862861F2446236FD71DDB67C0BFA58DC1 (void);
-// 0x000003D6 System.String System.Xml.XmlNode::get_LocalName()
-// 0x000003D7 System.Boolean System.Xml.XmlNode::get_IsReadOnly()
+// 0x000003D7 System.String System.Xml.XmlNode::get_LocalName()
+// 0x000003D8 System.Boolean System.Xml.XmlNode::get_IsReadOnly()
 extern void XmlNode_get_IsReadOnly_mD3A80C094AE6C712D37294D662A5E468513C9E24 (void);
-// 0x000003D8 System.Boolean System.Xml.XmlNode::HasReadOnlyParent(System.Xml.XmlNode)
+// 0x000003D9 System.Boolean System.Xml.XmlNode::HasReadOnlyParent(System.Xml.XmlNode)
 extern void XmlNode_HasReadOnlyParent_m92D99DD665647CBAA4FD1B6E172761DE8A3C3824 (void);
-// 0x000003D9 System.Object System.Xml.XmlNode::System.ICloneable.Clone()
+// 0x000003DA System.Object System.Xml.XmlNode::System.ICloneable.Clone()
 extern void XmlNode_System_ICloneable_Clone_mCD16FDEE036E64B065572B54D132BCA0DE167CCC (void);
-// 0x000003DA System.Collections.IEnumerator System.Xml.XmlNode::System.Collections.IEnumerable.GetEnumerator()
+// 0x000003DB System.Collections.IEnumerator System.Xml.XmlNode::System.Collections.IEnumerable.GetEnumerator()
 extern void XmlNode_System_Collections_IEnumerable_GetEnumerator_m6FDE5461EDE0DECB154EA403EAD911EBFD4C4E68 (void);
-// 0x000003DB System.Collections.IEnumerator System.Xml.XmlNode::GetEnumerator()
+// 0x000003DC System.Collections.IEnumerator System.Xml.XmlNode::GetEnumerator()
 extern void XmlNode_GetEnumerator_mB640F7F79C355C618D587137B685AFFE1F798ED8 (void);
-// 0x000003DC System.Void System.Xml.XmlNode::AppendChildText(System.Text.StringBuilder)
+// 0x000003DD System.Void System.Xml.XmlNode::AppendChildText(System.Text.StringBuilder)
 extern void XmlNode_AppendChildText_m8C1493DF2F031942BD58F96DE8EFC365194561A1 (void);
-// 0x000003DD System.String System.Xml.XmlNode::get_InnerText()
+// 0x000003DE System.String System.Xml.XmlNode::get_InnerText()
 extern void XmlNode_get_InnerText_mC66D119E27E20F4C1E473CB76C8209CDA7262C8D (void);
-// 0x000003DE System.String System.Xml.XmlNode::get_InnerXml()
+// 0x000003DF System.String System.Xml.XmlNode::get_InnerXml()
 extern void XmlNode_get_InnerXml_m58EE81CC3B8367AB53E192D6009569B650F91C48 (void);
-// 0x000003DF System.Void System.Xml.XmlNode::set_InnerXml(System.String)
+// 0x000003E0 System.Void System.Xml.XmlNode::set_InnerXml(System.String)
 extern void XmlNode_set_InnerXml_m9BB7FDC3294F63F301B8C3CEF9299B0422EE1E99 (void);
-// 0x000003E0 System.String System.Xml.XmlNode::get_BaseURI()
+// 0x000003E1 System.String System.Xml.XmlNode::get_BaseURI()
 extern void XmlNode_get_BaseURI_mEDBF75C5F850336A84C07CFA9B9C197F40445833 (void);
-// 0x000003E1 System.Void System.Xml.XmlNode::WriteTo(System.Xml.XmlWriter)
-// 0x000003E2 System.Void System.Xml.XmlNode::WriteContentTo(System.Xml.XmlWriter)
-// 0x000003E3 System.Void System.Xml.XmlNode::RemoveAll()
+// 0x000003E2 System.Void System.Xml.XmlNode::WriteTo(System.Xml.XmlWriter)
+// 0x000003E3 System.Void System.Xml.XmlNode::WriteContentTo(System.Xml.XmlWriter)
+// 0x000003E4 System.Void System.Xml.XmlNode::RemoveAll()
 extern void XmlNode_RemoveAll_mA708E0DA19F2C6D5BC6CD66D415EA2D966300EA0 (void);
-// 0x000003E4 System.Xml.XmlDocument System.Xml.XmlNode::get_Document()
+// 0x000003E5 System.Xml.XmlDocument System.Xml.XmlNode::get_Document()
 extern void XmlNode_get_Document_mF9753FAD0D7BFDBDAE7FEA6B196D7CA2982A373C (void);
-// 0x000003E5 System.Xml.XmlElement System.Xml.XmlNode::get_Item(System.String)
+// 0x000003E6 System.Xml.XmlElement System.Xml.XmlNode::get_Item(System.String)
 extern void XmlNode_get_Item_m586B68AB5FFAD05F5EBC87CB33327E12C24BDC75 (void);
-// 0x000003E6 System.Void System.Xml.XmlNode::SetParent(System.Xml.XmlNode)
+// 0x000003E7 System.Void System.Xml.XmlNode::SetParent(System.Xml.XmlNode)
 extern void XmlNode_SetParent_mC2F3D8403B21789BAC584DC19C1AF0B59865E5A6 (void);
-// 0x000003E7 System.Void System.Xml.XmlNode::SetParentForLoad(System.Xml.XmlNode)
+// 0x000003E8 System.Void System.Xml.XmlNode::SetParentForLoad(System.Xml.XmlNode)
 extern void XmlNode_SetParentForLoad_mD9DC511112A848ABCA5F0F44B55595A0B11BAE41 (void);
-// 0x000003E8 System.Xml.XmlNode System.Xml.XmlNode::FindChild(System.Xml.XmlNodeType)
+// 0x000003E9 System.Xml.XmlNode System.Xml.XmlNode::FindChild(System.Xml.XmlNodeType)
 extern void XmlNode_FindChild_mBAC2F50C00BA3C28187C5039E1EE49606961BCCA (void);
-// 0x000003E9 System.Xml.XmlNodeChangedEventArgs System.Xml.XmlNode::GetEventArgs(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
+// 0x000003EA System.Xml.XmlNodeChangedEventArgs System.Xml.XmlNode::GetEventArgs(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
 extern void XmlNode_GetEventArgs_m2D6DA637B26DD91794FE79C7612A02FDCB90E2F9 (void);
-// 0x000003EA System.Void System.Xml.XmlNode::BeforeEvent(System.Xml.XmlNodeChangedEventArgs)
+// 0x000003EB System.Void System.Xml.XmlNode::BeforeEvent(System.Xml.XmlNodeChangedEventArgs)
 extern void XmlNode_BeforeEvent_mEF8B315CF0E5248ED6E6D0FEEF371B5BD76111D1 (void);
-// 0x000003EB System.Void System.Xml.XmlNode::AfterEvent(System.Xml.XmlNodeChangedEventArgs)
+// 0x000003EC System.Void System.Xml.XmlNode::AfterEvent(System.Xml.XmlNodeChangedEventArgs)
 extern void XmlNode_AfterEvent_m1675F6F48BB4CBAC4237341F653582DC94C5FB85 (void);
-// 0x000003EC System.Boolean System.Xml.XmlNode::get_IsText()
+// 0x000003ED System.Boolean System.Xml.XmlNode::get_IsText()
 extern void XmlNode_get_IsText_m57DEC1BF3FF6D4CC8C1A737AF385BA0B9EC0E2D3 (void);
-// 0x000003ED System.Void System.Xml.XmlNode::NestTextNodes(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000003EE System.Void System.Xml.XmlNode::NestTextNodes(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlNode_NestTextNodes_mA22ADE95FF5054D1DE4DC181E13E221F90F4B9A4 (void);
-// 0x000003EE System.Void System.Xml.XmlNode::UnnestTextNodes(System.Xml.XmlNode,System.Xml.XmlNode)
+// 0x000003EF System.Void System.Xml.XmlNode::UnnestTextNodes(System.Xml.XmlNode,System.Xml.XmlNode)
 extern void XmlNode_UnnestTextNodes_mEDFDF7ACC243D63C0F88D59325181EC00A9C7AFA (void);
-// 0x000003EF System.Void System.Xml.XmlNodeChangedEventArgs::.ctor(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
+// 0x000003F0 System.Void System.Xml.XmlNodeChangedEventArgs::.ctor(System.Xml.XmlNode,System.Xml.XmlNode,System.Xml.XmlNode,System.String,System.String,System.Xml.XmlNodeChangedAction)
 extern void XmlNodeChangedEventArgs__ctor_m7EA3C66B1D0582A417E9ADE33F982B08ADDB69E9 (void);
-// 0x000003F0 System.Xml.XmlNodeChangedAction System.Xml.XmlNodeChangedEventArgs::get_Action()
+// 0x000003F1 System.Xml.XmlNodeChangedAction System.Xml.XmlNodeChangedEventArgs::get_Action()
 extern void XmlNodeChangedEventArgs_get_Action_mD307B00A56DE5422A4EE4915400EC966DF80BD04 (void);
-// 0x000003F1 System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::get_Node()
+// 0x000003F2 System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::get_Node()
 extern void XmlNodeChangedEventArgs_get_Node_mB5FA92B160E0200CF56DFCBAE3FC40F0D5C9B138 (void);
-// 0x000003F2 System.Void System.Xml.XmlNodeChangedEventHandler::.ctor(System.Object,System.IntPtr)
+// 0x000003F3 System.Void System.Xml.XmlNodeChangedEventHandler::.ctor(System.Object,System.IntPtr)
 extern void XmlNodeChangedEventHandler__ctor_mD51AE5833F8A9B1EA9DB8DC54FEF3AD64763AED9 (void);
-// 0x000003F3 System.Void System.Xml.XmlNodeChangedEventHandler::Invoke(System.Object,System.Xml.XmlNodeChangedEventArgs)
+// 0x000003F4 System.Void System.Xml.XmlNodeChangedEventHandler::Invoke(System.Object,System.Xml.XmlNodeChangedEventArgs)
 extern void XmlNodeChangedEventHandler_Invoke_m64C7CF87945A0BAEFCED39FC27B1D9F2E31C1480 (void);
-// 0x000003F4 System.Int32 System.Xml.XmlNodeList::get_Count()
-// 0x000003F5 System.Collections.IEnumerator System.Xml.XmlNodeList::GetEnumerator()
-// 0x000003F6 System.Void System.Xml.XmlNodeList::System.IDisposable.Dispose()
+// 0x000003F5 System.Int32 System.Xml.XmlNodeList::get_Count()
+// 0x000003F6 System.Collections.IEnumerator System.Xml.XmlNodeList::GetEnumerator()
+// 0x000003F7 System.Void System.Xml.XmlNodeList::System.IDisposable.Dispose()
 extern void XmlNodeList_System_IDisposable_Dispose_m755D56C61D93F597B8AFC6FB8BE9677A1973BFA0 (void);
-// 0x000003F7 System.Void System.Xml.XmlNodeList::PrivateDisposeNodeList()
+// 0x000003F8 System.Void System.Xml.XmlNodeList::PrivateDisposeNodeList()
 extern void XmlNodeList_PrivateDisposeNodeList_m3B13AE65E266052E2824582D77B44124F6C1E520 (void);
-// 0x000003F8 System.Void System.Xml.XmlNodeList::.ctor()
+// 0x000003F9 System.Void System.Xml.XmlNodeList::.ctor()
 extern void XmlNodeList__ctor_m29940F85BF8D20E6FFB9732648DC6DAD10539BD3 (void);
-// 0x000003F9 System.Void System.Xml.XmlNotation::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x000003FA System.Void System.Xml.XmlNotation::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlNotation__ctor_mB0560FA8AB3F3443FC6B1638265F00E268C4ED61 (void);
-// 0x000003FA System.String System.Xml.XmlNotation::get_Name()
+// 0x000003FB System.String System.Xml.XmlNotation::get_Name()
 extern void XmlNotation_get_Name_m1202E926141C2E1CE9CED0298287F965F78B6CEE (void);
-// 0x000003FB System.String System.Xml.XmlNotation::get_LocalName()
+// 0x000003FC System.String System.Xml.XmlNotation::get_LocalName()
 extern void XmlNotation_get_LocalName_m9707D69B763CF4D2FF4AC43DFA34A7196602F9E3 (void);
-// 0x000003FC System.Xml.XmlNodeType System.Xml.XmlNotation::get_NodeType()
+// 0x000003FD System.Xml.XmlNodeType System.Xml.XmlNotation::get_NodeType()
 extern void XmlNotation_get_NodeType_m72C6322ADBF0BA84D2BB23243B74B68480F57EEE (void);
-// 0x000003FD System.Xml.XmlNode System.Xml.XmlNotation::CloneNode(System.Boolean)
+// 0x000003FE System.Xml.XmlNode System.Xml.XmlNotation::CloneNode(System.Boolean)
 extern void XmlNotation_CloneNode_m80D1F12EC01AB84F1B7FBE736BE186E37EABA50B (void);
-// 0x000003FE System.Boolean System.Xml.XmlNotation::get_IsReadOnly()
+// 0x000003FF System.Boolean System.Xml.XmlNotation::get_IsReadOnly()
 extern void XmlNotation_get_IsReadOnly_m6190C89D0880C37794A2ADA61F4B7CFB2F46806A (void);
-// 0x000003FF System.String System.Xml.XmlNotation::get_InnerXml()
+// 0x00000400 System.String System.Xml.XmlNotation::get_InnerXml()
 extern void XmlNotation_get_InnerXml_mA26B11ADE88FABB94E718FC5F88714E0E9A23F63 (void);
-// 0x00000400 System.Void System.Xml.XmlNotation::set_InnerXml(System.String)
+// 0x00000401 System.Void System.Xml.XmlNotation::set_InnerXml(System.String)
 extern void XmlNotation_set_InnerXml_m622282FD814F18EAABCF209E0D94BEE3027C6708 (void);
-// 0x00000401 System.Void System.Xml.XmlNotation::WriteTo(System.Xml.XmlWriter)
+// 0x00000402 System.Void System.Xml.XmlNotation::WriteTo(System.Xml.XmlWriter)
 extern void XmlNotation_WriteTo_m9FF868547C3B2F141DC6B01DA19F719F19193624 (void);
-// 0x00000402 System.Void System.Xml.XmlNotation::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000403 System.Void System.Xml.XmlNotation::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlNotation_WriteContentTo_m692E52F74A2A22FFA2C0D76D9700805CBFB430B2 (void);
-// 0x00000403 System.Void System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument)
+// 0x00000404 System.Void System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument)
 extern void XmlProcessingInstruction__ctor_m80AB71B3DDC0E1164705B676AD06037ACEB2FD67 (void);
-// 0x00000404 System.String System.Xml.XmlProcessingInstruction::get_Name()
+// 0x00000405 System.String System.Xml.XmlProcessingInstruction::get_Name()
 extern void XmlProcessingInstruction_get_Name_m5878F25C2BBAA4F3E45A4CB296168FF55A0735C9 (void);
-// 0x00000405 System.String System.Xml.XmlProcessingInstruction::get_LocalName()
+// 0x00000406 System.String System.Xml.XmlProcessingInstruction::get_LocalName()
 extern void XmlProcessingInstruction_get_LocalName_mD5CA3656571EB5F561EA720C69AC26FE44F9733E (void);
-// 0x00000406 System.String System.Xml.XmlProcessingInstruction::get_Value()
+// 0x00000407 System.String System.Xml.XmlProcessingInstruction::get_Value()
 extern void XmlProcessingInstruction_get_Value_m9BFC4E309173BF460597EC30F6D44DDA88F68F4C (void);
-// 0x00000407 System.String System.Xml.XmlProcessingInstruction::get_InnerText()
+// 0x00000408 System.String System.Xml.XmlProcessingInstruction::get_InnerText()
 extern void XmlProcessingInstruction_get_InnerText_mDDF2561B15E9D848132759CF7666B149E7BB3F86 (void);
-// 0x00000408 System.Xml.XmlNodeType System.Xml.XmlProcessingInstruction::get_NodeType()
+// 0x00000409 System.Xml.XmlNodeType System.Xml.XmlProcessingInstruction::get_NodeType()
 extern void XmlProcessingInstruction_get_NodeType_mA316EFA4D41F97CEDE5C8BD9B54CB3A81A35166C (void);
-// 0x00000409 System.Xml.XmlNode System.Xml.XmlProcessingInstruction::CloneNode(System.Boolean)
+// 0x0000040A System.Xml.XmlNode System.Xml.XmlProcessingInstruction::CloneNode(System.Boolean)
 extern void XmlProcessingInstruction_CloneNode_m2B3C10F20A1F79E13AB7F4EEF24DC28CBE07B7C6 (void);
-// 0x0000040A System.Void System.Xml.XmlProcessingInstruction::WriteTo(System.Xml.XmlWriter)
+// 0x0000040B System.Void System.Xml.XmlProcessingInstruction::WriteTo(System.Xml.XmlWriter)
 extern void XmlProcessingInstruction_WriteTo_mABF354752E7FA33972A83CAD4E3E677A79D72DA9 (void);
-// 0x0000040B System.Void System.Xml.XmlProcessingInstruction::WriteContentTo(System.Xml.XmlWriter)
+// 0x0000040C System.Void System.Xml.XmlProcessingInstruction::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlProcessingInstruction_WriteContentTo_m1FDE3C19358CD856CD7706057135CD398370C16D (void);
-// 0x0000040C System.Void System.Xml.XmlSignificantWhitespace::.ctor(System.String,System.Xml.XmlDocument)
+// 0x0000040D System.Void System.Xml.XmlSignificantWhitespace::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlSignificantWhitespace__ctor_mCE8AE4FC827464B5A5A54191D5D62E2AF41E078F (void);
-// 0x0000040D System.String System.Xml.XmlSignificantWhitespace::get_Name()
+// 0x0000040E System.String System.Xml.XmlSignificantWhitespace::get_Name()
 extern void XmlSignificantWhitespace_get_Name_m567959AB8E2FE1356B88F20AAE6091C82CC7DBFB (void);
-// 0x0000040E System.String System.Xml.XmlSignificantWhitespace::get_LocalName()
+// 0x0000040F System.String System.Xml.XmlSignificantWhitespace::get_LocalName()
 extern void XmlSignificantWhitespace_get_LocalName_m139F89C8361EDB472F9EBB8CFE63CA34EEAF8A2A (void);
-// 0x0000040F System.Xml.XmlNodeType System.Xml.XmlSignificantWhitespace::get_NodeType()
+// 0x00000410 System.Xml.XmlNodeType System.Xml.XmlSignificantWhitespace::get_NodeType()
 extern void XmlSignificantWhitespace_get_NodeType_m21160A01DD6CB297930B84A6C4FCEFCD00CBAE2F (void);
-// 0x00000410 System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::get_ParentNode()
+// 0x00000411 System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::get_ParentNode()
 extern void XmlSignificantWhitespace_get_ParentNode_m7CFDE3C1D02140F6046EED96E24A7B7AE0D52041 (void);
-// 0x00000411 System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::CloneNode(System.Boolean)
+// 0x00000412 System.Xml.XmlNode System.Xml.XmlSignificantWhitespace::CloneNode(System.Boolean)
 extern void XmlSignificantWhitespace_CloneNode_mD037CFA06C03E34DBBEF5F69829B98E091BFB33B (void);
-// 0x00000412 System.String System.Xml.XmlSignificantWhitespace::get_Value()
+// 0x00000413 System.String System.Xml.XmlSignificantWhitespace::get_Value()
 extern void XmlSignificantWhitespace_get_Value_mD7C33B8F7D6D92583EC19AE399069B2851D97B49 (void);
-// 0x00000413 System.Void System.Xml.XmlSignificantWhitespace::WriteTo(System.Xml.XmlWriter)
+// 0x00000414 System.Void System.Xml.XmlSignificantWhitespace::WriteTo(System.Xml.XmlWriter)
 extern void XmlSignificantWhitespace_WriteTo_mE569B6173B630873FEFD54ADCFFEADA4B541BB63 (void);
-// 0x00000414 System.Void System.Xml.XmlSignificantWhitespace::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000415 System.Void System.Xml.XmlSignificantWhitespace::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlSignificantWhitespace_WriteContentTo_mAF13A398AF3A232891073267677EB513CD5689F2 (void);
-// 0x00000415 System.Boolean System.Xml.XmlSignificantWhitespace::get_IsText()
+// 0x00000416 System.Boolean System.Xml.XmlSignificantWhitespace::get_IsText()
 extern void XmlSignificantWhitespace_get_IsText_m55119DC9A530D53A0B71107FD645882599483724 (void);
-// 0x00000416 System.Void System.Xml.XmlText::.ctor(System.String)
+// 0x00000417 System.Void System.Xml.XmlText::.ctor(System.String)
 extern void XmlText__ctor_mD1D12098F7364C006DAAC8E7700C0C729CDEACDE (void);
-// 0x00000417 System.Void System.Xml.XmlText::.ctor(System.String,System.Xml.XmlDocument)
+// 0x00000418 System.Void System.Xml.XmlText::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlText__ctor_m8FFB8DDBB2C9013F10FD94A1573DCF6A2F104059 (void);
-// 0x00000418 System.String System.Xml.XmlText::get_Name()
+// 0x00000419 System.String System.Xml.XmlText::get_Name()
 extern void XmlText_get_Name_mFFBDC4F67D5877B2CFC4D9784121B04887C5B31A (void);
-// 0x00000419 System.String System.Xml.XmlText::get_LocalName()
+// 0x0000041A System.String System.Xml.XmlText::get_LocalName()
 extern void XmlText_get_LocalName_mABBF7996A678D672606F8287E93F0FCFAE5EBCAA (void);
-// 0x0000041A System.Xml.XmlNodeType System.Xml.XmlText::get_NodeType()
+// 0x0000041B System.Xml.XmlNodeType System.Xml.XmlText::get_NodeType()
 extern void XmlText_get_NodeType_m6D0D465CA1A36F5DAF640EEE3A4FB55DD0F654C5 (void);
-// 0x0000041B System.Xml.XmlNode System.Xml.XmlText::get_ParentNode()
+// 0x0000041C System.Xml.XmlNode System.Xml.XmlText::get_ParentNode()
 extern void XmlText_get_ParentNode_m96163E85630F9606807D297C501A88D21670D719 (void);
-// 0x0000041C System.Xml.XmlNode System.Xml.XmlText::CloneNode(System.Boolean)
+// 0x0000041D System.Xml.XmlNode System.Xml.XmlText::CloneNode(System.Boolean)
 extern void XmlText_CloneNode_mC58FCAC8AD523804400FE1295053C382235F0962 (void);
-// 0x0000041D System.String System.Xml.XmlText::get_Value()
+// 0x0000041E System.String System.Xml.XmlText::get_Value()
 extern void XmlText_get_Value_m5CE492E7F1FFB377C9A1F9EC72E44259E0E9B23C (void);
-// 0x0000041E System.Void System.Xml.XmlText::WriteTo(System.Xml.XmlWriter)
+// 0x0000041F System.Void System.Xml.XmlText::WriteTo(System.Xml.XmlWriter)
 extern void XmlText_WriteTo_mC041FC91EDF60BE32143DE875DAE9482E0512168 (void);
-// 0x0000041F System.Void System.Xml.XmlText::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000420 System.Void System.Xml.XmlText::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlText_WriteContentTo_m8DF066DF522FB3EA2807C65AA5E9581EFE819B1B (void);
-// 0x00000420 System.Boolean System.Xml.XmlText::get_IsText()
+// 0x00000421 System.Boolean System.Xml.XmlText::get_IsText()
 extern void XmlText_get_IsText_m52A204B0EEFECFB926476B40F8C7400DE8002E86 (void);
-// 0x00000421 System.Void System.Xml.XmlUnspecifiedAttribute::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
+// 0x00000422 System.Void System.Xml.XmlUnspecifiedAttribute::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument)
 extern void XmlUnspecifiedAttribute__ctor_m44D3E93A1FE83F8B631B4BE61CC2EA76865E36A6 (void);
-// 0x00000422 System.Boolean System.Xml.XmlUnspecifiedAttribute::get_Specified()
+// 0x00000423 System.Boolean System.Xml.XmlUnspecifiedAttribute::get_Specified()
 extern void XmlUnspecifiedAttribute_get_Specified_m7616C9E12FEDBD7614D533DA01AE6D1683681F63 (void);
-// 0x00000423 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::CloneNode(System.Boolean)
+// 0x00000424 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::CloneNode(System.Boolean)
 extern void XmlUnspecifiedAttribute_CloneNode_mE263CEBF9D54C08ADE816062D36D35FD017D4413 (void);
-// 0x00000424 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::RemoveChild(System.Xml.XmlNode)
+// 0x00000425 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::RemoveChild(System.Xml.XmlNode)
 extern void XmlUnspecifiedAttribute_RemoveChild_m3227CEDFFD6F1317D41598C8FCB6E58A7137DFCC (void);
-// 0x00000425 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::AppendChild(System.Xml.XmlNode)
+// 0x00000426 System.Xml.XmlNode System.Xml.XmlUnspecifiedAttribute::AppendChild(System.Xml.XmlNode)
 extern void XmlUnspecifiedAttribute_AppendChild_m00F21938A305CBFE67ADD09005BC13316F218C3B (void);
-// 0x00000426 System.Void System.Xml.XmlUnspecifiedAttribute::WriteTo(System.Xml.XmlWriter)
+// 0x00000427 System.Void System.Xml.XmlUnspecifiedAttribute::WriteTo(System.Xml.XmlWriter)
 extern void XmlUnspecifiedAttribute_WriteTo_mE80E7C4C18C7199B63951974132A6241BD55190B (void);
-// 0x00000427 System.Void System.Xml.XmlUnspecifiedAttribute::SetSpecified(System.Boolean)
+// 0x00000428 System.Void System.Xml.XmlUnspecifiedAttribute::SetSpecified(System.Boolean)
 extern void XmlUnspecifiedAttribute_SetSpecified_m1CF67FF3E90E62DC5B0983B8DE91B6E95228509B (void);
-// 0x00000428 System.Void System.Xml.XmlWhitespace::.ctor(System.String,System.Xml.XmlDocument)
+// 0x00000429 System.Void System.Xml.XmlWhitespace::.ctor(System.String,System.Xml.XmlDocument)
 extern void XmlWhitespace__ctor_m95E6CA1AFEECB5C1B3EDDAA039864BDF315FD0AE (void);
-// 0x00000429 System.String System.Xml.XmlWhitespace::get_Name()
+// 0x0000042A System.String System.Xml.XmlWhitespace::get_Name()
 extern void XmlWhitespace_get_Name_mF6D7B4B3FED41218945AFCC8DAABAE23D113E2C7 (void);
-// 0x0000042A System.String System.Xml.XmlWhitespace::get_LocalName()
+// 0x0000042B System.String System.Xml.XmlWhitespace::get_LocalName()
 extern void XmlWhitespace_get_LocalName_m27750405F6A0EA2A5AE58E3C36CE03E22BAB6F9B (void);
-// 0x0000042B System.Xml.XmlNodeType System.Xml.XmlWhitespace::get_NodeType()
+// 0x0000042C System.Xml.XmlNodeType System.Xml.XmlWhitespace::get_NodeType()
 extern void XmlWhitespace_get_NodeType_m6CF504BF111BB7684DE6CED04FF541279D1A8A4D (void);
-// 0x0000042C System.Xml.XmlNode System.Xml.XmlWhitespace::get_ParentNode()
+// 0x0000042D System.Xml.XmlNode System.Xml.XmlWhitespace::get_ParentNode()
 extern void XmlWhitespace_get_ParentNode_m2741B3CD1D5B0D2758C9096F45CA253CC8E690BF (void);
-// 0x0000042D System.String System.Xml.XmlWhitespace::get_Value()
+// 0x0000042E System.String System.Xml.XmlWhitespace::get_Value()
 extern void XmlWhitespace_get_Value_m10F045B861F64A2D7BF8B93A7E3B780BAF3EE85E (void);
-// 0x0000042E System.Xml.XmlNode System.Xml.XmlWhitespace::CloneNode(System.Boolean)
+// 0x0000042F System.Xml.XmlNode System.Xml.XmlWhitespace::CloneNode(System.Boolean)
 extern void XmlWhitespace_CloneNode_m3B9180F7900CCE22C9E9CE01D06742EE4F979D6A (void);
-// 0x0000042F System.Void System.Xml.XmlWhitespace::WriteTo(System.Xml.XmlWriter)
+// 0x00000430 System.Void System.Xml.XmlWhitespace::WriteTo(System.Xml.XmlWriter)
 extern void XmlWhitespace_WriteTo_m17623B8295BC3DF464DD2A1D636CBC2A5E7EFE86 (void);
-// 0x00000430 System.Void System.Xml.XmlWhitespace::WriteContentTo(System.Xml.XmlWriter)
+// 0x00000431 System.Void System.Xml.XmlWhitespace::WriteContentTo(System.Xml.XmlWriter)
 extern void XmlWhitespace_WriteContentTo_m08C97505A227B26D67D3D3ADDBDD745F39E1228D (void);
-// 0x00000431 System.Boolean System.Xml.XmlWhitespace::get_IsText()
+// 0x00000432 System.Boolean System.Xml.XmlWhitespace::get_IsText()
 extern void XmlWhitespace_get_IsText_mC4F1ADD83662FEDCD8F54A2F2C60E82F0819E9DF (void);
-// 0x00000432 System.Boolean System.Xml.EmptyEnumerator::System.Collections.IEnumerator.MoveNext()
+// 0x00000433 System.Boolean System.Xml.EmptyEnumerator::System.Collections.IEnumerator.MoveNext()
 extern void EmptyEnumerator_System_Collections_IEnumerator_MoveNext_m1D1ED329E1A11EB09BF11A969309A8C336363E06 (void);
-// 0x00000433 System.Void System.Xml.EmptyEnumerator::System.Collections.IEnumerator.Reset()
+// 0x00000434 System.Void System.Xml.EmptyEnumerator::System.Collections.IEnumerator.Reset()
 extern void EmptyEnumerator_System_Collections_IEnumerator_Reset_m60B63D059F4ABACCFF0136AD35A7B858CDC6DAD4 (void);
-// 0x00000434 System.Object System.Xml.EmptyEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000435 System.Object System.Xml.EmptyEnumerator::System.Collections.IEnumerator.get_Current()
 extern void EmptyEnumerator_System_Collections_IEnumerator_get_Current_m7F54B324E8E3410019E56521EE61CF97A7CED9B5 (void);
-// 0x00000435 System.Void System.Xml.EmptyEnumerator::.ctor()
+// 0x00000436 System.Void System.Xml.EmptyEnumerator::.ctor()
 extern void EmptyEnumerator__ctor_m05DA73C42354A4E549CCA7E9485B294057ABA981 (void);
-// 0x00000436 System.String System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String)
-// 0x00000437 System.String System.Xml.IXmlNamespaceResolver::LookupPrefix(System.String)
-// 0x00000438 System.Void System.Xml.LineInfo::.ctor(System.Int32,System.Int32)
+// 0x00000437 System.String System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String)
+// 0x00000438 System.String System.Xml.IXmlNamespaceResolver::LookupPrefix(System.String)
+// 0x00000439 System.Void System.Xml.LineInfo::.ctor(System.Int32,System.Int32)
 extern void LineInfo__ctor_mFF99DC657778EB3519A941F3CB7E7C33710B0EE0 (void);
-// 0x00000439 System.Void System.Xml.LineInfo::Set(System.Int32,System.Int32)
+// 0x0000043A System.Void System.Xml.LineInfo::Set(System.Int32,System.Int32)
 extern void LineInfo_Set_m5D59B42332EDBA296FA9AED5CF63D8BECC18214E (void);
-// 0x0000043A System.Void System.Xml.NameTable::.ctor()
+// 0x0000043B System.Void System.Xml.NameTable::.ctor()
 extern void NameTable__ctor_mB02EE27092095D81E839D51519C4FBDA2227C261 (void);
-// 0x0000043B System.String System.Xml.NameTable::Add(System.String)
+// 0x0000043C System.String System.Xml.NameTable::Add(System.String)
 extern void NameTable_Add_m5ACB3656DCB4016DAA199A6CC1ACEF6E6B01F363 (void);
-// 0x0000043C System.String System.Xml.NameTable::Add(System.Char[],System.Int32,System.Int32)
+// 0x0000043D System.String System.Xml.NameTable::Add(System.Char[],System.Int32,System.Int32)
 extern void NameTable_Add_mCF098D8FE1698BF0476860D202B4953295A04B1A (void);
-// 0x0000043D System.String System.Xml.NameTable::Get(System.String)
+// 0x0000043E System.String System.Xml.NameTable::Get(System.String)
 extern void NameTable_Get_m3E92F325593978B474D3BDF7E2DCEC77DEA956D8 (void);
-// 0x0000043E System.String System.Xml.NameTable::AddEntry(System.String,System.Int32)
+// 0x0000043F System.String System.Xml.NameTable::AddEntry(System.String,System.Int32)
 extern void NameTable_AddEntry_mF259DCB5A89DFE81744AF039838B918F52020C5F (void);
-// 0x0000043F System.Void System.Xml.NameTable::Grow()
+// 0x00000440 System.Void System.Xml.NameTable::Grow()
 extern void NameTable_Grow_m34F300598474A63CEA90D7F7A71C6F9EB536D5B2 (void);
-// 0x00000440 System.Boolean System.Xml.NameTable::TextEquals(System.String,System.Char[],System.Int32,System.Int32)
+// 0x00000441 System.Boolean System.Xml.NameTable::TextEquals(System.String,System.Char[],System.Int32,System.Int32)
 extern void NameTable_TextEquals_mB56344E2C4832FFE2E398E446B1742A921FCF87A (void);
-// 0x00000441 System.Void System.Xml.NameTable/Entry::.ctor(System.String,System.Int32,System.Xml.NameTable/Entry)
+// 0x00000442 System.Void System.Xml.NameTable/Entry::.ctor(System.String,System.Int32,System.Xml.NameTable/Entry)
 extern void Entry__ctor_m659BC03FEAA3AE1874FE82AD8740CCDEAE1CDFED (void);
-// 0x00000442 System.Boolean System.Xml.Ref::Equal(System.String,System.String)
+// 0x00000443 System.Boolean System.Xml.Ref::Equal(System.String,System.String)
 extern void Ref_Equal_m91CE186A8D713DBCF387B2A4AA83138704C7B8B1 (void);
-// 0x00000443 System.Void System.Xml.DtdParser::.ctor()
+// 0x00000444 System.Void System.Xml.DtdParser::.ctor()
 extern void DtdParser__ctor_m4E3B38D8F814505EEBDC983BE9A9AAE448F9F279 (void);
-// 0x00000444 System.Xml.IDtdParser System.Xml.DtdParser::Create()
+// 0x00000445 System.Xml.IDtdParser System.Xml.DtdParser::Create()
 extern void DtdParser_Create_mEAB3483CB293C48815D7ED94E0EE32B2A175731B (void);
-// 0x00000445 System.Void System.Xml.DtdParser::Initialize(System.Xml.IDtdParserAdapter)
+// 0x00000446 System.Void System.Xml.DtdParser::Initialize(System.Xml.IDtdParserAdapter)
 extern void DtdParser_Initialize_m0EBA9112535360FF3CB54D32A2F693231023460F (void);
-// 0x00000446 System.Void System.Xml.DtdParser::InitializeFreeFloatingDtd(System.String,System.String,System.String,System.String,System.String,System.Xml.IDtdParserAdapter)
+// 0x00000447 System.Void System.Xml.DtdParser::InitializeFreeFloatingDtd(System.String,System.String,System.String,System.String,System.String,System.Xml.IDtdParserAdapter)
 extern void DtdParser_InitializeFreeFloatingDtd_m1508B91CB75E55A064D4DC2EC796EF2B35785B13 (void);
-// 0x00000447 System.Xml.IDtdInfo System.Xml.DtdParser::System.Xml.IDtdParser.ParseInternalDtd(System.Xml.IDtdParserAdapter,System.Boolean)
+// 0x00000448 System.Xml.IDtdInfo System.Xml.DtdParser::System.Xml.IDtdParser.ParseInternalDtd(System.Xml.IDtdParserAdapter,System.Boolean)
 extern void DtdParser_System_Xml_IDtdParser_ParseInternalDtd_m68D16C997BF5178214EFDB8E4D2DAD9B4C66D1DA (void);
-// 0x00000448 System.Xml.IDtdInfo System.Xml.DtdParser::System.Xml.IDtdParser.ParseFreeFloatingDtd(System.String,System.String,System.String,System.String,System.String,System.Xml.IDtdParserAdapter)
+// 0x00000449 System.Xml.IDtdInfo System.Xml.DtdParser::System.Xml.IDtdParser.ParseFreeFloatingDtd(System.String,System.String,System.String,System.String,System.String,System.Xml.IDtdParserAdapter)
 extern void DtdParser_System_Xml_IDtdParser_ParseFreeFloatingDtd_mED081982C4FF1EC65690A9B95D002584C3FBF4A0 (void);
-// 0x00000449 System.Boolean System.Xml.DtdParser::get_ParsingInternalSubset()
+// 0x0000044A System.Boolean System.Xml.DtdParser::get_ParsingInternalSubset()
 extern void DtdParser_get_ParsingInternalSubset_mF2EDC8896A9EF87EFC4BFB9DC631B3079DF05399 (void);
-// 0x0000044A System.Boolean System.Xml.DtdParser::get_IgnoreEntityReferences()
+// 0x0000044B System.Boolean System.Xml.DtdParser::get_IgnoreEntityReferences()
 extern void DtdParser_get_IgnoreEntityReferences_m2DC8E61DFCB1C09453864CAC4031C467FB7340D8 (void);
-// 0x0000044B System.Boolean System.Xml.DtdParser::get_SaveInternalSubsetValue()
+// 0x0000044C System.Boolean System.Xml.DtdParser::get_SaveInternalSubsetValue()
 extern void DtdParser_get_SaveInternalSubsetValue_m85DB5C7308BF525EE652E944E696CD7A3505DF66 (void);
-// 0x0000044C System.Boolean System.Xml.DtdParser::get_ParsingTopLevelMarkup()
+// 0x0000044D System.Boolean System.Xml.DtdParser::get_ParsingTopLevelMarkup()
 extern void DtdParser_get_ParsingTopLevelMarkup_m4836E76B7F5C3C3CA7D8574377C0F00BA2BB0BCF (void);
-// 0x0000044D System.Boolean System.Xml.DtdParser::get_SupportNamespaces()
+// 0x0000044E System.Boolean System.Xml.DtdParser::get_SupportNamespaces()
 extern void DtdParser_get_SupportNamespaces_m868EACB0340AAB10A0A36D3E54391F6B721A7791 (void);
-// 0x0000044E System.Boolean System.Xml.DtdParser::get_Normalize()
+// 0x0000044F System.Boolean System.Xml.DtdParser::get_Normalize()
 extern void DtdParser_get_Normalize_mA95ED98D422B35FDBDAE26FA37F593B389FD122C (void);
-// 0x0000044F System.Void System.Xml.DtdParser::Parse(System.Boolean)
+// 0x00000450 System.Void System.Xml.DtdParser::Parse(System.Boolean)
 extern void DtdParser_Parse_m251123EFA9598E4851882EB21A72EDF13E3D6EC6 (void);
-// 0x00000450 System.Void System.Xml.DtdParser::ParseInDocumentDtd(System.Boolean)
+// 0x00000451 System.Void System.Xml.DtdParser::ParseInDocumentDtd(System.Boolean)
 extern void DtdParser_ParseInDocumentDtd_m152ABA7579FAFD24B3F745D24B25C5210C584668 (void);
-// 0x00000451 System.Void System.Xml.DtdParser::ParseFreeFloatingDtd()
+// 0x00000452 System.Void System.Xml.DtdParser::ParseFreeFloatingDtd()
 extern void DtdParser_ParseFreeFloatingDtd_mD311D1717B2C75FCD8301944583EC6872085E967 (void);
-// 0x00000452 System.Void System.Xml.DtdParser::ParseInternalSubset()
+// 0x00000453 System.Void System.Xml.DtdParser::ParseInternalSubset()
 extern void DtdParser_ParseInternalSubset_m4CA8AEDF9E87543186DF6F820A4F1CB15F5EA0A8 (void);
-// 0x00000453 System.Void System.Xml.DtdParser::ParseExternalSubset()
+// 0x00000454 System.Void System.Xml.DtdParser::ParseExternalSubset()
 extern void DtdParser_ParseExternalSubset_m32ACD9461EF71173C98644D59A4E0A82576D98B4 (void);
-// 0x00000454 System.Void System.Xml.DtdParser::ParseSubset()
+// 0x00000455 System.Void System.Xml.DtdParser::ParseSubset()
 extern void DtdParser_ParseSubset_mDF6AA95DF1D5EFF0A66211B1CD546977176D66B4 (void);
-// 0x00000455 System.Void System.Xml.DtdParser::ParseAttlistDecl()
+// 0x00000456 System.Void System.Xml.DtdParser::ParseAttlistDecl()
 extern void DtdParser_ParseAttlistDecl_m56790F6B55821549A8340D00586BA134FFDA28C1 (void);
-// 0x00000456 System.Void System.Xml.DtdParser::ParseAttlistType(System.Xml.Schema.SchemaAttDef,System.Xml.Schema.SchemaElementDecl,System.Boolean)
+// 0x00000457 System.Void System.Xml.DtdParser::ParseAttlistType(System.Xml.Schema.SchemaAttDef,System.Xml.Schema.SchemaElementDecl,System.Boolean)
 extern void DtdParser_ParseAttlistType_mC7CF6695229010B0320A5311BA2FA9298F6A5D29 (void);
-// 0x00000457 System.Void System.Xml.DtdParser::ParseAttlistDefault(System.Xml.Schema.SchemaAttDef,System.Boolean)
+// 0x00000458 System.Void System.Xml.DtdParser::ParseAttlistDefault(System.Xml.Schema.SchemaAttDef,System.Boolean)
 extern void DtdParser_ParseAttlistDefault_m2E49FD966B82593A64DFCB15F7D49C30183D859A (void);
-// 0x00000458 System.Void System.Xml.DtdParser::ParseElementDecl()
+// 0x00000459 System.Void System.Xml.DtdParser::ParseElementDecl()
 extern void DtdParser_ParseElementDecl_m04A22275D2342422E13554DD1FEA56FEDF7F7CA1 (void);
-// 0x00000459 System.Void System.Xml.DtdParser::ParseElementOnlyContent(System.Xml.Schema.ParticleContentValidator,System.Int32)
+// 0x0000045A System.Void System.Xml.DtdParser::ParseElementOnlyContent(System.Xml.Schema.ParticleContentValidator,System.Int32)
 extern void DtdParser_ParseElementOnlyContent_m8227BEF84B1E93AE070877C03E77C9BA204F5F35 (void);
-// 0x0000045A System.Void System.Xml.DtdParser::ParseHowMany(System.Xml.Schema.ParticleContentValidator)
+// 0x0000045B System.Void System.Xml.DtdParser::ParseHowMany(System.Xml.Schema.ParticleContentValidator)
 extern void DtdParser_ParseHowMany_mEA47F6A972504F1CE7D55AFACC025D61A0ED3126 (void);
-// 0x0000045B System.Void System.Xml.DtdParser::ParseElementMixedContent(System.Xml.Schema.ParticleContentValidator,System.Int32)
+// 0x0000045C System.Void System.Xml.DtdParser::ParseElementMixedContent(System.Xml.Schema.ParticleContentValidator,System.Int32)
 extern void DtdParser_ParseElementMixedContent_mF075DA5FDA964DB2A05D84C79204A37A2F4453D6 (void);
-// 0x0000045C System.Void System.Xml.DtdParser::ParseEntityDecl()
+// 0x0000045D System.Void System.Xml.DtdParser::ParseEntityDecl()
 extern void DtdParser_ParseEntityDecl_mDDF946172429F7DBFB301FE5F113084713B48B57 (void);
-// 0x0000045D System.Void System.Xml.DtdParser::ParseNotationDecl()
+// 0x0000045E System.Void System.Xml.DtdParser::ParseNotationDecl()
 extern void DtdParser_ParseNotationDecl_mBCCE845466278E35DDADC504075E85C358FA9EC1 (void);
-// 0x0000045E System.Void System.Xml.DtdParser::AddUndeclaredNotation(System.String)
+// 0x0000045F System.Void System.Xml.DtdParser::AddUndeclaredNotation(System.String)
 extern void DtdParser_AddUndeclaredNotation_mF35809833D2C33608CD892441E552FAEA80F4A70 (void);
-// 0x0000045F System.Void System.Xml.DtdParser::ParseComment()
+// 0x00000460 System.Void System.Xml.DtdParser::ParseComment()
 extern void DtdParser_ParseComment_mAAB19E9100AB4E6929F69BF9895CFE5430B39E96 (void);
-// 0x00000460 System.Void System.Xml.DtdParser::ParsePI()
+// 0x00000461 System.Void System.Xml.DtdParser::ParsePI()
 extern void DtdParser_ParsePI_m78FD95C2338F0BCF9535C89A24CEFB6F0802E4C9 (void);
-// 0x00000461 System.Void System.Xml.DtdParser::ParseCondSection()
+// 0x00000462 System.Void System.Xml.DtdParser::ParseCondSection()
 extern void DtdParser_ParseCondSection_m6DF82F4650A08BC0E920DEA62D346383C57C677D (void);
-// 0x00000462 System.Void System.Xml.DtdParser::ParseExternalId(System.Xml.DtdParser/Token,System.Xml.DtdParser/Token,System.String&,System.String&)
+// 0x00000463 System.Void System.Xml.DtdParser::ParseExternalId(System.Xml.DtdParser/Token,System.Xml.DtdParser/Token,System.String&,System.String&)
 extern void DtdParser_ParseExternalId_m2B6C7C539D6B9BAA81D2D39DD40915B0F8EE1680 (void);
-// 0x00000463 System.Xml.DtdParser/Token System.Xml.DtdParser::GetToken(System.Boolean)
+// 0x00000464 System.Xml.DtdParser/Token System.Xml.DtdParser::GetToken(System.Boolean)
 extern void DtdParser_GetToken_m314D3A1BA5596BD50E08F67B39CBFBE2AF04FE8A (void);
-// 0x00000464 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanSubsetContent()
+// 0x00000465 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanSubsetContent()
 extern void DtdParser_ScanSubsetContent_m3DDC1C5F54961537AD8EFC21533E8B079CD3CFE4 (void);
-// 0x00000465 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNameExpected()
+// 0x00000466 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNameExpected()
 extern void DtdParser_ScanNameExpected_mE86BA18BAC4E482467ACBF7324AC50A7A036612C (void);
-// 0x00000466 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanQNameExpected()
+// 0x00000467 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanQNameExpected()
 extern void DtdParser_ScanQNameExpected_mA3CEF7926D1ADB4516533C14CA5AC11B577780DD (void);
-// 0x00000467 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNmtokenExpected()
+// 0x00000468 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNmtokenExpected()
 extern void DtdParser_ScanNmtokenExpected_mA1C480DC3339EDB16295740B126CD6E065C1A9EB (void);
-// 0x00000468 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanDoctype1()
+// 0x00000469 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanDoctype1()
 extern void DtdParser_ScanDoctype1_m8CC5B6D8A23BC79BC7D24753A9283D4B7678BBD9 (void);
-// 0x00000469 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanDoctype2()
+// 0x0000046A System.Xml.DtdParser/Token System.Xml.DtdParser::ScanDoctype2()
 extern void DtdParser_ScanDoctype2_m49CE285688D0AF32C97161251B5BAED8DC35CAC6 (void);
-// 0x0000046A System.Xml.DtdParser/Token System.Xml.DtdParser::ScanClosingTag()
+// 0x0000046B System.Xml.DtdParser/Token System.Xml.DtdParser::ScanClosingTag()
 extern void DtdParser_ScanClosingTag_m5AB673393CE16B30CE50A23B70DE0B8EC66E23B5 (void);
-// 0x0000046B System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement1()
+// 0x0000046C System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement1()
 extern void DtdParser_ScanElement1_m72C790C87EF7495318BB9181081FFB608299E94D (void);
-// 0x0000046C System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement2()
+// 0x0000046D System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement2()
 extern void DtdParser_ScanElement2_m8B93B60343DFF685D0BD5A6769BD73FB39E39F45 (void);
-// 0x0000046D System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement3()
+// 0x0000046E System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement3()
 extern void DtdParser_ScanElement3_m28CF7EC133A70479C5F5740091A0F58D03E70EA6 (void);
-// 0x0000046E System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement4()
+// 0x0000046F System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement4()
 extern void DtdParser_ScanElement4_m6F360CB881C17BFFB2C688BBF7FA4C9751AB284E (void);
-// 0x0000046F System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement5()
+// 0x00000470 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement5()
 extern void DtdParser_ScanElement5_m88E34616D6F10E1061C7B3CADEF68E1FF1DF7126 (void);
-// 0x00000470 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement6()
+// 0x00000471 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement6()
 extern void DtdParser_ScanElement6_m5B40A19C9CD3EAED210B4829382140426A14E936 (void);
-// 0x00000471 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement7()
+// 0x00000472 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanElement7()
 extern void DtdParser_ScanElement7_m3F94F17E421650A3A8D8BDEC02F8201CD2AB1BC7 (void);
-// 0x00000472 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist1()
+// 0x00000473 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist1()
 extern void DtdParser_ScanAttlist1_m83EEEF8CFE21CC81A36DA270900584135021C828 (void);
-// 0x00000473 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist2()
+// 0x00000474 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist2()
 extern void DtdParser_ScanAttlist2_m7E560A6A423783BEB4E7F99C9B4FF69C833D061D (void);
-// 0x00000474 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist3()
+// 0x00000475 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist3()
 extern void DtdParser_ScanAttlist3_mF035EBFC23BF70F98B6DFD34112D12607DC8E74D (void);
-// 0x00000475 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist4()
+// 0x00000476 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist4()
 extern void DtdParser_ScanAttlist4_mCD308E6A3D25EB060DBC8C35FADB8F6A67991587 (void);
-// 0x00000476 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist5()
+// 0x00000477 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist5()
 extern void DtdParser_ScanAttlist5_m35AA80B4939B569B63EACFBD15C3A7A279E08C82 (void);
-// 0x00000477 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist6()
+// 0x00000478 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist6()
 extern void DtdParser_ScanAttlist6_mF627B2ACA8D7005BF6E61B406E7D9016E817B0AE (void);
-// 0x00000478 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist7()
+// 0x00000479 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanAttlist7()
 extern void DtdParser_ScanAttlist7_m180D2F146EE05F9ED0732FDA13ADF88F8A0AB239 (void);
-// 0x00000479 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanLiteral(System.Xml.DtdParser/LiteralType)
+// 0x0000047A System.Xml.DtdParser/Token System.Xml.DtdParser::ScanLiteral(System.Xml.DtdParser/LiteralType)
 extern void DtdParser_ScanLiteral_m04C307F1A42A05A09ED322C754538E90C2ED0026 (void);
-// 0x0000047A System.Xml.XmlQualifiedName System.Xml.DtdParser::ScanEntityName()
+// 0x0000047B System.Xml.XmlQualifiedName System.Xml.DtdParser::ScanEntityName()
 extern void DtdParser_ScanEntityName_m88D8D0B3BD33BEB5120E1AA008E13FEBC4B03482 (void);
-// 0x0000047B System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNotation1()
+// 0x0000047C System.Xml.DtdParser/Token System.Xml.DtdParser::ScanNotation1()
 extern void DtdParser_ScanNotation1_m4C4E5782C3B83C24E6F9F08D87B22C4B82E780FB (void);
-// 0x0000047C System.Xml.DtdParser/Token System.Xml.DtdParser::ScanSystemId()
+// 0x0000047D System.Xml.DtdParser/Token System.Xml.DtdParser::ScanSystemId()
 extern void DtdParser_ScanSystemId_m4BFDE8AB3CAEF9D217E5FDEBEA038712AC85F601 (void);
-// 0x0000047D System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity1()
+// 0x0000047E System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity1()
 extern void DtdParser_ScanEntity1_mE0247D128601F57689966E73F7F89597F017AC53 (void);
-// 0x0000047E System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity2()
+// 0x0000047F System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity2()
 extern void DtdParser_ScanEntity2_m2C5A6BB88090ADF0B9649F21210AAD33A4FB7115 (void);
-// 0x0000047F System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity3()
+// 0x00000480 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanEntity3()
 extern void DtdParser_ScanEntity3_m83E67C0E0412FC7E29A40113DFBD9663F1832487 (void);
-// 0x00000480 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanPublicId1()
+// 0x00000481 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanPublicId1()
 extern void DtdParser_ScanPublicId1_m1095E6AE70E11A9B956708FFBE530301689F82A5 (void);
-// 0x00000481 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanPublicId2()
+// 0x00000482 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanPublicId2()
 extern void DtdParser_ScanPublicId2_mFDAA7AB884FAFD43C7864DA3C22C00BD0024B9DD (void);
-// 0x00000482 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection1()
+// 0x00000483 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection1()
 extern void DtdParser_ScanCondSection1_mC6FDCA0100720F5289856689A51097AA12C05FDC (void);
-// 0x00000483 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection2()
+// 0x00000484 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection2()
 extern void DtdParser_ScanCondSection2_m4F6CA7E86BF773FA2EAA8ACA577C4F96A1DC7A9A (void);
-// 0x00000484 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection3()
+// 0x00000485 System.Xml.DtdParser/Token System.Xml.DtdParser::ScanCondSection3()
 extern void DtdParser_ScanCondSection3_m1A14F74065167EFD8938C66911DA82D34F5B1429 (void);
-// 0x00000485 System.Void System.Xml.DtdParser::ScanName()
+// 0x00000486 System.Void System.Xml.DtdParser::ScanName()
 extern void DtdParser_ScanName_mC452081ACDFAE2FB825E73D7F7F506FD967F3DB0 (void);
-// 0x00000486 System.Void System.Xml.DtdParser::ScanQName()
+// 0x00000487 System.Void System.Xml.DtdParser::ScanQName()
 extern void DtdParser_ScanQName_mAD528C25DE449B69809006B17DF6015439150DE3 (void);
-// 0x00000487 System.Void System.Xml.DtdParser::ScanQName(System.Boolean)
+// 0x00000488 System.Void System.Xml.DtdParser::ScanQName(System.Boolean)
 extern void DtdParser_ScanQName_mA660766FD83DC7827E0C5B52412321F8E9A0EDC4 (void);
-// 0x00000488 System.Boolean System.Xml.DtdParser::ReadDataInName()
+// 0x00000489 System.Boolean System.Xml.DtdParser::ReadDataInName()
 extern void DtdParser_ReadDataInName_mD211C27DF640D9443E3258AE20A48F095699717B (void);
-// 0x00000489 System.Void System.Xml.DtdParser::ScanNmtoken()
+// 0x0000048A System.Void System.Xml.DtdParser::ScanNmtoken()
 extern void DtdParser_ScanNmtoken_mD2A9057AA5C523117A422FBB2B5119B915133919 (void);
-// 0x0000048A System.Boolean System.Xml.DtdParser::EatPublicKeyword()
+// 0x0000048B System.Boolean System.Xml.DtdParser::EatPublicKeyword()
 extern void DtdParser_EatPublicKeyword_m36E41ED431E35D882457C69703585B584F86D47E (void);
-// 0x0000048B System.Boolean System.Xml.DtdParser::EatSystemKeyword()
+// 0x0000048C System.Boolean System.Xml.DtdParser::EatSystemKeyword()
 extern void DtdParser_EatSystemKeyword_mA6344D8F8E24209177DE25810ECC484A5202D452 (void);
-// 0x0000048C System.Xml.XmlQualifiedName System.Xml.DtdParser::GetNameQualified(System.Boolean)
+// 0x0000048D System.Xml.XmlQualifiedName System.Xml.DtdParser::GetNameQualified(System.Boolean)
 extern void DtdParser_GetNameQualified_m90D851C0C284B3597B168491C6824733D42E1979 (void);
-// 0x0000048D System.String System.Xml.DtdParser::GetNameString()
+// 0x0000048E System.String System.Xml.DtdParser::GetNameString()
 extern void DtdParser_GetNameString_mA1D54806181E8700FF13260A88E2077F603C39FB (void);
-// 0x0000048E System.String System.Xml.DtdParser::GetNmtokenString()
+// 0x0000048F System.String System.Xml.DtdParser::GetNmtokenString()
 extern void DtdParser_GetNmtokenString_m2FBC77BC5054E435A4F99466E1E21D664260D1EB (void);
-// 0x0000048F System.String System.Xml.DtdParser::GetValue()
+// 0x00000490 System.String System.Xml.DtdParser::GetValue()
 extern void DtdParser_GetValue_m3A56A10A245D1CDB50CCBFE897A8BA1AB3F5F622 (void);
-// 0x00000490 System.String System.Xml.DtdParser::GetValueWithStrippedSpaces()
+// 0x00000491 System.String System.Xml.DtdParser::GetValueWithStrippedSpaces()
 extern void DtdParser_GetValueWithStrippedSpaces_mA7A8B5EF2DDCC7C0C1AE9845AF9EF4D149094FEA (void);
-// 0x00000491 System.Int32 System.Xml.DtdParser::ReadData()
+// 0x00000492 System.Int32 System.Xml.DtdParser::ReadData()
 extern void DtdParser_ReadData_m02D6859FB085D58E010B7F25EF813156B8CC3109 (void);
-// 0x00000492 System.Void System.Xml.DtdParser::LoadParsingBuffer()
+// 0x00000493 System.Void System.Xml.DtdParser::LoadParsingBuffer()
 extern void DtdParser_LoadParsingBuffer_mF05F85D2FBE70046CCFD312890F918B9D0961C14 (void);
-// 0x00000493 System.Void System.Xml.DtdParser::SaveParsingBuffer()
+// 0x00000494 System.Void System.Xml.DtdParser::SaveParsingBuffer()
 extern void DtdParser_SaveParsingBuffer_mA50879908E86FF9D354642A7BF0CDF85ACE35D8A (void);
-// 0x00000494 System.Void System.Xml.DtdParser::SaveParsingBuffer(System.Int32)
+// 0x00000495 System.Void System.Xml.DtdParser::SaveParsingBuffer(System.Int32)
 extern void DtdParser_SaveParsingBuffer_m002F46CF1017FA4228DEAE75ABD891C78F2505AF (void);
-// 0x00000495 System.Boolean System.Xml.DtdParser::HandleEntityReference(System.Boolean,System.Boolean,System.Boolean)
+// 0x00000496 System.Boolean System.Xml.DtdParser::HandleEntityReference(System.Boolean,System.Boolean,System.Boolean)
 extern void DtdParser_HandleEntityReference_mEE956B6F9F4B05B092B23769C7446B988111557C (void);
-// 0x00000496 System.Boolean System.Xml.DtdParser::HandleEntityReference(System.Xml.XmlQualifiedName,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000497 System.Boolean System.Xml.DtdParser::HandleEntityReference(System.Xml.XmlQualifiedName,System.Boolean,System.Boolean,System.Boolean)
 extern void DtdParser_HandleEntityReference_m372D3BB5C39D1333272D001572C4337128FD411B (void);
-// 0x00000497 System.Boolean System.Xml.DtdParser::HandleEntityEnd(System.Boolean)
+// 0x00000498 System.Boolean System.Xml.DtdParser::HandleEntityEnd(System.Boolean)
 extern void DtdParser_HandleEntityEnd_m741F32D866045C1FEBD97EE495E22BECA25B453D (void);
-// 0x00000498 System.Xml.Schema.SchemaEntity System.Xml.DtdParser::VerifyEntityReference(System.Xml.XmlQualifiedName,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000499 System.Xml.Schema.SchemaEntity System.Xml.DtdParser::VerifyEntityReference(System.Xml.XmlQualifiedName,System.Boolean,System.Boolean,System.Boolean)
 extern void DtdParser_VerifyEntityReference_m84A330F3B961DFFD33E4BFA07F60013BCF96665E (void);
-// 0x00000499 System.Void System.Xml.DtdParser::SendValidationEvent(System.Int32,System.Xml.Schema.XmlSeverityType,System.String,System.String)
+// 0x0000049A System.Void System.Xml.DtdParser::SendValidationEvent(System.Int32,System.Xml.Schema.XmlSeverityType,System.String,System.String)
 extern void DtdParser_SendValidationEvent_m235191F9EC6673C3DB193451B67E6B89CB1E5A2F (void);
-// 0x0000049A System.Void System.Xml.DtdParser::SendValidationEvent(System.Xml.Schema.XmlSeverityType,System.String,System.String)
+// 0x0000049B System.Void System.Xml.DtdParser::SendValidationEvent(System.Xml.Schema.XmlSeverityType,System.String,System.String)
 extern void DtdParser_SendValidationEvent_m79ECFFB3D03874AE9095BA539FC8B7191018E58B (void);
-// 0x0000049B System.Void System.Xml.DtdParser::SendValidationEvent(System.Xml.Schema.XmlSeverityType,System.Xml.Schema.XmlSchemaException)
+// 0x0000049C System.Void System.Xml.DtdParser::SendValidationEvent(System.Xml.Schema.XmlSeverityType,System.Xml.Schema.XmlSchemaException)
 extern void DtdParser_SendValidationEvent_m874AFDBD3F0EEC5D3AE8A195B98AE90DC472438F (void);
-// 0x0000049C System.Boolean System.Xml.DtdParser::IsAttributeValueType(System.Xml.DtdParser/Token)
+// 0x0000049D System.Boolean System.Xml.DtdParser::IsAttributeValueType(System.Xml.DtdParser/Token)
 extern void DtdParser_IsAttributeValueType_m973F7C314B5AC9D43A0AE8BAE06F879DE66F9115 (void);
-// 0x0000049D System.Int32 System.Xml.DtdParser::get_LineNo()
+// 0x0000049E System.Int32 System.Xml.DtdParser::get_LineNo()
 extern void DtdParser_get_LineNo_m4D78AF8EFE8D05D61D89C0CC1C3CB46D0263E246 (void);
-// 0x0000049E System.Int32 System.Xml.DtdParser::get_LinePos()
+// 0x0000049F System.Int32 System.Xml.DtdParser::get_LinePos()
 extern void DtdParser_get_LinePos_m2FDB78628E84297247B78BA60AF304C084790005 (void);
-// 0x0000049F System.String System.Xml.DtdParser::get_BaseUriStr()
+// 0x000004A0 System.String System.Xml.DtdParser::get_BaseUriStr()
 extern void DtdParser_get_BaseUriStr_m1A09B1A26119F87C048748007B59685399A1A0AE (void);
-// 0x000004A0 System.Void System.Xml.DtdParser::OnUnexpectedError()
+// 0x000004A1 System.Void System.Xml.DtdParser::OnUnexpectedError()
 extern void DtdParser_OnUnexpectedError_m48B2712A07C18494946123F9947ED17F270DC4B6 (void);
-// 0x000004A1 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String)
+// 0x000004A2 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String)
 extern void DtdParser_Throw_m227864B3930C74094485358ABBE02CE11F3E9E77 (void);
-// 0x000004A2 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String,System.String)
+// 0x000004A3 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String,System.String)
 extern void DtdParser_Throw_mA82BAD834C0CCDE0E9325996E4560953761B62D0 (void);
-// 0x000004A3 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String,System.String[])
+// 0x000004A4 System.Void System.Xml.DtdParser::Throw(System.Int32,System.String,System.String[])
 extern void DtdParser_Throw_mEE35AE1DA02A2343A42F062D85BA7D04AA9666C5 (void);
-// 0x000004A4 System.Void System.Xml.DtdParser::Throw(System.String,System.String,System.Int32,System.Int32)
+// 0x000004A5 System.Void System.Xml.DtdParser::Throw(System.String,System.String,System.Int32,System.Int32)
 extern void DtdParser_Throw_mB4CABDC7A50D3C7F339CC18B8F500A9DCD78CA95 (void);
-// 0x000004A5 System.Void System.Xml.DtdParser::ThrowInvalidChar(System.Int32,System.String,System.Int32)
+// 0x000004A6 System.Void System.Xml.DtdParser::ThrowInvalidChar(System.Int32,System.String,System.Int32)
 extern void DtdParser_ThrowInvalidChar_mD2161D4741D7A76279757B830E981723BEB64CA3 (void);
-// 0x000004A6 System.Void System.Xml.DtdParser::ThrowInvalidChar(System.Char[],System.Int32,System.Int32)
+// 0x000004A7 System.Void System.Xml.DtdParser::ThrowInvalidChar(System.Char[],System.Int32,System.Int32)
 extern void DtdParser_ThrowInvalidChar_m67D089CB4F65FC2275C1FE545C178FF42CB61944 (void);
-// 0x000004A7 System.Void System.Xml.DtdParser::ThrowUnexpectedToken(System.Int32,System.String)
+// 0x000004A8 System.Void System.Xml.DtdParser::ThrowUnexpectedToken(System.Int32,System.String)
 extern void DtdParser_ThrowUnexpectedToken_mBCA8EBEE9CF9EC08AEEB6CA14BF75492689BF982 (void);
-// 0x000004A8 System.Void System.Xml.DtdParser::ThrowUnexpectedToken(System.Int32,System.String,System.String)
+// 0x000004A9 System.Void System.Xml.DtdParser::ThrowUnexpectedToken(System.Int32,System.String,System.String)
 extern void DtdParser_ThrowUnexpectedToken_mE75F8A57E36D0ED9A0E029E79C5D0F5E71B82570 (void);
-// 0x000004A9 System.String System.Xml.DtdParser::ParseUnexpectedToken(System.Int32)
+// 0x000004AA System.String System.Xml.DtdParser::ParseUnexpectedToken(System.Int32)
 extern void DtdParser_ParseUnexpectedToken_m207C66A0CCCD7B01EC54A015C8F1CB228665119C (void);
-// 0x000004AA System.String System.Xml.DtdParser::StripSpaces(System.String)
+// 0x000004AB System.String System.Xml.DtdParser::StripSpaces(System.String)
 extern void DtdParser_StripSpaces_mA480984B85C66613574E2190887F68CF8DD94125 (void);
-// 0x000004AB System.Void System.Xml.DtdParser/UndeclaredNotation::.ctor(System.String,System.Int32,System.Int32)
+// 0x000004AC System.Void System.Xml.DtdParser/UndeclaredNotation::.ctor(System.String,System.Int32,System.Int32)
 extern void UndeclaredNotation__ctor_m6237B782B12B39FB8BF173A6ABA4C298D685F300 (void);
-// 0x000004AC System.Void System.Xml.DtdParser/ParseElementOnlyContent_LocalFrame::.ctor(System.Int32)
+// 0x000004AD System.Void System.Xml.DtdParser/ParseElementOnlyContent_LocalFrame::.ctor(System.Int32)
 extern void ParseElementOnlyContent_LocalFrame__ctor_m7E1F8F1E449038C870E9A418F8597ECFE5E6FDD1 (void);
-// 0x000004AD System.Int32 System.Xml.ValidateNames::ParseNmtoken(System.String,System.Int32)
+// 0x000004AE System.Int32 System.Xml.ValidateNames::ParseNmtoken(System.String,System.Int32)
 extern void ValidateNames_ParseNmtoken_m7C6554EAA0D5D41D6DDE5FA5669F1D54DE46B374 (void);
-// 0x000004AE System.Int32 System.Xml.ValidateNames::ParseNmtokenNoNamespaces(System.String,System.Int32)
+// 0x000004AF System.Int32 System.Xml.ValidateNames::ParseNmtokenNoNamespaces(System.String,System.Int32)
 extern void ValidateNames_ParseNmtokenNoNamespaces_m0192343C1A9B5580256C28CF29ADD86E2862F5E2 (void);
-// 0x000004AF System.Int32 System.Xml.ValidateNames::ParseNameNoNamespaces(System.String,System.Int32)
+// 0x000004B0 System.Int32 System.Xml.ValidateNames::ParseNameNoNamespaces(System.String,System.Int32)
 extern void ValidateNames_ParseNameNoNamespaces_mDB34F558B88D0F0CBCED466D0FF9B6B32EC6BDDF (void);
-// 0x000004B0 System.Boolean System.Xml.ValidateNames::IsNameNoNamespaces(System.String)
+// 0x000004B1 System.Boolean System.Xml.ValidateNames::IsNameNoNamespaces(System.String)
 extern void ValidateNames_IsNameNoNamespaces_m41D3FD9FB53B3949C7E01A74C20C96B0B15DAC2B (void);
-// 0x000004B1 System.Int32 System.Xml.ValidateNames::ParseNCName(System.String,System.Int32)
+// 0x000004B2 System.Int32 System.Xml.ValidateNames::ParseNCName(System.String,System.Int32)
 extern void ValidateNames_ParseNCName_m29804E5FFF402FED8323F5A19784053A4DB9559F (void);
-// 0x000004B2 System.Int32 System.Xml.ValidateNames::ParseNCName(System.String)
+// 0x000004B3 System.Int32 System.Xml.ValidateNames::ParseNCName(System.String)
 extern void ValidateNames_ParseNCName_mDF0240AB0FDDB3416896DED9C9B78E75BDA8CFEF (void);
-// 0x000004B3 System.Int32 System.Xml.ValidateNames::ParseQName(System.String,System.Int32,System.Int32&)
+// 0x000004B4 System.Int32 System.Xml.ValidateNames::ParseQName(System.String,System.Int32,System.Int32&)
 extern void ValidateNames_ParseQName_mE71B5B34A2D2D773E4D3FF94EA866BBDBEC21095 (void);
-// 0x000004B4 System.Void System.Xml.ValidateNames::ParseQNameThrow(System.String,System.String&,System.String&)
+// 0x000004B5 System.Void System.Xml.ValidateNames::ParseQNameThrow(System.String,System.String&,System.String&)
 extern void ValidateNames_ParseQNameThrow_m5D12697A2B0A9B1134C5DCF60555736DCF274AA5 (void);
-// 0x000004B5 System.Void System.Xml.ValidateNames::ThrowInvalidName(System.String,System.Int32,System.Int32)
+// 0x000004B6 System.Void System.Xml.ValidateNames::ThrowInvalidName(System.String,System.Int32,System.Int32)
 extern void ValidateNames_ThrowInvalidName_m2CDE4C66404B237566E34B65CEECD1795C6FA56D (void);
-// 0x000004B6 System.Exception System.Xml.ValidateNames::GetInvalidNameException(System.String,System.Int32,System.Int32)
+// 0x000004B7 System.Exception System.Xml.ValidateNames::GetInvalidNameException(System.String,System.Int32,System.Int32)
 extern void ValidateNames_GetInvalidNameException_m9F77FC77EE9AAC6D08916BC24D1A753F7795CFB7 (void);
-// 0x000004B7 System.Void System.Xml.ValidateNames::.cctor()
+// 0x000004B8 System.Void System.Xml.ValidateNames::.cctor()
 extern void ValidateNames__cctor_m494F388F05F41E158DB8AA28D6BBF1D539B15CAB (void);
-// 0x000004B8 System.Object System.Xml.XmlCharType::get_StaticLock()
+// 0x000004B9 System.Object System.Xml.XmlCharType::get_StaticLock()
 extern void XmlCharType_get_StaticLock_mC311794269D2A2500ECD686E106C0C00C45114E1 (void);
-// 0x000004B9 System.Void System.Xml.XmlCharType::InitInstance()
+// 0x000004BA System.Void System.Xml.XmlCharType::InitInstance()
 extern void XmlCharType_InitInstance_m187F4E551A38D61E4124ADB4E711D3FB2C2FCCE6 (void);
-// 0x000004BA System.Void System.Xml.XmlCharType::SetProperties(System.Byte[],System.String,System.Byte)
+// 0x000004BB System.Void System.Xml.XmlCharType::SetProperties(System.Byte[],System.String,System.Byte)
 extern void XmlCharType_SetProperties_m00D46212FCBB36D702B49AF605BBD5AC12F5D37A (void);
-// 0x000004BB System.Void System.Xml.XmlCharType::.ctor(System.Byte[])
+// 0x000004BC System.Void System.Xml.XmlCharType::.ctor(System.Byte[])
 extern void XmlCharType__ctor_mB4A379AC51751894C31365E176E3B9BFB5ABC771 (void);
-// 0x000004BC System.Xml.XmlCharType System.Xml.XmlCharType::get_Instance()
+// 0x000004BD System.Xml.XmlCharType System.Xml.XmlCharType::get_Instance()
 extern void XmlCharType_get_Instance_m2D4006A9AE9EB033F6A176E31CAFAC7EF30350AD (void);
-// 0x000004BD System.Boolean System.Xml.XmlCharType::IsWhiteSpace(System.Char)
+// 0x000004BE System.Boolean System.Xml.XmlCharType::IsWhiteSpace(System.Char)
 extern void XmlCharType_IsWhiteSpace_m6F9F3A19B8A95FF5CBF1B197E400A0F194AC9387 (void);
-// 0x000004BE System.Boolean System.Xml.XmlCharType::IsNCNameSingleChar(System.Char)
+// 0x000004BF System.Boolean System.Xml.XmlCharType::IsNCNameSingleChar(System.Char)
 extern void XmlCharType_IsNCNameSingleChar_mAE9940C767975DB6F8EA438AAE5F7DFC7666DB54 (void);
-// 0x000004BF System.Boolean System.Xml.XmlCharType::IsStartNCNameSingleChar(System.Char)
+// 0x000004C0 System.Boolean System.Xml.XmlCharType::IsStartNCNameSingleChar(System.Char)
 extern void XmlCharType_IsStartNCNameSingleChar_m471CCC08015F68609798979A3C5AA7C20533AA08 (void);
-// 0x000004C0 System.Boolean System.Xml.XmlCharType::IsNameSingleChar(System.Char)
+// 0x000004C1 System.Boolean System.Xml.XmlCharType::IsNameSingleChar(System.Char)
 extern void XmlCharType_IsNameSingleChar_mA5C27AEE5BABB098031EA8BE197F9E2E63F0478A (void);
-// 0x000004C1 System.Boolean System.Xml.XmlCharType::IsCharData(System.Char)
+// 0x000004C2 System.Boolean System.Xml.XmlCharType::IsCharData(System.Char)
 extern void XmlCharType_IsCharData_m39C87F830CD89F4F0029AA0338BB9AB5EFCC1AF5 (void);
-// 0x000004C2 System.Boolean System.Xml.XmlCharType::IsPubidChar(System.Char)
+// 0x000004C3 System.Boolean System.Xml.XmlCharType::IsPubidChar(System.Char)
 extern void XmlCharType_IsPubidChar_m1B6AF6006A2514C09A7AE467296FAA1C3372F520 (void);
-// 0x000004C3 System.Boolean System.Xml.XmlCharType::IsDigit(System.Char)
+// 0x000004C4 System.Boolean System.Xml.XmlCharType::IsDigit(System.Char)
 extern void XmlCharType_IsDigit_m35A52077DD1B23150913BDAE7C1F5EEEF792DFD7 (void);
-// 0x000004C4 System.Boolean System.Xml.XmlCharType::IsHighSurrogate(System.Int32)
+// 0x000004C5 System.Boolean System.Xml.XmlCharType::IsHighSurrogate(System.Int32)
 extern void XmlCharType_IsHighSurrogate_m9DE9C8AE82BE2FB2A8EA00142D2E5A7DFE6CC303 (void);
-// 0x000004C5 System.Boolean System.Xml.XmlCharType::IsLowSurrogate(System.Int32)
+// 0x000004C6 System.Boolean System.Xml.XmlCharType::IsLowSurrogate(System.Int32)
 extern void XmlCharType_IsLowSurrogate_m062769B4A4869E4EDAC2EC6D0169BADCC2AC6C56 (void);
-// 0x000004C6 System.Boolean System.Xml.XmlCharType::IsSurrogate(System.Int32)
+// 0x000004C7 System.Boolean System.Xml.XmlCharType::IsSurrogate(System.Int32)
 extern void XmlCharType_IsSurrogate_m29FE0DF5EE1BEA1C1695EAD497896D2FD94173C0 (void);
-// 0x000004C7 System.Int32 System.Xml.XmlCharType::CombineSurrogateChar(System.Int32,System.Int32)
+// 0x000004C8 System.Int32 System.Xml.XmlCharType::CombineSurrogateChar(System.Int32,System.Int32)
 extern void XmlCharType_CombineSurrogateChar_mCCBF257D9AE510DB9D3AA852848DCEB8AE0B9512 (void);
-// 0x000004C8 System.Void System.Xml.XmlCharType::SplitSurrogateChar(System.Int32,System.Char&,System.Char&)
+// 0x000004C9 System.Void System.Xml.XmlCharType::SplitSurrogateChar(System.Int32,System.Char&,System.Char&)
 extern void XmlCharType_SplitSurrogateChar_m8D1F247D73F0298B1E45C124BE6FA2A797ABAE56 (void);
-// 0x000004C9 System.Boolean System.Xml.XmlCharType::IsOnlyWhitespace(System.String)
+// 0x000004CA System.Boolean System.Xml.XmlCharType::IsOnlyWhitespace(System.String)
 extern void XmlCharType_IsOnlyWhitespace_m6A7AD69BFF7BE6878F6984C952284C0755601490 (void);
-// 0x000004CA System.Int32 System.Xml.XmlCharType::IsOnlyWhitespaceWithPos(System.String)
+// 0x000004CB System.Int32 System.Xml.XmlCharType::IsOnlyWhitespaceWithPos(System.String)
 extern void XmlCharType_IsOnlyWhitespaceWithPos_mED48C365F707662F8D0AD0113155B24CAD53800C (void);
-// 0x000004CB System.Int32 System.Xml.XmlCharType::IsOnlyCharData(System.String)
+// 0x000004CC System.Int32 System.Xml.XmlCharType::IsOnlyCharData(System.String)
 extern void XmlCharType_IsOnlyCharData_m5BFEFD55C4578A0117D1ED3305ACF4C062DCE9D3 (void);
-// 0x000004CC System.Boolean System.Xml.XmlCharType::IsOnlyDigits(System.String,System.Int32,System.Int32)
+// 0x000004CD System.Boolean System.Xml.XmlCharType::IsOnlyDigits(System.String,System.Int32,System.Int32)
 extern void XmlCharType_IsOnlyDigits_m65AE71D9278E3F04A6625595F8DC3D0749D79DCC (void);
-// 0x000004CD System.Int32 System.Xml.XmlCharType::IsPublicId(System.String)
+// 0x000004CE System.Int32 System.Xml.XmlCharType::IsPublicId(System.String)
 extern void XmlCharType_IsPublicId_m1119A6921A99A357141333030F425EDD2AAFE2AE (void);
-// 0x000004CE System.Boolean System.Xml.XmlCharType::InRange(System.Int32,System.Int32,System.Int32)
+// 0x000004CF System.Boolean System.Xml.XmlCharType::InRange(System.Int32,System.Int32,System.Int32)
 extern void XmlCharType_InRange_mBF4F5A0A28C7F7A5B87E49F68865D273809D8FDD (void);
-// 0x000004CF System.String System.Xml.XmlComplianceUtil::NonCDataNormalize(System.String)
+// 0x000004D0 System.String System.Xml.XmlComplianceUtil::NonCDataNormalize(System.String)
 extern void XmlComplianceUtil_NonCDataNormalize_mD4049AAACE029BD906CA8B8B347D57B68EB0713C (void);
-// 0x000004D0 System.String System.Xml.XmlComplianceUtil::CDataNormalize(System.String)
+// 0x000004D1 System.String System.Xml.XmlComplianceUtil::CDataNormalize(System.String)
 extern void XmlComplianceUtil_CDataNormalize_m28F7DA8AAD0404D820BE0A2BC46F53758827C982 (void);
-// 0x000004D1 System.Byte[] System.Xml.XmlConvert::FromBinHexString(System.String,System.Boolean)
+// 0x000004D2 System.Byte[] System.Xml.XmlConvert::FromBinHexString(System.String,System.Boolean)
 extern void XmlConvert_FromBinHexString_mA6B7940865C99CFD6DA8331F3F4C08A1066274BB (void);
-// 0x000004D2 System.String System.Xml.XmlConvert::ToBinHexString(System.Byte[])
+// 0x000004D3 System.String System.Xml.XmlConvert::ToBinHexString(System.Byte[])
 extern void XmlConvert_ToBinHexString_m18CF7765F4C6BB347B491EFF4317FE4E83A871A0 (void);
-// 0x000004D3 System.String System.Xml.XmlConvert::VerifyName(System.String)
+// 0x000004D4 System.String System.Xml.XmlConvert::VerifyName(System.String)
 extern void XmlConvert_VerifyName_m5A3D4679962414F4932E7B0C480BDD7D732F52B1 (void);
-// 0x000004D4 System.Exception System.Xml.XmlConvert::TryVerifyName(System.String)
+// 0x000004D5 System.Exception System.Xml.XmlConvert::TryVerifyName(System.String)
 extern void XmlConvert_TryVerifyName_m465304C83590B09FCFE24D876497CF0639AE6FA8 (void);
-// 0x000004D5 System.Exception System.Xml.XmlConvert::TryVerifyNCName(System.String)
+// 0x000004D6 System.Exception System.Xml.XmlConvert::TryVerifyNCName(System.String)
 extern void XmlConvert_TryVerifyNCName_m20AB89E3891F6D1776A11BCEB582BAE7C415E13B (void);
-// 0x000004D6 System.Exception System.Xml.XmlConvert::TryVerifyTOKEN(System.String)
+// 0x000004D7 System.Exception System.Xml.XmlConvert::TryVerifyTOKEN(System.String)
 extern void XmlConvert_TryVerifyTOKEN_m6F7783246195E4D914D713E8DB55686FA074701E (void);
-// 0x000004D7 System.Exception System.Xml.XmlConvert::TryVerifyNMTOKEN(System.String)
+// 0x000004D8 System.Exception System.Xml.XmlConvert::TryVerifyNMTOKEN(System.String)
 extern void XmlConvert_TryVerifyNMTOKEN_m28C3597CC364D53D538ADB87D5D5F70BE46130EE (void);
-// 0x000004D8 System.Exception System.Xml.XmlConvert::TryVerifyNormalizedString(System.String)
+// 0x000004D9 System.Exception System.Xml.XmlConvert::TryVerifyNormalizedString(System.String)
 extern void XmlConvert_TryVerifyNormalizedString_m07F0EE0E6EF3FA9EE4257A1D1A71371635B02C15 (void);
-// 0x000004D9 System.String System.Xml.XmlConvert::ToString(System.Boolean)
+// 0x000004DA System.String System.Xml.XmlConvert::ToString(System.Boolean)
 extern void XmlConvert_ToString_mD498DD0E8B82A9E93A66FE61A9A977523C5D01CD (void);
-// 0x000004DA System.String System.Xml.XmlConvert::ToString(System.Decimal)
+// 0x000004DB System.String System.Xml.XmlConvert::ToString(System.Decimal)
 extern void XmlConvert_ToString_mFA07C846C46E12A04FE92E9388CBE27146C47720 (void);
-// 0x000004DB System.String System.Xml.XmlConvert::ToString(System.SByte)
+// 0x000004DC System.String System.Xml.XmlConvert::ToString(System.SByte)
 extern void XmlConvert_ToString_mC96BECCB53E0E0AEE7343F589064A956B510D788 (void);
-// 0x000004DC System.String System.Xml.XmlConvert::ToString(System.Int16)
+// 0x000004DD System.String System.Xml.XmlConvert::ToString(System.Int16)
 extern void XmlConvert_ToString_m8B9358ACFF0D39C8843D0CFA5B5209CA04C6AB47 (void);
-// 0x000004DD System.String System.Xml.XmlConvert::ToString(System.Int32)
+// 0x000004DE System.String System.Xml.XmlConvert::ToString(System.Int32)
 extern void XmlConvert_ToString_m70CBE2DA22D8FCAC8906512E2A6F12C2E39C6D62 (void);
-// 0x000004DE System.String System.Xml.XmlConvert::ToString(System.Int64)
+// 0x000004DF System.String System.Xml.XmlConvert::ToString(System.Int64)
 extern void XmlConvert_ToString_m107060D51F6846EEE17E3F25663DE8CBF0D531B7 (void);
-// 0x000004DF System.String System.Xml.XmlConvert::ToString(System.Byte)
+// 0x000004E0 System.String System.Xml.XmlConvert::ToString(System.Byte)
 extern void XmlConvert_ToString_m3963263C4C1BFFC2ADF0401CBF35D12BEE47BECD (void);
-// 0x000004E0 System.String System.Xml.XmlConvert::ToString(System.UInt16)
+// 0x000004E1 System.String System.Xml.XmlConvert::ToString(System.UInt16)
 extern void XmlConvert_ToString_m9E81DED159D21EE4F48F23CD7BCA537FA66C1350 (void);
-// 0x000004E1 System.String System.Xml.XmlConvert::ToString(System.UInt32)
+// 0x000004E2 System.String System.Xml.XmlConvert::ToString(System.UInt32)
 extern void XmlConvert_ToString_m538A8EFC52434D2F0D562A650E080E60ED2D5C3A (void);
-// 0x000004E2 System.String System.Xml.XmlConvert::ToString(System.UInt64)
+// 0x000004E3 System.String System.Xml.XmlConvert::ToString(System.UInt64)
 extern void XmlConvert_ToString_m8DA228632804611F0B44C93D6E285A422A58E344 (void);
-// 0x000004E3 System.String System.Xml.XmlConvert::ToString(System.Single)
+// 0x000004E4 System.String System.Xml.XmlConvert::ToString(System.Single)
 extern void XmlConvert_ToString_m5E4CB5F0119A790789813DACE87198037B503361 (void);
-// 0x000004E4 System.String System.Xml.XmlConvert::ToString(System.Double)
+// 0x000004E5 System.String System.Xml.XmlConvert::ToString(System.Double)
 extern void XmlConvert_ToString_m9AB2822ABA7C73BBABFA7A3D8318B602CD73C10B (void);
-// 0x000004E5 System.Boolean System.Xml.XmlConvert::ToBoolean(System.String)
+// 0x000004E6 System.Boolean System.Xml.XmlConvert::ToBoolean(System.String)
 extern void XmlConvert_ToBoolean_mC9C05B76ECCD48E206BF6AD704A9742C88A6DBB4 (void);
-// 0x000004E6 System.Exception System.Xml.XmlConvert::TryToBoolean(System.String,System.Boolean&)
+// 0x000004E7 System.Exception System.Xml.XmlConvert::TryToBoolean(System.String,System.Boolean&)
 extern void XmlConvert_TryToBoolean_m0CA3E45C160061B01DDA9EAEF49BB683FBA32219 (void);
-// 0x000004E7 System.Char System.Xml.XmlConvert::ToChar(System.String)
+// 0x000004E8 System.Char System.Xml.XmlConvert::ToChar(System.String)
 extern void XmlConvert_ToChar_m4B3F59079A9425572BAACA1A0A281FE1AF94EA6E (void);
-// 0x000004E8 System.Exception System.Xml.XmlConvert::TryToChar(System.String,System.Char&)
+// 0x000004E9 System.Exception System.Xml.XmlConvert::TryToChar(System.String,System.Char&)
 extern void XmlConvert_TryToChar_mC43E04FE8B98D9A034ED34E189C84FA1D296C5B2 (void);
-// 0x000004E9 System.Decimal System.Xml.XmlConvert::ToDecimal(System.String)
+// 0x000004EA System.Decimal System.Xml.XmlConvert::ToDecimal(System.String)
 extern void XmlConvert_ToDecimal_mF207176DE0C5A80122854CAC9C2155F7DD6435CF (void);
-// 0x000004EA System.Exception System.Xml.XmlConvert::TryToDecimal(System.String,System.Decimal&)
+// 0x000004EB System.Exception System.Xml.XmlConvert::TryToDecimal(System.String,System.Decimal&)
 extern void XmlConvert_TryToDecimal_m8FA34EA2076BEA1440B331DA29140A24C802D92F (void);
-// 0x000004EB System.Decimal System.Xml.XmlConvert::ToInteger(System.String)
+// 0x000004EC System.Decimal System.Xml.XmlConvert::ToInteger(System.String)
 extern void XmlConvert_ToInteger_mD5305C6E8E003F3C5AF6E863CA4DC4E391E71314 (void);
-// 0x000004EC System.Exception System.Xml.XmlConvert::TryToInteger(System.String,System.Decimal&)
+// 0x000004ED System.Exception System.Xml.XmlConvert::TryToInteger(System.String,System.Decimal&)
 extern void XmlConvert_TryToInteger_m3E61E542C70B167E6CFC95DFFBAF1F51A3434ED2 (void);
-// 0x000004ED System.Exception System.Xml.XmlConvert::TryToSByte(System.String,System.SByte&)
+// 0x000004EE System.Exception System.Xml.XmlConvert::TryToSByte(System.String,System.SByte&)
 extern void XmlConvert_TryToSByte_m64D761F38165B2E70F053771257A7A2C2D2DCC92 (void);
-// 0x000004EE System.Exception System.Xml.XmlConvert::TryToInt16(System.String,System.Int16&)
+// 0x000004EF System.Exception System.Xml.XmlConvert::TryToInt16(System.String,System.Int16&)
 extern void XmlConvert_TryToInt16_m869F38BA31875A133B020F491D88405B66FAA0D5 (void);
-// 0x000004EF System.Int32 System.Xml.XmlConvert::ToInt32(System.String)
+// 0x000004F0 System.Int32 System.Xml.XmlConvert::ToInt32(System.String)
 extern void XmlConvert_ToInt32_mDE7EE99061A69CCE5FB3C241348580413B782DAC (void);
-// 0x000004F0 System.Exception System.Xml.XmlConvert::TryToInt32(System.String,System.Int32&)
+// 0x000004F1 System.Exception System.Xml.XmlConvert::TryToInt32(System.String,System.Int32&)
 extern void XmlConvert_TryToInt32_m02C43C626553DD15AC85020B42F3D54FD1CE1DC5 (void);
-// 0x000004F1 System.Int64 System.Xml.XmlConvert::ToInt64(System.String)
+// 0x000004F2 System.Int64 System.Xml.XmlConvert::ToInt64(System.String)
 extern void XmlConvert_ToInt64_m2CF984027A0976837779877B75DC706078E21085 (void);
-// 0x000004F2 System.Exception System.Xml.XmlConvert::TryToInt64(System.String,System.Int64&)
+// 0x000004F3 System.Exception System.Xml.XmlConvert::TryToInt64(System.String,System.Int64&)
 extern void XmlConvert_TryToInt64_m04C6A322C4DA6D3EF0E8749095C787817B89CD95 (void);
-// 0x000004F3 System.Exception System.Xml.XmlConvert::TryToByte(System.String,System.Byte&)
+// 0x000004F4 System.Exception System.Xml.XmlConvert::TryToByte(System.String,System.Byte&)
 extern void XmlConvert_TryToByte_m6911DC58046B13049F75864C79233EB5CB31490E (void);
-// 0x000004F4 System.Exception System.Xml.XmlConvert::TryToUInt16(System.String,System.UInt16&)
+// 0x000004F5 System.Exception System.Xml.XmlConvert::TryToUInt16(System.String,System.UInt16&)
 extern void XmlConvert_TryToUInt16_mA4C568FD069F2B98E7E78156757D5846E0B9754D (void);
-// 0x000004F5 System.Exception System.Xml.XmlConvert::TryToUInt32(System.String,System.UInt32&)
+// 0x000004F6 System.Exception System.Xml.XmlConvert::TryToUInt32(System.String,System.UInt32&)
 extern void XmlConvert_TryToUInt32_mE652779A38A022F24899DCE2DE64C1CE3F1AC3CE (void);
-// 0x000004F6 System.Exception System.Xml.XmlConvert::TryToUInt64(System.String,System.UInt64&)
+// 0x000004F7 System.Exception System.Xml.XmlConvert::TryToUInt64(System.String,System.UInt64&)
 extern void XmlConvert_TryToUInt64_mF86F3148FCA9EE8300FCD0332D3CA2FE1EBD547E (void);
-// 0x000004F7 System.Single System.Xml.XmlConvert::ToSingle(System.String)
+// 0x000004F8 System.Single System.Xml.XmlConvert::ToSingle(System.String)
 extern void XmlConvert_ToSingle_m8AC367272E8941669A57D02186398DD44E795003 (void);
-// 0x000004F8 System.Exception System.Xml.XmlConvert::TryToSingle(System.String,System.Single&)
+// 0x000004F9 System.Exception System.Xml.XmlConvert::TryToSingle(System.String,System.Single&)
 extern void XmlConvert_TryToSingle_m95CCE1DC0876E68EA64052EFEDD6EF7B59A6B68B (void);
-// 0x000004F9 System.Double System.Xml.XmlConvert::ToDouble(System.String)
+// 0x000004FA System.Double System.Xml.XmlConvert::ToDouble(System.String)
 extern void XmlConvert_ToDouble_m1103CDF418E58863D866DF2156731EDC5392F96F (void);
-// 0x000004FA System.Exception System.Xml.XmlConvert::TryToDouble(System.String,System.Double&)
+// 0x000004FB System.Exception System.Xml.XmlConvert::TryToDouble(System.String,System.Double&)
 extern void XmlConvert_TryToDouble_m109542725B36B4EB2C4F36B59DEFAF1EBFF57171 (void);
-// 0x000004FB System.Exception System.Xml.XmlConvert::TryToTimeSpan(System.String,System.TimeSpan&)
+// 0x000004FC System.Exception System.Xml.XmlConvert::TryToTimeSpan(System.String,System.TimeSpan&)
 extern void XmlConvert_TryToTimeSpan_mB4B0750D2BEA7AD533F8857F6F6A85A365CB9340 (void);
-// 0x000004FC System.Guid System.Xml.XmlConvert::ToGuid(System.String)
+// 0x000004FD System.Guid System.Xml.XmlConvert::ToGuid(System.String)
 extern void XmlConvert_ToGuid_m38706674F6E400E1864A7F52E39CD539305D77F6 (void);
-// 0x000004FD System.Exception System.Xml.XmlConvert::TryToGuid(System.String,System.Guid&)
+// 0x000004FE System.Exception System.Xml.XmlConvert::TryToGuid(System.String,System.Guid&)
 extern void XmlConvert_TryToGuid_mC97B551E0239C9EF79B28C138F11A158BA734D96 (void);
-// 0x000004FE System.Uri System.Xml.XmlConvert::ToUri(System.String)
+// 0x000004FF System.Uri System.Xml.XmlConvert::ToUri(System.String)
 extern void XmlConvert_ToUri_m8FB9C7F2427BDE686CDEB6A0A89A2291262377BA (void);
-// 0x000004FF System.Exception System.Xml.XmlConvert::TryToUri(System.String,System.Uri&)
+// 0x00000500 System.Exception System.Xml.XmlConvert::TryToUri(System.String,System.Uri&)
 extern void XmlConvert_TryToUri_mF583546197E448A306D4471EDC0F82217F685CB7 (void);
-// 0x00000500 System.Boolean System.Xml.XmlConvert::StrEqual(System.Char[],System.Int32,System.Int32,System.String)
+// 0x00000501 System.Boolean System.Xml.XmlConvert::StrEqual(System.Char[],System.Int32,System.Int32,System.String)
 extern void XmlConvert_StrEqual_mBE6FAA3466A3A3725E7D5B2B1AACA9DF96101A91 (void);
-// 0x00000501 System.String System.Xml.XmlConvert::TrimString(System.String)
+// 0x00000502 System.String System.Xml.XmlConvert::TrimString(System.String)
 extern void XmlConvert_TrimString_m10347633D50C56FCE0BFC58077D71AEBD88F9509 (void);
-// 0x00000502 System.String[] System.Xml.XmlConvert::SplitString(System.String)
+// 0x00000503 System.String[] System.Xml.XmlConvert::SplitString(System.String)
 extern void XmlConvert_SplitString_mEA975BC4E3519B5D2AA7B11E80A2335A0B0CB9C0 (void);
-// 0x00000503 System.Boolean System.Xml.XmlConvert::IsNegativeZero(System.Double)
+// 0x00000504 System.Boolean System.Xml.XmlConvert::IsNegativeZero(System.Double)
 extern void XmlConvert_IsNegativeZero_mEDA509EEA67FD726A7059E61B277FC36BB12D056 (void);
-// 0x00000504 System.Int64 System.Xml.XmlConvert::DoubleToInt64Bits(System.Double)
+// 0x00000505 System.Int64 System.Xml.XmlConvert::DoubleToInt64Bits(System.Double)
 extern void XmlConvert_DoubleToInt64Bits_m4D5D0577DFC61063C21CACE7A701783203EA5206 (void);
-// 0x00000505 System.Exception System.Xml.XmlConvert::CreateException(System.String,System.String,System.Xml.ExceptionType,System.Int32,System.Int32)
+// 0x00000506 System.Exception System.Xml.XmlConvert::CreateException(System.String,System.String,System.Xml.ExceptionType,System.Int32,System.Int32)
 extern void XmlConvert_CreateException_mF29B69AC633B52DD9A770A1E7E5FFD59EA63704C (void);
-// 0x00000506 System.Exception System.Xml.XmlConvert::CreateException(System.String,System.String[],System.Xml.ExceptionType,System.Int32,System.Int32)
+// 0x00000507 System.Exception System.Xml.XmlConvert::CreateException(System.String,System.String[],System.Xml.ExceptionType,System.Int32,System.Int32)
 extern void XmlConvert_CreateException_m822435202C82E6D14B37B3A7905C12641301B0B3 (void);
-// 0x00000507 System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char)
+// 0x00000508 System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char)
 extern void XmlConvert_CreateInvalidSurrogatePairException_m94EB7264908EDA03B0B9136F43A937B33FBB91CC (void);
-// 0x00000508 System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char,System.Xml.ExceptionType)
+// 0x00000509 System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char,System.Xml.ExceptionType)
 extern void XmlConvert_CreateInvalidSurrogatePairException_m4C41D0DAA33F1977D03C55FCB621BE77738AFE40 (void);
-// 0x00000509 System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char,System.Xml.ExceptionType,System.Int32,System.Int32)
+// 0x0000050A System.Exception System.Xml.XmlConvert::CreateInvalidSurrogatePairException(System.Char,System.Char,System.Xml.ExceptionType,System.Int32,System.Int32)
 extern void XmlConvert_CreateInvalidSurrogatePairException_m7DAD57F312D8044C1E137345A0A403DC94147D71 (void);
-// 0x0000050A System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char)
+// 0x0000050B System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char)
 extern void XmlConvert_CreateInvalidHighSurrogateCharException_mA7ECADE332FF612C80C9A49EDCECAFD6A181D20C (void);
-// 0x0000050B System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char,System.Xml.ExceptionType)
+// 0x0000050C System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char,System.Xml.ExceptionType)
 extern void XmlConvert_CreateInvalidHighSurrogateCharException_m2FD89D07A826A8B5DB008B0659DB0349EB9D636F (void);
-// 0x0000050C System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char,System.Xml.ExceptionType,System.Int32,System.Int32)
+// 0x0000050D System.Exception System.Xml.XmlConvert::CreateInvalidHighSurrogateCharException(System.Char,System.Xml.ExceptionType,System.Int32,System.Int32)
 extern void XmlConvert_CreateInvalidHighSurrogateCharException_m6729BEEA03AA85B6346405976E3598ADD9341ACB (void);
-// 0x0000050D System.Exception System.Xml.XmlConvert::CreateInvalidNameCharException(System.String,System.Int32,System.Xml.ExceptionType)
+// 0x0000050E System.Exception System.Xml.XmlConvert::CreateInvalidNameCharException(System.String,System.Int32,System.Xml.ExceptionType)
 extern void XmlConvert_CreateInvalidNameCharException_m88A12C5528BDCF4E0BE5CE107DE282F554EF3400 (void);
-// 0x0000050E System.ArgumentException System.Xml.XmlConvert::CreateInvalidNameArgumentException(System.String,System.String)
+// 0x0000050F System.ArgumentException System.Xml.XmlConvert::CreateInvalidNameArgumentException(System.String,System.String)
 extern void XmlConvert_CreateInvalidNameArgumentException_m0B235FA7E46AD1CFB389413509E11D59B6BA9AA2 (void);
-// 0x0000050F System.Void System.Xml.XmlConvert::.cctor()
+// 0x00000510 System.Void System.Xml.XmlConvert::.cctor()
 extern void XmlConvert__cctor_m279D7AA1F3B83567FF446EEDE4B1DAC07B9AC375 (void);
-// 0x00000510 System.IO.Stream System.Xml.XmlDownloadManager::GetStream(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
+// 0x00000511 System.IO.Stream System.Xml.XmlDownloadManager::GetStream(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
 extern void XmlDownloadManager_GetStream_mFCE31324F97366C7BC462BAA28D852B26F573D4D (void);
-// 0x00000511 System.IO.Stream System.Xml.XmlDownloadManager::GetNonFileStream(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
+// 0x00000512 System.IO.Stream System.Xml.XmlDownloadManager::GetNonFileStream(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
 extern void XmlDownloadManager_GetNonFileStream_m78D6C9664BBC8342B7D9674A5D10347749B75EF1 (void);
-// 0x00000512 System.Void System.Xml.XmlDownloadManager::Remove(System.String)
+// 0x00000513 System.Void System.Xml.XmlDownloadManager::Remove(System.String)
 extern void XmlDownloadManager_Remove_m57E5EC3D9EDFFC39FD6F2DE326B86CEB1A1CE867 (void);
-// 0x00000513 System.Threading.Tasks.Task`1<System.IO.Stream> System.Xml.XmlDownloadManager::GetStreamAsync(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
+// 0x00000514 System.Threading.Tasks.Task`1<System.IO.Stream> System.Xml.XmlDownloadManager::GetStreamAsync(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
 extern void XmlDownloadManager_GetStreamAsync_mFCA5D1E89017AB471C5CD64DB6768FA8E8BB9F8B (void);
-// 0x00000514 System.Threading.Tasks.Task`1<System.IO.Stream> System.Xml.XmlDownloadManager::GetNonFileStreamAsync(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
+// 0x00000515 System.Threading.Tasks.Task`1<System.IO.Stream> System.Xml.XmlDownloadManager::GetNonFileStreamAsync(System.Uri,System.Net.ICredentials,System.Net.IWebProxy,System.Net.Cache.RequestCachePolicy)
 extern void XmlDownloadManager_GetNonFileStreamAsync_mDF3126264ECD9236A32BCF17B8EA78A0D69992DD (void);
-// 0x00000515 System.Void System.Xml.XmlDownloadManager::.ctor()
+// 0x00000516 System.Void System.Xml.XmlDownloadManager::.ctor()
 extern void XmlDownloadManager__ctor_m9C604341FB3E13894A4A5B7E95D221FB1AF63BD9 (void);
-// 0x00000516 System.Void System.Xml.XmlDownloadManager/<>c__DisplayClass4_0::.ctor()
+// 0x00000517 System.Void System.Xml.XmlDownloadManager/<>c__DisplayClass4_0::.ctor()
 extern void U3CU3Ec__DisplayClass4_0__ctor_m74540ACDBCB71F0837B47490F72EA5CEE0283C50 (void);
-// 0x00000517 System.IO.Stream System.Xml.XmlDownloadManager/<>c__DisplayClass4_0::<GetStreamAsync>b__0()
+// 0x00000518 System.IO.Stream System.Xml.XmlDownloadManager/<>c__DisplayClass4_0::<GetStreamAsync>b__0()
 extern void U3CU3Ec__DisplayClass4_0_U3CGetStreamAsyncU3Eb__0_m2904A59D8D23BD3D869B1D25E871FCE2C25F9D8B (void);
-// 0x00000518 System.Void System.Xml.XmlDownloadManager/<GetNonFileStreamAsync>d__5::MoveNext()
+// 0x00000519 System.Void System.Xml.XmlDownloadManager/<GetNonFileStreamAsync>d__5::MoveNext()
 extern void U3CGetNonFileStreamAsyncU3Ed__5_MoveNext_m401EF9DB64A96F37087DBCBD2CA09F888772FE03 (void);
-// 0x00000519 System.Void System.Xml.XmlDownloadManager/<GetNonFileStreamAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000051A System.Void System.Xml.XmlDownloadManager/<GetNonFileStreamAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetNonFileStreamAsyncU3Ed__5_SetStateMachine_m3ED5E31DE04EF6769B01E7F1BAC976A9286ACEE1 (void);
-// 0x0000051A System.Void System.Xml.OpenedHost::.ctor()
+// 0x0000051B System.Void System.Xml.OpenedHost::.ctor()
 extern void OpenedHost__ctor_m2A06F35EBA2FE8A343C6D8F0E7DF28B1FE74BD64 (void);
-// 0x0000051B System.Void System.Xml.XmlRegisteredNonCachedStream::.ctor(System.IO.Stream,System.Xml.XmlDownloadManager,System.String)
+// 0x0000051C System.Void System.Xml.XmlRegisteredNonCachedStream::.ctor(System.IO.Stream,System.Xml.XmlDownloadManager,System.String)
 extern void XmlRegisteredNonCachedStream__ctor_mAF8BF20A5548FBA90920A191D8833071E4244DD9 (void);
-// 0x0000051C System.Void System.Xml.XmlRegisteredNonCachedStream::Finalize()
+// 0x0000051D System.Void System.Xml.XmlRegisteredNonCachedStream::Finalize()
 extern void XmlRegisteredNonCachedStream_Finalize_mB9020B35BB9C9B1B675A20424895E3FB881B2F3F (void);
-// 0x0000051D System.Void System.Xml.XmlRegisteredNonCachedStream::Dispose(System.Boolean)
+// 0x0000051E System.Void System.Xml.XmlRegisteredNonCachedStream::Dispose(System.Boolean)
 extern void XmlRegisteredNonCachedStream_Dispose_mD04D5310193DFEA35BA9DA150178F30453BD561F (void);
-// 0x0000051E System.IAsyncResult System.Xml.XmlRegisteredNonCachedStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x0000051F System.IAsyncResult System.Xml.XmlRegisteredNonCachedStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void XmlRegisteredNonCachedStream_BeginRead_m75245D7EFF7DB8C12F0E85789B3B2D4A29D8C247 (void);
-// 0x0000051F System.IAsyncResult System.Xml.XmlRegisteredNonCachedStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x00000520 System.IAsyncResult System.Xml.XmlRegisteredNonCachedStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void XmlRegisteredNonCachedStream_BeginWrite_m7373E5B475BD171A908355C342C3AD477313EEB2 (void);
-// 0x00000520 System.Int32 System.Xml.XmlRegisteredNonCachedStream::EndRead(System.IAsyncResult)
+// 0x00000521 System.Int32 System.Xml.XmlRegisteredNonCachedStream::EndRead(System.IAsyncResult)
 extern void XmlRegisteredNonCachedStream_EndRead_m84B07F2CDA73034FFE05AD715D75BE94D39FE820 (void);
-// 0x00000521 System.Void System.Xml.XmlRegisteredNonCachedStream::EndWrite(System.IAsyncResult)
+// 0x00000522 System.Void System.Xml.XmlRegisteredNonCachedStream::EndWrite(System.IAsyncResult)
 extern void XmlRegisteredNonCachedStream_EndWrite_mE9B107C0436321683ACDFA219F0494AC8DED6C12 (void);
-// 0x00000522 System.Void System.Xml.XmlRegisteredNonCachedStream::Flush()
+// 0x00000523 System.Void System.Xml.XmlRegisteredNonCachedStream::Flush()
 extern void XmlRegisteredNonCachedStream_Flush_mCBE33C2B664ABC192134D6192B6AAA0D12F0BCB2 (void);
-// 0x00000523 System.Int32 System.Xml.XmlRegisteredNonCachedStream::Read(System.Byte[],System.Int32,System.Int32)
+// 0x00000524 System.Int32 System.Xml.XmlRegisteredNonCachedStream::Read(System.Byte[],System.Int32,System.Int32)
 extern void XmlRegisteredNonCachedStream_Read_mF34AF7A2EF377452B4A382277B4312F7658DC8EF (void);
-// 0x00000524 System.Int32 System.Xml.XmlRegisteredNonCachedStream::ReadByte()
+// 0x00000525 System.Int32 System.Xml.XmlRegisteredNonCachedStream::ReadByte()
 extern void XmlRegisteredNonCachedStream_ReadByte_m7E9F76207AC18D8AD1EBF5CB0D1991C81CACE3A3 (void);
-// 0x00000525 System.Int64 System.Xml.XmlRegisteredNonCachedStream::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x00000526 System.Int64 System.Xml.XmlRegisteredNonCachedStream::Seek(System.Int64,System.IO.SeekOrigin)
 extern void XmlRegisteredNonCachedStream_Seek_mD15FE0516DD714ADCC70362A1AD22E7ABD5A7789 (void);
-// 0x00000526 System.Void System.Xml.XmlRegisteredNonCachedStream::Write(System.Byte[],System.Int32,System.Int32)
+// 0x00000527 System.Void System.Xml.XmlRegisteredNonCachedStream::Write(System.Byte[],System.Int32,System.Int32)
 extern void XmlRegisteredNonCachedStream_Write_m8DE8485A0C8170C027114F339A8766D02F3035FF (void);
-// 0x00000527 System.Void System.Xml.XmlRegisteredNonCachedStream::WriteByte(System.Byte)
+// 0x00000528 System.Void System.Xml.XmlRegisteredNonCachedStream::WriteByte(System.Byte)
 extern void XmlRegisteredNonCachedStream_WriteByte_m1EDCBDDC2E8E89533FF0926B0D1C59F5F507CA47 (void);
-// 0x00000528 System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanRead()
+// 0x00000529 System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanRead()
 extern void XmlRegisteredNonCachedStream_get_CanRead_mAB416A4F09ED2E99B6E3D0465548DABE943EB756 (void);
-// 0x00000529 System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanSeek()
+// 0x0000052A System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanSeek()
 extern void XmlRegisteredNonCachedStream_get_CanSeek_m5811BA9F1C62916527FD1735EAC88AF5F82B22E7 (void);
-// 0x0000052A System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanWrite()
+// 0x0000052B System.Boolean System.Xml.XmlRegisteredNonCachedStream::get_CanWrite()
 extern void XmlRegisteredNonCachedStream_get_CanWrite_m1089439A2ED20C5FD16CEB6DB324D6012548F833 (void);
-// 0x0000052B System.Int64 System.Xml.XmlRegisteredNonCachedStream::get_Length()
+// 0x0000052C System.Int64 System.Xml.XmlRegisteredNonCachedStream::get_Length()
 extern void XmlRegisteredNonCachedStream_get_Length_mFE0D355055471E01D45D6A7C7DF615DACC3CA195 (void);
-// 0x0000052C System.Int64 System.Xml.XmlRegisteredNonCachedStream::get_Position()
+// 0x0000052D System.Int64 System.Xml.XmlRegisteredNonCachedStream::get_Position()
 extern void XmlRegisteredNonCachedStream_get_Position_mE6EE60B9F9EB63C79E7642EA996AF7315AF089C5 (void);
-// 0x0000052D System.Void System.Xml.XmlRegisteredNonCachedStream::set_Position(System.Int64)
+// 0x0000052E System.Void System.Xml.XmlRegisteredNonCachedStream::set_Position(System.Int64)
 extern void XmlRegisteredNonCachedStream_set_Position_m1F163E7F573D5CC3774E71638D49F983747E71ED (void);
-// 0x0000052E System.Void System.Xml.XmlCachedStream::.ctor(System.Uri,System.IO.Stream)
+// 0x0000052F System.Void System.Xml.XmlCachedStream::.ctor(System.Uri,System.IO.Stream)
 extern void XmlCachedStream__ctor_m42CE73C3EA3B5DEFBC2925C6702FC5EE06F78BC9 (void);
-// 0x0000052F System.Void System.Xml.UTF16Decoder::.ctor(System.Boolean)
+// 0x00000530 System.Void System.Xml.UTF16Decoder::.ctor(System.Boolean)
 extern void UTF16Decoder__ctor_m3C3FEF9D965F0159125428E5ADE9EF42359B6664 (void);
-// 0x00000530 System.Int32 System.Xml.UTF16Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
+// 0x00000531 System.Int32 System.Xml.UTF16Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern void UTF16Decoder_GetCharCount_mA045B0DD063AB7C8D3067058C0E892ACF6B1053E (void);
-// 0x00000531 System.Int32 System.Xml.UTF16Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
+// 0x00000532 System.Int32 System.Xml.UTF16Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
 extern void UTF16Decoder_GetCharCount_m80062C2E374BB965073C59B8C52C21E5B3286C23 (void);
-// 0x00000532 System.Int32 System.Xml.UTF16Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000533 System.Int32 System.Xml.UTF16Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void UTF16Decoder_GetChars_mFD31FEC40FAE0FFA7508FE49AD626E063A43C1BE (void);
-// 0x00000533 System.Void System.Xml.UTF16Decoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
+// 0x00000534 System.Void System.Xml.UTF16Decoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
 extern void UTF16Decoder_Convert_mE1B7012AA65805EE90EBE43CF3B199326F786C56 (void);
-// 0x00000534 System.Void System.Xml.SafeAsciiDecoder::.ctor()
+// 0x00000535 System.Void System.Xml.SafeAsciiDecoder::.ctor()
 extern void SafeAsciiDecoder__ctor_m1C11CABE1F5C280D6CC096EA14C3B34F1EF2C25B (void);
-// 0x00000535 System.Int32 System.Xml.SafeAsciiDecoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
+// 0x00000536 System.Int32 System.Xml.SafeAsciiDecoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern void SafeAsciiDecoder_GetCharCount_m982380031B67605A421EE0F559567E04039AC939 (void);
-// 0x00000536 System.Int32 System.Xml.SafeAsciiDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000537 System.Int32 System.Xml.SafeAsciiDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void SafeAsciiDecoder_GetChars_m78F0BE74B4956E7389445F8EB18ED91C9D673DCA (void);
-// 0x00000537 System.Void System.Xml.SafeAsciiDecoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
+// 0x00000538 System.Void System.Xml.SafeAsciiDecoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
 extern void SafeAsciiDecoder_Convert_mD5646F210AF91CEF3D5551D74EB7F67AECA33E6B (void);
-// 0x00000538 System.String System.Xml.Ucs4Encoding::get_WebName()
+// 0x00000539 System.String System.Xml.Ucs4Encoding::get_WebName()
 extern void Ucs4Encoding_get_WebName_m20FF545662FF00203D9F927EE04E23CBE589261D (void);
-// 0x00000539 System.Text.Decoder System.Xml.Ucs4Encoding::GetDecoder()
+// 0x0000053A System.Text.Decoder System.Xml.Ucs4Encoding::GetDecoder()
 extern void Ucs4Encoding_GetDecoder_mA0ADC89D8F56AA9ED3019BE19F664FB3FE5ADCD9 (void);
-// 0x0000053A System.Int32 System.Xml.Ucs4Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
+// 0x0000053B System.Int32 System.Xml.Ucs4Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
 extern void Ucs4Encoding_GetByteCount_m4E59CE9E039D4978C6934A0AB932A272A66F9595 (void);
-// 0x0000053B System.Byte[] System.Xml.Ucs4Encoding::GetBytes(System.String)
+// 0x0000053C System.Byte[] System.Xml.Ucs4Encoding::GetBytes(System.String)
 extern void Ucs4Encoding_GetBytes_m65346A1C8565F9980A22114E6C050266CF13EDEF (void);
-// 0x0000053C System.Int32 System.Xml.Ucs4Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+// 0x0000053D System.Int32 System.Xml.Ucs4Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
 extern void Ucs4Encoding_GetBytes_m9FD0DEDCE13E104319445ABBA873E5D343EAC6D5 (void);
-// 0x0000053D System.Int32 System.Xml.Ucs4Encoding::GetMaxByteCount(System.Int32)
+// 0x0000053E System.Int32 System.Xml.Ucs4Encoding::GetMaxByteCount(System.Int32)
 extern void Ucs4Encoding_GetMaxByteCount_m7CD55451797300946FECF2B9A6497B76DDF6C371 (void);
-// 0x0000053E System.Int32 System.Xml.Ucs4Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
+// 0x0000053F System.Int32 System.Xml.Ucs4Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern void Ucs4Encoding_GetCharCount_m293E7BD667C2160C9B33FBDC02BCC86D6F653E5A (void);
-// 0x0000053F System.Int32 System.Xml.Ucs4Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000540 System.Int32 System.Xml.Ucs4Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Encoding_GetChars_m967541AA546861B5B6EF4409F5913006E3CA1D68 (void);
-// 0x00000540 System.Int32 System.Xml.Ucs4Encoding::GetMaxCharCount(System.Int32)
+// 0x00000541 System.Int32 System.Xml.Ucs4Encoding::GetMaxCharCount(System.Int32)
 extern void Ucs4Encoding_GetMaxCharCount_mD68E4244F3F631819568321A84D096737BDAE18C (void);
-// 0x00000541 System.Int32 System.Xml.Ucs4Encoding::get_CodePage()
+// 0x00000542 System.Int32 System.Xml.Ucs4Encoding::get_CodePage()
 extern void Ucs4Encoding_get_CodePage_m418FD86D0DF6723733AB6FD56400375FE4A9E553 (void);
-// 0x00000542 System.Text.Encoder System.Xml.Ucs4Encoding::GetEncoder()
+// 0x00000543 System.Text.Encoder System.Xml.Ucs4Encoding::GetEncoder()
 extern void Ucs4Encoding_GetEncoder_mA0F7C51BA8A1E4345E35C9905A1EADDDD9218FA0 (void);
-// 0x00000543 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_Littleendian()
+// 0x00000544 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_Littleendian()
 extern void Ucs4Encoding_get_UCS4_Littleendian_mE5D14C1D3E3999AB18A07E4325BE96DDE29B356F (void);
-// 0x00000544 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_Bigendian()
+// 0x00000545 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_Bigendian()
 extern void Ucs4Encoding_get_UCS4_Bigendian_m0E97A4F558200F5EBC6145B921BCCC5403331EEA (void);
-// 0x00000545 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_2143()
+// 0x00000546 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_2143()
 extern void Ucs4Encoding_get_UCS4_2143_m0710B16D7E07408001CA72F4A38F716503404D6E (void);
-// 0x00000546 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_3412()
+// 0x00000547 System.Text.Encoding System.Xml.Ucs4Encoding::get_UCS4_3412()
 extern void Ucs4Encoding_get_UCS4_3412_mF9002AF9C8DDCD0536D55369322D6AB0E0DF7CDA (void);
-// 0x00000547 System.Void System.Xml.Ucs4Encoding::.ctor()
+// 0x00000548 System.Void System.Xml.Ucs4Encoding::.ctor()
 extern void Ucs4Encoding__ctor_m70FAB3C554FDBAAEA23AFB10DC214DFF4A64D64A (void);
-// 0x00000548 System.Void System.Xml.Ucs4Encoding1234::.ctor()
+// 0x00000549 System.Void System.Xml.Ucs4Encoding1234::.ctor()
 extern void Ucs4Encoding1234__ctor_mE3CD6C385E5AA40CD9121D5923AF105533D61DD6 (void);
-// 0x00000549 System.String System.Xml.Ucs4Encoding1234::get_EncodingName()
+// 0x0000054A System.String System.Xml.Ucs4Encoding1234::get_EncodingName()
 extern void Ucs4Encoding1234_get_EncodingName_m1F82B6AB209732EE06D7F9E1144D0A7BF41E1201 (void);
-// 0x0000054A System.Byte[] System.Xml.Ucs4Encoding1234::GetPreamble()
+// 0x0000054B System.Byte[] System.Xml.Ucs4Encoding1234::GetPreamble()
 extern void Ucs4Encoding1234_GetPreamble_m3F663DE5799D0EACBB4D3CC6F569278FD8E94134 (void);
-// 0x0000054B System.Void System.Xml.Ucs4Encoding4321::.ctor()
+// 0x0000054C System.Void System.Xml.Ucs4Encoding4321::.ctor()
 extern void Ucs4Encoding4321__ctor_m39191761F994823FD46F2DC0179466D44653B804 (void);
-// 0x0000054C System.String System.Xml.Ucs4Encoding4321::get_EncodingName()
+// 0x0000054D System.String System.Xml.Ucs4Encoding4321::get_EncodingName()
 extern void Ucs4Encoding4321_get_EncodingName_m420997A7DF142A1FA730C071D82D884C73B28E83 (void);
-// 0x0000054D System.Byte[] System.Xml.Ucs4Encoding4321::GetPreamble()
+// 0x0000054E System.Byte[] System.Xml.Ucs4Encoding4321::GetPreamble()
 extern void Ucs4Encoding4321_GetPreamble_m05B83E8018B6F366014E4B549B7BD5F5B0FA997A (void);
-// 0x0000054E System.Void System.Xml.Ucs4Encoding2143::.ctor()
+// 0x0000054F System.Void System.Xml.Ucs4Encoding2143::.ctor()
 extern void Ucs4Encoding2143__ctor_mE46F56F7DB557DE79212D883C771CE040B88845A (void);
-// 0x0000054F System.String System.Xml.Ucs4Encoding2143::get_EncodingName()
+// 0x00000550 System.String System.Xml.Ucs4Encoding2143::get_EncodingName()
 extern void Ucs4Encoding2143_get_EncodingName_mEE6BE6D7A30DB3B2D1248715EA9D284DA47B1A56 (void);
-// 0x00000550 System.Byte[] System.Xml.Ucs4Encoding2143::GetPreamble()
+// 0x00000551 System.Byte[] System.Xml.Ucs4Encoding2143::GetPreamble()
 extern void Ucs4Encoding2143_GetPreamble_mAC07819EFA6E17A1A5A68DE6F36F24ED17A5B8FD (void);
-// 0x00000551 System.Void System.Xml.Ucs4Encoding3412::.ctor()
+// 0x00000552 System.Void System.Xml.Ucs4Encoding3412::.ctor()
 extern void Ucs4Encoding3412__ctor_m4586D534C822548F7849D95A99E8F8C6EE5FF622 (void);
-// 0x00000552 System.String System.Xml.Ucs4Encoding3412::get_EncodingName()
+// 0x00000553 System.String System.Xml.Ucs4Encoding3412::get_EncodingName()
 extern void Ucs4Encoding3412_get_EncodingName_mF3A35063F32BDE378F2F5D5970A6A1682FDDD4DA (void);
-// 0x00000553 System.Byte[] System.Xml.Ucs4Encoding3412::GetPreamble()
+// 0x00000554 System.Byte[] System.Xml.Ucs4Encoding3412::GetPreamble()
 extern void Ucs4Encoding3412_GetPreamble_m605FEAE802F1D946FF1CB4E79A4EBA0098EC7FB1 (void);
-// 0x00000554 System.Int32 System.Xml.Ucs4Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
+// 0x00000555 System.Int32 System.Xml.Ucs4Decoder::GetCharCount(System.Byte[],System.Int32,System.Int32)
 extern void Ucs4Decoder_GetCharCount_m75D633D2FF1FA1A9D19036E808CBBBEF30970372 (void);
-// 0x00000555 System.Int32 System.Xml.Ucs4Decoder::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-// 0x00000556 System.Int32 System.Xml.Ucs4Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000556 System.Int32 System.Xml.Ucs4Decoder::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000557 System.Int32 System.Xml.Ucs4Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Decoder_GetChars_mA91DE193BBAE2F7CC33895CC42FBB2AE7EA59721 (void);
-// 0x00000557 System.Void System.Xml.Ucs4Decoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
+// 0x00000558 System.Void System.Xml.Ucs4Decoder::Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32&,System.Int32&,System.Boolean&)
 extern void Ucs4Decoder_Convert_mBB9A5EB4B6E7CECB499CE9D92F2D6005775C5610 (void);
-// 0x00000558 System.Void System.Xml.Ucs4Decoder::Ucs4ToUTF16(System.UInt32,System.Char[],System.Int32)
+// 0x00000559 System.Void System.Xml.Ucs4Decoder::Ucs4ToUTF16(System.UInt32,System.Char[],System.Int32)
 extern void Ucs4Decoder_Ucs4ToUTF16_m21399C42D7A88AF5E10D5DC039AB407C10DDAAB8 (void);
-// 0x00000559 System.Void System.Xml.Ucs4Decoder::.ctor()
+// 0x0000055A System.Void System.Xml.Ucs4Decoder::.ctor()
 extern void Ucs4Decoder__ctor_m93A5F3E735B24067E03ECECABF8DAADC9770F2C8 (void);
-// 0x0000055A System.Int32 System.Xml.Ucs4Decoder4321::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x0000055B System.Int32 System.Xml.Ucs4Decoder4321::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Decoder4321_GetFullChars_mC4494A48E6EC62E3EEBEE256B87563125F048528 (void);
-// 0x0000055B System.Void System.Xml.Ucs4Decoder4321::.ctor()
+// 0x0000055C System.Void System.Xml.Ucs4Decoder4321::.ctor()
 extern void Ucs4Decoder4321__ctor_m5CFE9D28AB6B02B583DDAB7643424777335730BE (void);
-// 0x0000055C System.Int32 System.Xml.Ucs4Decoder1234::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x0000055D System.Int32 System.Xml.Ucs4Decoder1234::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Decoder1234_GetFullChars_m01D76959DF39FE0EB7B9C30CC4A60961D97132EF (void);
-// 0x0000055D System.Void System.Xml.Ucs4Decoder1234::.ctor()
+// 0x0000055E System.Void System.Xml.Ucs4Decoder1234::.ctor()
 extern void Ucs4Decoder1234__ctor_m24F3E3DF2176B5E2B9D2BAA3734A04E7ED1CA682 (void);
-// 0x0000055E System.Int32 System.Xml.Ucs4Decoder2143::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x0000055F System.Int32 System.Xml.Ucs4Decoder2143::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Decoder2143_GetFullChars_mD004C5342F8D1F215DF51502AF2CC8528CF52EC2 (void);
-// 0x0000055F System.Void System.Xml.Ucs4Decoder2143::.ctor()
+// 0x00000560 System.Void System.Xml.Ucs4Decoder2143::.ctor()
 extern void Ucs4Decoder2143__ctor_m5D6678C784082563496F3B3AB90B39A2C3D506A8 (void);
-// 0x00000560 System.Int32 System.Xml.Ucs4Decoder3412::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+// 0x00000561 System.Int32 System.Xml.Ucs4Decoder3412::GetFullChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
 extern void Ucs4Decoder3412_GetFullChars_m5A354D0AB12ABF99A8C5C7DEAD9E0690C7C46904 (void);
-// 0x00000561 System.Void System.Xml.Ucs4Decoder3412::.ctor()
+// 0x00000562 System.Void System.Xml.Ucs4Decoder3412::.ctor()
 extern void Ucs4Decoder3412__ctor_m64362F60052E1E6D120EDDC0F9BE6D5E323DBECC (void);
-// 0x00000562 System.Void System.Xml.XmlException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000563 System.Void System.Xml.XmlException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void XmlException__ctor_m2FC4E2AB470AD5003F7B9B5B9451CE320AFDDB2F (void);
-// 0x00000563 System.Void System.Xml.XmlException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000564 System.Void System.Xml.XmlException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void XmlException_GetObjectData_m6179AFA2490E6B295B7C192E99A828A45104154D (void);
-// 0x00000564 System.Void System.Xml.XmlException::.ctor()
+// 0x00000565 System.Void System.Xml.XmlException::.ctor()
 extern void XmlException__ctor_m5BA0E89E2BA57EBA306CA552E59B20E5EA6E9909 (void);
-// 0x00000565 System.Void System.Xml.XmlException::.ctor(System.String)
+// 0x00000566 System.Void System.Xml.XmlException::.ctor(System.String)
 extern void XmlException__ctor_m39D4A09CD4A3351C21D85A89AAE43ECAD0E910F4 (void);
-// 0x00000566 System.Void System.Xml.XmlException::.ctor(System.String,System.Exception,System.Int32,System.Int32)
+// 0x00000567 System.Void System.Xml.XmlException::.ctor(System.String,System.Exception,System.Int32,System.Int32)
 extern void XmlException__ctor_m022651219BF5C270D6B851281AACACCB4A6AE5FC (void);
-// 0x00000567 System.Void System.Xml.XmlException::.ctor(System.String,System.Exception,System.Int32,System.Int32,System.String)
+// 0x00000568 System.Void System.Xml.XmlException::.ctor(System.String,System.Exception,System.Int32,System.Int32,System.String)
 extern void XmlException__ctor_m9E8E4966F92E92928F2334A4B5A6992A20505AD7 (void);
-// 0x00000568 System.Void System.Xml.XmlException::.ctor(System.String,System.String[])
+// 0x00000569 System.Void System.Xml.XmlException::.ctor(System.String,System.String[])
 extern void XmlException__ctor_mAAF5616098D1552646D4C4FDF1B381CB63822A21 (void);
-// 0x00000569 System.Void System.Xml.XmlException::.ctor(System.String,System.String)
+// 0x0000056A System.Void System.Xml.XmlException::.ctor(System.String,System.String)
 extern void XmlException__ctor_mD7C8E5B35C43BCEDBB41ADC035A38088DFE88A87 (void);
-// 0x0000056A System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.String)
+// 0x0000056B System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.String)
 extern void XmlException__ctor_mCD230657B1383DCA2BE352251351F34246E3371B (void);
-// 0x0000056B System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.Int32,System.Int32)
+// 0x0000056C System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.Int32,System.Int32)
 extern void XmlException__ctor_m03120C28C23F76A8DA17B42FB00F599D2FB22B3F (void);
-// 0x0000056C System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.Int32,System.Int32,System.String)
+// 0x0000056D System.Void System.Xml.XmlException::.ctor(System.String,System.String,System.Int32,System.Int32,System.String)
 extern void XmlException__ctor_m93B63C9E4FE7C5B4DAE86D7F5B9FA23451CC7077 (void);
-// 0x0000056D System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Int32,System.Int32)
+// 0x0000056E System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Int32,System.Int32)
 extern void XmlException__ctor_m9533F222CB16C788C194E7494449C1D96BC781CA (void);
-// 0x0000056E System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Int32,System.Int32,System.String)
+// 0x0000056F System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Int32,System.Int32,System.String)
 extern void XmlException__ctor_m9BF115E3E8CAC81B474E36A76805DC4F2E856879 (void);
-// 0x0000056F System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Exception,System.Int32,System.Int32)
+// 0x00000570 System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Exception,System.Int32,System.Int32)
 extern void XmlException__ctor_m7E1498E19EBB6E85EC10AA3F9F5A40CA0C5D3F68 (void);
-// 0x00000570 System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Exception,System.Int32,System.Int32,System.String)
+// 0x00000571 System.Void System.Xml.XmlException::.ctor(System.String,System.String[],System.Exception,System.Int32,System.Int32,System.String)
 extern void XmlException__ctor_mAF9987B6D433F91FBD0101527C492BA66AB25F37 (void);
-// 0x00000571 System.String System.Xml.XmlException::FormatUserMessage(System.String,System.Int32,System.Int32)
+// 0x00000572 System.String System.Xml.XmlException::FormatUserMessage(System.String,System.Int32,System.Int32)
 extern void XmlException_FormatUserMessage_m993358AFE7A80AF1EB2F75E49079DB4D4FDF20B6 (void);
-// 0x00000572 System.String System.Xml.XmlException::CreateMessage(System.String,System.String[],System.Int32,System.Int32)
+// 0x00000573 System.String System.Xml.XmlException::CreateMessage(System.String,System.String[],System.Int32,System.Int32)
 extern void XmlException_CreateMessage_m3B285113EA7F86051E577DEFED48E1A997BDA5EE (void);
-// 0x00000573 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.String,System.Int32)
+// 0x00000574 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.String,System.Int32)
 extern void XmlException_BuildCharExceptionArgs_m392B50DC9155D9243FD05EF0287B06FCB408EA46 (void);
-// 0x00000574 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.Char[],System.Int32,System.Int32)
+// 0x00000575 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.Char[],System.Int32,System.Int32)
 extern void XmlException_BuildCharExceptionArgs_mC868154C32A2950D756F3E42B40D79DC4B7BBA33 (void);
-// 0x00000575 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.Char,System.Char)
+// 0x00000576 System.String[] System.Xml.XmlException::BuildCharExceptionArgs(System.Char,System.Char)
 extern void XmlException_BuildCharExceptionArgs_m85E22B1AE112B5BB1253D33A24F137F73240C556 (void);
-// 0x00000576 System.Int32 System.Xml.XmlException::get_LineNumber()
+// 0x00000577 System.Int32 System.Xml.XmlException::get_LineNumber()
 extern void XmlException_get_LineNumber_m4DBE53D0E13988CF2A5055C4B853F1399DE1A926 (void);
-// 0x00000577 System.Int32 System.Xml.XmlException::get_LinePosition()
+// 0x00000578 System.Int32 System.Xml.XmlException::get_LinePosition()
 extern void XmlException_get_LinePosition_m8045E03E183F6B07D6394A1B1FBD55E2CBE2DCB4 (void);
-// 0x00000578 System.String System.Xml.XmlException::get_Message()
+// 0x00000579 System.String System.Xml.XmlException::get_Message()
 extern void XmlException_get_Message_m218FC0CDE2D81F3E770F9C48807A9B864492F347 (void);
-// 0x00000579 System.String System.Xml.XmlException::get_ResString()
+// 0x0000057A System.String System.Xml.XmlException::get_ResString()
 extern void XmlException_get_ResString_m977084C1A1F883C2BED73B1F956D980E62649C7A (void);
-// 0x0000057A System.String System.Xml.XmlNameTable::Get(System.String)
-// 0x0000057B System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32)
-// 0x0000057C System.String System.Xml.XmlNameTable::Add(System.String)
-// 0x0000057D System.Void System.Xml.XmlNameTable::.ctor()
+// 0x0000057B System.String System.Xml.XmlNameTable::Get(System.String)
+// 0x0000057C System.String System.Xml.XmlNameTable::Add(System.Char[],System.Int32,System.Int32)
+// 0x0000057D System.String System.Xml.XmlNameTable::Add(System.String)
+// 0x0000057E System.Void System.Xml.XmlNameTable::.ctor()
 extern void XmlNameTable__ctor_m165D6C26354AF163FA559778C1998B36A8A5FBF6 (void);
-// 0x0000057E System.Void System.Xml.XmlNamespaceManager::.ctor()
+// 0x0000057F System.Void System.Xml.XmlNamespaceManager::.ctor()
 extern void XmlNamespaceManager__ctor_m6485992B6D88F2C7276E1D562B9F643AD60AD4CD (void);
-// 0x0000057F System.Void System.Xml.XmlNamespaceManager::.ctor(System.Xml.XmlNameTable)
+// 0x00000580 System.Void System.Xml.XmlNamespaceManager::.ctor(System.Xml.XmlNameTable)
 extern void XmlNamespaceManager__ctor_m18E69120CE5886E06630CCCC3215D2C67FC669DB (void);
-// 0x00000580 System.Xml.XmlNameTable System.Xml.XmlNamespaceManager::get_NameTable()
+// 0x00000581 System.Xml.XmlNameTable System.Xml.XmlNamespaceManager::get_NameTable()
 extern void XmlNamespaceManager_get_NameTable_m22C981D682DB704D899C8725091736F10B097628 (void);
-// 0x00000581 System.String System.Xml.XmlNamespaceManager::get_DefaultNamespace()
+// 0x00000582 System.String System.Xml.XmlNamespaceManager::get_DefaultNamespace()
 extern void XmlNamespaceManager_get_DefaultNamespace_m3015809AB8A197A12D23AB61BA11CDB4CD5E1241 (void);
-// 0x00000582 System.Void System.Xml.XmlNamespaceManager::PushScope()
+// 0x00000583 System.Void System.Xml.XmlNamespaceManager::PushScope()
 extern void XmlNamespaceManager_PushScope_mF17ABF7EF077F538E3012DD9A8EBF0C128D4DCD1 (void);
-// 0x00000583 System.Boolean System.Xml.XmlNamespaceManager::PopScope()
+// 0x00000584 System.Boolean System.Xml.XmlNamespaceManager::PopScope()
 extern void XmlNamespaceManager_PopScope_m0EB14C22C44AF1E989C1C381DDDB111F287F9997 (void);
-// 0x00000584 System.Void System.Xml.XmlNamespaceManager::AddNamespace(System.String,System.String)
+// 0x00000585 System.Void System.Xml.XmlNamespaceManager::AddNamespace(System.String,System.String)
 extern void XmlNamespaceManager_AddNamespace_mDA8DBDC85CE2435D836C207249DEDAAD55B0FA1E (void);
-// 0x00000585 System.Collections.IEnumerator System.Xml.XmlNamespaceManager::GetEnumerator()
+// 0x00000586 System.Collections.IEnumerator System.Xml.XmlNamespaceManager::GetEnumerator()
 extern void XmlNamespaceManager_GetEnumerator_mEE11B3E5BFE3174740971DB7531694370BDEB009 (void);
-// 0x00000586 System.String System.Xml.XmlNamespaceManager::LookupNamespace(System.String)
+// 0x00000587 System.String System.Xml.XmlNamespaceManager::LookupNamespace(System.String)
 extern void XmlNamespaceManager_LookupNamespace_m0D3576834614FF3A1058207F0B4FEBAF160AF904 (void);
-// 0x00000587 System.Int32 System.Xml.XmlNamespaceManager::LookupNamespaceDecl(System.String)
+// 0x00000588 System.Int32 System.Xml.XmlNamespaceManager::LookupNamespaceDecl(System.String)
 extern void XmlNamespaceManager_LookupNamespaceDecl_m955EBDC78C37873BBE321D1019EC6BBFBC06AFB9 (void);
-// 0x00000588 System.String System.Xml.XmlNamespaceManager::LookupPrefix(System.String)
+// 0x00000589 System.String System.Xml.XmlNamespaceManager::LookupPrefix(System.String)
 extern void XmlNamespaceManager_LookupPrefix_mA060D0BC1B5B87331C28D3E27C6D5C5F2C773F3B (void);
-// 0x00000589 System.Void System.Xml.XmlNamespaceManager/NamespaceDeclaration::Set(System.String,System.String,System.Int32,System.Int32)
+// 0x0000058A System.Void System.Xml.XmlNamespaceManager/NamespaceDeclaration::Set(System.String,System.String,System.Int32,System.Int32)
 extern void NamespaceDeclaration_Set_mF2995843239E0B27FC94945EF6EDCC804A95D0E3 (void);
-// 0x0000058A System.Void System.Xml.XmlQualifiedName::.ctor()
+// 0x0000058B System.Void System.Xml.XmlQualifiedName::.ctor()
 extern void XmlQualifiedName__ctor_mD1D3B6997D1B544D421B704520AD12E4C120D634 (void);
-// 0x0000058B System.Void System.Xml.XmlQualifiedName::.ctor(System.String)
+// 0x0000058C System.Void System.Xml.XmlQualifiedName::.ctor(System.String)
 extern void XmlQualifiedName__ctor_m2DD62019A76524587CC7204E1AB903CDAADA6545 (void);
-// 0x0000058C System.Void System.Xml.XmlQualifiedName::.ctor(System.String,System.String)
+// 0x0000058D System.Void System.Xml.XmlQualifiedName::.ctor(System.String,System.String)
 extern void XmlQualifiedName__ctor_m65632114A1726D9FAD0338BC2A8C28BB9D262C7B (void);
-// 0x0000058D System.String System.Xml.XmlQualifiedName::get_Namespace()
+// 0x0000058E System.String System.Xml.XmlQualifiedName::get_Namespace()
 extern void XmlQualifiedName_get_Namespace_m0CAE4A651EF1CA6F0EB657C83608A796038A2615 (void);
-// 0x0000058E System.String System.Xml.XmlQualifiedName::get_Name()
+// 0x0000058F System.String System.Xml.XmlQualifiedName::get_Name()
 extern void XmlQualifiedName_get_Name_mC9D21D5BADE11AEAC7ED5886B39E1A774C63B830 (void);
-// 0x0000058F System.Int32 System.Xml.XmlQualifiedName::GetHashCode()
+// 0x00000590 System.Int32 System.Xml.XmlQualifiedName::GetHashCode()
 extern void XmlQualifiedName_GetHashCode_m1CA9D1D08830AA966EB0E50607ED552E81C49019 (void);
-// 0x00000590 System.Boolean System.Xml.XmlQualifiedName::get_IsEmpty()
+// 0x00000591 System.Boolean System.Xml.XmlQualifiedName::get_IsEmpty()
 extern void XmlQualifiedName_get_IsEmpty_m37942163D9A870E85BE8762845953C6A6579A400 (void);
-// 0x00000591 System.String System.Xml.XmlQualifiedName::ToString()
+// 0x00000592 System.String System.Xml.XmlQualifiedName::ToString()
 extern void XmlQualifiedName_ToString_mD7E21378ABCEA7776C964D3F9AB713E1EE097D12 (void);
-// 0x00000592 System.Boolean System.Xml.XmlQualifiedName::Equals(System.Object)
+// 0x00000593 System.Boolean System.Xml.XmlQualifiedName::Equals(System.Object)
 extern void XmlQualifiedName_Equals_mC07185C3F8ADC054A18552755B24F4B064F6A941 (void);
-// 0x00000593 System.Boolean System.Xml.XmlQualifiedName::op_Equality(System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName)
+// 0x00000594 System.Boolean System.Xml.XmlQualifiedName::op_Equality(System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName)
 extern void XmlQualifiedName_op_Equality_m1E344DA8D9A620A0DB42580DD284851DB571D704 (void);
-// 0x00000594 System.Boolean System.Xml.XmlQualifiedName::op_Inequality(System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName)
+// 0x00000595 System.Boolean System.Xml.XmlQualifiedName::op_Inequality(System.Xml.XmlQualifiedName,System.Xml.XmlQualifiedName)
 extern void XmlQualifiedName_op_Inequality_m7327D765A1501F12E33F29BBAFAF4AFAAB3AA8B8 (void);
-// 0x00000595 System.Xml.XmlQualifiedName/HashCodeOfStringDelegate System.Xml.XmlQualifiedName::GetHashCodeDelegate()
+// 0x00000596 System.Xml.XmlQualifiedName/HashCodeOfStringDelegate System.Xml.XmlQualifiedName::GetHashCodeDelegate()
 extern void XmlQualifiedName_GetHashCodeDelegate_mE9AF5EB7E392A97AA72AA2DBBC5684CB969B4C11 (void);
-// 0x00000596 System.Boolean System.Xml.XmlQualifiedName::IsRandomizedHashingDisabled()
+// 0x00000597 System.Boolean System.Xml.XmlQualifiedName::IsRandomizedHashingDisabled()
 extern void XmlQualifiedName_IsRandomizedHashingDisabled_mD50F0200E987E2665B520F25B9FD6F7BEA50F4F1 (void);
-// 0x00000597 System.Int32 System.Xml.XmlQualifiedName::GetHashCodeOfString(System.String,System.Int32,System.Int64)
+// 0x00000598 System.Int32 System.Xml.XmlQualifiedName::GetHashCodeOfString(System.String,System.Int32,System.Int64)
 extern void XmlQualifiedName_GetHashCodeOfString_mF9AC09EAD025AC97A69D51A45361076DF91A3E5D (void);
-// 0x00000598 System.Xml.XmlQualifiedName System.Xml.XmlQualifiedName::Parse(System.String,System.Xml.IXmlNamespaceResolver,System.String&)
+// 0x00000599 System.Xml.XmlQualifiedName System.Xml.XmlQualifiedName::Parse(System.String,System.Xml.IXmlNamespaceResolver,System.String&)
 extern void XmlQualifiedName_Parse_m1373F4CC31E5D1B6F3411729D09D4E9200DE76A2 (void);
-// 0x00000599 System.Void System.Xml.XmlQualifiedName::.cctor()
+// 0x0000059A System.Void System.Xml.XmlQualifiedName::.cctor()
 extern void XmlQualifiedName__cctor_m0B0B6A2BE40999E29383188E1F94450A5576E586 (void);
-// 0x0000059A System.Void System.Xml.XmlQualifiedName/HashCodeOfStringDelegate::.ctor(System.Object,System.IntPtr)
+// 0x0000059B System.Void System.Xml.XmlQualifiedName/HashCodeOfStringDelegate::.ctor(System.Object,System.IntPtr)
 extern void HashCodeOfStringDelegate__ctor_mACD990E8FD95BBE7E3968653660EB6323D34C4F8 (void);
-// 0x0000059B System.Int32 System.Xml.XmlQualifiedName/HashCodeOfStringDelegate::Invoke(System.String,System.Int32,System.Int64)
+// 0x0000059C System.Int32 System.Xml.XmlQualifiedName/HashCodeOfStringDelegate::Invoke(System.String,System.Int32,System.Int64)
 extern void HashCodeOfStringDelegate_Invoke_m9198434EF3560A29A90AE7134990CB76131DE398 (void);
-// 0x0000059C System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type)
-// 0x0000059D System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String)
+// 0x0000059D System.Object System.Xml.XmlResolver::GetEntity(System.Uri,System.String,System.Type)
+// 0x0000059E System.Uri System.Xml.XmlResolver::ResolveUri(System.Uri,System.String)
 extern void XmlResolver_ResolveUri_m4498F8B97A610629046F8EFE50BD3A219321D67E (void);
-// 0x0000059E System.Boolean System.Xml.XmlResolver::SupportsType(System.Uri,System.Type)
+// 0x0000059F System.Boolean System.Xml.XmlResolver::SupportsType(System.Uri,System.Type)
 extern void XmlResolver_SupportsType_mC10B15CDD833D95E012A7558589955F4009E79BD (void);
-// 0x0000059F System.Threading.Tasks.Task`1<System.Object> System.Xml.XmlResolver::GetEntityAsync(System.Uri,System.String,System.Type)
+// 0x000005A0 System.Threading.Tasks.Task`1<System.Object> System.Xml.XmlResolver::GetEntityAsync(System.Uri,System.String,System.Type)
 extern void XmlResolver_GetEntityAsync_m1263AC6868475C5348D29BEAB320DB02DAF4B486 (void);
-// 0x000005A0 System.Void System.Xml.XmlResolver::.ctor()
+// 0x000005A1 System.Void System.Xml.XmlResolver::.ctor()
 extern void XmlResolver__ctor_m6BB971F861631AEDD5D0414BA7683DC6AEFFADBB (void);
-// 0x000005A1 System.Xml.XmlDownloadManager System.Xml.XmlUrlResolver::get_DownloadManager()
+// 0x000005A2 System.Xml.XmlDownloadManager System.Xml.XmlUrlResolver::get_DownloadManager()
 extern void XmlUrlResolver_get_DownloadManager_m7B750F2BBDF1B8C34FE700B03AA07BA54BA2D8F9 (void);
-// 0x000005A2 System.Void System.Xml.XmlUrlResolver::.ctor()
+// 0x000005A3 System.Void System.Xml.XmlUrlResolver::.ctor()
 extern void XmlUrlResolver__ctor_m2BF23C41038D2825C0854A4C01DCE078E171A7BB (void);
-// 0x000005A3 System.Object System.Xml.XmlUrlResolver::GetEntity(System.Uri,System.String,System.Type)
+// 0x000005A4 System.Object System.Xml.XmlUrlResolver::GetEntity(System.Uri,System.String,System.Type)
 extern void XmlUrlResolver_GetEntity_m1F5BF642CDAC0DC377F60112FA7EBE1955D5B94E (void);
-// 0x000005A4 System.Uri System.Xml.XmlUrlResolver::ResolveUri(System.Uri,System.String)
+// 0x000005A5 System.Uri System.Xml.XmlUrlResolver::ResolveUri(System.Uri,System.String)
 extern void XmlUrlResolver_ResolveUri_mA2F0D58CB4EF2731731D5ACA7985B69DC1D332AB (void);
-// 0x000005A5 System.Threading.Tasks.Task`1<System.Object> System.Xml.XmlUrlResolver::GetEntityAsync(System.Uri,System.String,System.Type)
+// 0x000005A6 System.Threading.Tasks.Task`1<System.Object> System.Xml.XmlUrlResolver::GetEntityAsync(System.Uri,System.String,System.Type)
 extern void XmlUrlResolver_GetEntityAsync_m73D821657E5528ABDB9AF01B11865862E2D7F36A (void);
-// 0x000005A6 System.Void System.Xml.XmlUrlResolver/<GetEntityAsync>d__15::MoveNext()
+// 0x000005A7 System.Void System.Xml.XmlUrlResolver/<GetEntityAsync>d__15::MoveNext()
 extern void U3CGetEntityAsyncU3Ed__15_MoveNext_m4EB8A902AF6652E48FDC2EF0D9CF57B9D5683678 (void);
-// 0x000005A7 System.Void System.Xml.XmlUrlResolver/<GetEntityAsync>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000005A8 System.Void System.Xml.XmlUrlResolver/<GetEntityAsync>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetEntityAsyncU3Ed__15_SetStateMachine_m48617EED026EB279AE59A61FC293534D9C4763D1 (void);
-// 0x000005A8 System.Boolean System.Xml.BinaryCompatibility::get_TargetsAtLeast_Desktop_V4_5_2()
+// 0x000005A9 System.Boolean System.Xml.BinaryCompatibility::get_TargetsAtLeast_Desktop_V4_5_2()
 extern void BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5_2_mE2DBBB0681C730A3535F391056F24F9F2EBA807C (void);
-// 0x000005A9 System.String System.Xml.Res::GetString(System.String)
+// 0x000005AA System.String System.Xml.Res::GetString(System.String)
 extern void Res_GetString_mDA55FC7FF8E2C038FBF35ECD8F23554CF9C31D43 (void);
-// 0x000005AA System.String System.Xml.Res::GetString(System.String,System.Object[])
+// 0x000005AB System.String System.Xml.Res::GetString(System.String,System.Object[])
 extern void Res_GetString_mB929E696BF2E2F27CD03C0B61301A9DFE2FDEEF9 (void);
-// 0x000005AB System.Xml.XmlNameTable System.Xml.XPath.XPathDocument::get_NameTable()
+// 0x000005AC System.Xml.XmlNameTable System.Xml.XPath.XPathDocument::get_NameTable()
 extern void XPathDocument_get_NameTable_m0983CA6BD6A2B1368D995E18A6F21ABF9573C4FD (void);
-// 0x000005AC System.Int32 System.Xml.XPath.XPathDocument::GetXmlNamespaceNode(MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x000005AD System.Int32 System.Xml.XPath.XPathDocument::GetXmlNamespaceNode(MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathDocument_GetXmlNamespaceNode_m338B46452B3B4BAEF58DC882EEEAE3CEAF094F39 (void);
-// 0x000005AD System.Int32 System.Xml.XPath.XPathDocument::LookupNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x000005AE System.Int32 System.Xml.XPath.XPathDocument::LookupNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathDocument_LookupNamespaces_m2ECE5FBE932A2F9F04DB9A3B9C0603A1F4D4B904 (void);
-// 0x000005AE System.Xml.Schema.XmlSchemaType System.Xml.XPath.XPathItem::get_XmlType()
-// 0x000005AF System.String System.Xml.XPath.XPathItem::get_Value()
-// 0x000005B0 System.Object System.Xml.XPath.XPathItem::get_TypedValue()
-// 0x000005B1 System.Type System.Xml.XPath.XPathItem::get_ValueType()
-// 0x000005B2 System.Boolean System.Xml.XPath.XPathItem::get_ValueAsBoolean()
-// 0x000005B3 System.DateTime System.Xml.XPath.XPathItem::get_ValueAsDateTime()
-// 0x000005B4 System.Double System.Xml.XPath.XPathItem::get_ValueAsDouble()
-// 0x000005B5 System.Int32 System.Xml.XPath.XPathItem::get_ValueAsInt()
-// 0x000005B6 System.Int64 System.Xml.XPath.XPathItem::get_ValueAsLong()
-// 0x000005B7 System.Object System.Xml.XPath.XPathItem::ValueAs(System.Type)
+// 0x000005AF System.Xml.Schema.XmlSchemaType System.Xml.XPath.XPathItem::get_XmlType()
+// 0x000005B0 System.String System.Xml.XPath.XPathItem::get_Value()
+// 0x000005B1 System.Object System.Xml.XPath.XPathItem::get_TypedValue()
+// 0x000005B2 System.Type System.Xml.XPath.XPathItem::get_ValueType()
+// 0x000005B3 System.Boolean System.Xml.XPath.XPathItem::get_ValueAsBoolean()
+// 0x000005B4 System.DateTime System.Xml.XPath.XPathItem::get_ValueAsDateTime()
+// 0x000005B5 System.Double System.Xml.XPath.XPathItem::get_ValueAsDouble()
+// 0x000005B6 System.Int32 System.Xml.XPath.XPathItem::get_ValueAsInt()
+// 0x000005B7 System.Int64 System.Xml.XPath.XPathItem::get_ValueAsLong()
+// 0x000005B8 System.Object System.Xml.XPath.XPathItem::ValueAs(System.Type)
 extern void XPathItem_ValueAs_m2EBD6F29984D4431EBAD2979370A7EAA24BCFDFB (void);
-// 0x000005B8 System.Object System.Xml.XPath.XPathItem::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
-// 0x000005B9 System.Void System.Xml.XPath.XPathItem::.ctor()
+// 0x000005B9 System.Object System.Xml.XPath.XPathItem::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000005BA System.Void System.Xml.XPath.XPathItem::.ctor()
 extern void XPathItem__ctor_m649945BF95822C606725A5E0103D0C2120FA371B (void);
-// 0x000005BA System.String System.Xml.XPath.XPathNavigator::ToString()
+// 0x000005BB System.String System.Xml.XPath.XPathNavigator::ToString()
 extern void XPathNavigator_ToString_m0C078C8FAEF95FC418797FC040421391E8542FD9 (void);
-// 0x000005BB System.Xml.Schema.XmlSchemaType System.Xml.XPath.XPathNavigator::get_XmlType()
+// 0x000005BC System.Xml.Schema.XmlSchemaType System.Xml.XPath.XPathNavigator::get_XmlType()
 extern void XPathNavigator_get_XmlType_m3991F06B60DB097C5DD6D73AE111E6EAEE143D05 (void);
-// 0x000005BC System.Object System.Xml.XPath.XPathNavigator::get_TypedValue()
+// 0x000005BD System.Object System.Xml.XPath.XPathNavigator::get_TypedValue()
 extern void XPathNavigator_get_TypedValue_mABA7E07EE7E0EA5EC637D245427A06D93270EB29 (void);
-// 0x000005BD System.Type System.Xml.XPath.XPathNavigator::get_ValueType()
+// 0x000005BE System.Type System.Xml.XPath.XPathNavigator::get_ValueType()
 extern void XPathNavigator_get_ValueType_m5344D7AC94573D531B8B8612B7DD160783DC2796 (void);
-// 0x000005BE System.Boolean System.Xml.XPath.XPathNavigator::get_ValueAsBoolean()
+// 0x000005BF System.Boolean System.Xml.XPath.XPathNavigator::get_ValueAsBoolean()
 extern void XPathNavigator_get_ValueAsBoolean_m1F8B19F15279F0857D154DCA4A2DAF9E3DDD04D5 (void);
-// 0x000005BF System.DateTime System.Xml.XPath.XPathNavigator::get_ValueAsDateTime()
+// 0x000005C0 System.DateTime System.Xml.XPath.XPathNavigator::get_ValueAsDateTime()
 extern void XPathNavigator_get_ValueAsDateTime_m712209EBBAC07E28B132AAF7C4C00D96F992EEDF (void);
-// 0x000005C0 System.Double System.Xml.XPath.XPathNavigator::get_ValueAsDouble()
+// 0x000005C1 System.Double System.Xml.XPath.XPathNavigator::get_ValueAsDouble()
 extern void XPathNavigator_get_ValueAsDouble_m6E33105EDEC3CA7B2E5E4A01AEF2E391B66DF8DA (void);
-// 0x000005C1 System.Int32 System.Xml.XPath.XPathNavigator::get_ValueAsInt()
+// 0x000005C2 System.Int32 System.Xml.XPath.XPathNavigator::get_ValueAsInt()
 extern void XPathNavigator_get_ValueAsInt_mA265FEE01148ACE8262C1533332EBB7AFB43B06E (void);
-// 0x000005C2 System.Int64 System.Xml.XPath.XPathNavigator::get_ValueAsLong()
+// 0x000005C3 System.Int64 System.Xml.XPath.XPathNavigator::get_ValueAsLong()
 extern void XPathNavigator_get_ValueAsLong_mB902850163A1013BFB6DFB977B4E26E151472557 (void);
-// 0x000005C3 System.Object System.Xml.XPath.XPathNavigator::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000005C4 System.Object System.Xml.XPath.XPathNavigator::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XPathNavigator_ValueAs_m5003DFF7A5936C4CF5AC451EEA7274600C0C8E1D (void);
-// 0x000005C4 System.Object System.Xml.XPath.XPathNavigator::System.ICloneable.Clone()
+// 0x000005C5 System.Object System.Xml.XPath.XPathNavigator::System.ICloneable.Clone()
 extern void XPathNavigator_System_ICloneable_Clone_m74317CEB6E525B7CB20F874ACF2E72A363EDB95A (void);
-// 0x000005C5 System.Xml.XmlNameTable System.Xml.XPath.XPathNavigator::get_NameTable()
-// 0x000005C6 System.String System.Xml.XPath.XPathNavigator::LookupNamespace(System.String)
+// 0x000005C6 System.Xml.XmlNameTable System.Xml.XPath.XPathNavigator::get_NameTable()
+// 0x000005C7 System.String System.Xml.XPath.XPathNavigator::LookupNamespace(System.String)
 extern void XPathNavigator_LookupNamespace_m3893E74CE84581B2F55045B37D22C854D686D411 (void);
-// 0x000005C7 System.String System.Xml.XPath.XPathNavigator::LookupPrefix(System.String)
+// 0x000005C8 System.String System.Xml.XPath.XPathNavigator::LookupPrefix(System.String)
 extern void XPathNavigator_LookupPrefix_mE61D0E42321BFD0E88449B3159EE1A58D972BEB4 (void);
-// 0x000005C8 System.Xml.XPath.XPathNavigator System.Xml.XPath.XPathNavigator::Clone()
-// 0x000005C9 System.Xml.XPath.XPathNodeType System.Xml.XPath.XPathNavigator::get_NodeType()
-// 0x000005CA System.String System.Xml.XPath.XPathNavigator::get_LocalName()
-// 0x000005CB System.String System.Xml.XPath.XPathNavigator::get_NamespaceURI()
-// 0x000005CC System.String System.Xml.XPath.XPathNavigator::get_Prefix()
-// 0x000005CD System.Object System.Xml.XPath.XPathNavigator::get_UnderlyingObject()
+// 0x000005C9 System.Xml.XPath.XPathNavigator System.Xml.XPath.XPathNavigator::Clone()
+// 0x000005CA System.Xml.XPath.XPathNodeType System.Xml.XPath.XPathNavigator::get_NodeType()
+// 0x000005CB System.String System.Xml.XPath.XPathNavigator::get_LocalName()
+// 0x000005CC System.String System.Xml.XPath.XPathNavigator::get_NamespaceURI()
+// 0x000005CD System.String System.Xml.XPath.XPathNavigator::get_Prefix()
+// 0x000005CE System.Object System.Xml.XPath.XPathNavigator::get_UnderlyingObject()
 extern void XPathNavigator_get_UnderlyingObject_mA4ABE2E913A936651C4E07AD7B8B71E0D07B0FC9 (void);
-// 0x000005CE System.Boolean System.Xml.XPath.XPathNavigator::MoveToNamespace(System.String)
+// 0x000005CF System.Boolean System.Xml.XPath.XPathNavigator::MoveToNamespace(System.String)
 extern void XPathNavigator_MoveToNamespace_m83D31622433418DB60BCD6EE09FA7A1751607940 (void);
-// 0x000005CF System.Boolean System.Xml.XPath.XPathNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
-// 0x000005D0 System.Boolean System.Xml.XPath.XPathNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
-// 0x000005D1 System.Boolean System.Xml.XPath.XPathNavigator::MoveToParent()
-// 0x000005D2 System.Boolean System.Xml.XPath.XPathNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator)
-// 0x000005D3 System.Xml.Schema.IXmlSchemaInfo System.Xml.XPath.XPathNavigator::get_SchemaInfo()
+// 0x000005D0 System.Boolean System.Xml.XPath.XPathNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
+// 0x000005D1 System.Boolean System.Xml.XPath.XPathNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
+// 0x000005D2 System.Boolean System.Xml.XPath.XPathNavigator::MoveToParent()
+// 0x000005D3 System.Boolean System.Xml.XPath.XPathNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator)
+// 0x000005D4 System.Xml.Schema.IXmlSchemaInfo System.Xml.XPath.XPathNavigator::get_SchemaInfo()
 extern void XPathNavigator_get_SchemaInfo_m3500A29FBB95750AC1935EED2F3439C9FFFD7C1C (void);
-// 0x000005D4 System.Boolean System.Xml.XPath.XPathNavigator::IsText(System.Xml.XPath.XPathNodeType)
+// 0x000005D5 System.Boolean System.Xml.XPath.XPathNavigator::IsText(System.Xml.XPath.XPathNodeType)
 extern void XPathNavigator_IsText_m6DEFBEC9D12A73E801833B405D5533FA5754B53B (void);
-// 0x000005D5 System.Void System.Xml.XPath.XPathNavigator::.ctor()
+// 0x000005D6 System.Void System.Xml.XPath.XPathNavigator::.ctor()
 extern void XPathNavigator__ctor_m2A24E4B324A522498AE39749E6407908C47C8E5C (void);
-// 0x000005D6 System.Void System.Xml.XPath.XPathNavigator::.cctor()
+// 0x000005D7 System.Void System.Xml.XPath.XPathNavigator::.cctor()
 extern void XPathNavigator__cctor_m8AD09925955E3EF0BE834BE404EF0CA162F76A82 (void);
-// 0x000005D7 System.Boolean System.Xml.XPath.XPathNavigatorKeyComparer::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+// 0x000005D8 System.Boolean System.Xml.XPath.XPathNavigatorKeyComparer::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
 extern void XPathNavigatorKeyComparer_System_Collections_IEqualityComparer_Equals_m419877DD694879ED12BFB2B0A114BC1B87C45AED (void);
-// 0x000005D8 System.Int32 System.Xml.XPath.XPathNavigatorKeyComparer::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+// 0x000005D9 System.Int32 System.Xml.XPath.XPathNavigatorKeyComparer::System.Collections.IEqualityComparer.GetHashCode(System.Object)
 extern void XPathNavigatorKeyComparer_System_Collections_IEqualityComparer_GetHashCode_m4218847EB89A35F566959D02A0D516EFFA476D8F (void);
-// 0x000005D9 System.Void System.Xml.XPath.XPathNavigatorKeyComparer::.ctor()
+// 0x000005DA System.Void System.Xml.XPath.XPathNavigatorKeyComparer::.ctor()
 extern void XPathNavigatorKeyComparer__ctor_m231B79202D931C13320C80832BFC6FF03D443C92 (void);
-// 0x000005DA System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
+// 0x000005DB System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
 extern void XmlAttributeAttribute__ctor_m3E32E1039959E973CB41409D99ACC48B7226B395 (void);
-// 0x000005DB System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
+// 0x000005DC System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
 extern void XmlElementAttribute__ctor_m922E7D34E93F4105165AE89660751F73A20742B6 (void);
-// 0x000005DC System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
+// 0x000005DD System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
 extern void XmlEnumAttribute__ctor_m8A6E7F96ED9724DAE5E7AEB9D422CA32E141AADB (void);
-// 0x000005DD System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
+// 0x000005DE System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
 extern void XmlIgnoreAttribute__ctor_m864B47EB1DF49D8D8324BD2A6D67381A9DC8DA80 (void);
-// 0x000005DE System.Boolean System.Xml.XmlConfiguration.XmlReaderSection::get_ProhibitDefaultUrlResolver()
+// 0x000005DF System.Boolean System.Xml.XmlConfiguration.XmlReaderSection::get_ProhibitDefaultUrlResolver()
 extern void XmlReaderSection_get_ProhibitDefaultUrlResolver_m22E5E50B536E3F9F7AE02CEA4581B1872DE5E606 (void);
-// 0x000005DF System.Boolean System.Xml.XmlConfiguration.XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString()
+// 0x000005E0 System.Boolean System.Xml.XmlConfiguration.XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString()
 extern void XmlReaderSection_get_CollapseWhiteSpaceIntoEmptyString_mC778252E583E70FED611312296F0FBF1831E0063 (void);
-// 0x000005E0 System.Void System.Xml.Schema.BitSet::.ctor()
+// 0x000005E1 System.Void System.Xml.Schema.BitSet::.ctor()
 extern void BitSet__ctor_mDC866A6C215C5E078AB299625A437E4249E1E722 (void);
-// 0x000005E1 System.Void System.Xml.Schema.BitSet::.ctor(System.Int32)
+// 0x000005E2 System.Void System.Xml.Schema.BitSet::.ctor(System.Int32)
 extern void BitSet__ctor_mDDB46E0F5D8D86AD7A8F144278672ABF09CA5797 (void);
-// 0x000005E2 System.Int32 System.Xml.Schema.BitSet::get_Count()
+// 0x000005E3 System.Int32 System.Xml.Schema.BitSet::get_Count()
 extern void BitSet_get_Count_m36E7A9E0ABD32B6B59C1C3EE7376A94B40D06E01 (void);
-// 0x000005E3 System.Boolean System.Xml.Schema.BitSet::get_Item(System.Int32)
+// 0x000005E4 System.Boolean System.Xml.Schema.BitSet::get_Item(System.Int32)
 extern void BitSet_get_Item_m0D9F1CC8E2965F1CEC6DB3F4A8FD51A6531ECA89 (void);
-// 0x000005E4 System.Void System.Xml.Schema.BitSet::Clear()
+// 0x000005E5 System.Void System.Xml.Schema.BitSet::Clear()
 extern void BitSet_Clear_m741257DF75DF0DC22C6534192D777814F6BD721E (void);
-// 0x000005E5 System.Void System.Xml.Schema.BitSet::Set(System.Int32)
+// 0x000005E6 System.Void System.Xml.Schema.BitSet::Set(System.Int32)
 extern void BitSet_Set_m1F67384F8695F3285BC0CAFCCB64898625267724 (void);
-// 0x000005E6 System.Boolean System.Xml.Schema.BitSet::Get(System.Int32)
+// 0x000005E7 System.Boolean System.Xml.Schema.BitSet::Get(System.Int32)
 extern void BitSet_Get_mA7D0C2800F3EF8F759779F428326C9FAC7BB61B5 (void);
-// 0x000005E7 System.Int32 System.Xml.Schema.BitSet::NextSet(System.Int32)
+// 0x000005E8 System.Int32 System.Xml.Schema.BitSet::NextSet(System.Int32)
 extern void BitSet_NextSet_mD3786FE75C72BD3383D9C3221F80C2373A14857D (void);
-// 0x000005E8 System.Void System.Xml.Schema.BitSet::And(System.Xml.Schema.BitSet)
+// 0x000005E9 System.Void System.Xml.Schema.BitSet::And(System.Xml.Schema.BitSet)
 extern void BitSet_And_mB665D4DC8D2CFE92427D65BC6E7E8CA74034E95F (void);
-// 0x000005E9 System.Void System.Xml.Schema.BitSet::Or(System.Xml.Schema.BitSet)
+// 0x000005EA System.Void System.Xml.Schema.BitSet::Or(System.Xml.Schema.BitSet)
 extern void BitSet_Or_m5C36345FAD8ED73A4742516B53A33677F3EB336A (void);
-// 0x000005EA System.Int32 System.Xml.Schema.BitSet::GetHashCode()
+// 0x000005EB System.Int32 System.Xml.Schema.BitSet::GetHashCode()
 extern void BitSet_GetHashCode_m4D896CB775ED342868D91000F240F9FDD2B5D0C7 (void);
-// 0x000005EB System.Boolean System.Xml.Schema.BitSet::Equals(System.Object)
+// 0x000005EC System.Boolean System.Xml.Schema.BitSet::Equals(System.Object)
 extern void BitSet_Equals_m29A5D7FDB3CC6A2AD74261A11EE527800A47CD0C (void);
-// 0x000005EC System.Xml.Schema.BitSet System.Xml.Schema.BitSet::Clone()
+// 0x000005ED System.Xml.Schema.BitSet System.Xml.Schema.BitSet::Clone()
 extern void BitSet_Clone_m121A6E5E33BDEC3E79FF7C18E9CC362749AE7BDE (void);
-// 0x000005ED System.Boolean System.Xml.Schema.BitSet::Intersects(System.Xml.Schema.BitSet)
+// 0x000005EE System.Boolean System.Xml.Schema.BitSet::Intersects(System.Xml.Schema.BitSet)
 extern void BitSet_Intersects_m043AF26842F147A7D2ADA048E0ECF2F242C6EE7E (void);
-// 0x000005EE System.Int32 System.Xml.Schema.BitSet::Subscript(System.Int32)
+// 0x000005EF System.Int32 System.Xml.Schema.BitSet::Subscript(System.Int32)
 extern void BitSet_Subscript_m06E5AB99243F91D0D91E142618529D3F7268637A (void);
-// 0x000005EF System.Void System.Xml.Schema.BitSet::EnsureLength(System.Int32)
+// 0x000005F0 System.Void System.Xml.Schema.BitSet::EnsureLength(System.Int32)
 extern void BitSet_EnsureLength_m28268C67A38388F4C42EAD01762C32D99C4F9654 (void);
-// 0x000005F0 System.Void System.Xml.Schema.UpaException::.ctor(System.Object,System.Object)
+// 0x000005F1 System.Void System.Xml.Schema.UpaException::.ctor(System.Object,System.Object)
 extern void UpaException__ctor_m2FA97E1B47706A792B76C12B3C8CCC53CBAA1458 (void);
-// 0x000005F1 System.Void System.Xml.Schema.SymbolsDictionary::.ctor()
+// 0x000005F2 System.Void System.Xml.Schema.SymbolsDictionary::.ctor()
 extern void SymbolsDictionary__ctor_mBF65FBEB7A5DE48E0D0B4A717E5A5461589828BA (void);
-// 0x000005F2 System.Int32 System.Xml.Schema.SymbolsDictionary::get_Count()
+// 0x000005F3 System.Int32 System.Xml.Schema.SymbolsDictionary::get_Count()
 extern void SymbolsDictionary_get_Count_m3E9D7FE8914E0C70E38CAB07D72F92AE5F3553D2 (void);
-// 0x000005F3 System.Boolean System.Xml.Schema.SymbolsDictionary::get_IsUpaEnforced()
+// 0x000005F4 System.Boolean System.Xml.Schema.SymbolsDictionary::get_IsUpaEnforced()
 extern void SymbolsDictionary_get_IsUpaEnforced_m9AF406F46B587D01C28E15DD9ADFBCE318A0CF11 (void);
-// 0x000005F4 System.Void System.Xml.Schema.SymbolsDictionary::set_IsUpaEnforced(System.Boolean)
+// 0x000005F5 System.Void System.Xml.Schema.SymbolsDictionary::set_IsUpaEnforced(System.Boolean)
 extern void SymbolsDictionary_set_IsUpaEnforced_mBA5E7696442D87B8E89E2323C3D48777F3F0180A (void);
-// 0x000005F5 System.Int32 System.Xml.Schema.SymbolsDictionary::AddName(System.Xml.XmlQualifiedName,System.Object)
+// 0x000005F6 System.Int32 System.Xml.Schema.SymbolsDictionary::AddName(System.Xml.XmlQualifiedName,System.Object)
 extern void SymbolsDictionary_AddName_m8FB15DA3EC50C88F1E38C92FF803136274F9F818 (void);
-// 0x000005F6 System.Void System.Xml.Schema.SymbolsDictionary::AddNamespaceList(System.Xml.Schema.NamespaceList,System.Object,System.Boolean)
+// 0x000005F7 System.Void System.Xml.Schema.SymbolsDictionary::AddNamespaceList(System.Xml.Schema.NamespaceList,System.Object,System.Boolean)
 extern void SymbolsDictionary_AddNamespaceList_mFBBD79AB2BF067ADEE1A50D5EA063052474F9623 (void);
-// 0x000005F7 System.Void System.Xml.Schema.SymbolsDictionary::AddWildcard(System.String,System.Object)
+// 0x000005F8 System.Void System.Xml.Schema.SymbolsDictionary::AddWildcard(System.String,System.Object)
 extern void SymbolsDictionary_AddWildcard_m526F05405A47C793760FC6A58084BE18ABEDA597 (void);
-// 0x000005F8 System.Collections.ICollection System.Xml.Schema.SymbolsDictionary::GetNamespaceListSymbols(System.Xml.Schema.NamespaceList)
+// 0x000005F9 System.Collections.ICollection System.Xml.Schema.SymbolsDictionary::GetNamespaceListSymbols(System.Xml.Schema.NamespaceList)
 extern void SymbolsDictionary_GetNamespaceListSymbols_m9FC9A2166243B193B4067C3EC08ADB06432F9E21 (void);
-// 0x000005F9 System.Boolean System.Xml.Schema.SymbolsDictionary::Exists(System.Xml.XmlQualifiedName)
+// 0x000005FA System.Boolean System.Xml.Schema.SymbolsDictionary::Exists(System.Xml.XmlQualifiedName)
 extern void SymbolsDictionary_Exists_mB09F502D8DD1C1B902955689089C61FAE9C9DA92 (void);
-// 0x000005FA System.Object System.Xml.Schema.SymbolsDictionary::GetParticle(System.Int32)
+// 0x000005FB System.Object System.Xml.Schema.SymbolsDictionary::GetParticle(System.Int32)
 extern void SymbolsDictionary_GetParticle_m229FD0E565E86359CA0CF5E76BB66223CD564BBE (void);
-// 0x000005FB System.Void System.Xml.Schema.Position::.ctor(System.Int32,System.Object)
+// 0x000005FC System.Void System.Xml.Schema.Position::.ctor(System.Int32,System.Object)
 extern void Position__ctor_m5F3F9E6D826756F17C8F02643C4AC1CEF9F63FE5 (void);
-// 0x000005FC System.Int32 System.Xml.Schema.Positions::Add(System.Int32,System.Object)
+// 0x000005FD System.Int32 System.Xml.Schema.Positions::Add(System.Int32,System.Object)
 extern void Positions_Add_m51791FCA7ADCD9B7E7480E85AEC1A712037A0B32 (void);
-// 0x000005FD System.Xml.Schema.Position System.Xml.Schema.Positions::get_Item(System.Int32)
+// 0x000005FE System.Xml.Schema.Position System.Xml.Schema.Positions::get_Item(System.Int32)
 extern void Positions_get_Item_mD0E8CB9D8CC6090A050D48B5AE47E389C95257D1 (void);
-// 0x000005FE System.Int32 System.Xml.Schema.Positions::get_Count()
+// 0x000005FF System.Int32 System.Xml.Schema.Positions::get_Count()
 extern void Positions_get_Count_m806913EB2C4DBA009188BA019AB106EC0D1045BF (void);
-// 0x000005FF System.Void System.Xml.Schema.Positions::.ctor()
+// 0x00000600 System.Void System.Xml.Schema.Positions::.ctor()
 extern void Positions__ctor_m533C24B9A6C8519F830F3E444036B9906D789C3A (void);
-// 0x00000600 System.Void System.Xml.Schema.SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
-// 0x00000601 System.Void System.Xml.Schema.SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
-// 0x00000602 System.Boolean System.Xml.Schema.SyntaxTreeNode::get_IsNullable()
-// 0x00000603 System.Boolean System.Xml.Schema.SyntaxTreeNode::get_IsRangeNode()
+// 0x00000601 System.Void System.Xml.Schema.SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x00000602 System.Void System.Xml.Schema.SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000603 System.Boolean System.Xml.Schema.SyntaxTreeNode::get_IsNullable()
+// 0x00000604 System.Boolean System.Xml.Schema.SyntaxTreeNode::get_IsRangeNode()
 extern void SyntaxTreeNode_get_IsRangeNode_m722A7E3D08CB8404AD093C4732FCC9AFBACE70E8 (void);
-// 0x00000604 System.Void System.Xml.Schema.SyntaxTreeNode::.ctor()
+// 0x00000605 System.Void System.Xml.Schema.SyntaxTreeNode::.ctor()
 extern void SyntaxTreeNode__ctor_mCC4EE56F73B36C293F308BFE4304383CF29B9CE4 (void);
-// 0x00000605 System.Void System.Xml.Schema.LeafNode::.ctor(System.Int32)
+// 0x00000606 System.Void System.Xml.Schema.LeafNode::.ctor(System.Int32)
 extern void LeafNode__ctor_m5FD29468DBB6652D9636B80CF3E5445E29F2737C (void);
-// 0x00000606 System.Int32 System.Xml.Schema.LeafNode::get_Pos()
+// 0x00000607 System.Int32 System.Xml.Schema.LeafNode::get_Pos()
 extern void LeafNode_get_Pos_m0C2EEEBCDB2F23FC170153DB736C707C061A5B6D (void);
-// 0x00000607 System.Void System.Xml.Schema.LeafNode::set_Pos(System.Int32)
+// 0x00000608 System.Void System.Xml.Schema.LeafNode::set_Pos(System.Int32)
 extern void LeafNode_set_Pos_mA4961D8E52D803DC74293D95B8C258C2B00707ED (void);
-// 0x00000608 System.Void System.Xml.Schema.LeafNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x00000609 System.Void System.Xml.Schema.LeafNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void LeafNode_ExpandTree_m004F74A56BC4869BB942D21CAA8CED296900F958 (void);
-// 0x00000609 System.Void System.Xml.Schema.LeafNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x0000060A System.Void System.Xml.Schema.LeafNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void LeafNode_ConstructPos_m46760996E2ECD6359EFA8DC971302F1E2C476D1D (void);
-// 0x0000060A System.Boolean System.Xml.Schema.LeafNode::get_IsNullable()
+// 0x0000060B System.Boolean System.Xml.Schema.LeafNode::get_IsNullable()
 extern void LeafNode_get_IsNullable_mB1BD5FE8A0936AC6F02F641F9B98821FCE8A6812 (void);
-// 0x0000060B System.Void System.Xml.Schema.NamespaceListNode::.ctor(System.Xml.Schema.NamespaceList,System.Object)
+// 0x0000060C System.Void System.Xml.Schema.NamespaceListNode::.ctor(System.Xml.Schema.NamespaceList,System.Object)
 extern void NamespaceListNode__ctor_m9C8A3F2B782B6790281D1C624FA9B25C397F15FA (void);
-// 0x0000060C System.Collections.ICollection System.Xml.Schema.NamespaceListNode::GetResolvedSymbols(System.Xml.Schema.SymbolsDictionary)
+// 0x0000060D System.Collections.ICollection System.Xml.Schema.NamespaceListNode::GetResolvedSymbols(System.Xml.Schema.SymbolsDictionary)
 extern void NamespaceListNode_GetResolvedSymbols_mCD026CF69F170E28CC0C000664361BE328ACC427 (void);
-// 0x0000060D System.Void System.Xml.Schema.NamespaceListNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x0000060E System.Void System.Xml.Schema.NamespaceListNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void NamespaceListNode_ExpandTree_mA294B7AD7C2E31ABE79834DC4913C132AF5A0D25 (void);
-// 0x0000060E System.Void System.Xml.Schema.NamespaceListNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x0000060F System.Void System.Xml.Schema.NamespaceListNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void NamespaceListNode_ConstructPos_mE576F4F3739EAA2302C6B38292727D242351C80B (void);
-// 0x0000060F System.Boolean System.Xml.Schema.NamespaceListNode::get_IsNullable()
+// 0x00000610 System.Boolean System.Xml.Schema.NamespaceListNode::get_IsNullable()
 extern void NamespaceListNode_get_IsNullable_m637C0A30D0508ECAA7CBC2B72D4356D09A3C6CB1 (void);
-// 0x00000610 System.Xml.Schema.SyntaxTreeNode System.Xml.Schema.InteriorNode::get_LeftChild()
+// 0x00000611 System.Xml.Schema.SyntaxTreeNode System.Xml.Schema.InteriorNode::get_LeftChild()
 extern void InteriorNode_get_LeftChild_mEC6F649ECBC7CFD371187C3B90DAEB6183A41406 (void);
-// 0x00000611 System.Void System.Xml.Schema.InteriorNode::set_LeftChild(System.Xml.Schema.SyntaxTreeNode)
+// 0x00000612 System.Void System.Xml.Schema.InteriorNode::set_LeftChild(System.Xml.Schema.SyntaxTreeNode)
 extern void InteriorNode_set_LeftChild_mC6FDB3A1ABD18FDE11B233415F3A983A49B46E5B (void);
-// 0x00000612 System.Xml.Schema.SyntaxTreeNode System.Xml.Schema.InteriorNode::get_RightChild()
+// 0x00000613 System.Xml.Schema.SyntaxTreeNode System.Xml.Schema.InteriorNode::get_RightChild()
 extern void InteriorNode_get_RightChild_mE7ACE5A40A687F54D7EAFB52F3336E1BE8701058 (void);
-// 0x00000613 System.Void System.Xml.Schema.InteriorNode::set_RightChild(System.Xml.Schema.SyntaxTreeNode)
+// 0x00000614 System.Void System.Xml.Schema.InteriorNode::set_RightChild(System.Xml.Schema.SyntaxTreeNode)
 extern void InteriorNode_set_RightChild_m9325C10A51BD0DAA867F5D4C60C85F4F8DCE6B0A (void);
-// 0x00000614 System.Void System.Xml.Schema.InteriorNode::ExpandTreeNoRecursive(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x00000615 System.Void System.Xml.Schema.InteriorNode::ExpandTreeNoRecursive(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void InteriorNode_ExpandTreeNoRecursive_m6D62530CC82ED2EF90585C04E4153AEF73545863 (void);
-// 0x00000615 System.Void System.Xml.Schema.InteriorNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x00000616 System.Void System.Xml.Schema.InteriorNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void InteriorNode_ExpandTree_mEC55EC607A05471D114432FB1FA04D8F38ADFBC5 (void);
-// 0x00000616 System.Void System.Xml.Schema.InteriorNode::.ctor()
+// 0x00000617 System.Void System.Xml.Schema.InteriorNode::.ctor()
 extern void InteriorNode__ctor_mBB2E9C1999B6F04A9D9C8CBAD629CD7837B8C938 (void);
-// 0x00000617 System.Void System.Xml.Schema.SequenceNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000618 System.Void System.Xml.Schema.SequenceNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void SequenceNode_ConstructPos_m67A0B0AF2C2EFAFD526D3DB629E5328C0BCA1B18 (void);
-// 0x00000618 System.Boolean System.Xml.Schema.SequenceNode::get_IsNullable()
+// 0x00000619 System.Boolean System.Xml.Schema.SequenceNode::get_IsNullable()
 extern void SequenceNode_get_IsNullable_m7D6B7F07E959D0759A37B1298418903EF1C4A779 (void);
-// 0x00000619 System.Void System.Xml.Schema.SequenceNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x0000061A System.Void System.Xml.Schema.SequenceNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void SequenceNode_ExpandTree_m4803F5162DF4C35C8C37ABB50771A7BC5B0D0485 (void);
-// 0x0000061A System.Void System.Xml.Schema.SequenceNode::.ctor()
+// 0x0000061B System.Void System.Xml.Schema.SequenceNode::.ctor()
 extern void SequenceNode__ctor_mD4441BDD885F42BAD33816D8D49DD511105B1E71 (void);
-// 0x0000061B System.Void System.Xml.Schema.SequenceNode/SequenceConstructPosContext::.ctor(System.Xml.Schema.SequenceNode,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet)
+// 0x0000061C System.Void System.Xml.Schema.SequenceNode/SequenceConstructPosContext::.ctor(System.Xml.Schema.SequenceNode,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet)
 extern void SequenceConstructPosContext__ctor_mAF64A500D91F3309A8CB87C5712C12BCE0B4FE0E (void);
-// 0x0000061C System.Void System.Xml.Schema.ChoiceNode::ConstructChildPos(System.Xml.Schema.SyntaxTreeNode,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x0000061D System.Void System.Xml.Schema.ChoiceNode::ConstructChildPos(System.Xml.Schema.SyntaxTreeNode,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void ChoiceNode_ConstructChildPos_m9E8C804342391F486F8A19EABA57829AB45F1EE0 (void);
-// 0x0000061D System.Void System.Xml.Schema.ChoiceNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x0000061E System.Void System.Xml.Schema.ChoiceNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void ChoiceNode_ConstructPos_mD5A6CC1D5927C0D1410134EBF84C39E660215311 (void);
-// 0x0000061E System.Boolean System.Xml.Schema.ChoiceNode::get_IsNullable()
+// 0x0000061F System.Boolean System.Xml.Schema.ChoiceNode::get_IsNullable()
 extern void ChoiceNode_get_IsNullable_mDB88FC4D2E927B91CBA6440750C0C91226AA5936 (void);
-// 0x0000061F System.Void System.Xml.Schema.ChoiceNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
+// 0x00000620 System.Void System.Xml.Schema.ChoiceNode::ExpandTree(System.Xml.Schema.InteriorNode,System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions)
 extern void ChoiceNode_ExpandTree_mCD8E3E3C98B9A6CF4D18FC19468DAFBFF93C55EF (void);
-// 0x00000620 System.Void System.Xml.Schema.ChoiceNode::.ctor()
+// 0x00000621 System.Void System.Xml.Schema.ChoiceNode::.ctor()
 extern void ChoiceNode__ctor_mCD73421963E5F712BA85C8594B375191D87BB6F1 (void);
-// 0x00000621 System.Void System.Xml.Schema.PlusNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000622 System.Void System.Xml.Schema.PlusNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void PlusNode_ConstructPos_mBD4E109873B9DECE1DB61B266E2E3ECC0D022731 (void);
-// 0x00000622 System.Boolean System.Xml.Schema.PlusNode::get_IsNullable()
+// 0x00000623 System.Boolean System.Xml.Schema.PlusNode::get_IsNullable()
 extern void PlusNode_get_IsNullable_m7CBA6F45C231D711DDC33A71540BB053A3562D61 (void);
-// 0x00000623 System.Void System.Xml.Schema.PlusNode::.ctor()
+// 0x00000624 System.Void System.Xml.Schema.PlusNode::.ctor()
 extern void PlusNode__ctor_m8B34B5E4EEA3FC66788D7439FAF27F0017BFB721 (void);
-// 0x00000624 System.Void System.Xml.Schema.QmarkNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000625 System.Void System.Xml.Schema.QmarkNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void QmarkNode_ConstructPos_m156E01A641A632A349E6476BCAF01B115818FF8F (void);
-// 0x00000625 System.Boolean System.Xml.Schema.QmarkNode::get_IsNullable()
+// 0x00000626 System.Boolean System.Xml.Schema.QmarkNode::get_IsNullable()
 extern void QmarkNode_get_IsNullable_mA92F1C9EA9A5E22BBB63F0CDE39FFF7369513C4A (void);
-// 0x00000626 System.Void System.Xml.Schema.QmarkNode::.ctor()
+// 0x00000627 System.Void System.Xml.Schema.QmarkNode::.ctor()
 extern void QmarkNode__ctor_m819089C3F1F99B45C9D32CA3DD2DB0158AFCA0C1 (void);
-// 0x00000627 System.Void System.Xml.Schema.StarNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000628 System.Void System.Xml.Schema.StarNode::ConstructPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void StarNode_ConstructPos_m51B6B43381BFEDFB212F7412AE118A4689444F49 (void);
-// 0x00000628 System.Boolean System.Xml.Schema.StarNode::get_IsNullable()
+// 0x00000629 System.Boolean System.Xml.Schema.StarNode::get_IsNullable()
 extern void StarNode_get_IsNullable_m86C45A7AB30DE13D113C75177920509B9CF769D7 (void);
-// 0x00000629 System.Void System.Xml.Schema.StarNode::.ctor()
+// 0x0000062A System.Void System.Xml.Schema.StarNode::.ctor()
 extern void StarNode__ctor_m387E4A4D3B809FD9A2D6437CF41951EFAF7D05D9 (void);
-// 0x0000062A System.Decimal System.Xml.Schema.LeafRangeNode::get_Max()
+// 0x0000062B System.Decimal System.Xml.Schema.LeafRangeNode::get_Max()
 extern void LeafRangeNode_get_Max_mCAED1316B170C97D90FD6CB17EDE581C37EDF3C0 (void);
-// 0x0000062B System.Decimal System.Xml.Schema.LeafRangeNode::get_Min()
+// 0x0000062C System.Decimal System.Xml.Schema.LeafRangeNode::get_Min()
 extern void LeafRangeNode_get_Min_mF6C3FA773211799E29F7509BD53A6FD8CE1768E2 (void);
-// 0x0000062C System.Xml.Schema.BitSet System.Xml.Schema.LeafRangeNode::get_NextIteration()
+// 0x0000062D System.Xml.Schema.BitSet System.Xml.Schema.LeafRangeNode::get_NextIteration()
 extern void LeafRangeNode_get_NextIteration_m32EED7733FF37B063868939099CB48060EF5114B (void);
-// 0x0000062D System.Void System.Xml.Schema.LeafRangeNode::set_NextIteration(System.Xml.Schema.BitSet)
+// 0x0000062E System.Void System.Xml.Schema.LeafRangeNode::set_NextIteration(System.Xml.Schema.BitSet)
 extern void LeafRangeNode_set_NextIteration_mDDBBD1E890E70CDB087694F027A17CD5CFD1A284 (void);
-// 0x0000062E System.Void System.Xml.Schema.ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType)
+// 0x0000062F System.Void System.Xml.Schema.ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType)
 extern void ContentValidator__ctor_m1CA2A0A2CE0B9F5009D62E1A58BA91C922314C96 (void);
-// 0x0000062F System.Void System.Xml.Schema.ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
+// 0x00000630 System.Void System.Xml.Schema.ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
 extern void ContentValidator__ctor_m739A3B127FC59E711DF019533D33E87465DAFA50 (void);
-// 0x00000630 System.Xml.Schema.XmlSchemaContentType System.Xml.Schema.ContentValidator::get_ContentType()
+// 0x00000631 System.Xml.Schema.XmlSchemaContentType System.Xml.Schema.ContentValidator::get_ContentType()
 extern void ContentValidator_get_ContentType_m2E9C64DB3522E5A29BE6CAA4A929CBABAD1CEF23 (void);
-// 0x00000631 System.Boolean System.Xml.Schema.ContentValidator::get_IsOpen()
+// 0x00000632 System.Boolean System.Xml.Schema.ContentValidator::get_IsOpen()
 extern void ContentValidator_get_IsOpen_mEE6705ECCE11F7E1002A221B5A8D47BB567173FF (void);
-// 0x00000632 System.Void System.Xml.Schema.ContentValidator::.cctor()
+// 0x00000633 System.Void System.Xml.Schema.ContentValidator::.cctor()
 extern void ContentValidator__cctor_mC0B398FEB873BA0E7B8254F42B3F7590EECA4594 (void);
-// 0x00000633 System.Void System.Xml.Schema.ParticleContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType)
+// 0x00000634 System.Void System.Xml.Schema.ParticleContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType)
 extern void ParticleContentValidator__ctor_m3B7E26A1371336703F3B8B1A1A721C139E1E8078 (void);
-// 0x00000634 System.Void System.Xml.Schema.ParticleContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType,System.Boolean)
+// 0x00000635 System.Void System.Xml.Schema.ParticleContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType,System.Boolean)
 extern void ParticleContentValidator__ctor_mA96374FD7A9A396E3FCFDE307C3E35B22D8AE736 (void);
-// 0x00000635 System.Void System.Xml.Schema.ParticleContentValidator::Start()
+// 0x00000636 System.Void System.Xml.Schema.ParticleContentValidator::Start()
 extern void ParticleContentValidator_Start_mA9E5F5D3C90F19E23A9C60551E105DAE86DF45AC (void);
-// 0x00000636 System.Void System.Xml.Schema.ParticleContentValidator::OpenGroup()
+// 0x00000637 System.Void System.Xml.Schema.ParticleContentValidator::OpenGroup()
 extern void ParticleContentValidator_OpenGroup_mB1BC05C6D2410C538451E560BBB054D89259FD38 (void);
-// 0x00000637 System.Void System.Xml.Schema.ParticleContentValidator::CloseGroup()
+// 0x00000638 System.Void System.Xml.Schema.ParticleContentValidator::CloseGroup()
 extern void ParticleContentValidator_CloseGroup_mA124590CE4ABB10E0E03B9EF146A249731616B30 (void);
-// 0x00000638 System.Boolean System.Xml.Schema.ParticleContentValidator::Exists(System.Xml.XmlQualifiedName)
+// 0x00000639 System.Boolean System.Xml.Schema.ParticleContentValidator::Exists(System.Xml.XmlQualifiedName)
 extern void ParticleContentValidator_Exists_mBCB763C6C4DA1D4732D98E21ECECFA2987132B9E (void);
-// 0x00000639 System.Void System.Xml.Schema.ParticleContentValidator::AddName(System.Xml.XmlQualifiedName,System.Object)
+// 0x0000063A System.Void System.Xml.Schema.ParticleContentValidator::AddName(System.Xml.XmlQualifiedName,System.Object)
 extern void ParticleContentValidator_AddName_m664A347C22696BE8E7587622B923EEF8DBAD2025 (void);
-// 0x0000063A System.Void System.Xml.Schema.ParticleContentValidator::AddNamespaceList(System.Xml.Schema.NamespaceList,System.Object)
+// 0x0000063B System.Void System.Xml.Schema.ParticleContentValidator::AddNamespaceList(System.Xml.Schema.NamespaceList,System.Object)
 extern void ParticleContentValidator_AddNamespaceList_m403C6AB955D2F11EBCDF51375E3F728F3A4A74F8 (void);
-// 0x0000063B System.Void System.Xml.Schema.ParticleContentValidator::AddLeafNode(System.Xml.Schema.SyntaxTreeNode)
+// 0x0000063C System.Void System.Xml.Schema.ParticleContentValidator::AddLeafNode(System.Xml.Schema.SyntaxTreeNode)
 extern void ParticleContentValidator_AddLeafNode_m07D10A8D8115BC2924FDF9FE52C5042BC066EBD0 (void);
-// 0x0000063C System.Void System.Xml.Schema.ParticleContentValidator::AddChoice()
+// 0x0000063D System.Void System.Xml.Schema.ParticleContentValidator::AddChoice()
 extern void ParticleContentValidator_AddChoice_mC56136642F8957A5E0450EBFECD4DC45CC5E0A60 (void);
-// 0x0000063D System.Void System.Xml.Schema.ParticleContentValidator::AddSequence()
+// 0x0000063E System.Void System.Xml.Schema.ParticleContentValidator::AddSequence()
 extern void ParticleContentValidator_AddSequence_m4E844C5C7E35EB35FD72B4A18F0FB55198EBA7DA (void);
-// 0x0000063E System.Void System.Xml.Schema.ParticleContentValidator::AddStar()
+// 0x0000063F System.Void System.Xml.Schema.ParticleContentValidator::AddStar()
 extern void ParticleContentValidator_AddStar_mEE53402121A554278856D01DD84040B0DAF06017 (void);
-// 0x0000063F System.Void System.Xml.Schema.ParticleContentValidator::AddPlus()
+// 0x00000640 System.Void System.Xml.Schema.ParticleContentValidator::AddPlus()
 extern void ParticleContentValidator_AddPlus_mA6877E25D2F1BBC78C9A16AE29B12F9CE955C7C5 (void);
-// 0x00000640 System.Void System.Xml.Schema.ParticleContentValidator::AddQMark()
+// 0x00000641 System.Void System.Xml.Schema.ParticleContentValidator::AddQMark()
 extern void ParticleContentValidator_AddQMark_m55D3B074D8781502F6A5093A434D1950C804A155 (void);
-// 0x00000641 System.Void System.Xml.Schema.ParticleContentValidator::Closure(System.Xml.Schema.InteriorNode)
+// 0x00000642 System.Void System.Xml.Schema.ParticleContentValidator::Closure(System.Xml.Schema.InteriorNode)
 extern void ParticleContentValidator_Closure_m10F5D16A22E4AA19816E81883C7E712F81AA9CA3 (void);
-// 0x00000642 System.Xml.Schema.ContentValidator System.Xml.Schema.ParticleContentValidator::Finish(System.Boolean)
+// 0x00000643 System.Xml.Schema.ContentValidator System.Xml.Schema.ParticleContentValidator::Finish(System.Boolean)
 extern void ParticleContentValidator_Finish_mB1589F15458B320D1A6DC7179BB70F5C616ED192 (void);
-// 0x00000643 System.Xml.Schema.BitSet[] System.Xml.Schema.ParticleContentValidator::CalculateTotalFollowposForRangeNodes(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.BitSet&)
+// 0x00000644 System.Xml.Schema.BitSet[] System.Xml.Schema.ParticleContentValidator::CalculateTotalFollowposForRangeNodes(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.BitSet&)
 extern void ParticleContentValidator_CalculateTotalFollowposForRangeNodes_m2C392732F64A7B47C1FC8D90E66C77F1560D241B (void);
-// 0x00000644 System.Void System.Xml.Schema.ParticleContentValidator::CheckCMUPAWithLeafRangeNodes(System.Xml.Schema.BitSet)
+// 0x00000645 System.Void System.Xml.Schema.ParticleContentValidator::CheckCMUPAWithLeafRangeNodes(System.Xml.Schema.BitSet)
 extern void ParticleContentValidator_CheckCMUPAWithLeafRangeNodes_m19C15685DB36312A6F4A6CD8A9564B8E5AE3AF9E (void);
-// 0x00000645 System.Xml.Schema.BitSet System.Xml.Schema.ParticleContentValidator::GetApplicableMinMaxFollowPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000646 System.Xml.Schema.BitSet System.Xml.Schema.ParticleContentValidator::GetApplicableMinMaxFollowPos(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void ParticleContentValidator_GetApplicableMinMaxFollowPos_m1B6E20A133E5707BA769AF48BDFE44BEAF7B95C6 (void);
-// 0x00000646 System.Void System.Xml.Schema.ParticleContentValidator::CheckUniqueParticleAttribution(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
+// 0x00000647 System.Void System.Xml.Schema.ParticleContentValidator::CheckUniqueParticleAttribution(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[])
 extern void ParticleContentValidator_CheckUniqueParticleAttribution_m6146B0EDE69F06990BE39C7EE30DEB51C558B22B (void);
-// 0x00000647 System.Void System.Xml.Schema.ParticleContentValidator::CheckUniqueParticleAttribution(System.Xml.Schema.BitSet)
+// 0x00000648 System.Void System.Xml.Schema.ParticleContentValidator::CheckUniqueParticleAttribution(System.Xml.Schema.BitSet)
 extern void ParticleContentValidator_CheckUniqueParticleAttribution_m3E3E7FFC56B2906EF8D2AD535A86CD58E1B8E737 (void);
-// 0x00000648 System.Int32[][] System.Xml.Schema.ParticleContentValidator::BuildTransitionTable(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Int32)
+// 0x00000649 System.Int32[][] System.Xml.Schema.ParticleContentValidator::BuildTransitionTable(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Int32)
 extern void ParticleContentValidator_BuildTransitionTable_m7FD817BBF20B342828117C81C3E68D4A8D99EF72 (void);
-// 0x00000649 System.Void System.Xml.Schema.DfaContentValidator::.ctor(System.Int32[][],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
+// 0x0000064A System.Void System.Xml.Schema.DfaContentValidator::.ctor(System.Int32[][],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
 extern void DfaContentValidator__ctor_m6F4368454BF9FD87027B15006FED0C27A9A79F90 (void);
-// 0x0000064A System.Void System.Xml.Schema.NfaContentValidator::.ctor(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions,System.Int32,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
+// 0x0000064B System.Void System.Xml.Schema.NfaContentValidator::.ctor(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions,System.Int32,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Boolean)
 extern void NfaContentValidator__ctor_mCE9D87F0C34A773A13742F046EAD9293369D9985 (void);
-// 0x0000064B System.Void System.Xml.Schema.RangeContentValidator::.ctor(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions,System.Int32,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Xml.Schema.BitSet,System.Int32)
+// 0x0000064C System.Void System.Xml.Schema.RangeContentValidator::.ctor(System.Xml.Schema.BitSet,System.Xml.Schema.BitSet[],System.Xml.Schema.SymbolsDictionary,System.Xml.Schema.Positions,System.Int32,System.Xml.Schema.XmlSchemaContentType,System.Boolean,System.Xml.Schema.BitSet,System.Int32)
 extern void RangeContentValidator__ctor_m94FC1AFEED6301527AEA1E72C591CF4DE525E1C6 (void);
-// 0x0000064C System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XsdSimpleValue::get_XmlType()
+// 0x0000064D System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XsdSimpleValue::get_XmlType()
 extern void XsdSimpleValue_get_XmlType_m07EE21F2D2F24D95FF370544A1C8610CF363A61E (void);
-// 0x0000064D System.Object System.Xml.Schema.XsdSimpleValue::get_TypedValue()
+// 0x0000064E System.Object System.Xml.Schema.XsdSimpleValue::get_TypedValue()
 extern void XsdSimpleValue_get_TypedValue_mBC6C3E73A5E817F5A9232983714704820CC17B46 (void);
-// 0x0000064E System.Void System.Xml.Schema.DatatypeImplementation::.cctor()
+// 0x0000064F System.Void System.Xml.Schema.DatatypeImplementation::.cctor()
 extern void DatatypeImplementation__cctor_m7AEAD4583FB8A6379359CC1B41C55C95EDCA62CD (void);
-// 0x0000064F System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::get_AnySimpleType()
+// 0x00000650 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::get_AnySimpleType()
 extern void DatatypeImplementation_get_AnySimpleType_m3C4F4A94BAF46BAD360C233AE87E6A73C4061299 (void);
-// 0x00000650 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::get_UntypedAtomicType()
+// 0x00000651 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::get_UntypedAtomicType()
 extern void DatatypeImplementation_get_UntypedAtomicType_m5269A50BBA9A1A867C52EC22345A31063DF0F5EA (void);
-// 0x00000651 System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::FromXmlTokenizedType(System.Xml.XmlTokenizedType)
+// 0x00000652 System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::FromXmlTokenizedType(System.Xml.XmlTokenizedType)
 extern void DatatypeImplementation_FromXmlTokenizedType_mC90B51890165DB270BDB79F8A3632E4B84C36969 (void);
-// 0x00000652 System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::FromTypeName(System.String)
+// 0x00000653 System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::FromTypeName(System.String)
 extern void DatatypeImplementation_FromTypeName_mF53A5DD4C88D267D0008CE973A25CFBD93628BAE (void);
-// 0x00000653 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::StartBuiltinType(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
+// 0x00000654 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::StartBuiltinType(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
 extern void DatatypeImplementation_StartBuiltinType_mDAFD3C6245D08DA9940ED147AEDF7E30D1C9E76E (void);
-// 0x00000654 System.Void System.Xml.Schema.DatatypeImplementation::FinishBuiltinType(System.Xml.Schema.XmlSchemaSimpleType,System.Xml.Schema.XmlSchemaSimpleType)
+// 0x00000655 System.Void System.Xml.Schema.DatatypeImplementation::FinishBuiltinType(System.Xml.Schema.XmlSchemaSimpleType,System.Xml.Schema.XmlSchemaSimpleType)
 extern void DatatypeImplementation_FinishBuiltinType_m7CBE3EA32B960B6BDBEAB5DCE24365D72B21E7CF (void);
-// 0x00000655 System.Void System.Xml.Schema.DatatypeImplementation::CreateBuiltinTypes()
+// 0x00000656 System.Void System.Xml.Schema.DatatypeImplementation::CreateBuiltinTypes()
 extern void DatatypeImplementation_CreateBuiltinTypes_m2F8C559A496C32210252D3828230B968FC8527C5 (void);
-// 0x00000656 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::GetSimpleTypeFromTypeCode(System.Xml.Schema.XmlTypeCode)
+// 0x00000657 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::GetSimpleTypeFromTypeCode(System.Xml.Schema.XmlTypeCode)
 extern void DatatypeImplementation_GetSimpleTypeFromTypeCode_m2FE8D4C6012977EA33A5C0CBC94D547BEEBF6E0A (void);
-// 0x00000657 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.DatatypeImplementation::DeriveByList(System.Int32,System.Xml.Schema.XmlSchemaType)
+// 0x00000658 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.DatatypeImplementation::DeriveByList(System.Int32,System.Xml.Schema.XmlSchemaType)
 extern void DatatypeImplementation_DeriveByList_mDBF9A9BBCD40E6CC7D174D491ED5FEE4A14FAB39 (void);
-// 0x00000658 System.Boolean System.Xml.Schema.DatatypeImplementation::IsEqual(System.Object,System.Object)
+// 0x00000659 System.Boolean System.Xml.Schema.DatatypeImplementation::IsEqual(System.Object,System.Object)
 extern void DatatypeImplementation_IsEqual_m6B96DC0A051EBCA3CC0911B37CCD21B1D5F90C19 (void);
-// 0x00000659 System.Xml.Schema.XmlValueConverter System.Xml.Schema.DatatypeImplementation::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x0000065A System.Xml.Schema.XmlValueConverter System.Xml.Schema.DatatypeImplementation::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void DatatypeImplementation_CreateValueConverter_m477C3080FBABE63C725C7C68EC1A0E3164AA8DAE (void);
-// 0x0000065A System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::get_FacetsChecker()
+// 0x0000065B System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::get_FacetsChecker()
 extern void DatatypeImplementation_get_FacetsChecker_m757D53D205AB450859D5A9768882F079765190C5 (void);
-// 0x0000065B System.Xml.Schema.XmlValueConverter System.Xml.Schema.DatatypeImplementation::get_ValueConverter()
+// 0x0000065C System.Xml.Schema.XmlValueConverter System.Xml.Schema.DatatypeImplementation::get_ValueConverter()
 extern void DatatypeImplementation_get_ValueConverter_m07C9E46321B697C56E4BE3DFCA97C10FE3B5A400 (void);
-// 0x0000065C System.Xml.XmlTokenizedType System.Xml.Schema.DatatypeImplementation::get_TokenizedType()
+// 0x0000065D System.Xml.XmlTokenizedType System.Xml.Schema.DatatypeImplementation::get_TokenizedType()
 extern void DatatypeImplementation_get_TokenizedType_mAEA6F08AA2806DD4B08D50FC805E57A8663312EC (void);
-// 0x0000065D System.Type System.Xml.Schema.DatatypeImplementation::get_ValueType()
+// 0x0000065E System.Type System.Xml.Schema.DatatypeImplementation::get_ValueType()
 extern void DatatypeImplementation_get_ValueType_m87CC82BCAA53C810EB2734F16B8C788C6DE0FE1F (void);
-// 0x0000065E System.Xml.Schema.XmlSchemaDatatypeVariety System.Xml.Schema.DatatypeImplementation::get_Variety()
+// 0x0000065F System.Xml.Schema.XmlSchemaDatatypeVariety System.Xml.Schema.DatatypeImplementation::get_Variety()
 extern void DatatypeImplementation_get_Variety_mFC7F86EC2BF268DAD43250E850AA706195EB6931 (void);
-// 0x0000065F System.Xml.Schema.XmlTypeCode System.Xml.Schema.DatatypeImplementation::get_TypeCode()
+// 0x00000660 System.Xml.Schema.XmlTypeCode System.Xml.Schema.DatatypeImplementation::get_TypeCode()
 extern void DatatypeImplementation_get_TypeCode_m28A98D948B5056018644F65846B76B7ECA15222E (void);
-// 0x00000660 System.Xml.Schema.RestrictionFacets System.Xml.Schema.DatatypeImplementation::get_Restriction()
+// 0x00000661 System.Xml.Schema.RestrictionFacets System.Xml.Schema.DatatypeImplementation::get_Restriction()
 extern void DatatypeImplementation_get_Restriction_m7740CF2684E0F98A8EC55755DE78D4CDDE0010B1 (void);
-// 0x00000661 System.Type System.Xml.Schema.DatatypeImplementation::get_ListValueType()
-// 0x00000662 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.DatatypeImplementation::get_BuiltInWhitespaceFacet()
+// 0x00000662 System.Type System.Xml.Schema.DatatypeImplementation::get_ListValueType()
+// 0x00000663 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.DatatypeImplementation::get_BuiltInWhitespaceFacet()
 extern void DatatypeImplementation_get_BuiltInWhitespaceFacet_mFD2296B7A6243C4E6EE3C9AC8E5A8E7F6A977E14 (void);
-// 0x00000663 System.Object System.Xml.Schema.DatatypeImplementation::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x00000664 System.Object System.Xml.Schema.DatatypeImplementation::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void DatatypeImplementation_ParseValue_m921BE0003D2DFDBC402B6E7DED582F27331EDFCC (void);
-// 0x00000664 System.String System.Xml.Schema.DatatypeImplementation::GetTypeName()
+// 0x00000665 System.String System.Xml.Schema.DatatypeImplementation::GetTypeName()
 extern void DatatypeImplementation_GetTypeName_mB16D719DF1D26676CC8E517073734EE7D2862635 (void);
-// 0x00000665 System.Int32 System.Xml.Schema.DatatypeImplementation::Compare(System.Byte[],System.Byte[])
+// 0x00000666 System.Int32 System.Xml.Schema.DatatypeImplementation::Compare(System.Byte[],System.Byte[])
 extern void DatatypeImplementation_Compare_mAAC72E2362C6C2534E06E1AC68E409920346E72C (void);
-// 0x00000666 System.Void System.Xml.Schema.DatatypeImplementation::.ctor()
+// 0x00000667 System.Void System.Xml.Schema.DatatypeImplementation::.ctor()
 extern void DatatypeImplementation__ctor_m043C9552B9BADD73BFD9630123788F3B71BCC3EB (void);
-// 0x00000667 System.Void System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::.ctor(System.String,System.Xml.Schema.DatatypeImplementation)
+// 0x00000668 System.Void System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::.ctor(System.String,System.Xml.Schema.DatatypeImplementation)
 extern void SchemaDatatypeMap__ctor_m9CE8F7724902B386FE268A570E8BA42BAEC54F27 (void);
-// 0x00000668 System.Void System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::.ctor(System.String,System.Xml.Schema.DatatypeImplementation,System.Int32)
+// 0x00000669 System.Void System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::.ctor(System.String,System.Xml.Schema.DatatypeImplementation,System.Int32)
 extern void SchemaDatatypeMap__ctor_m4072D54A3AD00E44099CEE1DEE5AF138452A9071 (void);
-// 0x00000669 System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::op_Explicit(System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap)
+// 0x0000066A System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::op_Explicit(System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap)
 extern void SchemaDatatypeMap_op_Explicit_m55C4B5FE07DC9E3BB6F7FB8BD2F9ABE5E8FD1239 (void);
-// 0x0000066A System.String System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::get_Name()
+// 0x0000066B System.String System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::get_Name()
 extern void SchemaDatatypeMap_get_Name_m8F088C5DED5342342A64F546D0874D860F093F9C (void);
-// 0x0000066B System.Int32 System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::get_ParentIndex()
+// 0x0000066C System.Int32 System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::get_ParentIndex()
 extern void SchemaDatatypeMap_get_ParentIndex_mABC02E4B5D5149472B4BD105AAE21EF6F4B93029 (void);
-// 0x0000066C System.Int32 System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::CompareTo(System.Object)
+// 0x0000066D System.Int32 System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap::CompareTo(System.Object)
 extern void SchemaDatatypeMap_CompareTo_mF4A5F264FCDCD361C0C926AFADFA861CB5B7313D (void);
-// 0x0000066D System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_List::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x0000066E System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_List::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_List_CreateValueConverter_mBECAF7EB0A79C9A93FF0D9696D339EABE6ECEA4C (void);
-// 0x0000066E System.Void System.Xml.Schema.Datatype_List::.ctor(System.Xml.Schema.DatatypeImplementation,System.Int32)
+// 0x0000066F System.Void System.Xml.Schema.Datatype_List::.ctor(System.Xml.Schema.DatatypeImplementation,System.Int32)
 extern void Datatype_List__ctor_m46EAB3EA563201D502308B095333A0CC8946E1CB (void);
-// 0x0000066F System.Int32 System.Xml.Schema.Datatype_List::Compare(System.Object,System.Object)
+// 0x00000670 System.Int32 System.Xml.Schema.Datatype_List::Compare(System.Object,System.Object)
 extern void Datatype_List_Compare_m7420CBE0BC506BAF33B841272D2D809B047CA2B7 (void);
-// 0x00000670 System.Type System.Xml.Schema.Datatype_List::get_ValueType()
+// 0x00000671 System.Type System.Xml.Schema.Datatype_List::get_ValueType()
 extern void Datatype_List_get_ValueType_m55F8E83830827BB0C1D659F506836C303963C7B2 (void);
-// 0x00000671 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_List::get_TokenizedType()
+// 0x00000672 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_List::get_TokenizedType()
 extern void Datatype_List_get_TokenizedType_m9CA4809F0BCEE0EC7255230F8AEB814986730F74 (void);
-// 0x00000672 System.Type System.Xml.Schema.Datatype_List::get_ListValueType()
+// 0x00000673 System.Type System.Xml.Schema.Datatype_List::get_ListValueType()
 extern void Datatype_List_get_ListValueType_mB3B8D3441BB66C4CFF9741FBD005CE39311C1337 (void);
-// 0x00000673 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_List::get_FacetsChecker()
+// 0x00000674 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_List::get_FacetsChecker()
 extern void Datatype_List_get_FacetsChecker_mC484C6CAFC0AF7F098075CBB55D2BA720307D9D3 (void);
-// 0x00000674 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_List::get_TypeCode()
+// 0x00000675 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_List::get_TypeCode()
 extern void Datatype_List_get_TypeCode_mD91FDE1CBB5D7FBF4554EFC55B1CFF4856B3F40B (void);
-// 0x00000675 System.Exception System.Xml.Schema.Datatype_List::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000676 System.Exception System.Xml.Schema.Datatype_List::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_List_TryParseValue_m96501AEF43FFC713284284061BE10C59E7108375 (void);
-// 0x00000676 System.Boolean System.Xml.Schema.Datatype_union::HasAtomicMembers()
+// 0x00000677 System.Boolean System.Xml.Schema.Datatype_union::HasAtomicMembers()
 extern void Datatype_union_HasAtomicMembers_m70300DCA89A99BF75D87EABDAB9BF8EBD9348CEA (void);
-// 0x00000677 System.Void System.Xml.Schema.Datatype_union::.cctor()
+// 0x00000678 System.Void System.Xml.Schema.Datatype_union::.cctor()
 extern void Datatype_union__cctor_m1A3B1C6F31464A913F6FBAAC43A0C225E2050F67 (void);
-// 0x00000678 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x00000679 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_anySimpleType_CreateValueConverter_mF754FE6248590771E076A7E90CB6A62BD5A7B1B0 (void);
-// 0x00000679 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_anySimpleType::get_FacetsChecker()
+// 0x0000067A System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_anySimpleType::get_FacetsChecker()
 extern void Datatype_anySimpleType_get_FacetsChecker_mB486029A1F24B6FA195C9561768B0E67C1F6A70B (void);
-// 0x0000067A System.Type System.Xml.Schema.Datatype_anySimpleType::get_ValueType()
+// 0x0000067B System.Type System.Xml.Schema.Datatype_anySimpleType::get_ValueType()
 extern void Datatype_anySimpleType_get_ValueType_mC9C0ACC15AE9807DF6715004296192D53C376B62 (void);
-// 0x0000067B System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anySimpleType::get_TypeCode()
+// 0x0000067C System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anySimpleType::get_TypeCode()
 extern void Datatype_anySimpleType_get_TypeCode_mBABA0BC36CFAFF1CF1E112EA1C6DD2F760A84E79 (void);
-// 0x0000067C System.Type System.Xml.Schema.Datatype_anySimpleType::get_ListValueType()
+// 0x0000067D System.Type System.Xml.Schema.Datatype_anySimpleType::get_ListValueType()
 extern void Datatype_anySimpleType_get_ListValueType_m0F92A5C273D7CD4BBD716CF7A1941DEBD870BFAA (void);
-// 0x0000067D System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_anySimpleType::get_TokenizedType()
+// 0x0000067E System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_anySimpleType::get_TokenizedType()
 extern void Datatype_anySimpleType_get_TokenizedType_m3A01D65FC8F6AA55D16A0FA0E4D2622339BBBA7F (void);
-// 0x0000067E System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
+// 0x0000067F System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
 extern void Datatype_anySimpleType_get_BuiltInWhitespaceFacet_m155420B8D883A47A48637BD996B7BCE6726CD9EF (void);
-// 0x0000067F System.Int32 System.Xml.Schema.Datatype_anySimpleType::Compare(System.Object,System.Object)
+// 0x00000680 System.Int32 System.Xml.Schema.Datatype_anySimpleType::Compare(System.Object,System.Object)
 extern void Datatype_anySimpleType_Compare_m5F22BCD68AF5A3784742FB5221FF434468A16D57 (void);
-// 0x00000680 System.Exception System.Xml.Schema.Datatype_anySimpleType::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000681 System.Exception System.Xml.Schema.Datatype_anySimpleType::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_anySimpleType_TryParseValue_m2E4CD3018EE7EEB983337CB26C1FBA2A9A8DCDED (void);
-// 0x00000681 System.Void System.Xml.Schema.Datatype_anySimpleType::.ctor()
+// 0x00000682 System.Void System.Xml.Schema.Datatype_anySimpleType::.ctor()
 extern void Datatype_anySimpleType__ctor_mD3FEDA90F3C36B5D64FA1E8BEF53E2B00FCDB1C5 (void);
-// 0x00000682 System.Void System.Xml.Schema.Datatype_anySimpleType::.cctor()
+// 0x00000683 System.Void System.Xml.Schema.Datatype_anySimpleType::.cctor()
 extern void Datatype_anySimpleType__cctor_m65D3F3B7475806F6DA65E836B8AD5A2F9C792AB6 (void);
-// 0x00000683 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anyAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x00000684 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anyAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_anyAtomicType_CreateValueConverter_m257AFA06B3819959321BDC0DA4481113B44E73B8 (void);
-// 0x00000684 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anyAtomicType::get_BuiltInWhitespaceFacet()
+// 0x00000685 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anyAtomicType::get_BuiltInWhitespaceFacet()
 extern void Datatype_anyAtomicType_get_BuiltInWhitespaceFacet_m71EF5D16C369807AB99CD3D22392249BD5E367DC (void);
-// 0x00000685 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anyAtomicType::get_TypeCode()
+// 0x00000686 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anyAtomicType::get_TypeCode()
 extern void Datatype_anyAtomicType_get_TypeCode_m150419C8DD9E77C7F81E7F90E9FCE13F71AE818B (void);
-// 0x00000686 System.Void System.Xml.Schema.Datatype_anyAtomicType::.ctor()
+// 0x00000687 System.Void System.Xml.Schema.Datatype_anyAtomicType::.ctor()
 extern void Datatype_anyAtomicType__ctor_m8A70E617CA90DCE030E0A7E350E7B255922B7613 (void);
-// 0x00000687 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_untypedAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x00000688 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_untypedAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_untypedAtomicType_CreateValueConverter_m36116580FD69980A570804565E99EF2C3DBE362B (void);
-// 0x00000688 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_untypedAtomicType::get_BuiltInWhitespaceFacet()
+// 0x00000689 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_untypedAtomicType::get_BuiltInWhitespaceFacet()
 extern void Datatype_untypedAtomicType_get_BuiltInWhitespaceFacet_m6D67E33F6801F2FE2EC2D3D8AB7796F3EADB2FC8 (void);
-// 0x00000689 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_untypedAtomicType::get_TypeCode()
+// 0x0000068A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_untypedAtomicType::get_TypeCode()
 extern void Datatype_untypedAtomicType_get_TypeCode_m68FEDDBE2D03FD11E0FC5FB65251B0251F9CE65A (void);
-// 0x0000068A System.Void System.Xml.Schema.Datatype_untypedAtomicType::.ctor()
+// 0x0000068B System.Void System.Xml.Schema.Datatype_untypedAtomicType::.ctor()
 extern void Datatype_untypedAtomicType__ctor_m5A929A78184090E740F523FDD1E5B2F60B6E2BA9 (void);
-// 0x0000068B System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_string::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x0000068C System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_string::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_string_CreateValueConverter_m32F4B5901DADE8325A97246F3E3C062C59465303 (void);
-// 0x0000068C System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_string::get_BuiltInWhitespaceFacet()
+// 0x0000068D System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_string::get_BuiltInWhitespaceFacet()
 extern void Datatype_string_get_BuiltInWhitespaceFacet_m28B5F43A78A026A22F2F810C33E01BC6A229D8CA (void);
-// 0x0000068D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_string::get_FacetsChecker()
+// 0x0000068E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_string::get_FacetsChecker()
 extern void Datatype_string_get_FacetsChecker_m4E31E896669F61B963AE536BD81AC8ECBCBB1FFF (void);
-// 0x0000068E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_string::get_TypeCode()
+// 0x0000068F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_string::get_TypeCode()
 extern void Datatype_string_get_TypeCode_mB0E339E1B6147F36B3A90BF90D0B4E9AC8CA2DBC (void);
-// 0x0000068F System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_string::get_TokenizedType()
+// 0x00000690 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_string::get_TokenizedType()
 extern void Datatype_string_get_TokenizedType_mBEEA698BEA6371F3CC5D2E750913CD90682435C1 (void);
-// 0x00000690 System.Exception System.Xml.Schema.Datatype_string::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000691 System.Exception System.Xml.Schema.Datatype_string::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_string_TryParseValue_mC4AA4DC55AA6C53C4C9FFAC2534513117D81456B (void);
-// 0x00000691 System.Void System.Xml.Schema.Datatype_string::.ctor()
+// 0x00000692 System.Void System.Xml.Schema.Datatype_string::.ctor()
 extern void Datatype_string__ctor_m4B4A5FCCD9882F40E91B77F1B1718AB17C33DF2B (void);
-// 0x00000692 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_boolean::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x00000693 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_boolean::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_boolean_CreateValueConverter_mCC6C446E89535679DE93F7E41082C07CA25BF1D5 (void);
-// 0x00000693 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_boolean::get_FacetsChecker()
+// 0x00000694 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_boolean::get_FacetsChecker()
 extern void Datatype_boolean_get_FacetsChecker_m8AC74CB8760D68607DC92A5CB64C439E3CBB0EDF (void);
-// 0x00000694 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_boolean::get_TypeCode()
+// 0x00000695 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_boolean::get_TypeCode()
 extern void Datatype_boolean_get_TypeCode_m9E30BAB4C93BDD2E2C2913D9BC846FBD893D2B6E (void);
-// 0x00000695 System.Type System.Xml.Schema.Datatype_boolean::get_ValueType()
+// 0x00000696 System.Type System.Xml.Schema.Datatype_boolean::get_ValueType()
 extern void Datatype_boolean_get_ValueType_m46086DBD46E9945CF4CA80B88D64A1C01346287C (void);
-// 0x00000696 System.Type System.Xml.Schema.Datatype_boolean::get_ListValueType()
+// 0x00000697 System.Type System.Xml.Schema.Datatype_boolean::get_ListValueType()
 extern void Datatype_boolean_get_ListValueType_m27571CBDBA5B28C506F0A1AEFBFC8AAB4779D900 (void);
-// 0x00000697 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_boolean::get_BuiltInWhitespaceFacet()
+// 0x00000698 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_boolean::get_BuiltInWhitespaceFacet()
 extern void Datatype_boolean_get_BuiltInWhitespaceFacet_m1D0A0FABE0A115635C93BF16A93721DC498C53F4 (void);
-// 0x00000698 System.Int32 System.Xml.Schema.Datatype_boolean::Compare(System.Object,System.Object)
+// 0x00000699 System.Int32 System.Xml.Schema.Datatype_boolean::Compare(System.Object,System.Object)
 extern void Datatype_boolean_Compare_mFBD10971601B7A6A2624C77ED82BE6FD3F6D6985 (void);
-// 0x00000699 System.Exception System.Xml.Schema.Datatype_boolean::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000069A System.Exception System.Xml.Schema.Datatype_boolean::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_boolean_TryParseValue_m7191C09A02966272F86EEE136D4C0771463270B4 (void);
-// 0x0000069A System.Void System.Xml.Schema.Datatype_boolean::.ctor()
+// 0x0000069B System.Void System.Xml.Schema.Datatype_boolean::.ctor()
 extern void Datatype_boolean__ctor_mC72E0F2676F9D73635F63A8718800689F7362EFC (void);
-// 0x0000069B System.Void System.Xml.Schema.Datatype_boolean::.cctor()
+// 0x0000069C System.Void System.Xml.Schema.Datatype_boolean::.cctor()
 extern void Datatype_boolean__cctor_m835970831DDCB7DF2EE6431DBB5B6E645096DB04 (void);
-// 0x0000069C System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_float::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x0000069D System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_float::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_float_CreateValueConverter_m5E70187EAA7AE40392B3EB3B223EEE13EE5A0454 (void);
-// 0x0000069D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_float::get_FacetsChecker()
+// 0x0000069E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_float::get_FacetsChecker()
 extern void Datatype_float_get_FacetsChecker_mAC95B06ED14D0ABFE6BC1691306858F8D0D2ED67 (void);
-// 0x0000069E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_float::get_TypeCode()
+// 0x0000069F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_float::get_TypeCode()
 extern void Datatype_float_get_TypeCode_m546B2A4DC0CEAC136E4BF53FDADBDA64BD57F25C (void);
-// 0x0000069F System.Type System.Xml.Schema.Datatype_float::get_ValueType()
+// 0x000006A0 System.Type System.Xml.Schema.Datatype_float::get_ValueType()
 extern void Datatype_float_get_ValueType_m263FA390D677147E99CE7FFBB31BEEFF491304B7 (void);
-// 0x000006A0 System.Type System.Xml.Schema.Datatype_float::get_ListValueType()
+// 0x000006A1 System.Type System.Xml.Schema.Datatype_float::get_ListValueType()
 extern void Datatype_float_get_ListValueType_m39BCF7AFB184B43573C48BB80D672E85F67BCD87 (void);
-// 0x000006A1 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_float::get_BuiltInWhitespaceFacet()
+// 0x000006A2 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_float::get_BuiltInWhitespaceFacet()
 extern void Datatype_float_get_BuiltInWhitespaceFacet_m237BB9313F256A424B5C9D25D558D0E440DD3286 (void);
-// 0x000006A2 System.Int32 System.Xml.Schema.Datatype_float::Compare(System.Object,System.Object)
+// 0x000006A3 System.Int32 System.Xml.Schema.Datatype_float::Compare(System.Object,System.Object)
 extern void Datatype_float_Compare_m044CD484171D207E53DC6E472EF1BAD3D4EBC967 (void);
-// 0x000006A3 System.Exception System.Xml.Schema.Datatype_float::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006A4 System.Exception System.Xml.Schema.Datatype_float::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_float_TryParseValue_m2DC3EA93A82D57529BE1FDB927B00517D520DA58 (void);
-// 0x000006A4 System.Void System.Xml.Schema.Datatype_float::.ctor()
+// 0x000006A5 System.Void System.Xml.Schema.Datatype_float::.ctor()
 extern void Datatype_float__ctor_mF909482A1E954A77EEFAD3ADAC5BC7DDAC262430 (void);
-// 0x000006A5 System.Void System.Xml.Schema.Datatype_float::.cctor()
+// 0x000006A6 System.Void System.Xml.Schema.Datatype_float::.cctor()
 extern void Datatype_float__cctor_mDD4CCEC12D2FA0FEBC37B59690C105B2C47F6A15 (void);
-// 0x000006A6 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_double::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006A7 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_double::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_double_CreateValueConverter_m88D9E1BC9D0E2F6768BB4CFC5EF6C9006AB35F5D (void);
-// 0x000006A7 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_double::get_FacetsChecker()
+// 0x000006A8 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_double::get_FacetsChecker()
 extern void Datatype_double_get_FacetsChecker_m8C7D12234601A573D17C83919E0136332BE6F681 (void);
-// 0x000006A8 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_double::get_TypeCode()
+// 0x000006A9 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_double::get_TypeCode()
 extern void Datatype_double_get_TypeCode_mA001C294860F98BF0400EFCA717CE3D75B666222 (void);
-// 0x000006A9 System.Type System.Xml.Schema.Datatype_double::get_ValueType()
+// 0x000006AA System.Type System.Xml.Schema.Datatype_double::get_ValueType()
 extern void Datatype_double_get_ValueType_mBC086FAEA8EB1C837165118FB76DA16B25EC8134 (void);
-// 0x000006AA System.Type System.Xml.Schema.Datatype_double::get_ListValueType()
+// 0x000006AB System.Type System.Xml.Schema.Datatype_double::get_ListValueType()
 extern void Datatype_double_get_ListValueType_mA87098894865222C3C7A6803EB6F60E17A10138B (void);
-// 0x000006AB System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_double::get_BuiltInWhitespaceFacet()
+// 0x000006AC System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_double::get_BuiltInWhitespaceFacet()
 extern void Datatype_double_get_BuiltInWhitespaceFacet_m70537A511E08E5FC44E59B98AB9E744EC45476FA (void);
-// 0x000006AC System.Int32 System.Xml.Schema.Datatype_double::Compare(System.Object,System.Object)
+// 0x000006AD System.Int32 System.Xml.Schema.Datatype_double::Compare(System.Object,System.Object)
 extern void Datatype_double_Compare_m535588A977AE8B902597D0D053FBF4FB69494B30 (void);
-// 0x000006AD System.Exception System.Xml.Schema.Datatype_double::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006AE System.Exception System.Xml.Schema.Datatype_double::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_double_TryParseValue_m7FD3AD63F87FB4B717523B4347FE22F7502EAB17 (void);
-// 0x000006AE System.Void System.Xml.Schema.Datatype_double::.ctor()
+// 0x000006AF System.Void System.Xml.Schema.Datatype_double::.ctor()
 extern void Datatype_double__ctor_m2C6CD86AB0B3DF406648664B37B15EF01732CBB4 (void);
-// 0x000006AF System.Void System.Xml.Schema.Datatype_double::.cctor()
+// 0x000006B0 System.Void System.Xml.Schema.Datatype_double::.cctor()
 extern void Datatype_double__cctor_mF17DE60A2C373CF3D8DEDA03CF9B4AEEA9B9C6C6 (void);
-// 0x000006B0 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_decimal::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006B1 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_decimal::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_decimal_CreateValueConverter_m1CA8D1042B24BA13065D9ABEE5064CB57BA4E649 (void);
-// 0x000006B1 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_decimal::get_FacetsChecker()
+// 0x000006B2 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_decimal::get_FacetsChecker()
 extern void Datatype_decimal_get_FacetsChecker_m67E658EFE378F8AA2320224C6FAACE4B03BE59FB (void);
-// 0x000006B2 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_decimal::get_TypeCode()
+// 0x000006B3 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_decimal::get_TypeCode()
 extern void Datatype_decimal_get_TypeCode_mD1D901C977729E0436BA777AB2104AC6E0D4FB6C (void);
-// 0x000006B3 System.Type System.Xml.Schema.Datatype_decimal::get_ValueType()
+// 0x000006B4 System.Type System.Xml.Schema.Datatype_decimal::get_ValueType()
 extern void Datatype_decimal_get_ValueType_m324ACDFEFB2A30144FB774B50DC1CEDF7EA55C1C (void);
-// 0x000006B4 System.Type System.Xml.Schema.Datatype_decimal::get_ListValueType()
+// 0x000006B5 System.Type System.Xml.Schema.Datatype_decimal::get_ListValueType()
 extern void Datatype_decimal_get_ListValueType_m8681F4276295B91C9728B28A2181369EB8E073C7 (void);
-// 0x000006B5 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_decimal::get_BuiltInWhitespaceFacet()
+// 0x000006B6 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_decimal::get_BuiltInWhitespaceFacet()
 extern void Datatype_decimal_get_BuiltInWhitespaceFacet_mE0E18D80771B81A3E431A8B8D55BE929AC28713B (void);
-// 0x000006B6 System.Int32 System.Xml.Schema.Datatype_decimal::Compare(System.Object,System.Object)
+// 0x000006B7 System.Int32 System.Xml.Schema.Datatype_decimal::Compare(System.Object,System.Object)
 extern void Datatype_decimal_Compare_mA7AFD78D20F2E85B4408352563CA512B56386795 (void);
-// 0x000006B7 System.Exception System.Xml.Schema.Datatype_decimal::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006B8 System.Exception System.Xml.Schema.Datatype_decimal::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_decimal_TryParseValue_m2B245F38967ED10C30C1698E3ED243059F2E6884 (void);
-// 0x000006B8 System.Void System.Xml.Schema.Datatype_decimal::.ctor()
+// 0x000006B9 System.Void System.Xml.Schema.Datatype_decimal::.ctor()
 extern void Datatype_decimal__ctor_m69C02C958528DB81837706655A48FD6FD1FA92B1 (void);
-// 0x000006B9 System.Void System.Xml.Schema.Datatype_decimal::.cctor()
+// 0x000006BA System.Void System.Xml.Schema.Datatype_decimal::.cctor()
 extern void Datatype_decimal__cctor_mAA754E6612FD0E529D2413D4EAC2175FE6B58790 (void);
-// 0x000006BA System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_duration::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006BB System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_duration::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_duration_CreateValueConverter_mFAA60EB64902FB90A7060D5B89E1F7CF2CA50096 (void);
-// 0x000006BB System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_duration::get_FacetsChecker()
+// 0x000006BC System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_duration::get_FacetsChecker()
 extern void Datatype_duration_get_FacetsChecker_mF69F443FC1A1910BA64577CE7AB2CAC5D840C08B (void);
-// 0x000006BC System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_duration::get_TypeCode()
+// 0x000006BD System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_duration::get_TypeCode()
 extern void Datatype_duration_get_TypeCode_m12CDFAC6F9AA8BF8C0CE7A39340B2D441DCFB68A (void);
-// 0x000006BD System.Type System.Xml.Schema.Datatype_duration::get_ValueType()
+// 0x000006BE System.Type System.Xml.Schema.Datatype_duration::get_ValueType()
 extern void Datatype_duration_get_ValueType_mAB4BB2B031083901B7C1F905FFE301EB5AED0A59 (void);
-// 0x000006BE System.Type System.Xml.Schema.Datatype_duration::get_ListValueType()
+// 0x000006BF System.Type System.Xml.Schema.Datatype_duration::get_ListValueType()
 extern void Datatype_duration_get_ListValueType_m3DBCC0198DADE5D8D674707E09156BA858DD6B6D (void);
-// 0x000006BF System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_duration::get_BuiltInWhitespaceFacet()
+// 0x000006C0 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_duration::get_BuiltInWhitespaceFacet()
 extern void Datatype_duration_get_BuiltInWhitespaceFacet_mC6B3214B589F8C079FDB76B95D6E6DAB036EC1F5 (void);
-// 0x000006C0 System.Int32 System.Xml.Schema.Datatype_duration::Compare(System.Object,System.Object)
+// 0x000006C1 System.Int32 System.Xml.Schema.Datatype_duration::Compare(System.Object,System.Object)
 extern void Datatype_duration_Compare_mA84F1E41B630C4E1381C1035F13934759334504E (void);
-// 0x000006C1 System.Exception System.Xml.Schema.Datatype_duration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006C2 System.Exception System.Xml.Schema.Datatype_duration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_duration_TryParseValue_mACAB100C489C4645C09FFD4DB664B449C126FB1F (void);
-// 0x000006C2 System.Void System.Xml.Schema.Datatype_duration::.ctor()
+// 0x000006C3 System.Void System.Xml.Schema.Datatype_duration::.ctor()
 extern void Datatype_duration__ctor_mD3C31D3D995256962CA8C8CA4D5851D67F7A7098 (void);
-// 0x000006C3 System.Void System.Xml.Schema.Datatype_duration::.cctor()
+// 0x000006C4 System.Void System.Xml.Schema.Datatype_duration::.cctor()
 extern void Datatype_duration__cctor_mE9F91312560181BE896316DB3FAE65468B3C3888 (void);
-// 0x000006C4 System.Exception System.Xml.Schema.Datatype_yearMonthDuration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006C5 System.Exception System.Xml.Schema.Datatype_yearMonthDuration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_yearMonthDuration_TryParseValue_m254A19CCCDF947E23D3F648E875E0139F7436C78 (void);
-// 0x000006C5 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_yearMonthDuration::get_TypeCode()
+// 0x000006C6 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_yearMonthDuration::get_TypeCode()
 extern void Datatype_yearMonthDuration_get_TypeCode_mCB5B4887550648FE7A11951493C0C050B232DBF9 (void);
-// 0x000006C6 System.Void System.Xml.Schema.Datatype_yearMonthDuration::.ctor()
+// 0x000006C7 System.Void System.Xml.Schema.Datatype_yearMonthDuration::.ctor()
 extern void Datatype_yearMonthDuration__ctor_mD91950ED3CB3493994EA24891348733C692D0391 (void);
-// 0x000006C7 System.Exception System.Xml.Schema.Datatype_dayTimeDuration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006C8 System.Exception System.Xml.Schema.Datatype_dayTimeDuration::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_dayTimeDuration_TryParseValue_m20B5B9055B0156357947CACC8387344CFCDA29FE (void);
-// 0x000006C8 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_dayTimeDuration::get_TypeCode()
+// 0x000006C9 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_dayTimeDuration::get_TypeCode()
 extern void Datatype_dayTimeDuration_get_TypeCode_m6ACDE9D67931D72280FC804DD7FD596B6A5C104A (void);
-// 0x000006C9 System.Void System.Xml.Schema.Datatype_dayTimeDuration::.ctor()
+// 0x000006CA System.Void System.Xml.Schema.Datatype_dayTimeDuration::.ctor()
 extern void Datatype_dayTimeDuration__ctor_mC04088673B0454444C2DBFA98DF10C83DE5628C1 (void);
-// 0x000006CA System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_dateTimeBase::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006CB System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_dateTimeBase::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_dateTimeBase_CreateValueConverter_mD9273F330A40F05FD814BF19439ADB3AF7359C37 (void);
-// 0x000006CB System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_dateTimeBase::get_FacetsChecker()
+// 0x000006CC System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_dateTimeBase::get_FacetsChecker()
 extern void Datatype_dateTimeBase_get_FacetsChecker_m8B7FEBAEB2FA4DC8EB5E0E832D09F0F7DFBD4FA1 (void);
-// 0x000006CC System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_dateTimeBase::get_TypeCode()
+// 0x000006CD System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_dateTimeBase::get_TypeCode()
 extern void Datatype_dateTimeBase_get_TypeCode_m80AD5D1B562A84A30BBED2CBFC6E08C19AB4647A (void);
-// 0x000006CD System.Void System.Xml.Schema.Datatype_dateTimeBase::.ctor(System.Xml.Schema.XsdDateTimeFlags)
+// 0x000006CE System.Void System.Xml.Schema.Datatype_dateTimeBase::.ctor(System.Xml.Schema.XsdDateTimeFlags)
 extern void Datatype_dateTimeBase__ctor_m40D72BB7C7EB7C540274D3E2E938182461CF6E69 (void);
-// 0x000006CE System.Type System.Xml.Schema.Datatype_dateTimeBase::get_ValueType()
+// 0x000006CF System.Type System.Xml.Schema.Datatype_dateTimeBase::get_ValueType()
 extern void Datatype_dateTimeBase_get_ValueType_mD59D75B7C383EDA58868BAB55B9DA1708773413B (void);
-// 0x000006CF System.Type System.Xml.Schema.Datatype_dateTimeBase::get_ListValueType()
+// 0x000006D0 System.Type System.Xml.Schema.Datatype_dateTimeBase::get_ListValueType()
 extern void Datatype_dateTimeBase_get_ListValueType_mB9DA0E609987720915C0E641168D94EDF733E026 (void);
-// 0x000006D0 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_dateTimeBase::get_BuiltInWhitespaceFacet()
+// 0x000006D1 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_dateTimeBase::get_BuiltInWhitespaceFacet()
 extern void Datatype_dateTimeBase_get_BuiltInWhitespaceFacet_m0C93C5F555F58F8DC7D558E158D1189C266C912D (void);
-// 0x000006D1 System.Int32 System.Xml.Schema.Datatype_dateTimeBase::Compare(System.Object,System.Object)
+// 0x000006D2 System.Int32 System.Xml.Schema.Datatype_dateTimeBase::Compare(System.Object,System.Object)
 extern void Datatype_dateTimeBase_Compare_m576CBBC331801E2B4B815725670EB6C9630441E6 (void);
-// 0x000006D2 System.Exception System.Xml.Schema.Datatype_dateTimeBase::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006D3 System.Exception System.Xml.Schema.Datatype_dateTimeBase::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_dateTimeBase_TryParseValue_m6192EED50B1DE5842164065B2A85B4DD870DB08C (void);
-// 0x000006D3 System.Void System.Xml.Schema.Datatype_dateTimeBase::.cctor()
+// 0x000006D4 System.Void System.Xml.Schema.Datatype_dateTimeBase::.cctor()
 extern void Datatype_dateTimeBase__cctor_m1EAFF36448242B022E05E4172488E45EA595420F (void);
-// 0x000006D4 System.Void System.Xml.Schema.Datatype_dateTimeNoTimeZone::.ctor()
+// 0x000006D5 System.Void System.Xml.Schema.Datatype_dateTimeNoTimeZone::.ctor()
 extern void Datatype_dateTimeNoTimeZone__ctor_mFDC13B2A242639C7333DEB5AEDCD859A33EB812E (void);
-// 0x000006D5 System.Void System.Xml.Schema.Datatype_dateTimeTimeZone::.ctor()
+// 0x000006D6 System.Void System.Xml.Schema.Datatype_dateTimeTimeZone::.ctor()
 extern void Datatype_dateTimeTimeZone__ctor_m2D4FD0CBD7DF98C3AB49DB67AE8F4F46C0372172 (void);
-// 0x000006D6 System.Void System.Xml.Schema.Datatype_dateTime::.ctor()
+// 0x000006D7 System.Void System.Xml.Schema.Datatype_dateTime::.ctor()
 extern void Datatype_dateTime__ctor_mCB49B59DC868A0D91C3EB85D4C37DE744133CFE8 (void);
-// 0x000006D7 System.Void System.Xml.Schema.Datatype_timeNoTimeZone::.ctor()
+// 0x000006D8 System.Void System.Xml.Schema.Datatype_timeNoTimeZone::.ctor()
 extern void Datatype_timeNoTimeZone__ctor_mAAA6E6476D7E4638D3C213EEC33270AA2B48EA1E (void);
-// 0x000006D8 System.Void System.Xml.Schema.Datatype_timeTimeZone::.ctor()
+// 0x000006D9 System.Void System.Xml.Schema.Datatype_timeTimeZone::.ctor()
 extern void Datatype_timeTimeZone__ctor_m65170431456CD71705FE2BE21EE1D67C238F72EF (void);
-// 0x000006D9 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_time::get_TypeCode()
+// 0x000006DA System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_time::get_TypeCode()
 extern void Datatype_time_get_TypeCode_mAFAA5522F773822929CCB3E89CD7169FED51E40F (void);
-// 0x000006DA System.Void System.Xml.Schema.Datatype_time::.ctor()
+// 0x000006DB System.Void System.Xml.Schema.Datatype_time::.ctor()
 extern void Datatype_time__ctor_m478DD66386DAA1B715DB93198D90140E0B059570 (void);
-// 0x000006DB System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_date::get_TypeCode()
+// 0x000006DC System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_date::get_TypeCode()
 extern void Datatype_date_get_TypeCode_m58A31A11ADE129E44674152CB82359836A8DC759 (void);
-// 0x000006DC System.Void System.Xml.Schema.Datatype_date::.ctor()
+// 0x000006DD System.Void System.Xml.Schema.Datatype_date::.ctor()
 extern void Datatype_date__ctor_mC670D8053913EAD92AA4FF56E8630B9F2EABFF57 (void);
-// 0x000006DD System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_yearMonth::get_TypeCode()
+// 0x000006DE System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_yearMonth::get_TypeCode()
 extern void Datatype_yearMonth_get_TypeCode_m6BA08F53730CE5E824DAF24E77598B039A5F40F5 (void);
-// 0x000006DE System.Void System.Xml.Schema.Datatype_yearMonth::.ctor()
+// 0x000006DF System.Void System.Xml.Schema.Datatype_yearMonth::.ctor()
 extern void Datatype_yearMonth__ctor_mD338030512E0AF0A5F45F3C84158599F1A1DDE4E (void);
-// 0x000006DF System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_year::get_TypeCode()
+// 0x000006E0 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_year::get_TypeCode()
 extern void Datatype_year_get_TypeCode_m480C2948A71ADADA909C39DB57B56C68349F6507 (void);
-// 0x000006E0 System.Void System.Xml.Schema.Datatype_year::.ctor()
+// 0x000006E1 System.Void System.Xml.Schema.Datatype_year::.ctor()
 extern void Datatype_year__ctor_mC67014E772B373E829F670A22A7FA8982EC970D5 (void);
-// 0x000006E1 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_monthDay::get_TypeCode()
+// 0x000006E2 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_monthDay::get_TypeCode()
 extern void Datatype_monthDay_get_TypeCode_m6265C2C6D604C699C5044A966010112019ECEDDE (void);
-// 0x000006E2 System.Void System.Xml.Schema.Datatype_monthDay::.ctor()
+// 0x000006E3 System.Void System.Xml.Schema.Datatype_monthDay::.ctor()
 extern void Datatype_monthDay__ctor_mB905723A5D3C73DEE4A95357FD68ECB403D882E9 (void);
-// 0x000006E3 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_day::get_TypeCode()
+// 0x000006E4 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_day::get_TypeCode()
 extern void Datatype_day_get_TypeCode_m83196E3C4E9981BB90141B651B80D56D1B5A4E8E (void);
-// 0x000006E4 System.Void System.Xml.Schema.Datatype_day::.ctor()
+// 0x000006E5 System.Void System.Xml.Schema.Datatype_day::.ctor()
 extern void Datatype_day__ctor_mE82C60744AAD4652E7DBAFEA443D24DD1E99A000 (void);
-// 0x000006E5 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_month::get_TypeCode()
+// 0x000006E6 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_month::get_TypeCode()
 extern void Datatype_month_get_TypeCode_m7C3251D341FFC2B4E8C99B73C637FA3226CA4F40 (void);
-// 0x000006E6 System.Void System.Xml.Schema.Datatype_month::.ctor()
+// 0x000006E7 System.Void System.Xml.Schema.Datatype_month::.ctor()
 extern void Datatype_month__ctor_m30A2DFB1DA694625A9E9BAAAF159985148268B60 (void);
-// 0x000006E7 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_hexBinary::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006E8 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_hexBinary::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_hexBinary_CreateValueConverter_m03685FA61F9C083985246009E7B3C3D6AF5B97B7 (void);
-// 0x000006E8 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_hexBinary::get_FacetsChecker()
+// 0x000006E9 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_hexBinary::get_FacetsChecker()
 extern void Datatype_hexBinary_get_FacetsChecker_mED85F1DECF2F547A93109DC83593732D27E01AF0 (void);
-// 0x000006E9 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_hexBinary::get_TypeCode()
+// 0x000006EA System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_hexBinary::get_TypeCode()
 extern void Datatype_hexBinary_get_TypeCode_mA0C6F9BACA31569DCEB810FF4E930DEE267DD422 (void);
-// 0x000006EA System.Type System.Xml.Schema.Datatype_hexBinary::get_ValueType()
+// 0x000006EB System.Type System.Xml.Schema.Datatype_hexBinary::get_ValueType()
 extern void Datatype_hexBinary_get_ValueType_m57DC7910E41CDF3305E17A445EF145597EB285CC (void);
-// 0x000006EB System.Type System.Xml.Schema.Datatype_hexBinary::get_ListValueType()
+// 0x000006EC System.Type System.Xml.Schema.Datatype_hexBinary::get_ListValueType()
 extern void Datatype_hexBinary_get_ListValueType_mBF6FED1EC73879A8D374453EE8DAC935718892C9 (void);
-// 0x000006EC System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_hexBinary::get_BuiltInWhitespaceFacet()
+// 0x000006ED System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_hexBinary::get_BuiltInWhitespaceFacet()
 extern void Datatype_hexBinary_get_BuiltInWhitespaceFacet_m2D9D25E385C9160AD648ADB94AC29ABF3DF11E34 (void);
-// 0x000006ED System.Int32 System.Xml.Schema.Datatype_hexBinary::Compare(System.Object,System.Object)
+// 0x000006EE System.Int32 System.Xml.Schema.Datatype_hexBinary::Compare(System.Object,System.Object)
 extern void Datatype_hexBinary_Compare_m75CDB4D72DDF8CDE18E900A514DE98C1C1EC2CBE (void);
-// 0x000006EE System.Exception System.Xml.Schema.Datatype_hexBinary::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006EF System.Exception System.Xml.Schema.Datatype_hexBinary::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_hexBinary_TryParseValue_mC7C836872135966A76A45C8943DCF26D43178B0F (void);
-// 0x000006EF System.Void System.Xml.Schema.Datatype_hexBinary::.ctor()
+// 0x000006F0 System.Void System.Xml.Schema.Datatype_hexBinary::.ctor()
 extern void Datatype_hexBinary__ctor_m25A910970AC3BF4AE8BDC28C292A4BCC0F9F866C (void);
-// 0x000006F0 System.Void System.Xml.Schema.Datatype_hexBinary::.cctor()
+// 0x000006F1 System.Void System.Xml.Schema.Datatype_hexBinary::.cctor()
 extern void Datatype_hexBinary__cctor_m6BE8697CDA9EC6415ED4374465A9218B5D1CC040 (void);
-// 0x000006F1 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_base64Binary::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006F2 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_base64Binary::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_base64Binary_CreateValueConverter_m1B589FA08C7AA77725EEB30EF94393C016BFC4E5 (void);
-// 0x000006F2 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_base64Binary::get_FacetsChecker()
+// 0x000006F3 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_base64Binary::get_FacetsChecker()
 extern void Datatype_base64Binary_get_FacetsChecker_mDF9A11190C48D451C10AB47C2815003DE8D6C9C9 (void);
-// 0x000006F3 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_base64Binary::get_TypeCode()
+// 0x000006F4 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_base64Binary::get_TypeCode()
 extern void Datatype_base64Binary_get_TypeCode_m485AA9EA06296D0C0C7E3432214C5324264FE9A0 (void);
-// 0x000006F4 System.Type System.Xml.Schema.Datatype_base64Binary::get_ValueType()
+// 0x000006F5 System.Type System.Xml.Schema.Datatype_base64Binary::get_ValueType()
 extern void Datatype_base64Binary_get_ValueType_m7416A9925A2762D176AFC7B500CB57364C3B8FF0 (void);
-// 0x000006F5 System.Type System.Xml.Schema.Datatype_base64Binary::get_ListValueType()
+// 0x000006F6 System.Type System.Xml.Schema.Datatype_base64Binary::get_ListValueType()
 extern void Datatype_base64Binary_get_ListValueType_m6C8B6CD0A5A203889E08BD35F9EE736E1203ACCA (void);
-// 0x000006F6 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_base64Binary::get_BuiltInWhitespaceFacet()
+// 0x000006F7 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_base64Binary::get_BuiltInWhitespaceFacet()
 extern void Datatype_base64Binary_get_BuiltInWhitespaceFacet_m4536FDB9E08C4C6C8AD04448A4F618FF0C8B4CE2 (void);
-// 0x000006F7 System.Int32 System.Xml.Schema.Datatype_base64Binary::Compare(System.Object,System.Object)
+// 0x000006F8 System.Int32 System.Xml.Schema.Datatype_base64Binary::Compare(System.Object,System.Object)
 extern void Datatype_base64Binary_Compare_m5E66F66C82107CC2CDC9EC504390D5C176984A56 (void);
-// 0x000006F8 System.Exception System.Xml.Schema.Datatype_base64Binary::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000006F9 System.Exception System.Xml.Schema.Datatype_base64Binary::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_base64Binary_TryParseValue_m540A47B52738E523C50D0BF24F5708A67296B56C (void);
-// 0x000006F9 System.Void System.Xml.Schema.Datatype_base64Binary::.ctor()
+// 0x000006FA System.Void System.Xml.Schema.Datatype_base64Binary::.ctor()
 extern void Datatype_base64Binary__ctor_m73C145AE18CEB0BA7AF942D46DE59AE2389ECBF8 (void);
-// 0x000006FA System.Void System.Xml.Schema.Datatype_base64Binary::.cctor()
+// 0x000006FB System.Void System.Xml.Schema.Datatype_base64Binary::.cctor()
 extern void Datatype_base64Binary__cctor_m5361A2503C0E1894CF9D59384B5836055C37B9FB (void);
-// 0x000006FB System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anyURI::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x000006FC System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_anyURI::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_anyURI_CreateValueConverter_m3D59692D9838D00BFA06249C5142C68BA472A9BB (void);
-// 0x000006FC System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_anyURI::get_FacetsChecker()
+// 0x000006FD System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_anyURI::get_FacetsChecker()
 extern void Datatype_anyURI_get_FacetsChecker_m3B328D9B0E1AE31F2C1C4C2C52517BBCE1A8C4BA (void);
-// 0x000006FD System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anyURI::get_TypeCode()
+// 0x000006FE System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_anyURI::get_TypeCode()
 extern void Datatype_anyURI_get_TypeCode_mEE98F1CE0B6F188B47186BCA34E58ECA81255D98 (void);
-// 0x000006FE System.Type System.Xml.Schema.Datatype_anyURI::get_ValueType()
+// 0x000006FF System.Type System.Xml.Schema.Datatype_anyURI::get_ValueType()
 extern void Datatype_anyURI_get_ValueType_m4F610CC99C703CEFDD1DAFB1A8CF672EA385EACA (void);
-// 0x000006FF System.Type System.Xml.Schema.Datatype_anyURI::get_ListValueType()
+// 0x00000700 System.Type System.Xml.Schema.Datatype_anyURI::get_ListValueType()
 extern void Datatype_anyURI_get_ListValueType_m4760BA494702C1AFF9F81E9B02DF6C7ABDAFCC61 (void);
-// 0x00000700 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anyURI::get_BuiltInWhitespaceFacet()
+// 0x00000701 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_anyURI::get_BuiltInWhitespaceFacet()
 extern void Datatype_anyURI_get_BuiltInWhitespaceFacet_m880A664F2EB4D7619A7B7DD12ABAA518878B8F52 (void);
-// 0x00000701 System.Int32 System.Xml.Schema.Datatype_anyURI::Compare(System.Object,System.Object)
+// 0x00000702 System.Int32 System.Xml.Schema.Datatype_anyURI::Compare(System.Object,System.Object)
 extern void Datatype_anyURI_Compare_m8D09EBB1115AFC7D84C121D29F7874CD02C21B60 (void);
-// 0x00000702 System.Exception System.Xml.Schema.Datatype_anyURI::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000703 System.Exception System.Xml.Schema.Datatype_anyURI::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_anyURI_TryParseValue_m0D1FB614A49574D28DA60ECDE1EA72019673D704 (void);
-// 0x00000703 System.Void System.Xml.Schema.Datatype_anyURI::.ctor()
+// 0x00000704 System.Void System.Xml.Schema.Datatype_anyURI::.ctor()
 extern void Datatype_anyURI__ctor_m32F1DA174ADC5EDEF8F8CA9BED02986B2546E8FF (void);
-// 0x00000704 System.Void System.Xml.Schema.Datatype_anyURI::.cctor()
+// 0x00000705 System.Void System.Xml.Schema.Datatype_anyURI::.cctor()
 extern void Datatype_anyURI__cctor_m2F30F1314FE2B6BD7AD0DDD1F1224CE801C21182 (void);
-// 0x00000705 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_QName::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x00000706 System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_QName::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_QName_CreateValueConverter_m01940E8C96E6EE96FC39D3DE1BC63ABE54735633 (void);
-// 0x00000706 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_QName::get_FacetsChecker()
+// 0x00000707 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_QName::get_FacetsChecker()
 extern void Datatype_QName_get_FacetsChecker_mA328F0F179D315DF1F0F6632F52F1F3FCB7A5103 (void);
-// 0x00000707 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_QName::get_TypeCode()
+// 0x00000708 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_QName::get_TypeCode()
 extern void Datatype_QName_get_TypeCode_m383C869A4D34A9F9575BFB1349BCE48B44E95D95 (void);
-// 0x00000708 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_QName::get_TokenizedType()
+// 0x00000709 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_QName::get_TokenizedType()
 extern void Datatype_QName_get_TokenizedType_mDE2F3FCE104064AF272FF8864193EF66F34EA78B (void);
-// 0x00000709 System.Type System.Xml.Schema.Datatype_QName::get_ValueType()
+// 0x0000070A System.Type System.Xml.Schema.Datatype_QName::get_ValueType()
 extern void Datatype_QName_get_ValueType_m304F67B43612EA598B3E7F97E9012DAA8B1B62C7 (void);
-// 0x0000070A System.Type System.Xml.Schema.Datatype_QName::get_ListValueType()
+// 0x0000070B System.Type System.Xml.Schema.Datatype_QName::get_ListValueType()
 extern void Datatype_QName_get_ListValueType_m99DACA3F44DF18B50B33A08C7EC36809AC976DEE (void);
-// 0x0000070B System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_QName::get_BuiltInWhitespaceFacet()
+// 0x0000070C System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_QName::get_BuiltInWhitespaceFacet()
 extern void Datatype_QName_get_BuiltInWhitespaceFacet_m87956B0CC14A8CDF745BF8808BEC65DE1DB13A36 (void);
-// 0x0000070C System.Exception System.Xml.Schema.Datatype_QName::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000070D System.Exception System.Xml.Schema.Datatype_QName::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_QName_TryParseValue_mA77F3168C35B6EE0C8B1E2B5EA2D69F4EFFB665E (void);
-// 0x0000070D System.Void System.Xml.Schema.Datatype_QName::.ctor()
+// 0x0000070E System.Void System.Xml.Schema.Datatype_QName::.ctor()
 extern void Datatype_QName__ctor_m340B0C9EA27478D5902695C25DBB0A3C0F50B880 (void);
-// 0x0000070E System.Void System.Xml.Schema.Datatype_QName::.cctor()
+// 0x0000070F System.Void System.Xml.Schema.Datatype_QName::.cctor()
 extern void Datatype_QName__cctor_m73C3D4269F8D85E9EC6F74DBA4CF15B19C6A026C (void);
-// 0x0000070F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_normalizedString::get_TypeCode()
+// 0x00000710 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_normalizedString::get_TypeCode()
 extern void Datatype_normalizedString_get_TypeCode_m4D1DB0E41649683CA7AB3F0605E7BF4F0167403B (void);
-// 0x00000710 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_normalizedString::get_BuiltInWhitespaceFacet()
+// 0x00000711 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_normalizedString::get_BuiltInWhitespaceFacet()
 extern void Datatype_normalizedString_get_BuiltInWhitespaceFacet_m1B9CDFD96EB7EEF9BDF91B220CA902BCBF54451F (void);
-// 0x00000711 System.Void System.Xml.Schema.Datatype_normalizedString::.ctor()
+// 0x00000712 System.Void System.Xml.Schema.Datatype_normalizedString::.ctor()
 extern void Datatype_normalizedString__ctor_m1D9A635B6320FEC029B6D31227BE8B20DA58587B (void);
-// 0x00000712 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_normalizedStringV1Compat::get_TypeCode()
+// 0x00000713 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_normalizedStringV1Compat::get_TypeCode()
 extern void Datatype_normalizedStringV1Compat_get_TypeCode_m9CB6D17464E77DA3FC8351ED57F78910A2E9DEE7 (void);
-// 0x00000713 System.Void System.Xml.Schema.Datatype_normalizedStringV1Compat::.ctor()
+// 0x00000714 System.Void System.Xml.Schema.Datatype_normalizedStringV1Compat::.ctor()
 extern void Datatype_normalizedStringV1Compat__ctor_mB85C1B991419CCCB55358705130735DCCF491246 (void);
-// 0x00000714 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_token::get_TypeCode()
+// 0x00000715 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_token::get_TypeCode()
 extern void Datatype_token_get_TypeCode_mE9488950B2EF6A943AAEC58BA6527E0352E42919 (void);
-// 0x00000715 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_token::get_BuiltInWhitespaceFacet()
+// 0x00000716 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_token::get_BuiltInWhitespaceFacet()
 extern void Datatype_token_get_BuiltInWhitespaceFacet_m35C49C828693B2C2BC617A41BE187D1845C5B08A (void);
-// 0x00000716 System.Void System.Xml.Schema.Datatype_token::.ctor()
+// 0x00000717 System.Void System.Xml.Schema.Datatype_token::.ctor()
 extern void Datatype_token__ctor_mED6C155D1F49049D6720D932829361E3C28DDD0B (void);
-// 0x00000717 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_tokenV1Compat::get_TypeCode()
+// 0x00000718 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_tokenV1Compat::get_TypeCode()
 extern void Datatype_tokenV1Compat_get_TypeCode_m9E2BF4FF695A83E92F37831EB45DD6AE88C62BE1 (void);
-// 0x00000718 System.Void System.Xml.Schema.Datatype_tokenV1Compat::.ctor()
+// 0x00000719 System.Void System.Xml.Schema.Datatype_tokenV1Compat::.ctor()
 extern void Datatype_tokenV1Compat__ctor_mFD46C703B3B0E7BFF40F92A71BE1DE1FB2DEE864 (void);
-// 0x00000719 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_language::get_TypeCode()
+// 0x0000071A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_language::get_TypeCode()
 extern void Datatype_language_get_TypeCode_mDD6065BE6BCEC5F80054499797FA26527712971E (void);
-// 0x0000071A System.Void System.Xml.Schema.Datatype_language::.ctor()
+// 0x0000071B System.Void System.Xml.Schema.Datatype_language::.ctor()
 extern void Datatype_language__ctor_m1EDBEF5266886217B52EB454BFFCB1846345466F (void);
-// 0x0000071B System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NMTOKEN::get_TypeCode()
+// 0x0000071C System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NMTOKEN::get_TypeCode()
 extern void Datatype_NMTOKEN_get_TypeCode_m0FDC711C65DD8C9D45DFFEEEC35BF83128EE06BC (void);
-// 0x0000071C System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_NMTOKEN::get_TokenizedType()
+// 0x0000071D System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_NMTOKEN::get_TokenizedType()
 extern void Datatype_NMTOKEN_get_TokenizedType_m87D4B452FDE3829F1EE914B46B0457141B2ABBB4 (void);
-// 0x0000071D System.Void System.Xml.Schema.Datatype_NMTOKEN::.ctor()
+// 0x0000071E System.Void System.Xml.Schema.Datatype_NMTOKEN::.ctor()
 extern void Datatype_NMTOKEN__ctor_m5E28C341E2FAFC1A749E6334D19D2B0B6F5CC71B (void);
-// 0x0000071E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_Name::get_TypeCode()
+// 0x0000071F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_Name::get_TypeCode()
 extern void Datatype_Name_get_TypeCode_mDD44AEE92A69F0D958C27DDAB358965979A30FF5 (void);
-// 0x0000071F System.Void System.Xml.Schema.Datatype_Name::.ctor()
+// 0x00000720 System.Void System.Xml.Schema.Datatype_Name::.ctor()
 extern void Datatype_Name__ctor_mED45B4D466E78523E5C9D4901107E1402D6A60B8 (void);
-// 0x00000720 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NCName::get_TypeCode()
+// 0x00000721 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NCName::get_TypeCode()
 extern void Datatype_NCName_get_TypeCode_m52C14A449C88A74AC95005F63D258F0CEE3F91C5 (void);
-// 0x00000721 System.Exception System.Xml.Schema.Datatype_NCName::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000722 System.Exception System.Xml.Schema.Datatype_NCName::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_NCName_TryParseValue_m55D395ACB16B0A15A9BFFCBA08DEC2A3F84372F5 (void);
-// 0x00000722 System.Void System.Xml.Schema.Datatype_NCName::.ctor()
+// 0x00000723 System.Void System.Xml.Schema.Datatype_NCName::.ctor()
 extern void Datatype_NCName__ctor_m9D087A14A0E872BE05836A65CA3D2B4936206FC7 (void);
-// 0x00000723 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_ID::get_TypeCode()
+// 0x00000724 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_ID::get_TypeCode()
 extern void Datatype_ID_get_TypeCode_m3D96093766FA74A1ED3CCE317FE5E00DDCA8D8E1 (void);
-// 0x00000724 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ID::get_TokenizedType()
+// 0x00000725 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ID::get_TokenizedType()
 extern void Datatype_ID_get_TokenizedType_mB326B17E36E118BE98271324FD094466069020E2 (void);
-// 0x00000725 System.Void System.Xml.Schema.Datatype_ID::.ctor()
+// 0x00000726 System.Void System.Xml.Schema.Datatype_ID::.ctor()
 extern void Datatype_ID__ctor_m69496A445E62C816BC091CD41BAF74AC7F68AE00 (void);
-// 0x00000726 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_IDREF::get_TypeCode()
+// 0x00000727 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_IDREF::get_TypeCode()
 extern void Datatype_IDREF_get_TypeCode_mCC13CF1B39DB5CEEDB8B35A5FB92D286B62271E2 (void);
-// 0x00000727 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_IDREF::get_TokenizedType()
+// 0x00000728 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_IDREF::get_TokenizedType()
 extern void Datatype_IDREF_get_TokenizedType_m448B9C5D99CFA7E184B17ECA95B7597FBA3DED7A (void);
-// 0x00000728 System.Void System.Xml.Schema.Datatype_IDREF::.ctor()
+// 0x00000729 System.Void System.Xml.Schema.Datatype_IDREF::.ctor()
 extern void Datatype_IDREF__ctor_mDDD9C50F887DA8FFBB161DDF45986A10138249BE (void);
-// 0x00000729 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_ENTITY::get_TypeCode()
+// 0x0000072A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_ENTITY::get_TypeCode()
 extern void Datatype_ENTITY_get_TypeCode_m7D54D8DF1CE07E1929806687ACA76868AB9D0DEE (void);
-// 0x0000072A System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ENTITY::get_TokenizedType()
+// 0x0000072B System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ENTITY::get_TokenizedType()
 extern void Datatype_ENTITY_get_TokenizedType_mA85D51131B32AD19791624144FF7BAA76F2A7659 (void);
-// 0x0000072B System.Void System.Xml.Schema.Datatype_ENTITY::.ctor()
+// 0x0000072C System.Void System.Xml.Schema.Datatype_ENTITY::.ctor()
 extern void Datatype_ENTITY__ctor_mD85AFD27029408839B6041B83E3626754FF6E36D (void);
-// 0x0000072C System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_NOTATION::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
+// 0x0000072D System.Xml.Schema.XmlValueConverter System.Xml.Schema.Datatype_NOTATION::CreateValueConverter(System.Xml.Schema.XmlSchemaType)
 extern void Datatype_NOTATION_CreateValueConverter_m577467FDFB08583E7D97D5045A141C020120CCFF (void);
-// 0x0000072D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_NOTATION::get_FacetsChecker()
+// 0x0000072E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_NOTATION::get_FacetsChecker()
 extern void Datatype_NOTATION_get_FacetsChecker_m0C8043BE6447AB8197ADAAEF8D64EE363E9AFFB5 (void);
-// 0x0000072E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NOTATION::get_TypeCode()
+// 0x0000072F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_NOTATION::get_TypeCode()
 extern void Datatype_NOTATION_get_TypeCode_m453EC3A7659B34F4839E6C516E7D8FD07770E7E3 (void);
-// 0x0000072F System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_NOTATION::get_TokenizedType()
+// 0x00000730 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_NOTATION::get_TokenizedType()
 extern void Datatype_NOTATION_get_TokenizedType_m988A7D0815C80276B0A51A2E055BAAAD120B3D05 (void);
-// 0x00000730 System.Type System.Xml.Schema.Datatype_NOTATION::get_ValueType()
+// 0x00000731 System.Type System.Xml.Schema.Datatype_NOTATION::get_ValueType()
 extern void Datatype_NOTATION_get_ValueType_m3674B70766006860248F92967796DCD154789140 (void);
-// 0x00000731 System.Type System.Xml.Schema.Datatype_NOTATION::get_ListValueType()
+// 0x00000732 System.Type System.Xml.Schema.Datatype_NOTATION::get_ListValueType()
 extern void Datatype_NOTATION_get_ListValueType_mA68F661F948FCC7C5C33B51DAA4C64409E211722 (void);
-// 0x00000732 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_NOTATION::get_BuiltInWhitespaceFacet()
+// 0x00000733 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.Datatype_NOTATION::get_BuiltInWhitespaceFacet()
 extern void Datatype_NOTATION_get_BuiltInWhitespaceFacet_m7B3EE5456AAD1EAE75FD5A7AC0D698A64F56E362 (void);
-// 0x00000733 System.Exception System.Xml.Schema.Datatype_NOTATION::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000734 System.Exception System.Xml.Schema.Datatype_NOTATION::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_NOTATION_TryParseValue_m275886A61B26432F70B23EFC3E1BFC3B9D55EE69 (void);
-// 0x00000734 System.Void System.Xml.Schema.Datatype_NOTATION::.ctor()
+// 0x00000735 System.Void System.Xml.Schema.Datatype_NOTATION::.ctor()
 extern void Datatype_NOTATION__ctor_mEA8D8E03F42F7C89B224FA719624755DF22B22D1 (void);
-// 0x00000735 System.Void System.Xml.Schema.Datatype_NOTATION::.cctor()
+// 0x00000736 System.Void System.Xml.Schema.Datatype_NOTATION::.cctor()
 extern void Datatype_NOTATION__cctor_mED37DE15BE59F3C7F07CEA918489969F2B3EE3B3 (void);
-// 0x00000736 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_integer::get_TypeCode()
+// 0x00000737 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_integer::get_TypeCode()
 extern void Datatype_integer_get_TypeCode_mEA45FB6BBD02C882B067218D915F0D27C3AB6178 (void);
-// 0x00000737 System.Exception System.Xml.Schema.Datatype_integer::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000738 System.Exception System.Xml.Schema.Datatype_integer::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_integer_TryParseValue_m4302F24BAF2AA60E2D0E9A4EBB32A5AC3CD6AE52 (void);
-// 0x00000738 System.Void System.Xml.Schema.Datatype_integer::.ctor()
+// 0x00000739 System.Void System.Xml.Schema.Datatype_integer::.ctor()
 extern void Datatype_integer__ctor_mEC03888DB53F0044C88E710EAD169737CE17BD08 (void);
-// 0x00000739 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_nonPositiveInteger::get_FacetsChecker()
+// 0x0000073A System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_nonPositiveInteger::get_FacetsChecker()
 extern void Datatype_nonPositiveInteger_get_FacetsChecker_mF1EE7038A02F482EFD3406C5F13FDDD5EBC41A8F (void);
-// 0x0000073A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_nonPositiveInteger::get_TypeCode()
+// 0x0000073B System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_nonPositiveInteger::get_TypeCode()
 extern void Datatype_nonPositiveInteger_get_TypeCode_m20FB0AC7DA693ABBC3252B0CBAEC06DCBFFE9D72 (void);
-// 0x0000073B System.Void System.Xml.Schema.Datatype_nonPositiveInteger::.ctor()
+// 0x0000073C System.Void System.Xml.Schema.Datatype_nonPositiveInteger::.ctor()
 extern void Datatype_nonPositiveInteger__ctor_mB8B32A6979C64620ACE154700D5D9531937398B8 (void);
-// 0x0000073C System.Void System.Xml.Schema.Datatype_nonPositiveInteger::.cctor()
+// 0x0000073D System.Void System.Xml.Schema.Datatype_nonPositiveInteger::.cctor()
 extern void Datatype_nonPositiveInteger__cctor_mAC29DBCEB3CC5937773D86B361C707B897D49956 (void);
-// 0x0000073D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_negativeInteger::get_FacetsChecker()
+// 0x0000073E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_negativeInteger::get_FacetsChecker()
 extern void Datatype_negativeInteger_get_FacetsChecker_m31EF2B0B8444911A7E43EA4BD8606C664D852556 (void);
-// 0x0000073E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_negativeInteger::get_TypeCode()
+// 0x0000073F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_negativeInteger::get_TypeCode()
 extern void Datatype_negativeInteger_get_TypeCode_mF30B9757C11B83396BD93C8D31179D61F537E180 (void);
-// 0x0000073F System.Void System.Xml.Schema.Datatype_negativeInteger::.ctor()
+// 0x00000740 System.Void System.Xml.Schema.Datatype_negativeInteger::.ctor()
 extern void Datatype_negativeInteger__ctor_mEB0CFEA8DE9013CDE4CAD03ADAD742929D829458 (void);
-// 0x00000740 System.Void System.Xml.Schema.Datatype_negativeInteger::.cctor()
+// 0x00000741 System.Void System.Xml.Schema.Datatype_negativeInteger::.cctor()
 extern void Datatype_negativeInteger__cctor_m3A28538387B50808A5C9DF658E70BEF5172B4E81 (void);
-// 0x00000741 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_long::get_FacetsChecker()
+// 0x00000742 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_long::get_FacetsChecker()
 extern void Datatype_long_get_FacetsChecker_m2E076F75221C23C07C87E3B4E5EA33A78A072C86 (void);
-// 0x00000742 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_long::get_TypeCode()
+// 0x00000743 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_long::get_TypeCode()
 extern void Datatype_long_get_TypeCode_m1E446F2564E27D795427DFFE62590E01CD5533DA (void);
-// 0x00000743 System.Int32 System.Xml.Schema.Datatype_long::Compare(System.Object,System.Object)
+// 0x00000744 System.Int32 System.Xml.Schema.Datatype_long::Compare(System.Object,System.Object)
 extern void Datatype_long_Compare_mF72F6C16C197DED90ED71AAD1FCC6762FD8CEF3F (void);
-// 0x00000744 System.Type System.Xml.Schema.Datatype_long::get_ValueType()
+// 0x00000745 System.Type System.Xml.Schema.Datatype_long::get_ValueType()
 extern void Datatype_long_get_ValueType_mB3758E7DC5FD1AD750982FA674955691A65B3CB5 (void);
-// 0x00000745 System.Type System.Xml.Schema.Datatype_long::get_ListValueType()
+// 0x00000746 System.Type System.Xml.Schema.Datatype_long::get_ListValueType()
 extern void Datatype_long_get_ListValueType_mA49587B3BCAE903FAD4A58C185BD54727B02DBA8 (void);
-// 0x00000746 System.Exception System.Xml.Schema.Datatype_long::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000747 System.Exception System.Xml.Schema.Datatype_long::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_long_TryParseValue_m16F463A4DBF1ECC524F572A6763E9E0BC7124691 (void);
-// 0x00000747 System.Void System.Xml.Schema.Datatype_long::.ctor()
+// 0x00000748 System.Void System.Xml.Schema.Datatype_long::.ctor()
 extern void Datatype_long__ctor_mE196A820820D9B259D6369FDFDF1F0C6319301E5 (void);
-// 0x00000748 System.Void System.Xml.Schema.Datatype_long::.cctor()
+// 0x00000749 System.Void System.Xml.Schema.Datatype_long::.cctor()
 extern void Datatype_long__cctor_m1C2FD6B663BA820197DEC572598E8D2724CEF26A (void);
-// 0x00000749 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_int::get_FacetsChecker()
+// 0x0000074A System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_int::get_FacetsChecker()
 extern void Datatype_int_get_FacetsChecker_m379802A6FB55A993E033246066BA632638EE2C2B (void);
-// 0x0000074A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_int::get_TypeCode()
+// 0x0000074B System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_int::get_TypeCode()
 extern void Datatype_int_get_TypeCode_m58EFE6BD87137417D26C19044DFCC3B50B4ECB10 (void);
-// 0x0000074B System.Int32 System.Xml.Schema.Datatype_int::Compare(System.Object,System.Object)
+// 0x0000074C System.Int32 System.Xml.Schema.Datatype_int::Compare(System.Object,System.Object)
 extern void Datatype_int_Compare_mF7ACEE35B60F92B90F47A8F40955666947B1F57B (void);
-// 0x0000074C System.Type System.Xml.Schema.Datatype_int::get_ValueType()
+// 0x0000074D System.Type System.Xml.Schema.Datatype_int::get_ValueType()
 extern void Datatype_int_get_ValueType_mB791061D3F808F7D5710C2B6C077C8549B81B65C (void);
-// 0x0000074D System.Type System.Xml.Schema.Datatype_int::get_ListValueType()
+// 0x0000074E System.Type System.Xml.Schema.Datatype_int::get_ListValueType()
 extern void Datatype_int_get_ListValueType_m04654419C62DCC26809725F48BB5068171C158E7 (void);
-// 0x0000074E System.Exception System.Xml.Schema.Datatype_int::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000074F System.Exception System.Xml.Schema.Datatype_int::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_int_TryParseValue_m57C6E6E6B26BADEED4FD647C35D9918625D0D983 (void);
-// 0x0000074F System.Void System.Xml.Schema.Datatype_int::.ctor()
+// 0x00000750 System.Void System.Xml.Schema.Datatype_int::.ctor()
 extern void Datatype_int__ctor_mEC9A6E1B6317F8FF29510E020856CBDC9BA9DE93 (void);
-// 0x00000750 System.Void System.Xml.Schema.Datatype_int::.cctor()
+// 0x00000751 System.Void System.Xml.Schema.Datatype_int::.cctor()
 extern void Datatype_int__cctor_m42D4EA61FE96BD130493422102C9616161360A2F (void);
-// 0x00000751 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_short::get_FacetsChecker()
+// 0x00000752 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_short::get_FacetsChecker()
 extern void Datatype_short_get_FacetsChecker_mEF72F2F73EA06067CECCA918D83B82512DED039D (void);
-// 0x00000752 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_short::get_TypeCode()
+// 0x00000753 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_short::get_TypeCode()
 extern void Datatype_short_get_TypeCode_m4C1CFCBB6B1D29BCFC7C7DC4B9C9FDA9DE241DA7 (void);
-// 0x00000753 System.Int32 System.Xml.Schema.Datatype_short::Compare(System.Object,System.Object)
+// 0x00000754 System.Int32 System.Xml.Schema.Datatype_short::Compare(System.Object,System.Object)
 extern void Datatype_short_Compare_mC456718DC856098E0E443E2EDCE6BAF2F7BD91BD (void);
-// 0x00000754 System.Type System.Xml.Schema.Datatype_short::get_ValueType()
+// 0x00000755 System.Type System.Xml.Schema.Datatype_short::get_ValueType()
 extern void Datatype_short_get_ValueType_mA5DB9927B0A39EDADC45F3D2038914E934C97D70 (void);
-// 0x00000755 System.Type System.Xml.Schema.Datatype_short::get_ListValueType()
+// 0x00000756 System.Type System.Xml.Schema.Datatype_short::get_ListValueType()
 extern void Datatype_short_get_ListValueType_mB86F996A271ED0C0027B7EE83357780AF22FCD90 (void);
-// 0x00000756 System.Exception System.Xml.Schema.Datatype_short::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000757 System.Exception System.Xml.Schema.Datatype_short::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_short_TryParseValue_m1F2ED70AACA92028467C644ACDD47E5A1D10EE6D (void);
-// 0x00000757 System.Void System.Xml.Schema.Datatype_short::.ctor()
+// 0x00000758 System.Void System.Xml.Schema.Datatype_short::.ctor()
 extern void Datatype_short__ctor_mE7C94EA79EC26D246F4DBC1741EA4E93876D8C31 (void);
-// 0x00000758 System.Void System.Xml.Schema.Datatype_short::.cctor()
+// 0x00000759 System.Void System.Xml.Schema.Datatype_short::.cctor()
 extern void Datatype_short__cctor_m7E471934E3FE0C5E1F2293B97081E362E1D2F9D5 (void);
-// 0x00000759 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_byte::get_FacetsChecker()
+// 0x0000075A System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_byte::get_FacetsChecker()
 extern void Datatype_byte_get_FacetsChecker_mFD613C50F10D138533F330E28DA19C8F6BF666C3 (void);
-// 0x0000075A System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_byte::get_TypeCode()
+// 0x0000075B System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_byte::get_TypeCode()
 extern void Datatype_byte_get_TypeCode_mB546F3CCB25B9280445E9314942E4DA2471C1785 (void);
-// 0x0000075B System.Int32 System.Xml.Schema.Datatype_byte::Compare(System.Object,System.Object)
+// 0x0000075C System.Int32 System.Xml.Schema.Datatype_byte::Compare(System.Object,System.Object)
 extern void Datatype_byte_Compare_m8D3D91DF62E8124B10CDC3654B7F320FA37E9332 (void);
-// 0x0000075C System.Type System.Xml.Schema.Datatype_byte::get_ValueType()
+// 0x0000075D System.Type System.Xml.Schema.Datatype_byte::get_ValueType()
 extern void Datatype_byte_get_ValueType_m6EBD02077F32DF83146BB419F502DEBF00B7C99C (void);
-// 0x0000075D System.Type System.Xml.Schema.Datatype_byte::get_ListValueType()
+// 0x0000075E System.Type System.Xml.Schema.Datatype_byte::get_ListValueType()
 extern void Datatype_byte_get_ListValueType_mF4CB867CD5EDD57E1A33CC593048C135CC9A12ED (void);
-// 0x0000075E System.Exception System.Xml.Schema.Datatype_byte::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000075F System.Exception System.Xml.Schema.Datatype_byte::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_byte_TryParseValue_mA899B5A188D6BA7458D8E84725502CC77AB6A9BD (void);
-// 0x0000075F System.Void System.Xml.Schema.Datatype_byte::.ctor()
+// 0x00000760 System.Void System.Xml.Schema.Datatype_byte::.ctor()
 extern void Datatype_byte__ctor_m075BBD8981D15BD3A37B7DD188D3C9C613900983 (void);
-// 0x00000760 System.Void System.Xml.Schema.Datatype_byte::.cctor()
+// 0x00000761 System.Void System.Xml.Schema.Datatype_byte::.cctor()
 extern void Datatype_byte__cctor_mE9A4EABC4C4993A569DCF01CAFB970A64B10754B (void);
-// 0x00000761 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_nonNegativeInteger::get_FacetsChecker()
+// 0x00000762 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_nonNegativeInteger::get_FacetsChecker()
 extern void Datatype_nonNegativeInteger_get_FacetsChecker_m3C13E3638FDDCABC07973E992D087BF2ABC134B3 (void);
-// 0x00000762 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_nonNegativeInteger::get_TypeCode()
+// 0x00000763 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_nonNegativeInteger::get_TypeCode()
 extern void Datatype_nonNegativeInteger_get_TypeCode_mD1BC900F113C3DFE36F5F398ECAC7FE24CE9B6EC (void);
-// 0x00000763 System.Void System.Xml.Schema.Datatype_nonNegativeInteger::.ctor()
+// 0x00000764 System.Void System.Xml.Schema.Datatype_nonNegativeInteger::.ctor()
 extern void Datatype_nonNegativeInteger__ctor_m63571814CC6B5332053E8CE0D3E8680F60DD446A (void);
-// 0x00000764 System.Void System.Xml.Schema.Datatype_nonNegativeInteger::.cctor()
+// 0x00000765 System.Void System.Xml.Schema.Datatype_nonNegativeInteger::.cctor()
 extern void Datatype_nonNegativeInteger__cctor_m7B83FE5DC723C81E467F2CC0FB2BE9102D97D410 (void);
-// 0x00000765 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedLong::get_FacetsChecker()
+// 0x00000766 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedLong::get_FacetsChecker()
 extern void Datatype_unsignedLong_get_FacetsChecker_m6B502C181033EC3985D10B9B92BE7542123A8006 (void);
-// 0x00000766 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedLong::get_TypeCode()
+// 0x00000767 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedLong::get_TypeCode()
 extern void Datatype_unsignedLong_get_TypeCode_mE4C7BE6BF4F3CF512BB0E6094DFB315C779F6DB5 (void);
-// 0x00000767 System.Int32 System.Xml.Schema.Datatype_unsignedLong::Compare(System.Object,System.Object)
+// 0x00000768 System.Int32 System.Xml.Schema.Datatype_unsignedLong::Compare(System.Object,System.Object)
 extern void Datatype_unsignedLong_Compare_m2DC53CBEAA1D4297CECC22BF109BCE82FAE7E093 (void);
-// 0x00000768 System.Type System.Xml.Schema.Datatype_unsignedLong::get_ValueType()
+// 0x00000769 System.Type System.Xml.Schema.Datatype_unsignedLong::get_ValueType()
 extern void Datatype_unsignedLong_get_ValueType_m03208024A36383FD152257FF9A0C534D77A34668 (void);
-// 0x00000769 System.Type System.Xml.Schema.Datatype_unsignedLong::get_ListValueType()
+// 0x0000076A System.Type System.Xml.Schema.Datatype_unsignedLong::get_ListValueType()
 extern void Datatype_unsignedLong_get_ListValueType_m09FD940F449F1550E25DC90018825F7892574DC6 (void);
-// 0x0000076A System.Exception System.Xml.Schema.Datatype_unsignedLong::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000076B System.Exception System.Xml.Schema.Datatype_unsignedLong::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_unsignedLong_TryParseValue_m7812AAB63567A4C3C06EFC756F0ABAB75B1FA9E9 (void);
-// 0x0000076B System.Void System.Xml.Schema.Datatype_unsignedLong::.ctor()
+// 0x0000076C System.Void System.Xml.Schema.Datatype_unsignedLong::.ctor()
 extern void Datatype_unsignedLong__ctor_m976F2CE060CC2BEB3F98E0CF058A50AABF9E1F98 (void);
-// 0x0000076C System.Void System.Xml.Schema.Datatype_unsignedLong::.cctor()
+// 0x0000076D System.Void System.Xml.Schema.Datatype_unsignedLong::.cctor()
 extern void Datatype_unsignedLong__cctor_mA4F1FF1DCD20D5A0095447F454FD3D00E0A4F956 (void);
-// 0x0000076D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedInt::get_FacetsChecker()
+// 0x0000076E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedInt::get_FacetsChecker()
 extern void Datatype_unsignedInt_get_FacetsChecker_m59D5AD2DC30B1AFA8266F58FA828DFD52296B73D (void);
-// 0x0000076E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedInt::get_TypeCode()
+// 0x0000076F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedInt::get_TypeCode()
 extern void Datatype_unsignedInt_get_TypeCode_m6B327C1F1799A2B693CF8E26793E5D77DF9F4E83 (void);
-// 0x0000076F System.Int32 System.Xml.Schema.Datatype_unsignedInt::Compare(System.Object,System.Object)
+// 0x00000770 System.Int32 System.Xml.Schema.Datatype_unsignedInt::Compare(System.Object,System.Object)
 extern void Datatype_unsignedInt_Compare_mB31B8522C81B06F7349B1BF70FE0F4A352AC0058 (void);
-// 0x00000770 System.Type System.Xml.Schema.Datatype_unsignedInt::get_ValueType()
+// 0x00000771 System.Type System.Xml.Schema.Datatype_unsignedInt::get_ValueType()
 extern void Datatype_unsignedInt_get_ValueType_mA7D98C80501AA6E4C3DFA47DA724C1688EA9B1D4 (void);
-// 0x00000771 System.Type System.Xml.Schema.Datatype_unsignedInt::get_ListValueType()
+// 0x00000772 System.Type System.Xml.Schema.Datatype_unsignedInt::get_ListValueType()
 extern void Datatype_unsignedInt_get_ListValueType_m38C1763525A94547589631AC64CDBC27205B600D (void);
-// 0x00000772 System.Exception System.Xml.Schema.Datatype_unsignedInt::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000773 System.Exception System.Xml.Schema.Datatype_unsignedInt::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_unsignedInt_TryParseValue_mEBFFC88D71551C281FA9A2E74D0310580C69BC72 (void);
-// 0x00000773 System.Void System.Xml.Schema.Datatype_unsignedInt::.ctor()
+// 0x00000774 System.Void System.Xml.Schema.Datatype_unsignedInt::.ctor()
 extern void Datatype_unsignedInt__ctor_mC90D6E7C1E7DC4FBF34F0217021E37DF9E74F2C0 (void);
-// 0x00000774 System.Void System.Xml.Schema.Datatype_unsignedInt::.cctor()
+// 0x00000775 System.Void System.Xml.Schema.Datatype_unsignedInt::.cctor()
 extern void Datatype_unsignedInt__cctor_mFE74F931BF66B097181B661E96BA45AC69ED1521 (void);
-// 0x00000775 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedShort::get_FacetsChecker()
+// 0x00000776 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedShort::get_FacetsChecker()
 extern void Datatype_unsignedShort_get_FacetsChecker_mFBD40513D992E46DF94CEF1236FD80CF1BDA0B57 (void);
-// 0x00000776 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedShort::get_TypeCode()
+// 0x00000777 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedShort::get_TypeCode()
 extern void Datatype_unsignedShort_get_TypeCode_m79B03602263A42653B26AC8E4951081DAF1C41A0 (void);
-// 0x00000777 System.Int32 System.Xml.Schema.Datatype_unsignedShort::Compare(System.Object,System.Object)
+// 0x00000778 System.Int32 System.Xml.Schema.Datatype_unsignedShort::Compare(System.Object,System.Object)
 extern void Datatype_unsignedShort_Compare_m86A3E34C8C384E57774D987EB301219468A4916C (void);
-// 0x00000778 System.Type System.Xml.Schema.Datatype_unsignedShort::get_ValueType()
+// 0x00000779 System.Type System.Xml.Schema.Datatype_unsignedShort::get_ValueType()
 extern void Datatype_unsignedShort_get_ValueType_mE97BD769DCE5BE9D1C1FC9B7C389743CF8B9B0D1 (void);
-// 0x00000779 System.Type System.Xml.Schema.Datatype_unsignedShort::get_ListValueType()
+// 0x0000077A System.Type System.Xml.Schema.Datatype_unsignedShort::get_ListValueType()
 extern void Datatype_unsignedShort_get_ListValueType_m5599309B00DF2085C2DC60BB459144467CE5F8CB (void);
-// 0x0000077A System.Exception System.Xml.Schema.Datatype_unsignedShort::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000077B System.Exception System.Xml.Schema.Datatype_unsignedShort::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_unsignedShort_TryParseValue_m1BC1F75103D5F7048FE7E9CA49EC2211FA1278B6 (void);
-// 0x0000077B System.Void System.Xml.Schema.Datatype_unsignedShort::.ctor()
+// 0x0000077C System.Void System.Xml.Schema.Datatype_unsignedShort::.ctor()
 extern void Datatype_unsignedShort__ctor_mFFC2ACD21FCCBF9C8B73F5495F93BD86F7104DED (void);
-// 0x0000077C System.Void System.Xml.Schema.Datatype_unsignedShort::.cctor()
+// 0x0000077D System.Void System.Xml.Schema.Datatype_unsignedShort::.cctor()
 extern void Datatype_unsignedShort__cctor_mB117F09E4AE60B2F0268A7D2D328FB5777496DEE (void);
-// 0x0000077D System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedByte::get_FacetsChecker()
+// 0x0000077E System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_unsignedByte::get_FacetsChecker()
 extern void Datatype_unsignedByte_get_FacetsChecker_m0267FA5A9D6B650EEB805C77ABB898FF10A72ABB (void);
-// 0x0000077E System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedByte::get_TypeCode()
+// 0x0000077F System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_unsignedByte::get_TypeCode()
 extern void Datatype_unsignedByte_get_TypeCode_m578657A982EE9BAFC6B3AA4DED22CDFDBE44445C (void);
-// 0x0000077F System.Int32 System.Xml.Schema.Datatype_unsignedByte::Compare(System.Object,System.Object)
+// 0x00000780 System.Int32 System.Xml.Schema.Datatype_unsignedByte::Compare(System.Object,System.Object)
 extern void Datatype_unsignedByte_Compare_m39217E53C0C29F28CE84245C27C98D015CC3AB1B (void);
-// 0x00000780 System.Type System.Xml.Schema.Datatype_unsignedByte::get_ValueType()
+// 0x00000781 System.Type System.Xml.Schema.Datatype_unsignedByte::get_ValueType()
 extern void Datatype_unsignedByte_get_ValueType_mA17FE34EEDEA485FE8B846CE1476B89A1ADB8094 (void);
-// 0x00000781 System.Type System.Xml.Schema.Datatype_unsignedByte::get_ListValueType()
+// 0x00000782 System.Type System.Xml.Schema.Datatype_unsignedByte::get_ListValueType()
 extern void Datatype_unsignedByte_get_ListValueType_mC555BAB723923993AD93564AFA0FE0EB571886CC (void);
-// 0x00000782 System.Exception System.Xml.Schema.Datatype_unsignedByte::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x00000783 System.Exception System.Xml.Schema.Datatype_unsignedByte::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_unsignedByte_TryParseValue_m949E24321FA0CA9D9D81A710EB3B4C48C0560790 (void);
-// 0x00000783 System.Void System.Xml.Schema.Datatype_unsignedByte::.ctor()
+// 0x00000784 System.Void System.Xml.Schema.Datatype_unsignedByte::.ctor()
 extern void Datatype_unsignedByte__ctor_mB9E349C0DA62338B989815B193EDB7C24D6A89C0 (void);
-// 0x00000784 System.Void System.Xml.Schema.Datatype_unsignedByte::.cctor()
+// 0x00000785 System.Void System.Xml.Schema.Datatype_unsignedByte::.cctor()
 extern void Datatype_unsignedByte__cctor_m85A3AFD3084B2842C923A127A56E8FDF00C16D12 (void);
-// 0x00000785 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_positiveInteger::get_FacetsChecker()
+// 0x00000786 System.Xml.Schema.FacetsChecker System.Xml.Schema.Datatype_positiveInteger::get_FacetsChecker()
 extern void Datatype_positiveInteger_get_FacetsChecker_m696A77E867701A5AA872F048D12620C8FAE55489 (void);
-// 0x00000786 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_positiveInteger::get_TypeCode()
+// 0x00000787 System.Xml.Schema.XmlTypeCode System.Xml.Schema.Datatype_positiveInteger::get_TypeCode()
 extern void Datatype_positiveInteger_get_TypeCode_m0373CC72589D22ECDB8D1DC8AC513476F4D4B737 (void);
-// 0x00000787 System.Void System.Xml.Schema.Datatype_positiveInteger::.ctor()
+// 0x00000788 System.Void System.Xml.Schema.Datatype_positiveInteger::.ctor()
 extern void Datatype_positiveInteger__ctor_m9399743EBFC4E93AB6BAAF760916A631C7ED03CF (void);
-// 0x00000788 System.Void System.Xml.Schema.Datatype_positiveInteger::.cctor()
+// 0x00000789 System.Void System.Xml.Schema.Datatype_positiveInteger::.cctor()
 extern void Datatype_positiveInteger__cctor_m20234EE66EFEBE4BC6175C30400394E2356E3AE2 (void);
-// 0x00000789 System.Object System.Xml.Schema.Datatype_doubleXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x0000078A System.Object System.Xml.Schema.Datatype_doubleXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_doubleXdr_ParseValue_m4AA9B370A284D72960326426F93A7B74E34D6472 (void);
-// 0x0000078A System.Void System.Xml.Schema.Datatype_doubleXdr::.ctor()
+// 0x0000078B System.Void System.Xml.Schema.Datatype_doubleXdr::.ctor()
 extern void Datatype_doubleXdr__ctor_mCD2423C93DDA3404DEA11F465C3F30C74E390B54 (void);
-// 0x0000078B System.Object System.Xml.Schema.Datatype_floatXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x0000078C System.Object System.Xml.Schema.Datatype_floatXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_floatXdr_ParseValue_m3E96BEC8525BB4394AF28AABE87EE183FDEE2B93 (void);
-// 0x0000078C System.Void System.Xml.Schema.Datatype_floatXdr::.ctor()
+// 0x0000078D System.Void System.Xml.Schema.Datatype_floatXdr::.ctor()
 extern void Datatype_floatXdr__ctor_mBD66AF735C5F86B6E90E561A28F2B9BD9EF4727E (void);
-// 0x0000078D System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_QNameXdr::get_TokenizedType()
+// 0x0000078E System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_QNameXdr::get_TokenizedType()
 extern void Datatype_QNameXdr_get_TokenizedType_mEC2DCE9F58233EEA4A19AE557D2D748A760C2256 (void);
-// 0x0000078E System.Object System.Xml.Schema.Datatype_QNameXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x0000078F System.Object System.Xml.Schema.Datatype_QNameXdr::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_QNameXdr_ParseValue_m50B56A961D8924B4DBC60DBB4E029341AFDC5318 (void);
-// 0x0000078F System.Type System.Xml.Schema.Datatype_QNameXdr::get_ValueType()
+// 0x00000790 System.Type System.Xml.Schema.Datatype_QNameXdr::get_ValueType()
 extern void Datatype_QNameXdr_get_ValueType_m0D9D1384F67EFAF30D23B4A961D9A6CFB42ADB72 (void);
-// 0x00000790 System.Type System.Xml.Schema.Datatype_QNameXdr::get_ListValueType()
+// 0x00000791 System.Type System.Xml.Schema.Datatype_QNameXdr::get_ListValueType()
 extern void Datatype_QNameXdr_get_ListValueType_mB160D71AA00201BE9CA80FD087D1AB4BDA633012 (void);
-// 0x00000791 System.Void System.Xml.Schema.Datatype_QNameXdr::.ctor()
+// 0x00000792 System.Void System.Xml.Schema.Datatype_QNameXdr::.ctor()
 extern void Datatype_QNameXdr__ctor_m795523629427AF9F07C982888D20B6D97D695C66 (void);
-// 0x00000792 System.Void System.Xml.Schema.Datatype_QNameXdr::.cctor()
+// 0x00000793 System.Void System.Xml.Schema.Datatype_QNameXdr::.cctor()
 extern void Datatype_QNameXdr__cctor_m15D3F4017B2D691143A36D70B8D42B9C96689D57 (void);
-// 0x00000793 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ENUMERATION::get_TokenizedType()
+// 0x00000794 System.Xml.XmlTokenizedType System.Xml.Schema.Datatype_ENUMERATION::get_TokenizedType()
 extern void Datatype_ENUMERATION_get_TokenizedType_m58ECACDE6D83B247BDE477ADF1B852B67AC2D5EE (void);
-// 0x00000794 System.Void System.Xml.Schema.Datatype_ENUMERATION::.ctor()
+// 0x00000795 System.Void System.Xml.Schema.Datatype_ENUMERATION::.ctor()
 extern void Datatype_ENUMERATION__ctor_m27EBE5FFE454566DDBE00340F83E27C47884556A (void);
-// 0x00000795 System.Type System.Xml.Schema.Datatype_char::get_ValueType()
+// 0x00000796 System.Type System.Xml.Schema.Datatype_char::get_ValueType()
 extern void Datatype_char_get_ValueType_m32E1D6774AD7660F937A1336A6675AD40E068AAE (void);
-// 0x00000796 System.Type System.Xml.Schema.Datatype_char::get_ListValueType()
+// 0x00000797 System.Type System.Xml.Schema.Datatype_char::get_ListValueType()
 extern void Datatype_char_get_ListValueType_m913BFB1E2F88E682EF5CDF991A0FC56084B2EEBA (void);
-// 0x00000797 System.Int32 System.Xml.Schema.Datatype_char::Compare(System.Object,System.Object)
+// 0x00000798 System.Int32 System.Xml.Schema.Datatype_char::Compare(System.Object,System.Object)
 extern void Datatype_char_Compare_mF1D7216D5822B9D9EE6BEC4DA6B6A831D57A71E5 (void);
-// 0x00000798 System.Object System.Xml.Schema.Datatype_char::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x00000799 System.Object System.Xml.Schema.Datatype_char::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_char_ParseValue_m88FDFFB8EF74E4B50558C95ED86E56CFFD162401 (void);
-// 0x00000799 System.Exception System.Xml.Schema.Datatype_char::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000079A System.Exception System.Xml.Schema.Datatype_char::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_char_TryParseValue_mC7E95E2BEC0AE4381CEF90E803BCC0E3385BE8FB (void);
-// 0x0000079A System.Void System.Xml.Schema.Datatype_char::.ctor()
+// 0x0000079B System.Void System.Xml.Schema.Datatype_char::.ctor()
 extern void Datatype_char__ctor_mC0CC560E3362C3CE4FE7E33D9902137ACEB3CCCC (void);
-// 0x0000079B System.Void System.Xml.Schema.Datatype_char::.cctor()
+// 0x0000079C System.Void System.Xml.Schema.Datatype_char::.cctor()
 extern void Datatype_char__cctor_mAD8381B274820DD51722AC376C76894F83855E02 (void);
-// 0x0000079C System.Object System.Xml.Schema.Datatype_fixed::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x0000079D System.Object System.Xml.Schema.Datatype_fixed::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_fixed_ParseValue_m86B4CE0F5B85B2C49DD7C863CEB9636C51874B87 (void);
-// 0x0000079D System.Exception System.Xml.Schema.Datatype_fixed::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x0000079E System.Exception System.Xml.Schema.Datatype_fixed::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_fixed_TryParseValue_mD3F309E2192D5843AD34C4A31357483968A79815 (void);
-// 0x0000079E System.Void System.Xml.Schema.Datatype_fixed::.ctor()
+// 0x0000079F System.Void System.Xml.Schema.Datatype_fixed::.ctor()
 extern void Datatype_fixed__ctor_m17A48E1CDFF4FF96FB77006A9CDC600914CA0B67 (void);
-// 0x0000079F System.Type System.Xml.Schema.Datatype_uuid::get_ValueType()
+// 0x000007A0 System.Type System.Xml.Schema.Datatype_uuid::get_ValueType()
 extern void Datatype_uuid_get_ValueType_m60DDA223ED83617463E65FD832E1AD1B1B011C33 (void);
-// 0x000007A0 System.Type System.Xml.Schema.Datatype_uuid::get_ListValueType()
+// 0x000007A1 System.Type System.Xml.Schema.Datatype_uuid::get_ListValueType()
 extern void Datatype_uuid_get_ListValueType_m54691F15D604B0D0792AC6960C82A233C7F55E87 (void);
-// 0x000007A1 System.Int32 System.Xml.Schema.Datatype_uuid::Compare(System.Object,System.Object)
+// 0x000007A2 System.Int32 System.Xml.Schema.Datatype_uuid::Compare(System.Object,System.Object)
 extern void Datatype_uuid_Compare_m5441E172CD5F392EC8B913E748B18466AFDE55BC (void);
-// 0x000007A2 System.Object System.Xml.Schema.Datatype_uuid::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x000007A3 System.Object System.Xml.Schema.Datatype_uuid::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
 extern void Datatype_uuid_ParseValue_m1CBF7DD86DEE8976B670E15AE6B2F4FAE6ABC333 (void);
-// 0x000007A3 System.Exception System.Xml.Schema.Datatype_uuid::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000007A4 System.Exception System.Xml.Schema.Datatype_uuid::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
 extern void Datatype_uuid_TryParseValue_mE855E6ACD676170199A9EC4FA0B45FBB721D667E (void);
-// 0x000007A4 System.Void System.Xml.Schema.Datatype_uuid::.ctor()
+// 0x000007A5 System.Void System.Xml.Schema.Datatype_uuid::.ctor()
 extern void Datatype_uuid__ctor_m6E46A79ABC8A7FE5D59A95C7DECD60CD9C23649F (void);
-// 0x000007A5 System.Void System.Xml.Schema.Datatype_uuid::.cctor()
+// 0x000007A6 System.Void System.Xml.Schema.Datatype_uuid::.cctor()
 extern void Datatype_uuid__cctor_m2A4DC5FF6011119B597279F50A0815F234CFB1E8 (void);
-// 0x000007A6 System.Void System.Xml.Schema.DtdValidator::SetDefaultTypedValue(System.Xml.Schema.SchemaAttDef,System.Xml.IDtdParserAdapter)
+// 0x000007A7 System.Void System.Xml.Schema.DtdValidator::SetDefaultTypedValue(System.Xml.Schema.SchemaAttDef,System.Xml.IDtdParserAdapter)
 extern void DtdValidator_SetDefaultTypedValue_m01168D78BF4E99F4682A6281ACE4CC6A018F4E25 (void);
-// 0x000007A7 System.Void System.Xml.Schema.DtdValidator::.cctor()
+// 0x000007A8 System.Void System.Xml.Schema.DtdValidator::.cctor()
 extern void DtdValidator__cctor_m795C31795FC4E80956D4F1280E340AF66C818AC0 (void);
-// 0x000007A8 System.String System.Xml.Schema.DtdValidator/NamespaceManager::LookupNamespace(System.String)
+// 0x000007A9 System.String System.Xml.Schema.DtdValidator/NamespaceManager::LookupNamespace(System.String)
 extern void NamespaceManager_LookupNamespace_m49F9D4AB9F6A8BA1C7F6CF2C809AF269D1D699DC (void);
-// 0x000007A9 System.Void System.Xml.Schema.DtdValidator/NamespaceManager::.ctor()
+// 0x000007AA System.Void System.Xml.Schema.DtdValidator/NamespaceManager::.ctor()
 extern void NamespaceManager__ctor_m9E35D31BAFC48B1E68DB6EA658F97D48EC32CBE3 (void);
-// 0x000007AA System.Exception System.Xml.Schema.FacetsChecker::CheckLexicalFacets(System.String&,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007AB System.Exception System.Xml.Schema.FacetsChecker::CheckLexicalFacets(System.String&,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckLexicalFacets_m5686FA73EFF45F0B27D662CC2E7DF0CDC34C0FC6 (void);
-// 0x000007AB System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007AC System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m662876E07B1EE019801A70D38AA6AED46C6299A6 (void);
-// 0x000007AC System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Decimal,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007AD System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Decimal,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_mC3F35ADB255A82042499CBC1CAC2D433B2B2121E (void);
-// 0x000007AD System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int64,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007AE System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int64,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m29680F36EDCE3922A6AF0D56533EFBF68B7AA8F3 (void);
-// 0x000007AE System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int32,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007AF System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int32,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m9C7412830631FEE84CED403B3F4C9CE4DBEB5575 (void);
-// 0x000007AF System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int16,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B0 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Int16,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m8958A31C2402C38F708A743CF286528255A4185C (void);
-// 0x000007B0 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.DateTime,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B1 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.DateTime,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m9BE44DFDD2888C26A9EF07967EA662CBC0839680 (void);
-// 0x000007B1 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Double,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B2 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Double,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_mC3605A3090860850F57D7BBB7D5B09FE13507B15 (void);
-// 0x000007B2 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Single,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B3 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Single,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_mA4AC0E4F7AAC91B5F8A84CF6360DA49E0658F9C5 (void);
-// 0x000007B3 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B4 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_mB1787DCA21A651B9A18E3FECEEC6710EE5FD561A (void);
-// 0x000007B4 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Byte[],System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B5 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Byte[],System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m559F8F88C2F4732F774C8D4385C71D8F51617605 (void);
-// 0x000007B5 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.TimeSpan,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B6 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.TimeSpan,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_m848E5E295D52A8E5F7C7A042B5B6729EB10CF1A7 (void);
-// 0x000007B6 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B7 System.Exception System.Xml.Schema.FacetsChecker::CheckValueFacets(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckValueFacets_mFDBB028B28C431C13EAE4CBBA46CF31DC332417A (void);
-// 0x000007B7 System.Void System.Xml.Schema.FacetsChecker::CheckWhitespaceFacets(System.String&,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007B8 System.Void System.Xml.Schema.FacetsChecker::CheckWhitespaceFacets(System.String&,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_CheckWhitespaceFacets_mF4C52E695C89082BB62D3A8407D28A343A6F753B (void);
-// 0x000007B8 System.Exception System.Xml.Schema.FacetsChecker::CheckPatternFacets(System.Xml.Schema.RestrictionFacets,System.String)
+// 0x000007B9 System.Exception System.Xml.Schema.FacetsChecker::CheckPatternFacets(System.Xml.Schema.RestrictionFacets,System.String)
 extern void FacetsChecker_CheckPatternFacets_m13374C2B9B9288DCE1227A58966D57150C1A0DA5 (void);
-// 0x000007B9 System.Boolean System.Xml.Schema.FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007BA System.Boolean System.Xml.Schema.FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void FacetsChecker_MatchEnumeration_m4E84EC3BAC1A9E8E4DAB8DADA43A92AD8223D8FC (void);
-// 0x000007BA System.Decimal System.Xml.Schema.FacetsChecker::Power(System.Int32,System.Int32)
+// 0x000007BB System.Decimal System.Xml.Schema.FacetsChecker::Power(System.Int32,System.Int32)
 extern void FacetsChecker_Power_m1257C504DBE26010B0234F90BB1EC9CD96BA2DD5 (void);
-// 0x000007BB System.Void System.Xml.Schema.FacetsChecker::.ctor()
+// 0x000007BC System.Void System.Xml.Schema.FacetsChecker::.ctor()
 extern void FacetsChecker__ctor_mEAF772426C3450A0791D1C46893125A9D86155B8 (void);
-// 0x000007BC System.Void System.Xml.Schema.Numeric10FacetsChecker::.ctor(System.Decimal,System.Decimal)
+// 0x000007BD System.Void System.Xml.Schema.Numeric10FacetsChecker::.ctor(System.Decimal,System.Decimal)
 extern void Numeric10FacetsChecker__ctor_mAC68FB10F4410FCE23B0E6D469B94C4C47F6DD78 (void);
-// 0x000007BD System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007BE System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_CheckValueFacets_m6282D28EFD9734DA5E634F05C3E0CA90CF00CDFF (void);
-// 0x000007BE System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Decimal,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007BF System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Decimal,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_CheckValueFacets_m75B12419E673342A749E1A99496CAB439AACD1B0 (void);
-// 0x000007BF System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int64,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C0 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int64,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_CheckValueFacets_mD9EACC32C9859B5AB85AC795B0576B2F63EFB8A5 (void);
-// 0x000007C0 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int32,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C1 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int32,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_CheckValueFacets_m9AA64357151682FBBA4A5A0E7FBD636D28489F42 (void);
-// 0x000007C1 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int16,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C2 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckValueFacets(System.Int16,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_CheckValueFacets_m092159DB2D91D07FBFD46CFDD64F68B40B7E9691 (void);
-// 0x000007C2 System.Boolean System.Xml.Schema.Numeric10FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C3 System.Boolean System.Xml.Schema.Numeric10FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric10FacetsChecker_MatchEnumeration_m3571C9007D515C2B7355935FAEEB28724B769936 (void);
-// 0x000007C3 System.Boolean System.Xml.Schema.Numeric10FacetsChecker::MatchEnumeration(System.Decimal,System.Collections.ArrayList,System.Xml.Schema.XmlValueConverter)
+// 0x000007C4 System.Boolean System.Xml.Schema.Numeric10FacetsChecker::MatchEnumeration(System.Decimal,System.Collections.ArrayList,System.Xml.Schema.XmlValueConverter)
 extern void Numeric10FacetsChecker_MatchEnumeration_m360473DC822873BBBA34F333B63813B3E6055FA0 (void);
-// 0x000007C4 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckTotalAndFractionDigits(System.Decimal,System.Int32,System.Int32,System.Boolean,System.Boolean)
+// 0x000007C5 System.Exception System.Xml.Schema.Numeric10FacetsChecker::CheckTotalAndFractionDigits(System.Decimal,System.Int32,System.Int32,System.Boolean,System.Boolean)
 extern void Numeric10FacetsChecker_CheckTotalAndFractionDigits_m3D779F70AA7CE7881B4D69F145F7AE9C61CB097F (void);
-// 0x000007C5 System.Void System.Xml.Schema.Numeric10FacetsChecker::.cctor()
+// 0x000007C6 System.Void System.Xml.Schema.Numeric10FacetsChecker::.cctor()
 extern void Numeric10FacetsChecker__cctor_m31FB85CF5B69661F9A5E89DA9704CD67D9550D28 (void);
-// 0x000007C6 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C7 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric2FacetsChecker_CheckValueFacets_mD4DD9678834E21AAEEEF9B7B7960FF3474EF2BAC (void);
-// 0x000007C7 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Double,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C8 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Double,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric2FacetsChecker_CheckValueFacets_m27978F7B8EF00272E59944E8FF4E5DED20291741 (void);
-// 0x000007C8 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Single,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007C9 System.Exception System.Xml.Schema.Numeric2FacetsChecker::CheckValueFacets(System.Single,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric2FacetsChecker_CheckValueFacets_m8CE497FC008D33C1ABE2DE8903F9E974B49FF265 (void);
-// 0x000007C9 System.Boolean System.Xml.Schema.Numeric2FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007CA System.Boolean System.Xml.Schema.Numeric2FacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void Numeric2FacetsChecker_MatchEnumeration_mBB696C98207FDF5C6684CB3ABBCFA4AC6D0F6A4B (void);
-// 0x000007CA System.Boolean System.Xml.Schema.Numeric2FacetsChecker::MatchEnumeration(System.Double,System.Collections.ArrayList,System.Xml.Schema.XmlValueConverter)
+// 0x000007CB System.Boolean System.Xml.Schema.Numeric2FacetsChecker::MatchEnumeration(System.Double,System.Collections.ArrayList,System.Xml.Schema.XmlValueConverter)
 extern void Numeric2FacetsChecker_MatchEnumeration_m20DADCEDB719B96CBCC78CB2A95A9EC4F1480DBD (void);
-// 0x000007CB System.Void System.Xml.Schema.Numeric2FacetsChecker::.ctor()
+// 0x000007CC System.Void System.Xml.Schema.Numeric2FacetsChecker::.ctor()
 extern void Numeric2FacetsChecker__ctor_mA1163C8BC47DA2F92E07B070708C3FBA4622AB47 (void);
-// 0x000007CC System.Exception System.Xml.Schema.DurationFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007CD System.Exception System.Xml.Schema.DurationFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void DurationFacetsChecker_CheckValueFacets_m2846D467AE27D81FD01FC9FD33CDD5D3141DE81B (void);
-// 0x000007CD System.Exception System.Xml.Schema.DurationFacetsChecker::CheckValueFacets(System.TimeSpan,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007CE System.Exception System.Xml.Schema.DurationFacetsChecker::CheckValueFacets(System.TimeSpan,System.Xml.Schema.XmlSchemaDatatype)
 extern void DurationFacetsChecker_CheckValueFacets_m25C7A3318B811298F08F954F736B02C63840100C (void);
-// 0x000007CE System.Boolean System.Xml.Schema.DurationFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007CF System.Boolean System.Xml.Schema.DurationFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void DurationFacetsChecker_MatchEnumeration_m8ED6479143F3744AA1EE522C27A74AF2D9A1EFCB (void);
-// 0x000007CF System.Boolean System.Xml.Schema.DurationFacetsChecker::MatchEnumeration(System.TimeSpan,System.Collections.ArrayList)
+// 0x000007D0 System.Boolean System.Xml.Schema.DurationFacetsChecker::MatchEnumeration(System.TimeSpan,System.Collections.ArrayList)
 extern void DurationFacetsChecker_MatchEnumeration_mBA6D228A0E38ED291BE77CFB25E99C7F7C0522AF (void);
-// 0x000007D0 System.Void System.Xml.Schema.DurationFacetsChecker::.ctor()
+// 0x000007D1 System.Void System.Xml.Schema.DurationFacetsChecker::.ctor()
 extern void DurationFacetsChecker__ctor_mD485B2B6687EFF58D468200020D5D04E2E835EAD (void);
-// 0x000007D1 System.Exception System.Xml.Schema.DateTimeFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D2 System.Exception System.Xml.Schema.DateTimeFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void DateTimeFacetsChecker_CheckValueFacets_mD923F951B3BB97B95545AFE9D3582DB70B236FC6 (void);
-// 0x000007D2 System.Exception System.Xml.Schema.DateTimeFacetsChecker::CheckValueFacets(System.DateTime,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D3 System.Exception System.Xml.Schema.DateTimeFacetsChecker::CheckValueFacets(System.DateTime,System.Xml.Schema.XmlSchemaDatatype)
 extern void DateTimeFacetsChecker_CheckValueFacets_m493F1649D764F7DD0E3F1DF29DBD98C1F1DCF6F5 (void);
-// 0x000007D3 System.Boolean System.Xml.Schema.DateTimeFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D4 System.Boolean System.Xml.Schema.DateTimeFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void DateTimeFacetsChecker_MatchEnumeration_m6FCF131B359DBE29916211CD9297326DE8A1BA79 (void);
-// 0x000007D4 System.Boolean System.Xml.Schema.DateTimeFacetsChecker::MatchEnumeration(System.DateTime,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D5 System.Boolean System.Xml.Schema.DateTimeFacetsChecker::MatchEnumeration(System.DateTime,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void DateTimeFacetsChecker_MatchEnumeration_mF6F87F9C172D2F3E3CACB633DAD8DD1A086C3178 (void);
-// 0x000007D5 System.Void System.Xml.Schema.DateTimeFacetsChecker::.ctor()
+// 0x000007D6 System.Void System.Xml.Schema.DateTimeFacetsChecker::.ctor()
 extern void DateTimeFacetsChecker__ctor_m922C3E644A10328D83AAE5C948FFB59AE3A7FD17 (void);
-// 0x000007D6 System.Text.RegularExpressions.Regex System.Xml.Schema.StringFacetsChecker::get_LanguagePattern()
+// 0x000007D7 System.Text.RegularExpressions.Regex System.Xml.Schema.StringFacetsChecker::get_LanguagePattern()
 extern void StringFacetsChecker_get_LanguagePattern_mDE03EDB2B8124EF683C142C859BABF9A6E7B6025 (void);
-// 0x000007D7 System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D8 System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void StringFacetsChecker_CheckValueFacets_m0C120AFE63E186329944BE882D5FE48D659B10E6 (void);
-// 0x000007D8 System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007D9 System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype)
 extern void StringFacetsChecker_CheckValueFacets_m03BE821DCCED2AB35B8E50F1F0108DDE2B8E1DAA (void);
-// 0x000007D9 System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype,System.Boolean)
+// 0x000007DA System.Exception System.Xml.Schema.StringFacetsChecker::CheckValueFacets(System.String,System.Xml.Schema.XmlSchemaDatatype,System.Boolean)
 extern void StringFacetsChecker_CheckValueFacets_m978AF3302F218DC458394425A0FE953A051EF99A (void);
-// 0x000007DA System.Boolean System.Xml.Schema.StringFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007DB System.Boolean System.Xml.Schema.StringFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void StringFacetsChecker_MatchEnumeration_mDEEBE338DFA26DD1E0F76E8A43DD2F14845E0D85 (void);
-// 0x000007DB System.Boolean System.Xml.Schema.StringFacetsChecker::MatchEnumeration(System.String,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007DC System.Boolean System.Xml.Schema.StringFacetsChecker::MatchEnumeration(System.String,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void StringFacetsChecker_MatchEnumeration_m8E33470277E47469AAD4D520EB6213C459F6C615 (void);
-// 0x000007DC System.Exception System.Xml.Schema.StringFacetsChecker::CheckBuiltInFacets(System.String,System.Xml.Schema.XmlTypeCode,System.Boolean)
+// 0x000007DD System.Exception System.Xml.Schema.StringFacetsChecker::CheckBuiltInFacets(System.String,System.Xml.Schema.XmlTypeCode,System.Boolean)
 extern void StringFacetsChecker_CheckBuiltInFacets_mF78F7DC85FF97080DEE49E9D459CB2D5BD13F7A1 (void);
-// 0x000007DD System.Void System.Xml.Schema.StringFacetsChecker::.ctor()
+// 0x000007DE System.Void System.Xml.Schema.StringFacetsChecker::.ctor()
 extern void StringFacetsChecker__ctor_mAB501526648F1BDE7637990490B57D1A7B3961C7 (void);
-// 0x000007DE System.Exception System.Xml.Schema.QNameFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007DF System.Exception System.Xml.Schema.QNameFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void QNameFacetsChecker_CheckValueFacets_m9E8A1AC7EC9288F82F7624C6FCAE7FE239FD61A8 (void);
-// 0x000007DF System.Exception System.Xml.Schema.QNameFacetsChecker::CheckValueFacets(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E0 System.Exception System.Xml.Schema.QNameFacetsChecker::CheckValueFacets(System.Xml.XmlQualifiedName,System.Xml.Schema.XmlSchemaDatatype)
 extern void QNameFacetsChecker_CheckValueFacets_m40CF7084A31341D693A3633BC8B60DA9A7193D21 (void);
-// 0x000007E0 System.Boolean System.Xml.Schema.QNameFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E1 System.Boolean System.Xml.Schema.QNameFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void QNameFacetsChecker_MatchEnumeration_mF816D9D07E612ED86DDABE311A39F2D666D1C7BA (void);
-// 0x000007E1 System.Boolean System.Xml.Schema.QNameFacetsChecker::MatchEnumeration(System.Xml.XmlQualifiedName,System.Collections.ArrayList)
+// 0x000007E2 System.Boolean System.Xml.Schema.QNameFacetsChecker::MatchEnumeration(System.Xml.XmlQualifiedName,System.Collections.ArrayList)
 extern void QNameFacetsChecker_MatchEnumeration_mAF55A812280836578DE85A1EBEEA023A0634410F (void);
-// 0x000007E2 System.Void System.Xml.Schema.QNameFacetsChecker::.ctor()
+// 0x000007E3 System.Void System.Xml.Schema.QNameFacetsChecker::.ctor()
 extern void QNameFacetsChecker__ctor_m4977F33483117921259454B1E5BA75491A606875 (void);
-// 0x000007E3 System.Void System.Xml.Schema.MiscFacetsChecker::.ctor()
+// 0x000007E4 System.Void System.Xml.Schema.MiscFacetsChecker::.ctor()
 extern void MiscFacetsChecker__ctor_m9C95E6B8ABCCDC1C687ADA081B5F0B6C90B8D032 (void);
-// 0x000007E4 System.Exception System.Xml.Schema.BinaryFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E5 System.Exception System.Xml.Schema.BinaryFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void BinaryFacetsChecker_CheckValueFacets_m15A1F241C2A91307B6A104D2FE5A9FB6F3677D8C (void);
-// 0x000007E5 System.Exception System.Xml.Schema.BinaryFacetsChecker::CheckValueFacets(System.Byte[],System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E6 System.Exception System.Xml.Schema.BinaryFacetsChecker::CheckValueFacets(System.Byte[],System.Xml.Schema.XmlSchemaDatatype)
 extern void BinaryFacetsChecker_CheckValueFacets_mC8678349E676D6297E9013D43BB7B123D452E6BA (void);
-// 0x000007E6 System.Boolean System.Xml.Schema.BinaryFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E7 System.Boolean System.Xml.Schema.BinaryFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void BinaryFacetsChecker_MatchEnumeration_m75C39ED8CDD3BF89FB8D7EE257C82A67D58F3C1B (void);
-// 0x000007E7 System.Boolean System.Xml.Schema.BinaryFacetsChecker::MatchEnumeration(System.Byte[],System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007E8 System.Boolean System.Xml.Schema.BinaryFacetsChecker::MatchEnumeration(System.Byte[],System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void BinaryFacetsChecker_MatchEnumeration_m94A226E5C4D5D1FED37A50209F3669C03BB538E5 (void);
-// 0x000007E8 System.Void System.Xml.Schema.BinaryFacetsChecker::.ctor()
+// 0x000007E9 System.Void System.Xml.Schema.BinaryFacetsChecker::.ctor()
 extern void BinaryFacetsChecker__ctor_m7E42CBAE8F97833BEF9FE40E56B2D0BE93EF6A56 (void);
-// 0x000007E9 System.Exception System.Xml.Schema.ListFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007EA System.Exception System.Xml.Schema.ListFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void ListFacetsChecker_CheckValueFacets_m2ACEE668112463FE13F5B73A7C1EEDBA7CC70370 (void);
-// 0x000007EA System.Boolean System.Xml.Schema.ListFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007EB System.Boolean System.Xml.Schema.ListFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void ListFacetsChecker_MatchEnumeration_m69F95CE7046EF8FA272B6F074D8A082D3F64DDCD (void);
-// 0x000007EB System.Void System.Xml.Schema.ListFacetsChecker::.ctor()
+// 0x000007EC System.Void System.Xml.Schema.ListFacetsChecker::.ctor()
 extern void ListFacetsChecker__ctor_mC59A0FE74C39378155503D05121CFC25C8C1FB40 (void);
-// 0x000007EC System.Exception System.Xml.Schema.UnionFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007ED System.Exception System.Xml.Schema.UnionFacetsChecker::CheckValueFacets(System.Object,System.Xml.Schema.XmlSchemaDatatype)
 extern void UnionFacetsChecker_CheckValueFacets_m5AEB18393891465AE854AD4795BEEE5B3348BAEB (void);
-// 0x000007ED System.Boolean System.Xml.Schema.UnionFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
+// 0x000007EE System.Boolean System.Xml.Schema.UnionFacetsChecker::MatchEnumeration(System.Object,System.Collections.ArrayList,System.Xml.Schema.XmlSchemaDatatype)
 extern void UnionFacetsChecker_MatchEnumeration_mD4829C97AFD94459E54733A9B455E2DB5752A156 (void);
-// 0x000007EE System.Void System.Xml.Schema.UnionFacetsChecker::.ctor()
+// 0x000007EF System.Void System.Xml.Schema.UnionFacetsChecker::.ctor()
 extern void UnionFacetsChecker__ctor_m774668118D69B40AC7E9F5D1B94CF59D427CB623 (void);
-// 0x000007EF System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.IXmlSchemaInfo::get_Validity()
-// 0x000007F0 System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsDefault()
-// 0x000007F1 System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsNil()
-// 0x000007F2 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.IXmlSchemaInfo::get_MemberType()
-// 0x000007F3 System.Xml.Schema.XmlSchemaType System.Xml.Schema.IXmlSchemaInfo::get_SchemaType()
-// 0x000007F4 System.Xml.Schema.XmlSchemaElement System.Xml.Schema.IXmlSchemaInfo::get_SchemaElement()
-// 0x000007F5 System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.IXmlSchemaInfo::get_SchemaAttribute()
-// 0x000007F6 System.Void System.Xml.Schema.NamespaceList::.ctor()
+// 0x000007F0 System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.IXmlSchemaInfo::get_Validity()
+// 0x000007F1 System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsDefault()
+// 0x000007F2 System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsNil()
+// 0x000007F3 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.IXmlSchemaInfo::get_MemberType()
+// 0x000007F4 System.Xml.Schema.XmlSchemaType System.Xml.Schema.IXmlSchemaInfo::get_SchemaType()
+// 0x000007F5 System.Xml.Schema.XmlSchemaElement System.Xml.Schema.IXmlSchemaInfo::get_SchemaElement()
+// 0x000007F6 System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.IXmlSchemaInfo::get_SchemaAttribute()
+// 0x000007F7 System.Void System.Xml.Schema.NamespaceList::.ctor()
 extern void NamespaceList__ctor_m51D3AF0EA735342645D6906BC5DB0D91E1F812C1 (void);
-// 0x000007F7 System.Void System.Xml.Schema.NamespaceList::.ctor(System.String,System.String)
+// 0x000007F8 System.Void System.Xml.Schema.NamespaceList::.ctor(System.String,System.String)
 extern void NamespaceList__ctor_m6665C8C43F6A120B62BD21FD7D7557CADB0103F2 (void);
-// 0x000007F8 System.Xml.Schema.NamespaceList/ListType System.Xml.Schema.NamespaceList::get_Type()
+// 0x000007F9 System.Xml.Schema.NamespaceList/ListType System.Xml.Schema.NamespaceList::get_Type()
 extern void NamespaceList_get_Type_mFFD57EA1A6B9DCA5F102691385FD53253A1F6953 (void);
-// 0x000007F9 System.String System.Xml.Schema.NamespaceList::get_Excluded()
+// 0x000007FA System.String System.Xml.Schema.NamespaceList::get_Excluded()
 extern void NamespaceList_get_Excluded_mFC793CE3812B152324EAF8719732F84C2A951479 (void);
-// 0x000007FA System.Collections.ICollection System.Xml.Schema.NamespaceList::get_Enumerate()
+// 0x000007FB System.Collections.ICollection System.Xml.Schema.NamespaceList::get_Enumerate()
 extern void NamespaceList_get_Enumerate_m5929D1D445C230B2AD3E91BC97F6CC47C913A44F (void);
-// 0x000007FB System.Boolean System.Xml.Schema.NamespaceList::Allows(System.String)
+// 0x000007FC System.Boolean System.Xml.Schema.NamespaceList::Allows(System.String)
 extern void NamespaceList_Allows_m7334DEFF4273BDC116272A17044B15640AF5FDD0 (void);
-// 0x000007FC System.Boolean System.Xml.Schema.NamespaceList::Allows(System.Xml.XmlQualifiedName)
+// 0x000007FD System.Boolean System.Xml.Schema.NamespaceList::Allows(System.Xml.XmlQualifiedName)
 extern void NamespaceList_Allows_mF0F140408B98C179F0CE590340C3620C5080D85B (void);
-// 0x000007FD System.String System.Xml.Schema.NamespaceList::ToString()
+// 0x000007FE System.String System.Xml.Schema.NamespaceList::ToString()
 extern void NamespaceList_ToString_m69CBE5D0FF9BBC40541C76FA9B315649C1F57B0C (void);
-// 0x000007FE System.Void System.Xml.Schema.SchemaAttDef::.ctor(System.Xml.XmlQualifiedName,System.String)
+// 0x000007FF System.Void System.Xml.Schema.SchemaAttDef::.ctor(System.Xml.XmlQualifiedName,System.String)
 extern void SchemaAttDef__ctor_mCE4B0F520716988FF7D1285FF25B92060D0DA76C (void);
-// 0x000007FF System.Void System.Xml.Schema.SchemaAttDef::.ctor()
+// 0x00000800 System.Void System.Xml.Schema.SchemaAttDef::.ctor()
 extern void SchemaAttDef__ctor_mFF91F969869EED279A0930EA9543EEC15F1C5ACA (void);
-// 0x00000800 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_Prefix()
+// 0x00000801 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_Prefix()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_Prefix_m907B9D012FA4E32148EA2B7849A43364B041E283 (void);
-// 0x00000801 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LocalName()
+// 0x00000802 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LocalName()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_LocalName_mB60F0FD4374EDE7A0E73E5C44336A84DA2E698A7 (void);
-// 0x00000802 System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LineNumber()
+// 0x00000803 System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LineNumber()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_LineNumber_m3D34E11DC1E4B9DC73A3BF4D5E8DA3C132921ECF (void);
-// 0x00000803 System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LinePosition()
+// 0x00000804 System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_LinePosition()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_LinePosition_m491919C878637FB270E2F933198A4E0E0E125387 (void);
-// 0x00000804 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsNonCDataType()
+// 0x00000805 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsNonCDataType()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_IsNonCDataType_m95C82E04BF3C1DCC8F9CA47AA6E8A0B90041657C (void);
-// 0x00000805 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsDeclaredInExternal()
+// 0x00000806 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsDeclaredInExternal()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_IsDeclaredInExternal_mE5FE2B037EE4D49B3E27B295C444C079EF18841E (void);
-// 0x00000806 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsXmlAttribute()
+// 0x00000807 System.Boolean System.Xml.Schema.SchemaAttDef::System.Xml.IDtdAttributeInfo.get_IsXmlAttribute()
 extern void SchemaAttDef_System_Xml_IDtdAttributeInfo_get_IsXmlAttribute_mA130FD38A663B8EE4E1D7ACB48D3B87B3C15B849 (void);
-// 0x00000807 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueExpanded()
+// 0x00000808 System.String System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueExpanded()
 extern void SchemaAttDef_System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueExpanded_m2EE6ADA05619B348E7CEAE02ACA7A5A930263853 (void);
-// 0x00000808 System.Object System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueTyped()
+// 0x00000809 System.Object System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueTyped()
 extern void SchemaAttDef_System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueTyped_m2F7857E3F720E192E9E0DA627AE9E8883C823D52 (void);
-// 0x00000809 System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_ValueLineNumber()
+// 0x0000080A System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_ValueLineNumber()
 extern void SchemaAttDef_System_Xml_IDtdDefaultAttributeInfo_get_ValueLineNumber_m05C6432C103DC4D372625ABF186132D76B755DFE (void);
-// 0x0000080A System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_ValueLinePosition()
+// 0x0000080B System.Int32 System.Xml.Schema.SchemaAttDef::System.Xml.IDtdDefaultAttributeInfo.get_ValueLinePosition()
 extern void SchemaAttDef_System_Xml_IDtdDefaultAttributeInfo_get_ValueLinePosition_m8B79E571567D9B890BA2A8C770D7DB57CF2B96D8 (void);
-// 0x0000080B System.Int32 System.Xml.Schema.SchemaAttDef::get_LinePosition()
+// 0x0000080C System.Int32 System.Xml.Schema.SchemaAttDef::get_LinePosition()
 extern void SchemaAttDef_get_LinePosition_m192E37BC23204F940B4BC5BBBCC248EEAE4481D1 (void);
-// 0x0000080C System.Void System.Xml.Schema.SchemaAttDef::set_LinePosition(System.Int32)
+// 0x0000080D System.Void System.Xml.Schema.SchemaAttDef::set_LinePosition(System.Int32)
 extern void SchemaAttDef_set_LinePosition_mC3B43012E31CCE6784CCFE1B9FE8CC15B0C7E584 (void);
-// 0x0000080D System.Int32 System.Xml.Schema.SchemaAttDef::get_LineNumber()
+// 0x0000080E System.Int32 System.Xml.Schema.SchemaAttDef::get_LineNumber()
 extern void SchemaAttDef_get_LineNumber_m8A9494C90F0B132F2A84AF7203FE074046529A1C (void);
-// 0x0000080E System.Void System.Xml.Schema.SchemaAttDef::set_LineNumber(System.Int32)
+// 0x0000080F System.Void System.Xml.Schema.SchemaAttDef::set_LineNumber(System.Int32)
 extern void SchemaAttDef_set_LineNumber_mA7F00D8F6FAB9626DBF9444371C2D5B0EF99E07E (void);
-// 0x0000080F System.Int32 System.Xml.Schema.SchemaAttDef::get_ValueLinePosition()
+// 0x00000810 System.Int32 System.Xml.Schema.SchemaAttDef::get_ValueLinePosition()
 extern void SchemaAttDef_get_ValueLinePosition_m43CB9139B92F934F7AF67D0EFCF1A5BCC0A8DEAB (void);
-// 0x00000810 System.Void System.Xml.Schema.SchemaAttDef::set_ValueLinePosition(System.Int32)
+// 0x00000811 System.Void System.Xml.Schema.SchemaAttDef::set_ValueLinePosition(System.Int32)
 extern void SchemaAttDef_set_ValueLinePosition_m8AEAB2128F36C4F66C16E9CB778C94402E15D387 (void);
-// 0x00000811 System.Int32 System.Xml.Schema.SchemaAttDef::get_ValueLineNumber()
+// 0x00000812 System.Int32 System.Xml.Schema.SchemaAttDef::get_ValueLineNumber()
 extern void SchemaAttDef_get_ValueLineNumber_m6E3FEFC8B5E9CB9D034125346161BC710E52423E (void);
-// 0x00000812 System.Void System.Xml.Schema.SchemaAttDef::set_ValueLineNumber(System.Int32)
+// 0x00000813 System.Void System.Xml.Schema.SchemaAttDef::set_ValueLineNumber(System.Int32)
 extern void SchemaAttDef_set_ValueLineNumber_mD19157EDC780F89AA9FD6C07FEE28363DB7BDC91 (void);
-// 0x00000813 System.String System.Xml.Schema.SchemaAttDef::get_DefaultValueExpanded()
+// 0x00000814 System.String System.Xml.Schema.SchemaAttDef::get_DefaultValueExpanded()
 extern void SchemaAttDef_get_DefaultValueExpanded_m61569B11E4FBDEED7A35CD5A39675B57CE6DB78F (void);
-// 0x00000814 System.Void System.Xml.Schema.SchemaAttDef::set_DefaultValueExpanded(System.String)
+// 0x00000815 System.Void System.Xml.Schema.SchemaAttDef::set_DefaultValueExpanded(System.String)
 extern void SchemaAttDef_set_DefaultValueExpanded_mE4A42E55D630D5C41EAF3480F721749DBB59B801 (void);
-// 0x00000815 System.Xml.XmlTokenizedType System.Xml.Schema.SchemaAttDef::get_TokenizedType()
+// 0x00000816 System.Xml.XmlTokenizedType System.Xml.Schema.SchemaAttDef::get_TokenizedType()
 extern void SchemaAttDef_get_TokenizedType_m57FC667A4FC7D2904B78B639A39E872595F7EF86 (void);
-// 0x00000816 System.Void System.Xml.Schema.SchemaAttDef::set_TokenizedType(System.Xml.XmlTokenizedType)
+// 0x00000817 System.Void System.Xml.Schema.SchemaAttDef::set_TokenizedType(System.Xml.XmlTokenizedType)
 extern void SchemaAttDef_set_TokenizedType_m66E5B35A86397A9C6E7B97C3DE2A47FC49B5D1FA (void);
-// 0x00000817 System.Xml.Schema.SchemaAttDef/Reserve System.Xml.Schema.SchemaAttDef::get_Reserved()
+// 0x00000818 System.Xml.Schema.SchemaAttDef/Reserve System.Xml.Schema.SchemaAttDef::get_Reserved()
 extern void SchemaAttDef_get_Reserved_m301C4E6E533BE8C00AFF8C087BCF8575B618D055 (void);
-// 0x00000818 System.Void System.Xml.Schema.SchemaAttDef::set_Reserved(System.Xml.Schema.SchemaAttDef/Reserve)
+// 0x00000819 System.Void System.Xml.Schema.SchemaAttDef::set_Reserved(System.Xml.Schema.SchemaAttDef/Reserve)
 extern void SchemaAttDef_set_Reserved_mA68CCD19A9DFB1D612973314A38245DCA338BDC4 (void);
-// 0x00000819 System.Void System.Xml.Schema.SchemaAttDef::CheckXmlSpace(System.Xml.IValidationEventHandling)
+// 0x0000081A System.Void System.Xml.Schema.SchemaAttDef::CheckXmlSpace(System.Xml.IValidationEventHandling)
 extern void SchemaAttDef_CheckXmlSpace_m03EFF5426C02492D7C4EEFEC396DC7386E20DB74 (void);
-// 0x0000081A System.Void System.Xml.Schema.SchemaAttDef::.cctor()
+// 0x0000081B System.Void System.Xml.Schema.SchemaAttDef::.cctor()
 extern void SchemaAttDef__cctor_m489099CC1102DDE696960D1C068E8A6546CBE5E5 (void);
-// 0x0000081B System.Void System.Xml.Schema.SchemaDeclBase::.ctor(System.Xml.XmlQualifiedName,System.String)
+// 0x0000081C System.Void System.Xml.Schema.SchemaDeclBase::.ctor(System.Xml.XmlQualifiedName,System.String)
 extern void SchemaDeclBase__ctor_m3BC0485AF61F3BA52B54C2D6ED3B827253BAEFFF (void);
-// 0x0000081C System.Void System.Xml.Schema.SchemaDeclBase::.ctor()
+// 0x0000081D System.Void System.Xml.Schema.SchemaDeclBase::.ctor()
 extern void SchemaDeclBase__ctor_mDD7D2A0D6C87308857840F3032864CB8FAEB7C3B (void);
-// 0x0000081D System.Xml.XmlQualifiedName System.Xml.Schema.SchemaDeclBase::get_Name()
+// 0x0000081E System.Xml.XmlQualifiedName System.Xml.Schema.SchemaDeclBase::get_Name()
 extern void SchemaDeclBase_get_Name_m013DF0DD721FE902399C2DF4D2E6F8DAD50ECFAE (void);
-// 0x0000081E System.String System.Xml.Schema.SchemaDeclBase::get_Prefix()
+// 0x0000081F System.String System.Xml.Schema.SchemaDeclBase::get_Prefix()
 extern void SchemaDeclBase_get_Prefix_mE72A285F12958A0C40F8CDEDA2838B3A09233455 (void);
-// 0x0000081F System.Boolean System.Xml.Schema.SchemaDeclBase::get_IsDeclaredInExternal()
+// 0x00000820 System.Boolean System.Xml.Schema.SchemaDeclBase::get_IsDeclaredInExternal()
 extern void SchemaDeclBase_get_IsDeclaredInExternal_mEB74F4C126AB527489D2F64BE954806DE7AE5655 (void);
-// 0x00000820 System.Void System.Xml.Schema.SchemaDeclBase::set_IsDeclaredInExternal(System.Boolean)
+// 0x00000821 System.Void System.Xml.Schema.SchemaDeclBase::set_IsDeclaredInExternal(System.Boolean)
 extern void SchemaDeclBase_set_IsDeclaredInExternal_m3F57DA2AD9DBAC1C431293C53E4E052A8E915D96 (void);
-// 0x00000821 System.Xml.Schema.SchemaDeclBase/Use System.Xml.Schema.SchemaDeclBase::get_Presence()
+// 0x00000822 System.Xml.Schema.SchemaDeclBase/Use System.Xml.Schema.SchemaDeclBase::get_Presence()
 extern void SchemaDeclBase_get_Presence_mCF2610A186758B71CAFF2FC2586D9B604C2AE539 (void);
-// 0x00000822 System.Void System.Xml.Schema.SchemaDeclBase::set_Presence(System.Xml.Schema.SchemaDeclBase/Use)
+// 0x00000823 System.Void System.Xml.Schema.SchemaDeclBase::set_Presence(System.Xml.Schema.SchemaDeclBase/Use)
 extern void SchemaDeclBase_set_Presence_mB1FAF4B21DA1F38F9A40D57E54260010E54C1B91 (void);
-// 0x00000823 System.Void System.Xml.Schema.SchemaDeclBase::set_SchemaType(System.Xml.Schema.XmlSchemaType)
+// 0x00000824 System.Void System.Xml.Schema.SchemaDeclBase::set_SchemaType(System.Xml.Schema.XmlSchemaType)
 extern void SchemaDeclBase_set_SchemaType_m4A34BA7ABAAD6A60F7AE3A2572EDD3E86893A21F (void);
-// 0x00000824 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.SchemaDeclBase::get_Datatype()
+// 0x00000825 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.SchemaDeclBase::get_Datatype()
 extern void SchemaDeclBase_get_Datatype_mE6DE13C3518B65A1CF6E464F12D7D7653247AF90 (void);
-// 0x00000825 System.Void System.Xml.Schema.SchemaDeclBase::set_Datatype(System.Xml.Schema.XmlSchemaDatatype)
+// 0x00000826 System.Void System.Xml.Schema.SchemaDeclBase::set_Datatype(System.Xml.Schema.XmlSchemaDatatype)
 extern void SchemaDeclBase_set_Datatype_mE01A8C0C2477840D4B13023766D805391E89DBB5 (void);
-// 0x00000826 System.Void System.Xml.Schema.SchemaDeclBase::AddValue(System.String)
+// 0x00000827 System.Void System.Xml.Schema.SchemaDeclBase::AddValue(System.String)
 extern void SchemaDeclBase_AddValue_m9C70610A093F7CD2287EB47D9FA619E1D29A1958 (void);
-// 0x00000827 System.Collections.Generic.List`1<System.String> System.Xml.Schema.SchemaDeclBase::get_Values()
+// 0x00000828 System.Collections.Generic.List`1<System.String> System.Xml.Schema.SchemaDeclBase::get_Values()
 extern void SchemaDeclBase_get_Values_m5CBE6E5DB4DE93179FEB87F1BBC0EAF43FAF0E06 (void);
-// 0x00000828 System.String System.Xml.Schema.SchemaDeclBase::get_DefaultValueRaw()
+// 0x00000829 System.String System.Xml.Schema.SchemaDeclBase::get_DefaultValueRaw()
 extern void SchemaDeclBase_get_DefaultValueRaw_m794A7DCEA1AE2B3B4D71DB45B913FCAA16657936 (void);
-// 0x00000829 System.Object System.Xml.Schema.SchemaDeclBase::get_DefaultValueTyped()
+// 0x0000082A System.Object System.Xml.Schema.SchemaDeclBase::get_DefaultValueTyped()
 extern void SchemaDeclBase_get_DefaultValueTyped_m16C165322E494F1BC351D0DF53210CF3A906ECAF (void);
-// 0x0000082A System.Void System.Xml.Schema.SchemaDeclBase::set_DefaultValueTyped(System.Object)
+// 0x0000082B System.Void System.Xml.Schema.SchemaDeclBase::set_DefaultValueTyped(System.Object)
 extern void SchemaDeclBase_set_DefaultValueTyped_m35E01A5A9C44038AE78774AF2D7B6E627AD66FC1 (void);
-// 0x0000082B System.Void System.Xml.Schema.SchemaElementDecl::.ctor()
+// 0x0000082C System.Void System.Xml.Schema.SchemaElementDecl::.ctor()
 extern void SchemaElementDecl__ctor_m3F598CDFDFF5882460C9DB24DD0C445D424C06C4 (void);
-// 0x0000082C System.Void System.Xml.Schema.SchemaElementDecl::.ctor(System.Xml.Schema.XmlSchemaDatatype)
+// 0x0000082D System.Void System.Xml.Schema.SchemaElementDecl::.ctor(System.Xml.Schema.XmlSchemaDatatype)
 extern void SchemaElementDecl__ctor_m274259EC34CE5CE38AE0F38DF2640CBAA9CBB1DF (void);
-// 0x0000082D System.Void System.Xml.Schema.SchemaElementDecl::.ctor(System.Xml.XmlQualifiedName,System.String)
+// 0x0000082E System.Void System.Xml.Schema.SchemaElementDecl::.ctor(System.Xml.XmlQualifiedName,System.String)
 extern void SchemaElementDecl__ctor_m37D4F8688A2FCD66D64D442660B6E6BB0F30E70C (void);
-// 0x0000082E System.Xml.Schema.SchemaElementDecl System.Xml.Schema.SchemaElementDecl::CreateAnyTypeElementDecl()
+// 0x0000082F System.Xml.Schema.SchemaElementDecl System.Xml.Schema.SchemaElementDecl::CreateAnyTypeElementDecl()
 extern void SchemaElementDecl_CreateAnyTypeElementDecl_m77A23AC637D4DE1E4C66905B7147767048DB0ED5 (void);
-// 0x0000082F System.Boolean System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes()
+// 0x00000830 System.Boolean System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes()
 extern void SchemaElementDecl_System_Xml_IDtdAttributeListInfo_get_HasNonCDataAttributes_m2DA371B47C58EBEFFC726201F2272386103E2429 (void);
-// 0x00000830 System.Xml.IDtdAttributeInfo System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.LookupAttribute(System.String,System.String)
+// 0x00000831 System.Xml.IDtdAttributeInfo System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.LookupAttribute(System.String,System.String)
 extern void SchemaElementDecl_System_Xml_IDtdAttributeListInfo_LookupAttribute_m78124BDF0C35B23BC1AE7D442F38818D8859757D (void);
-// 0x00000831 System.Collections.Generic.IEnumerable`1<System.Xml.IDtdDefaultAttributeInfo> System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes()
+// 0x00000832 System.Collections.Generic.IEnumerable`1<System.Xml.IDtdDefaultAttributeInfo> System.Xml.Schema.SchemaElementDecl::System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes()
 extern void SchemaElementDecl_System_Xml_IDtdAttributeListInfo_LookupDefaultAttributes_m9D959AC1FEDEC18824D53F9017395885F22FC6A4 (void);
-// 0x00000832 System.Boolean System.Xml.Schema.SchemaElementDecl::get_IsIdDeclared()
+// 0x00000833 System.Boolean System.Xml.Schema.SchemaElementDecl::get_IsIdDeclared()
 extern void SchemaElementDecl_get_IsIdDeclared_m44ADA012ED628AF85A038CF178E9CA86806077B3 (void);
-// 0x00000833 System.Void System.Xml.Schema.SchemaElementDecl::set_IsIdDeclared(System.Boolean)
+// 0x00000834 System.Void System.Xml.Schema.SchemaElementDecl::set_IsIdDeclared(System.Boolean)
 extern void SchemaElementDecl_set_IsIdDeclared_m88620A2DF06335275FD59A77CB5073E5707BA5AD (void);
-// 0x00000834 System.Boolean System.Xml.Schema.SchemaElementDecl::get_HasNonCDataAttribute()
+// 0x00000835 System.Boolean System.Xml.Schema.SchemaElementDecl::get_HasNonCDataAttribute()
 extern void SchemaElementDecl_get_HasNonCDataAttribute_m94D7B922331C0173378BCE5E4930F16EAD277419 (void);
-// 0x00000835 System.Void System.Xml.Schema.SchemaElementDecl::set_HasNonCDataAttribute(System.Boolean)
+// 0x00000836 System.Void System.Xml.Schema.SchemaElementDecl::set_HasNonCDataAttribute(System.Boolean)
 extern void SchemaElementDecl_set_HasNonCDataAttribute_m66C35DA3287AD11A2D0DD2E47FE3B8198851F01E (void);
-// 0x00000836 System.Boolean System.Xml.Schema.SchemaElementDecl::get_IsNotationDeclared()
+// 0x00000837 System.Boolean System.Xml.Schema.SchemaElementDecl::get_IsNotationDeclared()
 extern void SchemaElementDecl_get_IsNotationDeclared_m56FEF2BE202BF5AC41DDFB7BCA33983F71A0FB0B (void);
-// 0x00000837 System.Void System.Xml.Schema.SchemaElementDecl::set_IsNotationDeclared(System.Boolean)
+// 0x00000838 System.Void System.Xml.Schema.SchemaElementDecl::set_IsNotationDeclared(System.Boolean)
 extern void SchemaElementDecl_set_IsNotationDeclared_m33DFE77CEA01A59316738F4BC49110A7C98A2365 (void);
-// 0x00000838 System.Xml.Schema.ContentValidator System.Xml.Schema.SchemaElementDecl::get_ContentValidator()
+// 0x00000839 System.Xml.Schema.ContentValidator System.Xml.Schema.SchemaElementDecl::get_ContentValidator()
 extern void SchemaElementDecl_get_ContentValidator_m687E7878F142CFC03B5D7B4FFD6FE1F4AE6526E1 (void);
-// 0x00000839 System.Void System.Xml.Schema.SchemaElementDecl::set_ContentValidator(System.Xml.Schema.ContentValidator)
+// 0x0000083A System.Void System.Xml.Schema.SchemaElementDecl::set_ContentValidator(System.Xml.Schema.ContentValidator)
 extern void SchemaElementDecl_set_ContentValidator_m9670779D24E74D3F1272FB1C378371719F9DFB0E (void);
-// 0x0000083A System.Void System.Xml.Schema.SchemaElementDecl::set_AnyAttribute(System.Xml.Schema.XmlSchemaAnyAttribute)
+// 0x0000083B System.Void System.Xml.Schema.SchemaElementDecl::set_AnyAttribute(System.Xml.Schema.XmlSchemaAnyAttribute)
 extern void SchemaElementDecl_set_AnyAttribute_mF129885E6F7A97FBF78EF5F736239FCE4F9ABA89 (void);
-// 0x0000083B System.Void System.Xml.Schema.SchemaElementDecl::AddAttDef(System.Xml.Schema.SchemaAttDef)
+// 0x0000083C System.Void System.Xml.Schema.SchemaElementDecl::AddAttDef(System.Xml.Schema.SchemaAttDef)
 extern void SchemaElementDecl_AddAttDef_mAF964F8485156FF16A7554A1B8DC76B7A83C12BA (void);
-// 0x0000083C System.Xml.Schema.SchemaAttDef System.Xml.Schema.SchemaElementDecl::GetAttDef(System.Xml.XmlQualifiedName)
+// 0x0000083D System.Xml.Schema.SchemaAttDef System.Xml.Schema.SchemaElementDecl::GetAttDef(System.Xml.XmlQualifiedName)
 extern void SchemaElementDecl_GetAttDef_m157EF6E66718BDD7F087323423296A4AF4719259 (void);
-// 0x0000083D System.Collections.Generic.IList`1<System.Xml.IDtdDefaultAttributeInfo> System.Xml.Schema.SchemaElementDecl::get_DefaultAttDefs()
+// 0x0000083E System.Collections.Generic.IList`1<System.Xml.IDtdDefaultAttributeInfo> System.Xml.Schema.SchemaElementDecl::get_DefaultAttDefs()
 extern void SchemaElementDecl_get_DefaultAttDefs_m2AC1645F0CED019A9B186C026CA7A19A3BFE6556 (void);
-// 0x0000083E System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef> System.Xml.Schema.SchemaElementDecl::get_AttDefs()
+// 0x0000083F System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef> System.Xml.Schema.SchemaElementDecl::get_AttDefs()
 extern void SchemaElementDecl_get_AttDefs_m2E3114DFAB8D978CBFAA6E31C2CD18A9AA9DAC50 (void);
-// 0x0000083F System.Void System.Xml.Schema.SchemaElementDecl::.cctor()
+// 0x00000840 System.Void System.Xml.Schema.SchemaElementDecl::.cctor()
 extern void SchemaElementDecl__cctor_m5D26F878B63D846576180BDE4E0BB473E4F79527 (void);
-// 0x00000840 System.Void System.Xml.Schema.SchemaEntity::.ctor(System.Xml.XmlQualifiedName,System.Boolean)
+// 0x00000841 System.Void System.Xml.Schema.SchemaEntity::.ctor(System.Xml.XmlQualifiedName,System.Boolean)
 extern void SchemaEntity__ctor_m7444C0D862E0CC6A87EE2B39B4D058F657AA299C (void);
-// 0x00000841 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_Name()
+// 0x00000842 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_Name()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_Name_m352553FC53FDD911A721B1384C4B7979871587BA (void);
-// 0x00000842 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsExternal()
+// 0x00000843 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsExternal()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_IsExternal_m127C37E5C879C2A0AD5E000AC5248323CA702701 (void);
-// 0x00000843 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal()
+// 0x00000844 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal_m36ED4C26032384E1E84D9466A3D3BB302C8B6001 (void);
-// 0x00000844 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsUnparsedEntity()
+// 0x00000845 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsUnparsedEntity()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_IsUnparsedEntity_m57DEA7CD86C5B717719F25B2886863DB100DDCCB (void);
-// 0x00000845 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsParameterEntity()
+// 0x00000846 System.Boolean System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_IsParameterEntity()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_IsParameterEntity_mA9C97DB0F1734CDA97403005A973ED18C0897094 (void);
-// 0x00000846 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_BaseUriString()
+// 0x00000847 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_BaseUriString()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_BaseUriString_m3D67C1040FA19F4F4B1D97DC2E8B4C6837913DEB (void);
-// 0x00000847 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_DeclaredUriString()
+// 0x00000848 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_DeclaredUriString()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_DeclaredUriString_m70A84C269273AC6F5FBC43C9D8000AFBDA4CD794 (void);
-// 0x00000848 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_SystemId()
+// 0x00000849 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_SystemId()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_SystemId_mA7E3BFA9546D151C96FB99CCDABFCA332C0C094F (void);
-// 0x00000849 System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_PublicId()
+// 0x0000084A System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_PublicId()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_PublicId_mC9CFE2C65616543CF54FB444E63FFB9298EDC808 (void);
-// 0x0000084A System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_Text()
+// 0x0000084B System.String System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_Text()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_Text_m14D75FD4114F04E252BEBF48AE8E5625332AFABC (void);
-// 0x0000084B System.Int32 System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_LineNumber()
+// 0x0000084C System.Int32 System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_LineNumber()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_LineNumber_m6263C3254C437DE11BAC335F58742759EB4F2E09 (void);
-// 0x0000084C System.Int32 System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_LinePosition()
+// 0x0000084D System.Int32 System.Xml.Schema.SchemaEntity::System.Xml.IDtdEntityInfo.get_LinePosition()
 extern void SchemaEntity_System_Xml_IDtdEntityInfo_get_LinePosition_m0EAF16F3E9276C9475A41F6DC536BCDA1AFD63FA (void);
-// 0x0000084D System.Xml.XmlQualifiedName System.Xml.Schema.SchemaEntity::get_Name()
+// 0x0000084E System.Xml.XmlQualifiedName System.Xml.Schema.SchemaEntity::get_Name()
 extern void SchemaEntity_get_Name_m8A17CC3B68A15DCD4C3ACEC6AE82AB7BF5CDBEAC (void);
-// 0x0000084E System.String System.Xml.Schema.SchemaEntity::get_Url()
+// 0x0000084F System.String System.Xml.Schema.SchemaEntity::get_Url()
 extern void SchemaEntity_get_Url_m7519C52A444DFD11468483C299A6C9D6A92F1CFB (void);
-// 0x0000084F System.Void System.Xml.Schema.SchemaEntity::set_Url(System.String)
+// 0x00000850 System.Void System.Xml.Schema.SchemaEntity::set_Url(System.String)
 extern void SchemaEntity_set_Url_m39051E42954FC32EF9283C192653BA148CB41249 (void);
-// 0x00000850 System.String System.Xml.Schema.SchemaEntity::get_Pubid()
+// 0x00000851 System.String System.Xml.Schema.SchemaEntity::get_Pubid()
 extern void SchemaEntity_get_Pubid_m9845E8CD129266AFA62E58F857D88D0941C88C82 (void);
-// 0x00000851 System.Void System.Xml.Schema.SchemaEntity::set_Pubid(System.String)
+// 0x00000852 System.Void System.Xml.Schema.SchemaEntity::set_Pubid(System.String)
 extern void SchemaEntity_set_Pubid_m38932D2D6C40B066741B4F3C85478DA7A49F1FC2 (void);
-// 0x00000852 System.Boolean System.Xml.Schema.SchemaEntity::get_IsExternal()
+// 0x00000853 System.Boolean System.Xml.Schema.SchemaEntity::get_IsExternal()
 extern void SchemaEntity_get_IsExternal_mBFBDEF21B96AE11DAF242E5B7E2C3B63693FC8CE (void);
-// 0x00000853 System.Void System.Xml.Schema.SchemaEntity::set_IsExternal(System.Boolean)
+// 0x00000854 System.Void System.Xml.Schema.SchemaEntity::set_IsExternal(System.Boolean)
 extern void SchemaEntity_set_IsExternal_mEA049015A7FB2840CFC3870A2F41FAC927612D12 (void);
-// 0x00000854 System.Boolean System.Xml.Schema.SchemaEntity::get_DeclaredInExternal()
+// 0x00000855 System.Boolean System.Xml.Schema.SchemaEntity::get_DeclaredInExternal()
 extern void SchemaEntity_get_DeclaredInExternal_mEAF749D691316F3C1A7C72383B527E943CB9608A (void);
-// 0x00000855 System.Void System.Xml.Schema.SchemaEntity::set_DeclaredInExternal(System.Boolean)
+// 0x00000856 System.Void System.Xml.Schema.SchemaEntity::set_DeclaredInExternal(System.Boolean)
 extern void SchemaEntity_set_DeclaredInExternal_mE6A46D7897D9CDBF7400135BF42A153AB313D66F (void);
-// 0x00000856 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaEntity::get_NData()
+// 0x00000857 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaEntity::get_NData()
 extern void SchemaEntity_get_NData_m7B05467BF6357AB27C1DAFBFE27F9720C79CEC3C (void);
-// 0x00000857 System.Void System.Xml.Schema.SchemaEntity::set_NData(System.Xml.XmlQualifiedName)
+// 0x00000858 System.Void System.Xml.Schema.SchemaEntity::set_NData(System.Xml.XmlQualifiedName)
 extern void SchemaEntity_set_NData_mB7C417287EC6223758560683CFEF6961CCA9DD4F (void);
-// 0x00000858 System.String System.Xml.Schema.SchemaEntity::get_Text()
+// 0x00000859 System.String System.Xml.Schema.SchemaEntity::get_Text()
 extern void SchemaEntity_get_Text_mDCF201E623D7A98F87E859ACDEE9B5B6B4E953AE (void);
-// 0x00000859 System.Void System.Xml.Schema.SchemaEntity::set_Text(System.String)
+// 0x0000085A System.Void System.Xml.Schema.SchemaEntity::set_Text(System.String)
 extern void SchemaEntity_set_Text_m62FCB261049A0B400D7C27470AFC73EA227861AF (void);
-// 0x0000085A System.Int32 System.Xml.Schema.SchemaEntity::get_Line()
+// 0x0000085B System.Int32 System.Xml.Schema.SchemaEntity::get_Line()
 extern void SchemaEntity_get_Line_m7080071B6DE51A523D56CD36F0EE212140362FB2 (void);
-// 0x0000085B System.Void System.Xml.Schema.SchemaEntity::set_Line(System.Int32)
+// 0x0000085C System.Void System.Xml.Schema.SchemaEntity::set_Line(System.Int32)
 extern void SchemaEntity_set_Line_m3F4EBBBF917403C4F93292B873B64063DD3850F3 (void);
-// 0x0000085C System.Int32 System.Xml.Schema.SchemaEntity::get_Pos()
+// 0x0000085D System.Int32 System.Xml.Schema.SchemaEntity::get_Pos()
 extern void SchemaEntity_get_Pos_m6647403022CB46CAE95B3BED0503FEA0C1A6C0F4 (void);
-// 0x0000085D System.Void System.Xml.Schema.SchemaEntity::set_Pos(System.Int32)
+// 0x0000085E System.Void System.Xml.Schema.SchemaEntity::set_Pos(System.Int32)
 extern void SchemaEntity_set_Pos_mD4124AF35C72621D401E02AED280FF8A8934FABB (void);
-// 0x0000085E System.String System.Xml.Schema.SchemaEntity::get_BaseURI()
+// 0x0000085F System.String System.Xml.Schema.SchemaEntity::get_BaseURI()
 extern void SchemaEntity_get_BaseURI_m12366B555F0076A6D007AEE5EA1D0220B634CEBB (void);
-// 0x0000085F System.Void System.Xml.Schema.SchemaEntity::set_BaseURI(System.String)
+// 0x00000860 System.Void System.Xml.Schema.SchemaEntity::set_BaseURI(System.String)
 extern void SchemaEntity_set_BaseURI_mFC468DD1928AD24B87E405653FBB189A67042C61 (void);
-// 0x00000860 System.Boolean System.Xml.Schema.SchemaEntity::get_ParsingInProgress()
+// 0x00000861 System.Boolean System.Xml.Schema.SchemaEntity::get_ParsingInProgress()
 extern void SchemaEntity_get_ParsingInProgress_m1A11FBE9700163EB33B81751FB96EA42F99F90EC (void);
-// 0x00000861 System.Void System.Xml.Schema.SchemaEntity::set_ParsingInProgress(System.Boolean)
+// 0x00000862 System.Void System.Xml.Schema.SchemaEntity::set_ParsingInProgress(System.Boolean)
 extern void SchemaEntity_set_ParsingInProgress_m6DA2762E08D1C44455A0E1CF86B7B208A6BD1480 (void);
-// 0x00000862 System.String System.Xml.Schema.SchemaEntity::get_DeclaredURI()
+// 0x00000863 System.String System.Xml.Schema.SchemaEntity::get_DeclaredURI()
 extern void SchemaEntity_get_DeclaredURI_mA5B2AACD3D552050C6318FD6383F32FB0CC0CEA0 (void);
-// 0x00000863 System.Void System.Xml.Schema.SchemaEntity::set_DeclaredURI(System.String)
+// 0x00000864 System.Void System.Xml.Schema.SchemaEntity::set_DeclaredURI(System.String)
 extern void SchemaEntity_set_DeclaredURI_m0411EACB64E056C515ADBBD2118036872D76AC96 (void);
-// 0x00000864 System.Void System.Xml.Schema.SchemaInfo::.ctor()
+// 0x00000865 System.Void System.Xml.Schema.SchemaInfo::.ctor()
 extern void SchemaInfo__ctor_mF2778D9A328648120368A2B00DC41949E52E0963 (void);
-// 0x00000865 System.Void System.Xml.Schema.SchemaInfo::set_DocTypeName(System.Xml.XmlQualifiedName)
+// 0x00000866 System.Void System.Xml.Schema.SchemaInfo::set_DocTypeName(System.Xml.XmlQualifiedName)
 extern void SchemaInfo_set_DocTypeName_mB87F85301E58DCCDD63697CE790A4417A07A54B0 (void);
-// 0x00000866 System.Void System.Xml.Schema.SchemaInfo::set_InternalDtdSubset(System.String)
+// 0x00000867 System.Void System.Xml.Schema.SchemaInfo::set_InternalDtdSubset(System.String)
 extern void SchemaInfo_set_InternalDtdSubset_m8352C52C8065FDD87C562CC9AC5CC098B7697CD5 (void);
-// 0x00000867 System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> System.Xml.Schema.SchemaInfo::get_ElementDecls()
+// 0x00000868 System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> System.Xml.Schema.SchemaInfo::get_ElementDecls()
 extern void SchemaInfo_get_ElementDecls_m238E5681BECA397E7010F7BEFBAC2D0FBEC43BD7 (void);
-// 0x00000868 System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> System.Xml.Schema.SchemaInfo::get_UndeclaredElementDecls()
+// 0x00000869 System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> System.Xml.Schema.SchemaInfo::get_UndeclaredElementDecls()
 extern void SchemaInfo_get_UndeclaredElementDecls_m0A88B7833EFC3AAFB9DC374257DB131D1902EF1D (void);
-// 0x00000869 System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> System.Xml.Schema.SchemaInfo::get_GeneralEntities()
+// 0x0000086A System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> System.Xml.Schema.SchemaInfo::get_GeneralEntities()
 extern void SchemaInfo_get_GeneralEntities_mB8E4E7E02EB79C03BDEEB06638EBFA631DE9C9D2 (void);
-// 0x0000086A System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> System.Xml.Schema.SchemaInfo::get_ParameterEntities()
+// 0x0000086B System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> System.Xml.Schema.SchemaInfo::get_ParameterEntities()
 extern void SchemaInfo_get_ParameterEntities_m54F4C298FA2B2AAE10FAA43965E9DD2C84E76FBB (void);
-// 0x0000086B System.Xml.Schema.SchemaType System.Xml.Schema.SchemaInfo::get_SchemaType()
+// 0x0000086C System.Xml.Schema.SchemaType System.Xml.Schema.SchemaInfo::get_SchemaType()
 extern void SchemaInfo_get_SchemaType_m44BE9221A63C4D13AE45A2054A875B533518B0FC (void);
-// 0x0000086C System.Void System.Xml.Schema.SchemaInfo::set_SchemaType(System.Xml.Schema.SchemaType)
+// 0x0000086D System.Void System.Xml.Schema.SchemaInfo::set_SchemaType(System.Xml.Schema.SchemaType)
 extern void SchemaInfo_set_SchemaType_m00F5B5934AC3BDDD71AAEB8CA3E307451FA51229 (void);
-// 0x0000086D System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> System.Xml.Schema.SchemaInfo::get_Notations()
+// 0x0000086E System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> System.Xml.Schema.SchemaInfo::get_Notations()
 extern void SchemaInfo_get_Notations_m922CD199C8750B3D6F5662DB0EA272805A7EA3A1 (void);
-// 0x0000086E System.Void System.Xml.Schema.SchemaInfo::Finish()
+// 0x0000086F System.Void System.Xml.Schema.SchemaInfo::Finish()
 extern void SchemaInfo_Finish_m2819E8B404C31776D077502515C4BA78BD02F569 (void);
-// 0x0000086F System.Boolean System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_HasDefaultAttributes()
+// 0x00000870 System.Boolean System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_HasDefaultAttributes()
 extern void SchemaInfo_System_Xml_IDtdInfo_get_HasDefaultAttributes_mEBAF817250BF7087E7C9563789F66658C9B0CE42 (void);
-// 0x00000870 System.Boolean System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_HasNonCDataAttributes()
+// 0x00000871 System.Boolean System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_HasNonCDataAttributes()
 extern void SchemaInfo_System_Xml_IDtdInfo_get_HasNonCDataAttributes_m0ACAF8FC2BD37D2FFE23563C972F1B4D21F1547D (void);
-// 0x00000871 System.Xml.IDtdAttributeListInfo System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.LookupAttributeList(System.String,System.String)
+// 0x00000872 System.Xml.IDtdAttributeListInfo System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.LookupAttributeList(System.String,System.String)
 extern void SchemaInfo_System_Xml_IDtdInfo_LookupAttributeList_m41881F02B0447D86A47930EE242A8074F8FEBAD0 (void);
-// 0x00000872 System.Xml.IDtdEntityInfo System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.LookupEntity(System.String)
+// 0x00000873 System.Xml.IDtdEntityInfo System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.LookupEntity(System.String)
 extern void SchemaInfo_System_Xml_IDtdInfo_LookupEntity_m313DCF24AD1330EC15EE99BA0789DBEC9B44C4A4 (void);
-// 0x00000873 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_Name()
+// 0x00000874 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_Name()
 extern void SchemaInfo_System_Xml_IDtdInfo_get_Name_m33815EAFB7FB13F1F81E50ABC4A8890AD9CA0B80 (void);
-// 0x00000874 System.String System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_InternalDtdSubset()
+// 0x00000875 System.String System.Xml.Schema.SchemaInfo::System.Xml.IDtdInfo.get_InternalDtdSubset()
 extern void SchemaInfo_System_Xml_IDtdInfo_get_InternalDtdSubset_mF1738CFE5ACAF0F48716D54C4639E4E782C91376 (void);
-// 0x00000875 System.Void System.Xml.Schema.SchemaNotation::.ctor(System.Xml.XmlQualifiedName)
+// 0x00000876 System.Void System.Xml.Schema.SchemaNotation::.ctor(System.Xml.XmlQualifiedName)
 extern void SchemaNotation__ctor_m2C7E7540A7A33F4B18E31AEB896806C301466457 (void);
-// 0x00000876 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaNotation::get_Name()
+// 0x00000877 System.Xml.XmlQualifiedName System.Xml.Schema.SchemaNotation::get_Name()
 extern void SchemaNotation_get_Name_mF5CA9EBBD17ADAB3A31FC36FDB03B236C4847FCD (void);
-// 0x00000877 System.String System.Xml.Schema.SchemaNotation::get_SystemLiteral()
+// 0x00000878 System.String System.Xml.Schema.SchemaNotation::get_SystemLiteral()
 extern void SchemaNotation_get_SystemLiteral_m0E99C9B3C22B1F8535F3C9334B91EEFD0C2F1DF3 (void);
-// 0x00000878 System.Void System.Xml.Schema.SchemaNotation::set_SystemLiteral(System.String)
+// 0x00000879 System.Void System.Xml.Schema.SchemaNotation::set_SystemLiteral(System.String)
 extern void SchemaNotation_set_SystemLiteral_mE508FA22D4C2368801F3A5AA2B5797F1221234CD (void);
-// 0x00000879 System.String System.Xml.Schema.SchemaNotation::get_Pubid()
+// 0x0000087A System.String System.Xml.Schema.SchemaNotation::get_Pubid()
 extern void SchemaNotation_get_Pubid_m28D7BB40FF192EDC5B5461FBE0FF7E690A3B6BFE (void);
-// 0x0000087A System.Void System.Xml.Schema.SchemaNotation::set_Pubid(System.String)
+// 0x0000087B System.Void System.Xml.Schema.SchemaNotation::set_Pubid(System.String)
 extern void SchemaNotation_set_Pubid_m3829B9FB66E7CB42DBAE04A487127361BFF4357B (void);
-// 0x0000087B System.Xml.Schema.XmlSeverityType System.Xml.Schema.ValidationEventArgs::get_Severity()
+// 0x0000087C System.Xml.Schema.XmlSeverityType System.Xml.Schema.ValidationEventArgs::get_Severity()
 extern void ValidationEventArgs_get_Severity_m9266815374EBA7B2D445C334B8200D1D352243A5 (void);
-// 0x0000087C System.Xml.Schema.XmlSchemaException System.Xml.Schema.ValidationEventArgs::get_Exception()
+// 0x0000087D System.Xml.Schema.XmlSchemaException System.Xml.Schema.ValidationEventArgs::get_Exception()
 extern void ValidationEventArgs_get_Exception_mA95F48A12E9AD475D2D8B65C7E9F10E54CA88DEF (void);
-// 0x0000087D System.Void System.Xml.Schema.ValidationEventHandler::.ctor(System.Object,System.IntPtr)
+// 0x0000087E System.Void System.Xml.Schema.ValidationEventHandler::.ctor(System.Object,System.IntPtr)
 extern void ValidationEventHandler__ctor_m4DA097FFF425C3B807BA394597EF98FE2DB1B190 (void);
-// 0x0000087E System.Void System.Xml.Schema.ValidationEventHandler::Invoke(System.Object,System.Xml.Schema.ValidationEventArgs)
+// 0x0000087F System.Void System.Xml.Schema.ValidationEventHandler::Invoke(System.Object,System.Xml.Schema.ValidationEventArgs)
 extern void ValidationEventHandler_Invoke_m585F7368113F5FDF31F3C7C9C5B7F520CE46481B (void);
-// 0x0000087F System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Boolean)
+// 0x00000880 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Boolean)
 extern void XmlAtomicValue__ctor_m0B15E490AD5701C84DA55091D42D5854F0BF4B34 (void);
-// 0x00000880 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.DateTime)
+// 0x00000881 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.DateTime)
 extern void XmlAtomicValue__ctor_m94B520488DC2AF102DD2A3E98BFFA929B5A46A5C (void);
-// 0x00000881 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Double)
+// 0x00000882 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Double)
 extern void XmlAtomicValue__ctor_m9AB12C0FAB497EEBF86B444EECA85F95EA3BA493 (void);
-// 0x00000882 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Int32)
+// 0x00000883 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Int32)
 extern void XmlAtomicValue__ctor_m468B37937DCC422A0AD0209B325C428016157C35 (void);
-// 0x00000883 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Int64)
+// 0x00000884 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Int64)
 extern void XmlAtomicValue__ctor_m455E82F8503E810E8C793BCBE652E64AA941E5A6 (void);
-// 0x00000884 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.String)
+// 0x00000885 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.String)
 extern void XmlAtomicValue__ctor_m8E8EA1F1B8EB6F1397F22EA2FE24CAA98B857510 (void);
-// 0x00000885 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.String,System.Xml.IXmlNamespaceResolver)
+// 0x00000886 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.String,System.Xml.IXmlNamespaceResolver)
 extern void XmlAtomicValue__ctor_m2FF29194BBFFF9E4DB5BDE839841F8DD87C67766 (void);
-// 0x00000886 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Object)
+// 0x00000887 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Object)
 extern void XmlAtomicValue__ctor_m0E78568E5E8529231689F1BEC22D3A6DE66FACA4 (void);
-// 0x00000887 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x00000888 System.Void System.Xml.Schema.XmlAtomicValue::.ctor(System.Xml.Schema.XmlSchemaType,System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlAtomicValue__ctor_m7787147F7BDA89E00EF133C22C5B467662FDCADA (void);
-// 0x00000888 System.Object System.Xml.Schema.XmlAtomicValue::System.ICloneable.Clone()
+// 0x00000889 System.Object System.Xml.Schema.XmlAtomicValue::System.ICloneable.Clone()
 extern void XmlAtomicValue_System_ICloneable_Clone_m3C31002BC264D9A744E54913E7717E690479B254 (void);
-// 0x00000889 System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlAtomicValue::get_XmlType()
+// 0x0000088A System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlAtomicValue::get_XmlType()
 extern void XmlAtomicValue_get_XmlType_m35DD2850441053637C3D1E38D2A35D7873C40C3E (void);
-// 0x0000088A System.Type System.Xml.Schema.XmlAtomicValue::get_ValueType()
+// 0x0000088B System.Type System.Xml.Schema.XmlAtomicValue::get_ValueType()
 extern void XmlAtomicValue_get_ValueType_m141E33FBD1BF93E91671DD302F7E614F8A5B84AA (void);
-// 0x0000088B System.Object System.Xml.Schema.XmlAtomicValue::get_TypedValue()
+// 0x0000088C System.Object System.Xml.Schema.XmlAtomicValue::get_TypedValue()
 extern void XmlAtomicValue_get_TypedValue_m79B1BC4E8D5C6A7579F06F53AAB3FCA15FA0F1A7 (void);
-// 0x0000088C System.Boolean System.Xml.Schema.XmlAtomicValue::get_ValueAsBoolean()
+// 0x0000088D System.Boolean System.Xml.Schema.XmlAtomicValue::get_ValueAsBoolean()
 extern void XmlAtomicValue_get_ValueAsBoolean_m288068C56A77A71B2DCC389B7F114DA1810888AD (void);
-// 0x0000088D System.DateTime System.Xml.Schema.XmlAtomicValue::get_ValueAsDateTime()
+// 0x0000088E System.DateTime System.Xml.Schema.XmlAtomicValue::get_ValueAsDateTime()
 extern void XmlAtomicValue_get_ValueAsDateTime_m5BA9A3211934D8C3AD85CB77B590C03B7EDBD4D6 (void);
-// 0x0000088E System.Double System.Xml.Schema.XmlAtomicValue::get_ValueAsDouble()
+// 0x0000088F System.Double System.Xml.Schema.XmlAtomicValue::get_ValueAsDouble()
 extern void XmlAtomicValue_get_ValueAsDouble_mB07A8E3253CA651161ADE62009848B0BFA5EA31C (void);
-// 0x0000088F System.Int32 System.Xml.Schema.XmlAtomicValue::get_ValueAsInt()
+// 0x00000890 System.Int32 System.Xml.Schema.XmlAtomicValue::get_ValueAsInt()
 extern void XmlAtomicValue_get_ValueAsInt_mA2194C5D0F410F0807E1E6727B933ADE8D290491 (void);
-// 0x00000890 System.Int64 System.Xml.Schema.XmlAtomicValue::get_ValueAsLong()
+// 0x00000891 System.Int64 System.Xml.Schema.XmlAtomicValue::get_ValueAsLong()
 extern void XmlAtomicValue_get_ValueAsLong_m1F6F4DCA5F9C87F96F1FD1A482CC8137A8EA9CDA (void);
-// 0x00000891 System.Object System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000892 System.Object System.Xml.Schema.XmlAtomicValue::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAtomicValue_ValueAs_m8C7796D67375AB333EEB911226DEB90651A6C525 (void);
-// 0x00000892 System.String System.Xml.Schema.XmlAtomicValue::get_Value()
+// 0x00000893 System.String System.Xml.Schema.XmlAtomicValue::get_Value()
 extern void XmlAtomicValue_get_Value_mA07D6C7D2134B7EE41BDFA92BF712933E05CE07A (void);
-// 0x00000893 System.String System.Xml.Schema.XmlAtomicValue::ToString()
+// 0x00000894 System.String System.Xml.Schema.XmlAtomicValue::ToString()
 extern void XmlAtomicValue_ToString_mBDD282BDEC9773C5283881113D9F0C4CE1E6B9BE (void);
-// 0x00000894 System.String System.Xml.Schema.XmlAtomicValue::GetPrefixFromQName(System.String)
+// 0x00000895 System.String System.Xml.Schema.XmlAtomicValue::GetPrefixFromQName(System.String)
 extern void XmlAtomicValue_GetPrefixFromQName_m3510DB3BEDE975E139BBE6DDFD8D37D02AF83687 (void);
-// 0x00000895 System.Void System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::.ctor(System.String,System.String)
+// 0x00000896 System.Void System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::.ctor(System.String,System.String)
 extern void NamespacePrefixForQName__ctor_m0C144D4860DF56DFECE24B1366987C30B9AADFDC (void);
-// 0x00000896 System.String System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::LookupNamespace(System.String)
+// 0x00000897 System.String System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::LookupNamespace(System.String)
 extern void NamespacePrefixForQName_LookupNamespace_mA6AF6CF7359FFB19908B623B1946BD519D09B0D2 (void);
-// 0x00000897 System.String System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::LookupPrefix(System.String)
+// 0x00000898 System.String System.Xml.Schema.XmlAtomicValue/NamespacePrefixForQName::LookupPrefix(System.String)
 extern void NamespacePrefixForQName_LookupPrefix_m7CF1D00A25F7CABAABFD1A7EACE1A7636CA56151 (void);
-// 0x00000898 System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
+// 0x00000899 System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
 extern void XmlSchemaAnnotated__ctor_m094C7E3CD496FCF801D2A9A68E6D410B634096BC (void);
-// 0x00000899 System.Void System.Xml.Schema.XmlSchemaAny::set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing)
+// 0x0000089A System.Void System.Xml.Schema.XmlSchemaAny::set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing)
 extern void XmlSchemaAny_set_ProcessContents_m07055837F6FD3CBFCAA27CF902DC6F18913D78D5 (void);
-// 0x0000089A System.Xml.Schema.NamespaceList System.Xml.Schema.XmlSchemaAny::get_NamespaceList()
+// 0x0000089B System.Xml.Schema.NamespaceList System.Xml.Schema.XmlSchemaAny::get_NamespaceList()
 extern void XmlSchemaAny_get_NamespaceList_m65DDE446E381B004619EBD95FBD67544302F1A41 (void);
-// 0x0000089B System.Void System.Xml.Schema.XmlSchemaAny::BuildNamespaceList(System.String)
+// 0x0000089C System.Void System.Xml.Schema.XmlSchemaAny::BuildNamespaceList(System.String)
 extern void XmlSchemaAny_BuildNamespaceList_mAA0AF78DA52C779E0F97A249E740E53B7499CF86 (void);
-// 0x0000089C System.Void System.Xml.Schema.XmlSchemaAny::.ctor()
+// 0x0000089D System.Void System.Xml.Schema.XmlSchemaAny::.ctor()
 extern void XmlSchemaAny__ctor_mDA203A411DAC18D7F4371BA6C9D48B6465C32610 (void);
-// 0x0000089D System.Void System.Xml.Schema.XmlSchemaAnyAttribute::set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing)
+// 0x0000089E System.Void System.Xml.Schema.XmlSchemaAnyAttribute::set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing)
 extern void XmlSchemaAnyAttribute_set_ProcessContents_m051ECCE73B05FF4A9CD7F3B07C1CB27CF34B9751 (void);
-// 0x0000089E System.Void System.Xml.Schema.XmlSchemaAnyAttribute::BuildNamespaceList(System.String)
+// 0x0000089F System.Void System.Xml.Schema.XmlSchemaAnyAttribute::BuildNamespaceList(System.String)
 extern void XmlSchemaAnyAttribute_BuildNamespaceList_mF7A27F1DB3896AEBB5D0FD5A12ECC4F4C76726BE (void);
-// 0x0000089F System.Void System.Xml.Schema.XmlSchemaAnyAttribute::.ctor()
+// 0x000008A0 System.Void System.Xml.Schema.XmlSchemaAnyAttribute::.ctor()
 extern void XmlSchemaAnyAttribute__ctor_m9520ADDEE9EAD6D82969F2082F98297C38B732C9 (void);
-// 0x000008A0 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaChoice::get_Items()
+// 0x000008A1 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaChoice::get_Items()
 extern void XmlSchemaChoice_get_Items_m6B4A74E9509884F0346F2D62F427B7070A06F408 (void);
-// 0x000008A1 System.Void System.Xml.Schema.XmlSchemaCompilationSettings::.ctor()
+// 0x000008A2 System.Void System.Xml.Schema.XmlSchemaCompilationSettings::.ctor()
 extern void XmlSchemaCompilationSettings__ctor_m1B6F7BA2DCB29C447A9C1F29E68977E56325432C (void);
-// 0x000008A2 System.Void System.Xml.Schema.XmlSchemaComplexType::.cctor()
+// 0x000008A3 System.Void System.Xml.Schema.XmlSchemaComplexType::.cctor()
 extern void XmlSchemaComplexType__cctor_mEFA99B974EBD9E4C98175206C0765E3382F78856 (void);
-// 0x000008A3 System.Xml.Schema.XmlSchemaComplexType System.Xml.Schema.XmlSchemaComplexType::CreateAnyType(System.Xml.Schema.XmlSchemaContentProcessing)
+// 0x000008A4 System.Xml.Schema.XmlSchemaComplexType System.Xml.Schema.XmlSchemaComplexType::CreateAnyType(System.Xml.Schema.XmlSchemaContentProcessing)
 extern void XmlSchemaComplexType_CreateAnyType_m0CA0DB58D9CF2A1E6C2D27C9F9B8FC0251816A7D (void);
-// 0x000008A4 System.Void System.Xml.Schema.XmlSchemaComplexType::.ctor()
+// 0x000008A5 System.Void System.Xml.Schema.XmlSchemaComplexType::.ctor()
 extern void XmlSchemaComplexType__ctor_mC9406D618CF4921671ED5A723E4C7F21DABAC9BC (void);
-// 0x000008A5 System.Xml.Schema.XmlSchemaComplexType System.Xml.Schema.XmlSchemaComplexType::get_AnyType()
+// 0x000008A6 System.Xml.Schema.XmlSchemaComplexType System.Xml.Schema.XmlSchemaComplexType::get_AnyType()
 extern void XmlSchemaComplexType_get_AnyType_mE1F100365AF7AEDDCE15360D9660A4AFA56E6F4D (void);
-// 0x000008A6 System.Xml.Schema.ContentValidator System.Xml.Schema.XmlSchemaComplexType::get_AnyTypeContentValidator()
+// 0x000008A7 System.Xml.Schema.ContentValidator System.Xml.Schema.XmlSchemaComplexType::get_AnyTypeContentValidator()
 extern void XmlSchemaComplexType_get_AnyTypeContentValidator_mD016FD664CFD81BB7B6C258541020E76398C14A5 (void);
-// 0x000008A7 System.Void System.Xml.Schema.XmlSchemaComplexType::set_IsMixed(System.Boolean)
+// 0x000008A8 System.Void System.Xml.Schema.XmlSchemaComplexType::set_IsMixed(System.Boolean)
 extern void XmlSchemaComplexType_set_IsMixed_mD9BA9E7C1D852CFF9FDA597E563530D0351FFF3F (void);
-// 0x000008A8 System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaComplexType::get_ContentTypeParticle()
+// 0x000008A9 System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaComplexType::get_ContentTypeParticle()
 extern void XmlSchemaComplexType_get_ContentTypeParticle_mCEE7ABC70994F399BDEBDEB832DE13884963A88B (void);
-// 0x000008A9 System.Void System.Xml.Schema.XmlSchemaComplexType::SetContentTypeParticle(System.Xml.Schema.XmlSchemaParticle)
+// 0x000008AA System.Void System.Xml.Schema.XmlSchemaComplexType::SetContentTypeParticle(System.Xml.Schema.XmlSchemaParticle)
 extern void XmlSchemaComplexType_SetContentTypeParticle_mB8689C965741F6E8816DDA1ED808A7CE6D9575FD (void);
-// 0x000008AA System.Void System.Xml.Schema.XmlSchemaComplexType::SetAttributeWildcard(System.Xml.Schema.XmlSchemaAnyAttribute)
+// 0x000008AB System.Void System.Xml.Schema.XmlSchemaComplexType::SetAttributeWildcard(System.Xml.Schema.XmlSchemaAnyAttribute)
 extern void XmlSchemaComplexType_SetAttributeWildcard_m44A223BCCE0917C79838A1C7D50078EBD36A04D0 (void);
-// 0x000008AB System.Type System.Xml.Schema.XmlSchemaDatatype::get_ValueType()
-// 0x000008AC System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
-// 0x000008AD System.Object System.Xml.Schema.XmlSchemaDatatype::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
-// 0x000008AE System.Xml.Schema.XmlSchemaDatatypeVariety System.Xml.Schema.XmlSchemaDatatype::get_Variety()
+// 0x000008AC System.Type System.Xml.Schema.XmlSchemaDatatype::get_ValueType()
+// 0x000008AD System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
+// 0x000008AE System.Object System.Xml.Schema.XmlSchemaDatatype::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
+// 0x000008AF System.Xml.Schema.XmlSchemaDatatypeVariety System.Xml.Schema.XmlSchemaDatatype::get_Variety()
 extern void XmlSchemaDatatype_get_Variety_mD00B3F320B7697D6038D032CB5D7C657E123B149 (void);
-// 0x000008AF System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlSchemaDatatype::get_TypeCode()
+// 0x000008B0 System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlSchemaDatatype::get_TypeCode()
 extern void XmlSchemaDatatype_get_TypeCode_mEBD253074461B45DA28E5D3BC458406B22246AC7 (void);
-// 0x000008B0 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlSchemaDatatype::get_ValueConverter()
-// 0x000008B1 System.Xml.Schema.RestrictionFacets System.Xml.Schema.XmlSchemaDatatype::get_Restriction()
-// 0x000008B2 System.Int32 System.Xml.Schema.XmlSchemaDatatype::Compare(System.Object,System.Object)
-// 0x000008B3 System.Exception System.Xml.Schema.XmlSchemaDatatype::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
-// 0x000008B4 System.Xml.Schema.FacetsChecker System.Xml.Schema.XmlSchemaDatatype::get_FacetsChecker()
-// 0x000008B5 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.XmlSchemaDatatype::get_BuiltInWhitespaceFacet()
-// 0x000008B6 System.Boolean System.Xml.Schema.XmlSchemaDatatype::IsEqual(System.Object,System.Object)
-// 0x000008B7 System.String System.Xml.Schema.XmlSchemaDatatype::get_TypeCodeString()
+// 0x000008B1 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlSchemaDatatype::get_ValueConverter()
+// 0x000008B2 System.Xml.Schema.RestrictionFacets System.Xml.Schema.XmlSchemaDatatype::get_Restriction()
+// 0x000008B3 System.Int32 System.Xml.Schema.XmlSchemaDatatype::Compare(System.Object,System.Object)
+// 0x000008B4 System.Exception System.Xml.Schema.XmlSchemaDatatype::TryParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver,System.Object&)
+// 0x000008B5 System.Xml.Schema.FacetsChecker System.Xml.Schema.XmlSchemaDatatype::get_FacetsChecker()
+// 0x000008B6 System.Xml.Schema.XmlSchemaWhiteSpace System.Xml.Schema.XmlSchemaDatatype::get_BuiltInWhitespaceFacet()
+// 0x000008B7 System.Boolean System.Xml.Schema.XmlSchemaDatatype::IsEqual(System.Object,System.Object)
+// 0x000008B8 System.String System.Xml.Schema.XmlSchemaDatatype::get_TypeCodeString()
 extern void XmlSchemaDatatype_get_TypeCodeString_mC4DD224D43325E0D5E8B421312614C86BC85329D (void);
-// 0x000008B8 System.String System.Xml.Schema.XmlSchemaDatatype::TypeCodeToString(System.Xml.Schema.XmlTypeCode)
+// 0x000008B9 System.String System.Xml.Schema.XmlSchemaDatatype::TypeCodeToString(System.Xml.Schema.XmlTypeCode)
 extern void XmlSchemaDatatype_TypeCodeToString_m5863DC304562BF11A9B1E80F97ED0C26E1E6FC2F (void);
-// 0x000008B9 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromXmlTokenizedType(System.Xml.XmlTokenizedType)
+// 0x000008BA System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromXmlTokenizedType(System.Xml.XmlTokenizedType)
 extern void XmlSchemaDatatype_FromXmlTokenizedType_m1F08927331DE144ED8D4BC52BC5DFF7EB77590FA (void);
-// 0x000008BA System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
+// 0x000008BB System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
 extern void XmlSchemaDatatype__ctor_mF5996056D6A960EBC6B5CB40E747FCF8B0DCB71E (void);
-// 0x000008BB System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000008BC System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void XmlSchemaException__ctor_m4A6AE5A217661A7443A9BCD7B6CC08913C17F5EA (void);
-// 0x000008BC System.Void System.Xml.Schema.XmlSchemaException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000008BD System.Void System.Xml.Schema.XmlSchemaException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void XmlSchemaException_GetObjectData_m3C573DE98532FB9B4A1B7155296A511988AEC845 (void);
-// 0x000008BD System.Void System.Xml.Schema.XmlSchemaException::.ctor()
+// 0x000008BE System.Void System.Xml.Schema.XmlSchemaException::.ctor()
 extern void XmlSchemaException__ctor_m6EE7BDFDF376AA52636253914197148CF9E53182 (void);
-// 0x000008BE System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String)
+// 0x000008BF System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String)
 extern void XmlSchemaException__ctor_m9D5022624F003135E6424F6C7D64B11886FF211E (void);
-// 0x000008BF System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.Exception)
+// 0x000008C0 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.Exception)
 extern void XmlSchemaException__ctor_m8859229CBC18363B2BF879B0EA795397C4B228AB (void);
-// 0x000008C0 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.Exception,System.Int32,System.Int32)
+// 0x000008C1 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.Exception,System.Int32,System.Int32)
 extern void XmlSchemaException__ctor_mDBE0CAA68E5658F7AD99E986797845766873ABA8 (void);
-// 0x000008C1 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String)
+// 0x000008C2 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String)
 extern void XmlSchemaException__ctor_m92DDEB5CA724CC6E33CDC2F113378DB5D6757AAA (void);
-// 0x000008C2 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String,System.String,System.Int32,System.Int32)
+// 0x000008C3 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String,System.String,System.Int32,System.Int32)
 extern void XmlSchemaException__ctor_m5EB9F0E36520DCB3AD78B355F5F120E1D7FF5EEB (void);
-// 0x000008C3 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String[],System.Exception,System.String,System.Int32,System.Int32,System.Xml.Schema.XmlSchemaObject)
+// 0x000008C4 System.Void System.Xml.Schema.XmlSchemaException::.ctor(System.String,System.String[],System.Exception,System.String,System.Int32,System.Int32,System.Xml.Schema.XmlSchemaObject)
 extern void XmlSchemaException__ctor_m9505C3D1FC19D24715CEC2FD9A00E58A9502453D (void);
-// 0x000008C4 System.String System.Xml.Schema.XmlSchemaException::CreateMessage(System.String,System.String[])
+// 0x000008C5 System.String System.Xml.Schema.XmlSchemaException::CreateMessage(System.String,System.String[])
 extern void XmlSchemaException_CreateMessage_m6130D97751D1598ED23338986B26E1E91F4A777D (void);
-// 0x000008C5 System.String System.Xml.Schema.XmlSchemaException::get_Message()
+// 0x000008C6 System.String System.Xml.Schema.XmlSchemaException::get_Message()
 extern void XmlSchemaException_get_Message_m178394BC23B49E84BD06E8B75519E56043E84F3D (void);
-// 0x000008C6 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaGroupBase::get_Items()
-// 0x000008C7 System.Void System.Xml.Schema.XmlSchemaGroupBase::.ctor()
+// 0x000008C7 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaGroupBase::get_Items()
+// 0x000008C8 System.Void System.Xml.Schema.XmlSchemaGroupBase::.ctor()
 extern void XmlSchemaGroupBase__ctor_m44EE0EB66C6A7EA2F17D3B5415E71C9E81752046 (void);
-// 0x000008C8 System.Void System.Xml.Schema.XmlSchemaInfo::.ctor()
+// 0x000008C9 System.Void System.Xml.Schema.XmlSchemaInfo::.ctor()
 extern void XmlSchemaInfo__ctor_mEEC95F1F490C5D62BF1CC6DB16FE4938E5C1C341 (void);
-// 0x000008C9 System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.XmlSchemaValidity)
+// 0x000008CA System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.XmlSchemaValidity)
 extern void XmlSchemaInfo__ctor_mEB56BD698D44A8AAA47668230E0CDFE8463ABD08 (void);
-// 0x000008CA System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
+// 0x000008CB System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
 extern void XmlSchemaInfo_get_Validity_mE4869422758C55C3AEAD4058EA5DE33F20515B83 (void);
-// 0x000008CB System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
+// 0x000008CC System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
 extern void XmlSchemaInfo_get_IsDefault_mB86867936914AAE6E3CD99B8826360233EA59B8C (void);
-// 0x000008CC System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
+// 0x000008CD System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
 extern void XmlSchemaInfo_get_IsNil_m4F1DD1026DF6FADBEB26C570C07933519D4F8A2B (void);
-// 0x000008CD System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
+// 0x000008CE System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
 extern void XmlSchemaInfo_get_MemberType_m4D8775934A4A9E0BFB886A913151C05237D79CCC (void);
-// 0x000008CE System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
+// 0x000008CF System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
 extern void XmlSchemaInfo_get_SchemaType_mEB10A4E308F1E049AB929D5AB45087160B8A4979 (void);
-// 0x000008CF System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
+// 0x000008D0 System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
 extern void XmlSchemaInfo_get_SchemaElement_m9E2ACC794E25FE2D5CC3DC433E8E389DE6934DDB (void);
-// 0x000008D0 System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
+// 0x000008D1 System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
 extern void XmlSchemaInfo_get_SchemaAttribute_m7DF2A831CAFA45AEC510A5C538426410AA7A9A49 (void);
-// 0x000008D1 System.Void System.Xml.Schema.XmlSchemaInfo::Clear()
+// 0x000008D2 System.Void System.Xml.Schema.XmlSchemaInfo::Clear()
 extern void XmlSchemaInfo_Clear_m6EACF6A1BB70B47CBC2865B8CCC74BEA67F96FFE (void);
-// 0x000008D2 System.Void System.Xml.Schema.XmlSchemaObject::OnAdd(System.Xml.Schema.XmlSchemaObjectCollection,System.Object)
+// 0x000008D3 System.Void System.Xml.Schema.XmlSchemaObject::OnAdd(System.Xml.Schema.XmlSchemaObjectCollection,System.Object)
 extern void XmlSchemaObject_OnAdd_m2462E2287A0F5133E56371F4B228AB3E3CEDEF1F (void);
-// 0x000008D3 System.Void System.Xml.Schema.XmlSchemaObject::OnRemove(System.Xml.Schema.XmlSchemaObjectCollection,System.Object)
+// 0x000008D4 System.Void System.Xml.Schema.XmlSchemaObject::OnRemove(System.Xml.Schema.XmlSchemaObjectCollection,System.Object)
 extern void XmlSchemaObject_OnRemove_m03E558E22948E6E395ED4BBDC931A07CF9E7FE8C (void);
-// 0x000008D4 System.Void System.Xml.Schema.XmlSchemaObject::OnClear(System.Xml.Schema.XmlSchemaObjectCollection)
+// 0x000008D5 System.Void System.Xml.Schema.XmlSchemaObject::OnClear(System.Xml.Schema.XmlSchemaObjectCollection)
 extern void XmlSchemaObject_OnClear_mD64BD34AAF5FFE75D64A376265492DE8413E08B0 (void);
-// 0x000008D5 System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
+// 0x000008D6 System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
 extern void XmlSchemaObject__ctor_m72D9D6DC7E5B4FBB6ADEB97F688474AF8AC7CADE (void);
-// 0x000008D6 System.Void System.Xml.Schema.XmlSchemaObjectCollection::.ctor()
+// 0x000008D7 System.Void System.Xml.Schema.XmlSchemaObjectCollection::.ctor()
 extern void XmlSchemaObjectCollection__ctor_mADAEAC1E5F0B0F7346DA6B6B2BD10092A0EF9C05 (void);
-// 0x000008D7 System.Int32 System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Xml.Schema.XmlSchemaObject)
+// 0x000008D8 System.Int32 System.Xml.Schema.XmlSchemaObjectCollection::Add(System.Xml.Schema.XmlSchemaObject)
 extern void XmlSchemaObjectCollection_Add_m7331C4E33810C8039BDB8EE3FE78FBD0D042AFDA (void);
-// 0x000008D8 System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnInsert(System.Int32,System.Object)
+// 0x000008D9 System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnInsert(System.Int32,System.Object)
 extern void XmlSchemaObjectCollection_OnInsert_m557373452D8111CB48EFAD63A95D453EB2755463 (void);
-// 0x000008D9 System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnSet(System.Int32,System.Object,System.Object)
+// 0x000008DA System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnSet(System.Int32,System.Object,System.Object)
 extern void XmlSchemaObjectCollection_OnSet_m68641D7A4D784C05296962F40FEC5F367E0BF019 (void);
-// 0x000008DA System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnClear()
+// 0x000008DB System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnClear()
 extern void XmlSchemaObjectCollection_OnClear_mE46F65DC2D01A5426B966B9318AACA7807FDF899 (void);
-// 0x000008DB System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnRemove(System.Int32,System.Object)
+// 0x000008DC System.Void System.Xml.Schema.XmlSchemaObjectCollection::OnRemove(System.Int32,System.Object)
 extern void XmlSchemaObjectCollection_OnRemove_mF1303A8DFB76392617388B2143CDAEA85360DDA9 (void);
-// 0x000008DC System.Void System.Xml.Schema.XmlSchemaParticle::set_MinOccurs(System.Decimal)
+// 0x000008DD System.Void System.Xml.Schema.XmlSchemaParticle::set_MinOccurs(System.Decimal)
 extern void XmlSchemaParticle_set_MinOccurs_mF5AD1AEB14E696DFC27F54ACF153134BA8C269F3 (void);
-// 0x000008DD System.Void System.Xml.Schema.XmlSchemaParticle::set_MaxOccurs(System.Decimal)
+// 0x000008DE System.Void System.Xml.Schema.XmlSchemaParticle::set_MaxOccurs(System.Decimal)
 extern void XmlSchemaParticle_set_MaxOccurs_m323FFAAFC203B3935B029652812ACFEF03177776 (void);
-// 0x000008DE System.Void System.Xml.Schema.XmlSchemaParticle::.ctor()
+// 0x000008DF System.Void System.Xml.Schema.XmlSchemaParticle::.ctor()
 extern void XmlSchemaParticle__ctor_mDF61E3EE9B7D4102592DA20D02619EBF4D04F9A1 (void);
-// 0x000008DF System.Void System.Xml.Schema.XmlSchemaParticle::.cctor()
+// 0x000008E0 System.Void System.Xml.Schema.XmlSchemaParticle::.cctor()
 extern void XmlSchemaParticle__cctor_m90D9FA4334B902A8503815EF299C62A41C3F23A7 (void);
-// 0x000008E0 System.Void System.Xml.Schema.XmlSchemaParticle/EmptyParticle::.ctor()
+// 0x000008E1 System.Void System.Xml.Schema.XmlSchemaParticle/EmptyParticle::.ctor()
 extern void EmptyParticle__ctor_m7FE5C70CB31BBBE2FAF38D403AC196F379DAC079 (void);
-// 0x000008E1 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaSequence::get_Items()
+// 0x000008E2 System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaSequence::get_Items()
 extern void XmlSchemaSequence_get_Items_m70B37651E1C35A6D8200AEF75BFD61350284F417 (void);
-// 0x000008E2 System.Void System.Xml.Schema.XmlSchemaSequence::.ctor()
+// 0x000008E3 System.Void System.Xml.Schema.XmlSchemaSequence::.ctor()
 extern void XmlSchemaSequence__ctor_m2F6FEB908FD993D0623F35D800E4459AF401F065 (void);
-// 0x000008E3 System.Void System.Xml.Schema.XmlSchemaSet::.ctor()
+// 0x000008E4 System.Void System.Xml.Schema.XmlSchemaSet::.ctor()
 extern void XmlSchemaSet__ctor_m3D365A1BB668EC9DBFBE314F44F00B1AFB3257BD (void);
-// 0x000008E4 System.Void System.Xml.Schema.XmlSchemaSet::.ctor(System.Xml.XmlNameTable)
+// 0x000008E5 System.Void System.Xml.Schema.XmlSchemaSet::.ctor(System.Xml.XmlNameTable)
 extern void XmlSchemaSet__ctor_m4BA127BB610FA98EC4474081E079EFFB2D1DFFF8 (void);
-// 0x000008E5 System.Void System.Xml.Schema.XmlSchemaSet::InternalValidationCallback(System.Object,System.Xml.Schema.ValidationEventArgs)
+// 0x000008E6 System.Void System.Xml.Schema.XmlSchemaSet::InternalValidationCallback(System.Object,System.Xml.Schema.ValidationEventArgs)
 extern void XmlSchemaSet_InternalValidationCallback_mA22A6620F8AC884338763420A26C7912F652CDC6 (void);
-// 0x000008E6 System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
+// 0x000008E7 System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
 extern void XmlSchemaSimpleType__ctor_mCCEF1D2C61540983908D6E1BB4BEBB3195BA7055 (void);
-// 0x000008E7 System.Xml.Schema.XmlSchemaSimpleTypeContent System.Xml.Schema.XmlSchemaSimpleType::get_Content()
+// 0x000008E8 System.Xml.Schema.XmlSchemaSimpleTypeContent System.Xml.Schema.XmlSchemaSimpleType::get_Content()
 extern void XmlSchemaSimpleType_get_Content_mCB30920833956BE92591B664C0036D0C138B7C54 (void);
-// 0x000008E8 System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
+// 0x000008E9 System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
 extern void XmlSchemaSimpleType_set_Content_m0BD0F1CBB3B78632801F8FD34A1637B2DA9FEA01 (void);
-// 0x000008E9 System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
+// 0x000008EA System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
 extern void XmlSchemaSimpleTypeContent__ctor_m2963A17FFA854DEEB73AAD77637263E9F18401FC (void);
-// 0x000008EA System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemType(System.Xml.Schema.XmlSchemaSimpleType)
+// 0x000008EB System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemType(System.Xml.Schema.XmlSchemaSimpleType)
 extern void XmlSchemaSimpleTypeList_set_ItemType_m7651BDF231B9E66FFC12A8AAE74845FB71E71C7B (void);
-// 0x000008EB System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleTypeList::get_BaseItemType()
+// 0x000008EC System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleTypeList::get_BaseItemType()
 extern void XmlSchemaSimpleTypeList_get_BaseItemType_mAB81D9EC2A6AC04FB8F926664A19A4367CF54BD8 (void);
-// 0x000008EC System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_BaseItemType(System.Xml.Schema.XmlSchemaSimpleType)
+// 0x000008ED System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_BaseItemType(System.Xml.Schema.XmlSchemaSimpleType)
 extern void XmlSchemaSimpleTypeList_set_BaseItemType_m61F5587B0F01AFA876563F998C9EB0206ADB6BFE (void);
-// 0x000008ED System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::.ctor()
+// 0x000008EE System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::.ctor()
 extern void XmlSchemaSimpleTypeList__ctor_m0D8842775F71D08ECCF7E32FCB31E75E69222714 (void);
-// 0x000008EE System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::set_BaseTypeName(System.Xml.XmlQualifiedName)
+// 0x000008EF System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::set_BaseTypeName(System.Xml.XmlQualifiedName)
 extern void XmlSchemaSimpleTypeRestriction_set_BaseTypeName_mF5693C82788AEE2DD4F3F16C94070C4E2C75BE65 (void);
-// 0x000008EF System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.ctor()
+// 0x000008F0 System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.ctor()
 extern void XmlSchemaSimpleTypeRestriction__ctor_m5777FDD4817C7A77B3F1FD1BA212D3C92370EFFE (void);
-// 0x000008F0 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.Schema.XmlTypeCode)
+// 0x000008F1 System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.Schema.XmlTypeCode)
 extern void XmlSchemaType_GetBuiltInSimpleType_mCB3679D57A227BD055F702CBE00D47AFAF730B79 (void);
-// 0x000008F1 System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::get_QualifiedName()
+// 0x000008F2 System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::get_QualifiedName()
 extern void XmlSchemaType_get_QualifiedName_m4DFF2E93FF1C517E0B80685D7F50C26D1F1DB184 (void);
-// 0x000008F2 System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaType::get_BaseXmlSchemaType()
+// 0x000008F3 System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaType::get_BaseXmlSchemaType()
 extern void XmlSchemaType_get_BaseXmlSchemaType_mB970BEBE5AA98845F853E4136C970E8B822C64C9 (void);
-// 0x000008F3 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaType::get_Datatype()
+// 0x000008F4 System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaType::get_Datatype()
 extern void XmlSchemaType_get_Datatype_mECB5426C8F94D6BEF27D5E8648BCCDB17C5EAC16 (void);
-// 0x000008F4 System.Void System.Xml.Schema.XmlSchemaType::set_IsMixed(System.Boolean)
+// 0x000008F5 System.Void System.Xml.Schema.XmlSchemaType::set_IsMixed(System.Boolean)
 extern void XmlSchemaType_set_IsMixed_m1C466021DB38750793AEA2C63C7E237940B1451B (void);
-// 0x000008F5 System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlSchemaType::get_TypeCode()
+// 0x000008F6 System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlSchemaType::get_TypeCode()
 extern void XmlSchemaType_get_TypeCode_mF1CEC58E5DE9F750F24996B6776FAB44F01B565D (void);
-// 0x000008F6 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlSchemaType::get_ValueConverter()
+// 0x000008F7 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlSchemaType::get_ValueConverter()
 extern void XmlSchemaType_get_ValueConverter_mCCC5AAC678099B787A16302E74037FC05E0522C8 (void);
-// 0x000008F7 System.Void System.Xml.Schema.XmlSchemaType::SetQualifiedName(System.Xml.XmlQualifiedName)
+// 0x000008F8 System.Void System.Xml.Schema.XmlSchemaType::SetQualifiedName(System.Xml.XmlQualifiedName)
 extern void XmlSchemaType_SetQualifiedName_mC117EBA4E037E2AD5D60538EDBCC01933D5149F6 (void);
-// 0x000008F8 System.Void System.Xml.Schema.XmlSchemaType::SetBaseSchemaType(System.Xml.Schema.XmlSchemaType)
+// 0x000008F9 System.Void System.Xml.Schema.XmlSchemaType::SetBaseSchemaType(System.Xml.Schema.XmlSchemaType)
 extern void XmlSchemaType_SetBaseSchemaType_mDEA262EB0B426FC9A29BFFA4A9117308C4469B6C (void);
-// 0x000008F9 System.Void System.Xml.Schema.XmlSchemaType::SetDerivedBy(System.Xml.Schema.XmlSchemaDerivationMethod)
+// 0x000008FA System.Void System.Xml.Schema.XmlSchemaType::SetDerivedBy(System.Xml.Schema.XmlSchemaDerivationMethod)
 extern void XmlSchemaType_SetDerivedBy_m38B846A751256507DF0285C064DC5B488C93B75B (void);
-// 0x000008FA System.Void System.Xml.Schema.XmlSchemaType::SetDatatype(System.Xml.Schema.XmlSchemaDatatype)
+// 0x000008FB System.Void System.Xml.Schema.XmlSchemaType::SetDatatype(System.Xml.Schema.XmlSchemaDatatype)
 extern void XmlSchemaType_SetDatatype_m6B9703DD5514CFC9E91850433EC3CABDC18BCB6D (void);
-// 0x000008FB System.Xml.Schema.SchemaElementDecl System.Xml.Schema.XmlSchemaType::get_ElementDecl()
+// 0x000008FC System.Xml.Schema.SchemaElementDecl System.Xml.Schema.XmlSchemaType::get_ElementDecl()
 extern void XmlSchemaType_get_ElementDecl_mB5C4C81B41D43C405C7C888A2AD3AEC77F3DF86C (void);
-// 0x000008FC System.Void System.Xml.Schema.XmlSchemaType::set_ElementDecl(System.Xml.Schema.SchemaElementDecl)
+// 0x000008FD System.Void System.Xml.Schema.XmlSchemaType::set_ElementDecl(System.Xml.Schema.SchemaElementDecl)
 extern void XmlSchemaType_set_ElementDecl_mEEFA6EC6350ABB46B54C3BBEDAD78561F2B09536 (void);
-// 0x000008FD System.Void System.Xml.Schema.XmlSchemaType::SetContentType(System.Xml.Schema.XmlSchemaContentType)
+// 0x000008FE System.Void System.Xml.Schema.XmlSchemaType::SetContentType(System.Xml.Schema.XmlSchemaContentType)
 extern void XmlSchemaType_SetContentType_mDD860E7EB8BC629E70FDDCFAA30AB00A82978C41 (void);
-// 0x000008FE System.Void System.Xml.Schema.XmlSchemaType::.ctor()
+// 0x000008FF System.Void System.Xml.Schema.XmlSchemaType::.ctor()
 extern void XmlSchemaType__ctor_mF2C12D4E7A401FE713B095FA94EA4CF54B89C9EE (void);
-// 0x000008FF System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Int64)
-// 0x00000900 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Int32)
-// 0x00000901 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Double)
-// 0x00000902 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.DateTime)
-// 0x00000903 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.String)
-// 0x00000904 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Object)
-// 0x00000905 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Boolean)
-// 0x00000906 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Int64)
-// 0x00000907 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Double)
-// 0x00000908 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.DateTime)
-// 0x00000909 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.String)
-// 0x0000090A System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Object)
-// 0x0000090B System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Boolean)
-// 0x0000090C System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Int32)
-// 0x0000090D System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Double)
-// 0x0000090E System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.DateTime)
-// 0x0000090F System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.String)
-// 0x00000910 System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Object)
-// 0x00000911 System.Decimal System.Xml.Schema.XmlValueConverter::ToDecimal(System.String)
-// 0x00000912 System.Decimal System.Xml.Schema.XmlValueConverter::ToDecimal(System.Object)
-// 0x00000913 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Boolean)
-// 0x00000914 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Int32)
-// 0x00000915 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Int64)
-// 0x00000916 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.DateTime)
-// 0x00000917 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.String)
-// 0x00000918 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Object)
-// 0x00000919 System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.Double)
-// 0x0000091A System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.String)
-// 0x0000091B System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.Object)
-// 0x0000091C System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Boolean)
-// 0x0000091D System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Int32)
-// 0x0000091E System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Int64)
-// 0x0000091F System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Double)
-// 0x00000920 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.DateTimeOffset)
-// 0x00000921 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.String)
-// 0x00000922 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Object)
-// 0x00000923 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.DateTime)
-// 0x00000924 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.String)
-// 0x00000925 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.Object)
-// 0x00000926 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Boolean)
-// 0x00000927 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Int32)
-// 0x00000928 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Int64)
-// 0x00000929 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Decimal)
-// 0x0000092A System.String System.Xml.Schema.XmlValueConverter::ToString(System.Single)
-// 0x0000092B System.String System.Xml.Schema.XmlValueConverter::ToString(System.Double)
-// 0x0000092C System.String System.Xml.Schema.XmlValueConverter::ToString(System.DateTime)
-// 0x0000092D System.String System.Xml.Schema.XmlValueConverter::ToString(System.DateTimeOffset)
-// 0x0000092E System.String System.Xml.Schema.XmlValueConverter::ToString(System.Object)
-// 0x0000092F System.String System.Xml.Schema.XmlValueConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
-// 0x00000930 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Boolean,System.Type)
-// 0x00000931 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Int32,System.Type)
-// 0x00000932 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Int64,System.Type)
-// 0x00000933 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Decimal,System.Type)
-// 0x00000934 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Double,System.Type)
-// 0x00000935 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.DateTime,System.Type)
-// 0x00000936 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
-// 0x00000937 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Object,System.Type)
-// 0x00000938 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
-// 0x00000939 System.Void System.Xml.Schema.XmlValueConverter::.ctor()
+// 0x00000900 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Int64)
+// 0x00000901 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Int32)
+// 0x00000902 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Double)
+// 0x00000903 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.DateTime)
+// 0x00000904 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.String)
+// 0x00000905 System.Boolean System.Xml.Schema.XmlValueConverter::ToBoolean(System.Object)
+// 0x00000906 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Boolean)
+// 0x00000907 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Int64)
+// 0x00000908 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Double)
+// 0x00000909 System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.DateTime)
+// 0x0000090A System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.String)
+// 0x0000090B System.Int32 System.Xml.Schema.XmlValueConverter::ToInt32(System.Object)
+// 0x0000090C System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Boolean)
+// 0x0000090D System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Int32)
+// 0x0000090E System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Double)
+// 0x0000090F System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.DateTime)
+// 0x00000910 System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.String)
+// 0x00000911 System.Int64 System.Xml.Schema.XmlValueConverter::ToInt64(System.Object)
+// 0x00000912 System.Decimal System.Xml.Schema.XmlValueConverter::ToDecimal(System.String)
+// 0x00000913 System.Decimal System.Xml.Schema.XmlValueConverter::ToDecimal(System.Object)
+// 0x00000914 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Boolean)
+// 0x00000915 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Int32)
+// 0x00000916 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Int64)
+// 0x00000917 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.DateTime)
+// 0x00000918 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.String)
+// 0x00000919 System.Double System.Xml.Schema.XmlValueConverter::ToDouble(System.Object)
+// 0x0000091A System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.Double)
+// 0x0000091B System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.String)
+// 0x0000091C System.Single System.Xml.Schema.XmlValueConverter::ToSingle(System.Object)
+// 0x0000091D System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Boolean)
+// 0x0000091E System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Int32)
+// 0x0000091F System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Int64)
+// 0x00000920 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Double)
+// 0x00000921 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.DateTimeOffset)
+// 0x00000922 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.String)
+// 0x00000923 System.DateTime System.Xml.Schema.XmlValueConverter::ToDateTime(System.Object)
+// 0x00000924 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.DateTime)
+// 0x00000925 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.String)
+// 0x00000926 System.DateTimeOffset System.Xml.Schema.XmlValueConverter::ToDateTimeOffset(System.Object)
+// 0x00000927 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Boolean)
+// 0x00000928 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Int32)
+// 0x00000929 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Int64)
+// 0x0000092A System.String System.Xml.Schema.XmlValueConverter::ToString(System.Decimal)
+// 0x0000092B System.String System.Xml.Schema.XmlValueConverter::ToString(System.Single)
+// 0x0000092C System.String System.Xml.Schema.XmlValueConverter::ToString(System.Double)
+// 0x0000092D System.String System.Xml.Schema.XmlValueConverter::ToString(System.DateTime)
+// 0x0000092E System.String System.Xml.Schema.XmlValueConverter::ToString(System.DateTimeOffset)
+// 0x0000092F System.String System.Xml.Schema.XmlValueConverter::ToString(System.Object)
+// 0x00000930 System.String System.Xml.Schema.XmlValueConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x00000931 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Boolean,System.Type)
+// 0x00000932 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Int32,System.Type)
+// 0x00000933 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Int64,System.Type)
+// 0x00000934 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Decimal,System.Type)
+// 0x00000935 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Double,System.Type)
+// 0x00000936 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.DateTime,System.Type)
+// 0x00000937 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000938 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Object,System.Type)
+// 0x00000939 System.Object System.Xml.Schema.XmlValueConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x0000093A System.Void System.Xml.Schema.XmlValueConverter::.ctor()
 extern void XmlValueConverter__ctor_mA3330C14B224950154A77B2FD37429776CA556E6 (void);
-// 0x0000093A System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x0000093B System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlBaseConverter__ctor_mF610DA8AF9A17AF29F8421EEF72A1E34C26CA684 (void);
-// 0x0000093B System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlTypeCode)
+// 0x0000093C System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlTypeCode)
 extern void XmlBaseConverter__ctor_m4FA115C3F4BC61D97FF8A80413E1DA98CCB3DF59 (void);
-// 0x0000093C System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
+// 0x0000093D System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
 extern void XmlBaseConverter__ctor_mFEDD317203AB0DD55B906FAE9FE5DE9EA48C47D1 (void);
-// 0x0000093D System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter,System.Type)
+// 0x0000093E System.Void System.Xml.Schema.XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter,System.Type)
 extern void XmlBaseConverter__ctor_m04DD9808F74F7DE24B7660BB9C97265494061E27 (void);
-// 0x0000093E System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.DateTime)
+// 0x0000093F System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.DateTime)
 extern void XmlBaseConverter_ToBoolean_mBBD6F3F83481CC3AC4609F61CF5B4D7E4391FB2B (void);
-// 0x0000093F System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Double)
+// 0x00000940 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Double)
 extern void XmlBaseConverter_ToBoolean_m7EDF5A2C10AC9A950A39DFD376CC6569C0EB5C17 (void);
-// 0x00000940 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Int32)
+// 0x00000941 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Int32)
 extern void XmlBaseConverter_ToBoolean_m070195536580F4FC336E0D620A44396C2EE5D230 (void);
-// 0x00000941 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Int64)
+// 0x00000942 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Int64)
 extern void XmlBaseConverter_ToBoolean_mD63F720ACA6C1C22F1F0D818B758FF8AAE4E2110 (void);
-// 0x00000942 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.String)
+// 0x00000943 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.String)
 extern void XmlBaseConverter_ToBoolean_m618E1D1FEE30D8DE18FE19991207F276040DD7BE (void);
-// 0x00000943 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Object)
+// 0x00000944 System.Boolean System.Xml.Schema.XmlBaseConverter::ToBoolean(System.Object)
 extern void XmlBaseConverter_ToBoolean_mD51A69AFDA3A2E7344E2D8A6FD5104578150E400 (void);
-// 0x00000944 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Boolean)
+// 0x00000945 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Boolean)
 extern void XmlBaseConverter_ToDateTime_m66D253BAFA27DC2B189BAA638D62EBDFF369556F (void);
-// 0x00000945 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.DateTimeOffset)
+// 0x00000946 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.DateTimeOffset)
 extern void XmlBaseConverter_ToDateTime_mAD1DF52033FB7730761AAA59657D6114F63DC0CA (void);
-// 0x00000946 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Double)
+// 0x00000947 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Double)
 extern void XmlBaseConverter_ToDateTime_m173A80D610F39D880358BD6592A4556076C8EC18 (void);
-// 0x00000947 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Int32)
+// 0x00000948 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Int32)
 extern void XmlBaseConverter_ToDateTime_m2DE8F228A93EE68BE752CF5FF2B460358E9136AB (void);
-// 0x00000948 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Int64)
+// 0x00000949 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Int64)
 extern void XmlBaseConverter_ToDateTime_m1832DE614E042FD8CD87120542D8026583C821D5 (void);
-// 0x00000949 System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.String)
+// 0x0000094A System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.String)
 extern void XmlBaseConverter_ToDateTime_m7F97E515E6948B9B88D673057D65842C60CAA4D5 (void);
-// 0x0000094A System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Object)
+// 0x0000094B System.DateTime System.Xml.Schema.XmlBaseConverter::ToDateTime(System.Object)
 extern void XmlBaseConverter_ToDateTime_m288FD6D4215F943DAE7453BDE14181FE085EA3A2 (void);
-// 0x0000094B System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.DateTime)
+// 0x0000094C System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.DateTime)
 extern void XmlBaseConverter_ToDateTimeOffset_mDB501E2FE9057C382E57229FCC7D20748E2BDC3D (void);
-// 0x0000094C System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.String)
+// 0x0000094D System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.String)
 extern void XmlBaseConverter_ToDateTimeOffset_m5E910447BCFC82FF6B19C5CA95BC869FC65C2BF3 (void);
-// 0x0000094D System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.Object)
+// 0x0000094E System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::ToDateTimeOffset(System.Object)
 extern void XmlBaseConverter_ToDateTimeOffset_mDEB2E24D5BD13B60C10DDF3CAF4183D40E168344 (void);
-// 0x0000094E System.Decimal System.Xml.Schema.XmlBaseConverter::ToDecimal(System.String)
+// 0x0000094F System.Decimal System.Xml.Schema.XmlBaseConverter::ToDecimal(System.String)
 extern void XmlBaseConverter_ToDecimal_m72016E3477EB7BDB5D666C4FB34FDFE9D015B348 (void);
-// 0x0000094F System.Decimal System.Xml.Schema.XmlBaseConverter::ToDecimal(System.Object)
+// 0x00000950 System.Decimal System.Xml.Schema.XmlBaseConverter::ToDecimal(System.Object)
 extern void XmlBaseConverter_ToDecimal_m4C4BEC749A828BF452E3313614BE2F4B248B26B2 (void);
-// 0x00000950 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Boolean)
+// 0x00000951 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Boolean)
 extern void XmlBaseConverter_ToDouble_m35AF3A0CD9262ED8943AB56DF129237899053269 (void);
-// 0x00000951 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.DateTime)
+// 0x00000952 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.DateTime)
 extern void XmlBaseConverter_ToDouble_m256D274B057E583D6565DDB9E1634D7EF359BD30 (void);
-// 0x00000952 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Int32)
+// 0x00000953 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Int32)
 extern void XmlBaseConverter_ToDouble_m93CEF58AE7729AAC32C7A3423C74D039BE51163D (void);
-// 0x00000953 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Int64)
+// 0x00000954 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Int64)
 extern void XmlBaseConverter_ToDouble_m9FEC6238EAAEB64DFD62B058F6C16CD7F3A07A5B (void);
-// 0x00000954 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.String)
+// 0x00000955 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.String)
 extern void XmlBaseConverter_ToDouble_m5695828261F135B826BCC1048958B0AAACC1B58F (void);
-// 0x00000955 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Object)
+// 0x00000956 System.Double System.Xml.Schema.XmlBaseConverter::ToDouble(System.Object)
 extern void XmlBaseConverter_ToDouble_m13C83A3ECB0B81B790D03B90564A33D9EEEC8623 (void);
-// 0x00000956 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Boolean)
+// 0x00000957 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Boolean)
 extern void XmlBaseConverter_ToInt32_mD7521975132F03DB1E90A103B23377E3502E93D9 (void);
-// 0x00000957 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.DateTime)
+// 0x00000958 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.DateTime)
 extern void XmlBaseConverter_ToInt32_m9F4CA343F60722D563EDA24FA5B2BEA53E64902B (void);
-// 0x00000958 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Double)
+// 0x00000959 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Double)
 extern void XmlBaseConverter_ToInt32_mD149AA63BCA1005C9B172F54083E4905A6645E93 (void);
-// 0x00000959 System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Int64)
+// 0x0000095A System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Int64)
 extern void XmlBaseConverter_ToInt32_mA5B50265C9662C5AAB4FB3F4F351A74B97D88FAE (void);
-// 0x0000095A System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.String)
+// 0x0000095B System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.String)
 extern void XmlBaseConverter_ToInt32_m54B47A032499A17C4A1B851BAD78C4E111D2EAD7 (void);
-// 0x0000095B System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Object)
+// 0x0000095C System.Int32 System.Xml.Schema.XmlBaseConverter::ToInt32(System.Object)
 extern void XmlBaseConverter_ToInt32_mA43D9DDBCB4ABA76DF60765D71D06E002E81BF5F (void);
-// 0x0000095C System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Boolean)
+// 0x0000095D System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Boolean)
 extern void XmlBaseConverter_ToInt64_mF073C537EB88F967D57A3CD7C95765BA44B9B837 (void);
-// 0x0000095D System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.DateTime)
+// 0x0000095E System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.DateTime)
 extern void XmlBaseConverter_ToInt64_m37031D8DB663DE0B8668D7B56BCF47B429CF8525 (void);
-// 0x0000095E System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Double)
+// 0x0000095F System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Double)
 extern void XmlBaseConverter_ToInt64_m8F91C591B0A6763DC76D4D8789988F7D1DF86E02 (void);
-// 0x0000095F System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Int32)
+// 0x00000960 System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Int32)
 extern void XmlBaseConverter_ToInt64_m2C68FE26FC8568136FEF3D969F1D0F60437B79A8 (void);
-// 0x00000960 System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.String)
+// 0x00000961 System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.String)
 extern void XmlBaseConverter_ToInt64_m61ADD8C57B95D02B9F76217182C6E659CE63766C (void);
-// 0x00000961 System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Object)
+// 0x00000962 System.Int64 System.Xml.Schema.XmlBaseConverter::ToInt64(System.Object)
 extern void XmlBaseConverter_ToInt64_mB40EBF57B56E0503EA5E54D3DB813E164011AABB (void);
-// 0x00000962 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.Double)
+// 0x00000963 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.Double)
 extern void XmlBaseConverter_ToSingle_mD7F7947CB29ACEEE367DCE291B357D2768095783 (void);
-// 0x00000963 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.String)
+// 0x00000964 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.String)
 extern void XmlBaseConverter_ToSingle_mBD1C514B3F67F65BF616AB5D3926F5A42AB8A478 (void);
-// 0x00000964 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.Object)
+// 0x00000965 System.Single System.Xml.Schema.XmlBaseConverter::ToSingle(System.Object)
 extern void XmlBaseConverter_ToSingle_mEDA26E45695317E4724743AA5A301B171DB6D1BB (void);
-// 0x00000965 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Boolean)
+// 0x00000966 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Boolean)
 extern void XmlBaseConverter_ToString_mF4BC493E788759A3AB996E2EDFC774212F3E46DC (void);
-// 0x00000966 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.DateTime)
+// 0x00000967 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.DateTime)
 extern void XmlBaseConverter_ToString_m95FAC50C53CDCA49F146E65A255075681528E8E2 (void);
-// 0x00000967 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.DateTimeOffset)
+// 0x00000968 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.DateTimeOffset)
 extern void XmlBaseConverter_ToString_m6441DAB2373C6D2140186657A39B76E3841C7891 (void);
-// 0x00000968 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Decimal)
+// 0x00000969 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Decimal)
 extern void XmlBaseConverter_ToString_m86FA60A193D8BE0C63F48B760AE7D4B290BF1FD5 (void);
-// 0x00000969 System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Double)
+// 0x0000096A System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Double)
 extern void XmlBaseConverter_ToString_mACF30C203C754685A4076452F7888D22D3102711 (void);
-// 0x0000096A System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Int32)
+// 0x0000096B System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Int32)
 extern void XmlBaseConverter_ToString_m14C541AE1743920B3473E5A8E1FC1B619741C8DC (void);
-// 0x0000096B System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Int64)
+// 0x0000096C System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Int64)
 extern void XmlBaseConverter_ToString_mDCE45CC356F64EE1BEBA510DE9D0B91069BEBAEE (void);
-// 0x0000096C System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Single)
+// 0x0000096D System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Single)
 extern void XmlBaseConverter_ToString_mCAFDFE878C6894ACEFEB99A86AF59E545985F161 (void);
-// 0x0000096D System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x0000096E System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlBaseConverter_ToString_m78E94CB05BD011CE99DAD5A637F8112F5243C59D (void);
-// 0x0000096E System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Object)
+// 0x0000096F System.String System.Xml.Schema.XmlBaseConverter::ToString(System.Object)
 extern void XmlBaseConverter_ToString_mE58AAE133F24A096299AA16FA1BA42E97CA1FF83 (void);
-// 0x0000096F System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Boolean,System.Type)
+// 0x00000970 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Boolean,System.Type)
 extern void XmlBaseConverter_ChangeType_mDD22508FD605C1A6C4ADEE36C0D91DEAD0B27C9E (void);
-// 0x00000970 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.DateTime,System.Type)
+// 0x00000971 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.DateTime,System.Type)
 extern void XmlBaseConverter_ChangeType_mEFA3A5716090F687138FAFEBC252EC2AD7B2E5FD (void);
-// 0x00000971 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Decimal,System.Type)
+// 0x00000972 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Decimal,System.Type)
 extern void XmlBaseConverter_ChangeType_m6F56EC27E391AEE69C29121B041B0D00DA50836E (void);
-// 0x00000972 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Double,System.Type)
+// 0x00000973 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Double,System.Type)
 extern void XmlBaseConverter_ChangeType_mE4B962B6A4233FD6D672EC0E5EDBF3F12F320CF5 (void);
-// 0x00000973 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Int32,System.Type)
+// 0x00000974 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Int32,System.Type)
 extern void XmlBaseConverter_ChangeType_m7846B70F5808F2203013736A55C967AE9E644608 (void);
-// 0x00000974 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Int64,System.Type)
+// 0x00000975 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Int64,System.Type)
 extern void XmlBaseConverter_ChangeType_mE0E5BCAAFAA99303090A7E78F6529689730B00EE (void);
-// 0x00000975 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000976 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlBaseConverter_ChangeType_m5F95429571DDAFBC389861CD3837073AE47E0501 (void);
-// 0x00000976 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Object,System.Type)
+// 0x00000977 System.Object System.Xml.Schema.XmlBaseConverter::ChangeType(System.Object,System.Type)
 extern void XmlBaseConverter_ChangeType_m0739B613D133FDABDD2B62748566E69304FD2123 (void);
-// 0x00000977 System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlBaseConverter::get_SchemaType()
+// 0x00000978 System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlBaseConverter::get_SchemaType()
 extern void XmlBaseConverter_get_SchemaType_mE2E6F52784E6E3CFCC579184B8E593F62BE9651B (void);
-// 0x00000978 System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlBaseConverter::get_TypeCode()
+// 0x00000979 System.Xml.Schema.XmlTypeCode System.Xml.Schema.XmlBaseConverter::get_TypeCode()
 extern void XmlBaseConverter_get_TypeCode_m98913E941A638BF19A0DC21AA9B7C48E1FF19CF5 (void);
-// 0x00000979 System.String System.Xml.Schema.XmlBaseConverter::get_XmlTypeName()
+// 0x0000097A System.String System.Xml.Schema.XmlBaseConverter::get_XmlTypeName()
 extern void XmlBaseConverter_get_XmlTypeName_mB124A8F50E08E3BAF80ECEE1C9218FABF3CD83D7 (void);
-// 0x0000097A System.Type System.Xml.Schema.XmlBaseConverter::get_DefaultClrType()
+// 0x0000097B System.Type System.Xml.Schema.XmlBaseConverter::get_DefaultClrType()
 extern void XmlBaseConverter_get_DefaultClrType_mE8954A45D93CC608AEC14D795E83104D0F7BDCDF (void);
-// 0x0000097B System.Boolean System.Xml.Schema.XmlBaseConverter::IsDerivedFrom(System.Type,System.Type)
+// 0x0000097C System.Boolean System.Xml.Schema.XmlBaseConverter::IsDerivedFrom(System.Type,System.Type)
 extern void XmlBaseConverter_IsDerivedFrom_mF04654273ED4A28C59DC6286ADB16C8B3F64A708 (void);
-// 0x0000097C System.Exception System.Xml.Schema.XmlBaseConverter::CreateInvalidClrMappingException(System.Type,System.Type)
+// 0x0000097D System.Exception System.Xml.Schema.XmlBaseConverter::CreateInvalidClrMappingException(System.Type,System.Type)
 extern void XmlBaseConverter_CreateInvalidClrMappingException_m76E5156F33567DE0FDF353567C18990C99CFDEB6 (void);
-// 0x0000097D System.String System.Xml.Schema.XmlBaseConverter::QNameToString(System.Xml.XmlQualifiedName)
+// 0x0000097E System.String System.Xml.Schema.XmlBaseConverter::QNameToString(System.Xml.XmlQualifiedName)
 extern void XmlBaseConverter_QNameToString_m3545A9C7CC97A8E430685C5CD968DA16E45868B8 (void);
-// 0x0000097E System.Object System.Xml.Schema.XmlBaseConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x0000097F System.Object System.Xml.Schema.XmlBaseConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlBaseConverter_ChangeListType_m6A0A04A3FC58FBC00BD60E0B4E25EF0A6067AA43 (void);
-// 0x0000097F System.Byte[] System.Xml.Schema.XmlBaseConverter::StringToBase64Binary(System.String)
+// 0x00000980 System.Byte[] System.Xml.Schema.XmlBaseConverter::StringToBase64Binary(System.String)
 extern void XmlBaseConverter_StringToBase64Binary_m20D1CC76C9720A92C9F184403B1E71D7FAC02452 (void);
-// 0x00000980 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToDate(System.String)
+// 0x00000981 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToDate(System.String)
 extern void XmlBaseConverter_StringToDate_m98D186AB53E50CBC146B2C852435EAB07EEC29CB (void);
-// 0x00000981 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToDateTime(System.String)
+// 0x00000982 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToDateTime(System.String)
 extern void XmlBaseConverter_StringToDateTime_mF6A57FEFFA03D04A085E32B9BE4DDC39CCD10CC3 (void);
-// 0x00000982 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToDayTimeDuration(System.String)
+// 0x00000983 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToDayTimeDuration(System.String)
 extern void XmlBaseConverter_StringToDayTimeDuration_mFCCF88743CD6F7D12624F47D76CBA916C9779DE3 (void);
-// 0x00000983 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToDuration(System.String)
+// 0x00000984 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToDuration(System.String)
 extern void XmlBaseConverter_StringToDuration_mBFB3C408F2632EF9B4E030A05254DA75BD50319B (void);
-// 0x00000984 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGDay(System.String)
+// 0x00000985 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGDay(System.String)
 extern void XmlBaseConverter_StringToGDay_mAB2A3A43F9B877D94EB316DF22966D7A9D809381 (void);
-// 0x00000985 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGMonth(System.String)
+// 0x00000986 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGMonth(System.String)
 extern void XmlBaseConverter_StringToGMonth_m7128E16BB854A45073632CC383E75C0C726940DC (void);
-// 0x00000986 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGMonthDay(System.String)
+// 0x00000987 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGMonthDay(System.String)
 extern void XmlBaseConverter_StringToGMonthDay_m8BB1C9280FCD8090C62879F7E798DE75C8BC556F (void);
-// 0x00000987 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGYear(System.String)
+// 0x00000988 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGYear(System.String)
 extern void XmlBaseConverter_StringToGYear_m40AD0C14B1F3A7CAC5E935517BA9B2E50A6AF087 (void);
-// 0x00000988 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGYearMonth(System.String)
+// 0x00000989 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToGYearMonth(System.String)
 extern void XmlBaseConverter_StringToGYearMonth_mCDCA8DFCFB1782E6E93C86A7716F606BB06EDA36 (void);
-// 0x00000989 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToDateOffset(System.String)
+// 0x0000098A System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToDateOffset(System.String)
 extern void XmlBaseConverter_StringToDateOffset_m5809F5D5286B288D01C31234E4B5D717633B6504 (void);
-// 0x0000098A System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToDateTimeOffset(System.String)
+// 0x0000098B System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToDateTimeOffset(System.String)
 extern void XmlBaseConverter_StringToDateTimeOffset_mF42435C46F9E4BE089DA5174B70344D291B53785 (void);
-// 0x0000098B System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGDayOffset(System.String)
+// 0x0000098C System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGDayOffset(System.String)
 extern void XmlBaseConverter_StringToGDayOffset_m5D28630F0D0F694E6A48200AE8B6B5E16E5C5366 (void);
-// 0x0000098C System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGMonthOffset(System.String)
+// 0x0000098D System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGMonthOffset(System.String)
 extern void XmlBaseConverter_StringToGMonthOffset_m92576212F081AAE7B9BA1998BC0EDC87766914AC (void);
-// 0x0000098D System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGMonthDayOffset(System.String)
+// 0x0000098E System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGMonthDayOffset(System.String)
 extern void XmlBaseConverter_StringToGMonthDayOffset_m9EA39116C571CB36AE3C4BCEEC457A55F875C017 (void);
-// 0x0000098E System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGYearOffset(System.String)
+// 0x0000098F System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGYearOffset(System.String)
 extern void XmlBaseConverter_StringToGYearOffset_m038A6B5E674F9CBB446B637308DC74B380544D48 (void);
-// 0x0000098F System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGYearMonthOffset(System.String)
+// 0x00000990 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToGYearMonthOffset(System.String)
 extern void XmlBaseConverter_StringToGYearMonthOffset_mAD8E42F1343EFE44A77AAAAED08A2694E6416F3B (void);
-// 0x00000990 System.Byte[] System.Xml.Schema.XmlBaseConverter::StringToHexBinary(System.String)
+// 0x00000991 System.Byte[] System.Xml.Schema.XmlBaseConverter::StringToHexBinary(System.String)
 extern void XmlBaseConverter_StringToHexBinary_m87D9A0F25FA668899274894D14DB68F04739ED36 (void);
-// 0x00000991 System.Xml.XmlQualifiedName System.Xml.Schema.XmlBaseConverter::StringToQName(System.String,System.Xml.IXmlNamespaceResolver)
+// 0x00000992 System.Xml.XmlQualifiedName System.Xml.Schema.XmlBaseConverter::StringToQName(System.String,System.Xml.IXmlNamespaceResolver)
 extern void XmlBaseConverter_StringToQName_mD796E7F86579BB5B25FCCED1D2697A5C30EC5184 (void);
-// 0x00000992 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToTime(System.String)
+// 0x00000993 System.DateTime System.Xml.Schema.XmlBaseConverter::StringToTime(System.String)
 extern void XmlBaseConverter_StringToTime_mC48BE5FE837D71A717E6D9C6CDE69928BAF3735A (void);
-// 0x00000993 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToTimeOffset(System.String)
+// 0x00000994 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::StringToTimeOffset(System.String)
 extern void XmlBaseConverter_StringToTimeOffset_mA8E094A631719CA9C6E8518C55E1813946ED0690 (void);
-// 0x00000994 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToYearMonthDuration(System.String)
+// 0x00000995 System.TimeSpan System.Xml.Schema.XmlBaseConverter::StringToYearMonthDuration(System.String)
 extern void XmlBaseConverter_StringToYearMonthDuration_m0C2FDB4E9FEAA2011EE1186C7C88A9E6B11188E2 (void);
-// 0x00000995 System.String System.Xml.Schema.XmlBaseConverter::AnyUriToString(System.Uri)
+// 0x00000996 System.String System.Xml.Schema.XmlBaseConverter::AnyUriToString(System.Uri)
 extern void XmlBaseConverter_AnyUriToString_m99EDFF8BCBC6683EFD6A48C473F9FE5744F5943D (void);
-// 0x00000996 System.String System.Xml.Schema.XmlBaseConverter::Base64BinaryToString(System.Byte[])
+// 0x00000997 System.String System.Xml.Schema.XmlBaseConverter::Base64BinaryToString(System.Byte[])
 extern void XmlBaseConverter_Base64BinaryToString_m299F7C6948312A3FE08F091E0693373AD5D68E44 (void);
-// 0x00000997 System.String System.Xml.Schema.XmlBaseConverter::DateToString(System.DateTime)
+// 0x00000998 System.String System.Xml.Schema.XmlBaseConverter::DateToString(System.DateTime)
 extern void XmlBaseConverter_DateToString_m15A56BCA7DB1C40F5FA7E04EFEC73455F801A0E1 (void);
-// 0x00000998 System.String System.Xml.Schema.XmlBaseConverter::DateTimeToString(System.DateTime)
+// 0x00000999 System.String System.Xml.Schema.XmlBaseConverter::DateTimeToString(System.DateTime)
 extern void XmlBaseConverter_DateTimeToString_mF3DE9D2856E5CCE461615E1AFDCBDFBCB86DC912 (void);
-// 0x00000999 System.String System.Xml.Schema.XmlBaseConverter::DayTimeDurationToString(System.TimeSpan)
+// 0x0000099A System.String System.Xml.Schema.XmlBaseConverter::DayTimeDurationToString(System.TimeSpan)
 extern void XmlBaseConverter_DayTimeDurationToString_mE3E6A37CC74E1540982EB438F2C50386487A3521 (void);
-// 0x0000099A System.String System.Xml.Schema.XmlBaseConverter::DurationToString(System.TimeSpan)
+// 0x0000099B System.String System.Xml.Schema.XmlBaseConverter::DurationToString(System.TimeSpan)
 extern void XmlBaseConverter_DurationToString_m14D66C4F6B0ABAAF5B3924E1412DD967F7258028 (void);
-// 0x0000099B System.String System.Xml.Schema.XmlBaseConverter::GDayToString(System.DateTime)
+// 0x0000099C System.String System.Xml.Schema.XmlBaseConverter::GDayToString(System.DateTime)
 extern void XmlBaseConverter_GDayToString_mBBEB54787D75F522B3E53A76AF53429DE12130BB (void);
-// 0x0000099C System.String System.Xml.Schema.XmlBaseConverter::GMonthToString(System.DateTime)
+// 0x0000099D System.String System.Xml.Schema.XmlBaseConverter::GMonthToString(System.DateTime)
 extern void XmlBaseConverter_GMonthToString_m2CEC82F1D85CB4340D6A3E91952708798DA0CC3D (void);
-// 0x0000099D System.String System.Xml.Schema.XmlBaseConverter::GMonthDayToString(System.DateTime)
+// 0x0000099E System.String System.Xml.Schema.XmlBaseConverter::GMonthDayToString(System.DateTime)
 extern void XmlBaseConverter_GMonthDayToString_m65234312638F67ED6545318F0078E5D2B9F55ED5 (void);
-// 0x0000099E System.String System.Xml.Schema.XmlBaseConverter::GYearToString(System.DateTime)
+// 0x0000099F System.String System.Xml.Schema.XmlBaseConverter::GYearToString(System.DateTime)
 extern void XmlBaseConverter_GYearToString_m4EAC7741EB740E93310893CD96F3A0F5BF196F0F (void);
-// 0x0000099F System.String System.Xml.Schema.XmlBaseConverter::GYearMonthToString(System.DateTime)
+// 0x000009A0 System.String System.Xml.Schema.XmlBaseConverter::GYearMonthToString(System.DateTime)
 extern void XmlBaseConverter_GYearMonthToString_m596C4BCC0141EB0A87E853932B479CFDF9D0A105 (void);
-// 0x000009A0 System.String System.Xml.Schema.XmlBaseConverter::DateOffsetToString(System.DateTimeOffset)
+// 0x000009A1 System.String System.Xml.Schema.XmlBaseConverter::DateOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_DateOffsetToString_m75DB125AF02B2F7A3C5D1EBED30D9FA68BF8A0BD (void);
-// 0x000009A1 System.String System.Xml.Schema.XmlBaseConverter::DateTimeOffsetToString(System.DateTimeOffset)
+// 0x000009A2 System.String System.Xml.Schema.XmlBaseConverter::DateTimeOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_DateTimeOffsetToString_mDF7B422CF634E3697822374DFECF6C325C8884DC (void);
-// 0x000009A2 System.String System.Xml.Schema.XmlBaseConverter::GDayOffsetToString(System.DateTimeOffset)
+// 0x000009A3 System.String System.Xml.Schema.XmlBaseConverter::GDayOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_GDayOffsetToString_mF4B59A4A160EF787BC60951D8F9E849999DADF2B (void);
-// 0x000009A3 System.String System.Xml.Schema.XmlBaseConverter::GMonthOffsetToString(System.DateTimeOffset)
+// 0x000009A4 System.String System.Xml.Schema.XmlBaseConverter::GMonthOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_GMonthOffsetToString_mC7310EF0381EF06A079FC27969789C88F4D8BC06 (void);
-// 0x000009A4 System.String System.Xml.Schema.XmlBaseConverter::GMonthDayOffsetToString(System.DateTimeOffset)
+// 0x000009A5 System.String System.Xml.Schema.XmlBaseConverter::GMonthDayOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_GMonthDayOffsetToString_m5888D7D942EDF3DEC6CEE4F48284BAEBE8F5E0ED (void);
-// 0x000009A5 System.String System.Xml.Schema.XmlBaseConverter::GYearOffsetToString(System.DateTimeOffset)
+// 0x000009A6 System.String System.Xml.Schema.XmlBaseConverter::GYearOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_GYearOffsetToString_m6DB14F9943A8BCB971AC0BE63B3E3A41CD2B75F6 (void);
-// 0x000009A6 System.String System.Xml.Schema.XmlBaseConverter::GYearMonthOffsetToString(System.DateTimeOffset)
+// 0x000009A7 System.String System.Xml.Schema.XmlBaseConverter::GYearMonthOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_GYearMonthOffsetToString_m404E76F3471FA0D8203E118BE77623837BC0020B (void);
-// 0x000009A7 System.String System.Xml.Schema.XmlBaseConverter::QNameToString(System.Xml.XmlQualifiedName,System.Xml.IXmlNamespaceResolver)
+// 0x000009A8 System.String System.Xml.Schema.XmlBaseConverter::QNameToString(System.Xml.XmlQualifiedName,System.Xml.IXmlNamespaceResolver)
 extern void XmlBaseConverter_QNameToString_m4BD7969123C3B5967B82DC4F4974C4FE13F27371 (void);
-// 0x000009A8 System.String System.Xml.Schema.XmlBaseConverter::TimeToString(System.DateTime)
+// 0x000009A9 System.String System.Xml.Schema.XmlBaseConverter::TimeToString(System.DateTime)
 extern void XmlBaseConverter_TimeToString_m7BC66021C1DCE17DF152EF70FD602A2B20811754 (void);
-// 0x000009A9 System.String System.Xml.Schema.XmlBaseConverter::TimeOffsetToString(System.DateTimeOffset)
+// 0x000009AA System.String System.Xml.Schema.XmlBaseConverter::TimeOffsetToString(System.DateTimeOffset)
 extern void XmlBaseConverter_TimeOffsetToString_m94D2ACD77BB58357FBD80739B0B9C05C91B77251 (void);
-// 0x000009AA System.String System.Xml.Schema.XmlBaseConverter::YearMonthDurationToString(System.TimeSpan)
+// 0x000009AB System.String System.Xml.Schema.XmlBaseConverter::YearMonthDurationToString(System.TimeSpan)
 extern void XmlBaseConverter_YearMonthDurationToString_m27D25120DCBA587B28D7390B6009A3F79917D9CD (void);
-// 0x000009AB System.DateTime System.Xml.Schema.XmlBaseConverter::DateTimeOffsetToDateTime(System.DateTimeOffset)
+// 0x000009AC System.DateTime System.Xml.Schema.XmlBaseConverter::DateTimeOffsetToDateTime(System.DateTimeOffset)
 extern void XmlBaseConverter_DateTimeOffsetToDateTime_m1C2376C52170F04C6C4C803D824CC3E9AAC3DE37 (void);
-// 0x000009AC System.Int32 System.Xml.Schema.XmlBaseConverter::DecimalToInt32(System.Decimal)
+// 0x000009AD System.Int32 System.Xml.Schema.XmlBaseConverter::DecimalToInt32(System.Decimal)
 extern void XmlBaseConverter_DecimalToInt32_mF8200BBB5939AA266AE889D0970A98E41F8DB7D0 (void);
-// 0x000009AD System.Int64 System.Xml.Schema.XmlBaseConverter::DecimalToInt64(System.Decimal)
+// 0x000009AE System.Int64 System.Xml.Schema.XmlBaseConverter::DecimalToInt64(System.Decimal)
 extern void XmlBaseConverter_DecimalToInt64_mF7AFFCD01687FFD3531990489BD390FF855D69B1 (void);
-// 0x000009AE System.UInt64 System.Xml.Schema.XmlBaseConverter::DecimalToUInt64(System.Decimal)
+// 0x000009AF System.UInt64 System.Xml.Schema.XmlBaseConverter::DecimalToUInt64(System.Decimal)
 extern void XmlBaseConverter_DecimalToUInt64_m308B674D6042AB05249B0087E52A7FB0DEA00F8C (void);
-// 0x000009AF System.Byte System.Xml.Schema.XmlBaseConverter::Int32ToByte(System.Int32)
+// 0x000009B0 System.Byte System.Xml.Schema.XmlBaseConverter::Int32ToByte(System.Int32)
 extern void XmlBaseConverter_Int32ToByte_mE7DE6AD980A6550AD21C1EC2976306E7E08CE1CD (void);
-// 0x000009B0 System.Int16 System.Xml.Schema.XmlBaseConverter::Int32ToInt16(System.Int32)
+// 0x000009B1 System.Int16 System.Xml.Schema.XmlBaseConverter::Int32ToInt16(System.Int32)
 extern void XmlBaseConverter_Int32ToInt16_m96FF5A436A350B654E299E15985257F828678CE6 (void);
-// 0x000009B1 System.SByte System.Xml.Schema.XmlBaseConverter::Int32ToSByte(System.Int32)
+// 0x000009B2 System.SByte System.Xml.Schema.XmlBaseConverter::Int32ToSByte(System.Int32)
 extern void XmlBaseConverter_Int32ToSByte_mF239FB3D7D45EE6EADBAE3CDA5EFFEA6F9DBB567 (void);
-// 0x000009B2 System.UInt16 System.Xml.Schema.XmlBaseConverter::Int32ToUInt16(System.Int32)
+// 0x000009B3 System.UInt16 System.Xml.Schema.XmlBaseConverter::Int32ToUInt16(System.Int32)
 extern void XmlBaseConverter_Int32ToUInt16_m55DDFF8498AD84163D407523132F9EDF082FEABE (void);
-// 0x000009B3 System.Int32 System.Xml.Schema.XmlBaseConverter::Int64ToInt32(System.Int64)
+// 0x000009B4 System.Int32 System.Xml.Schema.XmlBaseConverter::Int64ToInt32(System.Int64)
 extern void XmlBaseConverter_Int64ToInt32_m56A0E0D1F913BA4EEFD4E80FF6C3DD87CA8E47EB (void);
-// 0x000009B4 System.UInt32 System.Xml.Schema.XmlBaseConverter::Int64ToUInt32(System.Int64)
+// 0x000009B5 System.UInt32 System.Xml.Schema.XmlBaseConverter::Int64ToUInt32(System.Int64)
 extern void XmlBaseConverter_Int64ToUInt32_m27537B9F6F4BE80CF6D0FC5287927936B5075AF5 (void);
-// 0x000009B5 System.DateTime System.Xml.Schema.XmlBaseConverter::UntypedAtomicToDateTime(System.String)
+// 0x000009B6 System.DateTime System.Xml.Schema.XmlBaseConverter::UntypedAtomicToDateTime(System.String)
 extern void XmlBaseConverter_UntypedAtomicToDateTime_m1D340C503B6B4EA2E6548D6E1967FBBDCAF28607 (void);
-// 0x000009B6 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::UntypedAtomicToDateTimeOffset(System.String)
+// 0x000009B7 System.DateTimeOffset System.Xml.Schema.XmlBaseConverter::UntypedAtomicToDateTimeOffset(System.String)
 extern void XmlBaseConverter_UntypedAtomicToDateTimeOffset_m52E10FDA25FC8B074E6B6674DCBB90B28192B2A2 (void);
-// 0x000009B7 System.Void System.Xml.Schema.XmlBaseConverter::.cctor()
+// 0x000009B8 System.Void System.Xml.Schema.XmlBaseConverter::.cctor()
 extern void XmlBaseConverter__cctor_mB08A60253E0A1BCE725BFFA7F87AED1391F75D07 (void);
-// 0x000009B8 System.Void System.Xml.Schema.XmlNumeric10Converter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009B9 System.Void System.Xml.Schema.XmlNumeric10Converter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlNumeric10Converter__ctor_mD1556E337E9DEC78338EB5D67492655AF90026C5 (void);
-// 0x000009B9 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlNumeric10Converter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009BA System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlNumeric10Converter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlNumeric10Converter_Create_m8B5953F51BE73CB95926DD064571617F58B0BEE2 (void);
-// 0x000009BA System.Decimal System.Xml.Schema.XmlNumeric10Converter::ToDecimal(System.String)
+// 0x000009BB System.Decimal System.Xml.Schema.XmlNumeric10Converter::ToDecimal(System.String)
 extern void XmlNumeric10Converter_ToDecimal_mBAD2E8920B04621A0E71B64D0D574315D9E5CBFC (void);
-// 0x000009BB System.Decimal System.Xml.Schema.XmlNumeric10Converter::ToDecimal(System.Object)
+// 0x000009BC System.Decimal System.Xml.Schema.XmlNumeric10Converter::ToDecimal(System.Object)
 extern void XmlNumeric10Converter_ToDecimal_m58912D4CA6B57B0AB42EAFA5FC3D1B6149E437A5 (void);
-// 0x000009BC System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.Int64)
+// 0x000009BD System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.Int64)
 extern void XmlNumeric10Converter_ToInt32_m267AD98085614EEB53787090F2E700B4F418369E (void);
-// 0x000009BD System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.String)
+// 0x000009BE System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.String)
 extern void XmlNumeric10Converter_ToInt32_m2D8D65E5D813E3CD2EF318B1D53BF22D5C59E2B1 (void);
-// 0x000009BE System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.Object)
+// 0x000009BF System.Int32 System.Xml.Schema.XmlNumeric10Converter::ToInt32(System.Object)
 extern void XmlNumeric10Converter_ToInt32_m767A843E8AD91844C6F892D85CC2B6ECCD1C5909 (void);
-// 0x000009BF System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.Int32)
+// 0x000009C0 System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.Int32)
 extern void XmlNumeric10Converter_ToInt64_mBCA78D7C37DCFFE8377C8D6C6E9E6D204265912A (void);
-// 0x000009C0 System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.String)
+// 0x000009C1 System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.String)
 extern void XmlNumeric10Converter_ToInt64_m60ECDF82BBCF655E95C84E7F0F81139A807F93CD (void);
-// 0x000009C1 System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.Object)
+// 0x000009C2 System.Int64 System.Xml.Schema.XmlNumeric10Converter::ToInt64(System.Object)
 extern void XmlNumeric10Converter_ToInt64_m93B6E967A43B27313F846EB56E4082561AF8FEE8 (void);
-// 0x000009C2 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Decimal)
+// 0x000009C3 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Decimal)
 extern void XmlNumeric10Converter_ToString_mB518E7EBEB477B7BB8CDA598028988A78DB2369E (void);
-// 0x000009C3 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Int32)
+// 0x000009C4 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Int32)
 extern void XmlNumeric10Converter_ToString_m985DCB2FF91ACB37AA9501DEB2299BAC0B6C2A99 (void);
-// 0x000009C4 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Int64)
+// 0x000009C5 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Int64)
 extern void XmlNumeric10Converter_ToString_m3E9C52063D4E28D3F3D42B361C04C988795CAE8B (void);
-// 0x000009C5 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009C6 System.String System.Xml.Schema.XmlNumeric10Converter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric10Converter_ToString_m579CAC8694481F0CAF9970F2712E6A48FF6BEC18 (void);
-// 0x000009C6 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Decimal,System.Type)
+// 0x000009C7 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Decimal,System.Type)
 extern void XmlNumeric10Converter_ChangeType_mEE7AEB79D50189BFDB171B7A51469C9E370A19F9 (void);
-// 0x000009C7 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Int32,System.Type)
+// 0x000009C8 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Int32,System.Type)
 extern void XmlNumeric10Converter_ChangeType_mDCB169D436506DD2F40511E07A05EF3BF4D481A9 (void);
-// 0x000009C8 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Int64,System.Type)
+// 0x000009C9 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Int64,System.Type)
 extern void XmlNumeric10Converter_ChangeType_m5DB0CB45C04F569036509699B3277D422FAC9BE7 (void);
-// 0x000009C9 System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009CA System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric10Converter_ChangeType_m7971F474073669626DAE4CA1A45BC3A8591C2A8E (void);
-// 0x000009CA System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009CB System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric10Converter_ChangeType_m0A8F930B36D62503D670F3BE5A11FFDDE0C25727 (void);
-// 0x000009CB System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009CC System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric10Converter_ChangeTypeWildcardDestination_m6735DDD51A7E3C23E091752D2EC40896CA320D9F (void);
-// 0x000009CC System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009CD System.Object System.Xml.Schema.XmlNumeric10Converter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric10Converter_ChangeTypeWildcardSource_mAB82400E2CE42A3726C4AF07CF2605CC78687BE1 (void);
-// 0x000009CD System.Void System.Xml.Schema.XmlNumeric2Converter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009CE System.Void System.Xml.Schema.XmlNumeric2Converter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlNumeric2Converter__ctor_m9C4CBCFA8F927A860CD1B84193607FCF159AD0FF (void);
-// 0x000009CE System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlNumeric2Converter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009CF System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlNumeric2Converter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlNumeric2Converter_Create_mF3DD3FDA5895C37BCB7AF0F46CDAC201F9B592D1 (void);
-// 0x000009CF System.Double System.Xml.Schema.XmlNumeric2Converter::ToDouble(System.String)
+// 0x000009D0 System.Double System.Xml.Schema.XmlNumeric2Converter::ToDouble(System.String)
 extern void XmlNumeric2Converter_ToDouble_m395266888A05D8C2B7D4D4AB890201639CB83821 (void);
-// 0x000009D0 System.Double System.Xml.Schema.XmlNumeric2Converter::ToDouble(System.Object)
+// 0x000009D1 System.Double System.Xml.Schema.XmlNumeric2Converter::ToDouble(System.Object)
 extern void XmlNumeric2Converter_ToDouble_m38E52170393878AFB8CDEE9AA95E2ABC658095DD (void);
-// 0x000009D1 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.Double)
+// 0x000009D2 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.Double)
 extern void XmlNumeric2Converter_ToSingle_m7152D55B806DEFE60B1B05CCD400F046B714B38A (void);
-// 0x000009D2 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.String)
+// 0x000009D3 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.String)
 extern void XmlNumeric2Converter_ToSingle_m3F0AC65E51B9FD76980085966E05CEE58BE5D0A0 (void);
-// 0x000009D3 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.Object)
+// 0x000009D4 System.Single System.Xml.Schema.XmlNumeric2Converter::ToSingle(System.Object)
 extern void XmlNumeric2Converter_ToSingle_mEC3F6070EAF8F04BD6F4336483EE8D45BAEC9413 (void);
-// 0x000009D4 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Double)
+// 0x000009D5 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Double)
 extern void XmlNumeric2Converter_ToString_m47D3A6F3854D3376137BCDB6359CEC5515C981A2 (void);
-// 0x000009D5 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Single)
+// 0x000009D6 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Single)
 extern void XmlNumeric2Converter_ToString_m735B1C6F38B70CDE68FDF751FF36320AF1874CD0 (void);
-// 0x000009D6 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009D7 System.String System.Xml.Schema.XmlNumeric2Converter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric2Converter_ToString_m6D6FF7EAAB4142804FE38EBEC954C372B5A7DFF5 (void);
-// 0x000009D7 System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.Double,System.Type)
+// 0x000009D8 System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.Double,System.Type)
 extern void XmlNumeric2Converter_ChangeType_mCAAAAA90D86D082B99B6D1825E52E55C7CA27031 (void);
-// 0x000009D8 System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009D9 System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric2Converter_ChangeType_m40A88AFC59DB76C168026705B791E68EA5B1BF5E (void);
-// 0x000009D9 System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009DA System.Object System.Xml.Schema.XmlNumeric2Converter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlNumeric2Converter_ChangeType_mA4894D885AA86AB601537E3DAC1D1706C62425F1 (void);
-// 0x000009DA System.Void System.Xml.Schema.XmlDateTimeConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009DB System.Void System.Xml.Schema.XmlDateTimeConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlDateTimeConverter__ctor_m6782AAECD6562BCFC3643A6130ADBA7D24E3CF37 (void);
-// 0x000009DB System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlDateTimeConverter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009DC System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlDateTimeConverter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlDateTimeConverter_Create_mD2C1A9A9ED33552A3AC778237939530B3A495C12 (void);
-// 0x000009DC System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.DateTimeOffset)
+// 0x000009DD System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.DateTimeOffset)
 extern void XmlDateTimeConverter_ToDateTime_m72263FE62386B1B7040B92F3EC7CCD6FFA551077 (void);
-// 0x000009DD System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.String)
+// 0x000009DE System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.String)
 extern void XmlDateTimeConverter_ToDateTime_mC31EA2CE5FDBBD190CAE42AF0A6A8B20D3B46226 (void);
-// 0x000009DE System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.Object)
+// 0x000009DF System.DateTime System.Xml.Schema.XmlDateTimeConverter::ToDateTime(System.Object)
 extern void XmlDateTimeConverter_ToDateTime_mF153A02EBFA3B999515923082ADB3D63D5DBDA0D (void);
-// 0x000009DF System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.DateTime)
+// 0x000009E0 System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.DateTime)
 extern void XmlDateTimeConverter_ToDateTimeOffset_m0CAF55B92BE02A66E61D7A0F2680CE7601B11035 (void);
-// 0x000009E0 System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.String)
+// 0x000009E1 System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.String)
 extern void XmlDateTimeConverter_ToDateTimeOffset_m47A3C068299DD5804E797EC31D72AFE478448566 (void);
-// 0x000009E1 System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.Object)
+// 0x000009E2 System.DateTimeOffset System.Xml.Schema.XmlDateTimeConverter::ToDateTimeOffset(System.Object)
 extern void XmlDateTimeConverter_ToDateTimeOffset_m0AF78270B45B143E303B6130C2C94D520C4B6533 (void);
-// 0x000009E2 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.DateTime)
+// 0x000009E3 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.DateTime)
 extern void XmlDateTimeConverter_ToString_mA0C57A1D17B33EF88BABA768F91ADB8879D924B2 (void);
-// 0x000009E3 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.DateTimeOffset)
+// 0x000009E4 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.DateTimeOffset)
 extern void XmlDateTimeConverter_ToString_m3CD2D91D6555175665C66A2D5CAD39B2BFB3D869 (void);
-// 0x000009E4 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009E5 System.String System.Xml.Schema.XmlDateTimeConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlDateTimeConverter_ToString_mB08F311D6D29B85E0AD88E197BBF47989D6434F1 (void);
-// 0x000009E5 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.DateTime,System.Type)
+// 0x000009E6 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.DateTime,System.Type)
 extern void XmlDateTimeConverter_ChangeType_mF2D15CA43EFE4FF5E59CA684423AEAF9AE375780 (void);
-// 0x000009E6 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009E7 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlDateTimeConverter_ChangeType_m5836D2C88EDF2BA29297CD6AD90182BCD63F6508 (void);
-// 0x000009E7 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009E8 System.Object System.Xml.Schema.XmlDateTimeConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlDateTimeConverter_ChangeType_m6E0508BCA4230AEC5C8AA096C9CED2D6A10D9AC6 (void);
-// 0x000009E8 System.Void System.Xml.Schema.XmlBooleanConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009E9 System.Void System.Xml.Schema.XmlBooleanConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlBooleanConverter__ctor_m17FBDE04665ADC938E18571B98C97EDC4B41C6ED (void);
-// 0x000009E9 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlBooleanConverter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009EA System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlBooleanConverter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlBooleanConverter_Create_mEEDD15768D314CD9ED14D666F3BBAAF5C1E1E165 (void);
-// 0x000009EA System.Boolean System.Xml.Schema.XmlBooleanConverter::ToBoolean(System.String)
+// 0x000009EB System.Boolean System.Xml.Schema.XmlBooleanConverter::ToBoolean(System.String)
 extern void XmlBooleanConverter_ToBoolean_m618955AF4854BF06AE940FC8628BACB8666BFCB1 (void);
-// 0x000009EB System.Boolean System.Xml.Schema.XmlBooleanConverter::ToBoolean(System.Object)
+// 0x000009EC System.Boolean System.Xml.Schema.XmlBooleanConverter::ToBoolean(System.Object)
 extern void XmlBooleanConverter_ToBoolean_m194BFE411778E38EF8B022090F6ADC70062FD1A6 (void);
-// 0x000009EC System.String System.Xml.Schema.XmlBooleanConverter::ToString(System.Boolean)
+// 0x000009ED System.String System.Xml.Schema.XmlBooleanConverter::ToString(System.Boolean)
 extern void XmlBooleanConverter_ToString_m4B45DC64F14B6C45CE21292B29C671B5717DEDB5 (void);
-// 0x000009ED System.String System.Xml.Schema.XmlBooleanConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009EE System.String System.Xml.Schema.XmlBooleanConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlBooleanConverter_ToString_m0599E287FF17D9CD1C395F0BA918877036E76C63 (void);
-// 0x000009EE System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.Boolean,System.Type)
+// 0x000009EF System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.Boolean,System.Type)
 extern void XmlBooleanConverter_ChangeType_m5148FADC36EA28A422BF0CD1C4B962610F9A9856 (void);
-// 0x000009EF System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F0 System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlBooleanConverter_ChangeType_mD5AA359C8FE33248DDBBE082F6DF86C544D5AA1B (void);
-// 0x000009F0 System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F1 System.Object System.Xml.Schema.XmlBooleanConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlBooleanConverter_ChangeType_m96793BCF74CCE32470DBE210A72611CB9C6CF20C (void);
-// 0x000009F1 System.Void System.Xml.Schema.XmlMiscConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009F2 System.Void System.Xml.Schema.XmlMiscConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlMiscConverter__ctor_m3CF53EC3C80B491DFBFC74EA133EDF259883EE79 (void);
-// 0x000009F2 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlMiscConverter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009F3 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlMiscConverter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlMiscConverter_Create_m16B2B85DCFC4CDCE252A176B8D94DC174BB1782B (void);
-// 0x000009F3 System.String System.Xml.Schema.XmlMiscConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009F4 System.String System.Xml.Schema.XmlMiscConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlMiscConverter_ToString_m37F1FBE3A617333D42BF48066ABD0DBABE7A1857 (void);
-// 0x000009F4 System.Object System.Xml.Schema.XmlMiscConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F5 System.Object System.Xml.Schema.XmlMiscConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlMiscConverter_ChangeType_m229F613149016A401B296B406EAAC201DD5C5750 (void);
-// 0x000009F5 System.Object System.Xml.Schema.XmlMiscConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F6 System.Object System.Xml.Schema.XmlMiscConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlMiscConverter_ChangeType_mC6848641D283B68CF1D9213B162CB31B33A51A85 (void);
-// 0x000009F6 System.Object System.Xml.Schema.XmlMiscConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F7 System.Object System.Xml.Schema.XmlMiscConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlMiscConverter_ChangeTypeWildcardDestination_m3D6BA1800B8024D3EF15E9B0CBB177DC28D4C557 (void);
-// 0x000009F7 System.Object System.Xml.Schema.XmlMiscConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009F8 System.Object System.Xml.Schema.XmlMiscConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlMiscConverter_ChangeTypeWildcardSource_mE54105DB8391C312C214DBB2DC14A5915A5B96B8 (void);
-// 0x000009F8 System.Void System.Xml.Schema.XmlStringConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x000009F9 System.Void System.Xml.Schema.XmlStringConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlStringConverter__ctor_mA811DBEBAC73A5C663B65DAB28FE754AFAE0D106 (void);
-// 0x000009F9 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlStringConverter::Create(System.Xml.Schema.XmlSchemaType)
+// 0x000009FA System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlStringConverter::Create(System.Xml.Schema.XmlSchemaType)
 extern void XmlStringConverter_Create_m51380759AFA21618F9AB92C28D4731CB44D8EAA2 (void);
-// 0x000009FA System.String System.Xml.Schema.XmlStringConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x000009FB System.String System.Xml.Schema.XmlStringConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlStringConverter_ToString_mD800CDE5EA87729AB0D60133A0E16910EE900BB1 (void);
-// 0x000009FB System.Object System.Xml.Schema.XmlStringConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009FC System.Object System.Xml.Schema.XmlStringConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlStringConverter_ChangeType_m7810C0EB99366E196EEC36CCE763FCA26C37D2B4 (void);
-// 0x000009FC System.Object System.Xml.Schema.XmlStringConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x000009FD System.Object System.Xml.Schema.XmlStringConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlStringConverter_ChangeType_mF00F4EA115ECA51997AB440D504C1EBC88CFD590 (void);
-// 0x000009FD System.Void System.Xml.Schema.XmlUntypedConverter::.ctor()
+// 0x000009FE System.Void System.Xml.Schema.XmlUntypedConverter::.ctor()
 extern void XmlUntypedConverter__ctor_mC82D3D2D13C1C6B3630A78F2EE4077624AACE389 (void);
-// 0x000009FE System.Void System.Xml.Schema.XmlUntypedConverter::.ctor(System.Xml.Schema.XmlUntypedConverter,System.Boolean)
+// 0x000009FF System.Void System.Xml.Schema.XmlUntypedConverter::.ctor(System.Xml.Schema.XmlUntypedConverter,System.Boolean)
 extern void XmlUntypedConverter__ctor_m530347C06FB34C18DD48F3BBA5C60DEEC736A499 (void);
-// 0x000009FF System.Boolean System.Xml.Schema.XmlUntypedConverter::ToBoolean(System.String)
+// 0x00000A00 System.Boolean System.Xml.Schema.XmlUntypedConverter::ToBoolean(System.String)
 extern void XmlUntypedConverter_ToBoolean_m3FB4C00C10A29360D71689627B79E44C9F362AF1 (void);
-// 0x00000A00 System.Boolean System.Xml.Schema.XmlUntypedConverter::ToBoolean(System.Object)
+// 0x00000A01 System.Boolean System.Xml.Schema.XmlUntypedConverter::ToBoolean(System.Object)
 extern void XmlUntypedConverter_ToBoolean_m098E38F65925E62044FAEF1D8B3B8C5303078022 (void);
-// 0x00000A01 System.DateTime System.Xml.Schema.XmlUntypedConverter::ToDateTime(System.String)
+// 0x00000A02 System.DateTime System.Xml.Schema.XmlUntypedConverter::ToDateTime(System.String)
 extern void XmlUntypedConverter_ToDateTime_m06DB710A4533E2B2615FA59D356F55C72997AF1A (void);
-// 0x00000A02 System.DateTime System.Xml.Schema.XmlUntypedConverter::ToDateTime(System.Object)
+// 0x00000A03 System.DateTime System.Xml.Schema.XmlUntypedConverter::ToDateTime(System.Object)
 extern void XmlUntypedConverter_ToDateTime_mAA489D6BA8BFEE9083B2322B367849DD58DB2213 (void);
-// 0x00000A03 System.DateTimeOffset System.Xml.Schema.XmlUntypedConverter::ToDateTimeOffset(System.String)
+// 0x00000A04 System.DateTimeOffset System.Xml.Schema.XmlUntypedConverter::ToDateTimeOffset(System.String)
 extern void XmlUntypedConverter_ToDateTimeOffset_m92ABCAD646624C6D49774A1840C583787CDBDE39 (void);
-// 0x00000A04 System.DateTimeOffset System.Xml.Schema.XmlUntypedConverter::ToDateTimeOffset(System.Object)
+// 0x00000A05 System.DateTimeOffset System.Xml.Schema.XmlUntypedConverter::ToDateTimeOffset(System.Object)
 extern void XmlUntypedConverter_ToDateTimeOffset_m5A7D63D12407EA0C31466AABAA9DA2B0F95459B4 (void);
-// 0x00000A05 System.Decimal System.Xml.Schema.XmlUntypedConverter::ToDecimal(System.String)
+// 0x00000A06 System.Decimal System.Xml.Schema.XmlUntypedConverter::ToDecimal(System.String)
 extern void XmlUntypedConverter_ToDecimal_m31D9DD7EE2F9CA063CAF95AB001C7D5CC07C0953 (void);
-// 0x00000A06 System.Decimal System.Xml.Schema.XmlUntypedConverter::ToDecimal(System.Object)
+// 0x00000A07 System.Decimal System.Xml.Schema.XmlUntypedConverter::ToDecimal(System.Object)
 extern void XmlUntypedConverter_ToDecimal_mC49C96BD2FD4C3F5509F0414088701FC3A827A41 (void);
-// 0x00000A07 System.Double System.Xml.Schema.XmlUntypedConverter::ToDouble(System.String)
+// 0x00000A08 System.Double System.Xml.Schema.XmlUntypedConverter::ToDouble(System.String)
 extern void XmlUntypedConverter_ToDouble_mD68186F8CFD91946073BF9BF1C36095EFB5372AE (void);
-// 0x00000A08 System.Double System.Xml.Schema.XmlUntypedConverter::ToDouble(System.Object)
+// 0x00000A09 System.Double System.Xml.Schema.XmlUntypedConverter::ToDouble(System.Object)
 extern void XmlUntypedConverter_ToDouble_mA0D38166C4C7F7C1A2D74151DFED136837CFF192 (void);
-// 0x00000A09 System.Int32 System.Xml.Schema.XmlUntypedConverter::ToInt32(System.String)
+// 0x00000A0A System.Int32 System.Xml.Schema.XmlUntypedConverter::ToInt32(System.String)
 extern void XmlUntypedConverter_ToInt32_m7827E75366EB732701E666AE7AD515E03DC55B1E (void);
-// 0x00000A0A System.Int32 System.Xml.Schema.XmlUntypedConverter::ToInt32(System.Object)
+// 0x00000A0B System.Int32 System.Xml.Schema.XmlUntypedConverter::ToInt32(System.Object)
 extern void XmlUntypedConverter_ToInt32_mC50212F8EF6D6FFA09F85FA049B91C4BB923E80A (void);
-// 0x00000A0B System.Int64 System.Xml.Schema.XmlUntypedConverter::ToInt64(System.String)
+// 0x00000A0C System.Int64 System.Xml.Schema.XmlUntypedConverter::ToInt64(System.String)
 extern void XmlUntypedConverter_ToInt64_m59ECD5D2B8DE238FA8A459105730683F02DAA6E9 (void);
-// 0x00000A0C System.Int64 System.Xml.Schema.XmlUntypedConverter::ToInt64(System.Object)
+// 0x00000A0D System.Int64 System.Xml.Schema.XmlUntypedConverter::ToInt64(System.Object)
 extern void XmlUntypedConverter_ToInt64_m596B48E062659CDE389BD18EE3687E0CC9D4FC1D (void);
-// 0x00000A0D System.Single System.Xml.Schema.XmlUntypedConverter::ToSingle(System.String)
+// 0x00000A0E System.Single System.Xml.Schema.XmlUntypedConverter::ToSingle(System.String)
 extern void XmlUntypedConverter_ToSingle_mB8BB884E5B7EFCF79893C0BBF0095F3A0E8C632E (void);
-// 0x00000A0E System.Single System.Xml.Schema.XmlUntypedConverter::ToSingle(System.Object)
+// 0x00000A0F System.Single System.Xml.Schema.XmlUntypedConverter::ToSingle(System.Object)
 extern void XmlUntypedConverter_ToSingle_m6D9FD031B936C61F75C186D241BF51271AE71FD3 (void);
-// 0x00000A0F System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Boolean)
+// 0x00000A10 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Boolean)
 extern void XmlUntypedConverter_ToString_m8DDCC42A5CDDC8D8AC062F86500F67EFFDABB78F (void);
-// 0x00000A10 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.DateTime)
+// 0x00000A11 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.DateTime)
 extern void XmlUntypedConverter_ToString_mBDA04A2FF87A28A593D6379AF79A2280569DDDBE (void);
-// 0x00000A11 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.DateTimeOffset)
+// 0x00000A12 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.DateTimeOffset)
 extern void XmlUntypedConverter_ToString_mC9D9F93E20C7B06620F3A38179641C9DF1428262 (void);
-// 0x00000A12 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Decimal)
+// 0x00000A13 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Decimal)
 extern void XmlUntypedConverter_ToString_m3A888112C3AE42B087AB5D8130905442F76E4F16 (void);
-// 0x00000A13 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Double)
+// 0x00000A14 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Double)
 extern void XmlUntypedConverter_ToString_m8E474D733EBBFD24090F1731AF6D83FB29DABA0C (void);
-// 0x00000A14 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Int32)
+// 0x00000A15 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Int32)
 extern void XmlUntypedConverter_ToString_mB45A50A6304765E09FED8EC45BC7CD6362F5D6FC (void);
-// 0x00000A15 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Int64)
+// 0x00000A16 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Int64)
 extern void XmlUntypedConverter_ToString_mAB00DD6F7A711E1985A40BE3D08BF2A32381107E (void);
-// 0x00000A16 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Single)
+// 0x00000A17 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Single)
 extern void XmlUntypedConverter_ToString_mA3ECD11E1EAF48FBBA872946E6EE712D2AF1EE5E (void);
-// 0x00000A17 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x00000A18 System.String System.Xml.Schema.XmlUntypedConverter::ToString(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ToString_m806034A143001ADC300AF399611CD283AA2103F0 (void);
-// 0x00000A18 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Boolean,System.Type)
+// 0x00000A19 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Boolean,System.Type)
 extern void XmlUntypedConverter_ChangeType_m34C37280F713467BA8F434E8D1A1860BC69B1126 (void);
-// 0x00000A19 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.DateTime,System.Type)
+// 0x00000A1A System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.DateTime,System.Type)
 extern void XmlUntypedConverter_ChangeType_m7F0E767DC5EF8AFB5283C6B4C29E9FDC2E28A7BF (void);
-// 0x00000A1A System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Decimal,System.Type)
+// 0x00000A1B System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Decimal,System.Type)
 extern void XmlUntypedConverter_ChangeType_mC00C433AB711E7881ACF2FAB9D1CFB725823E36C (void);
-// 0x00000A1B System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Double,System.Type)
+// 0x00000A1C System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Double,System.Type)
 extern void XmlUntypedConverter_ChangeType_m04BD68FA7EEC6BBBFA5C1F3A56E12AFC716512A8 (void);
-// 0x00000A1C System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Int32,System.Type)
+// 0x00000A1D System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Int32,System.Type)
 extern void XmlUntypedConverter_ChangeType_mA0E56A6A916A1F6D874EBA3969C1E251C977B9B3 (void);
-// 0x00000A1D System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Int64,System.Type)
+// 0x00000A1E System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Int64,System.Type)
 extern void XmlUntypedConverter_ChangeType_m01ACA40ACADFE01E49CD8CA75DEF9BBDF4A636E8 (void);
-// 0x00000A1E System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A1F System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ChangeType_m5756490878BB3BB8C1A9335E469E04D5E697F3B0 (void);
-// 0x00000A1F System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A20 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ChangeType_mEDA35D335DC702518EF5BCFF48CF0284D7AC0A6E (void);
-// 0x00000A20 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A21 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ChangeTypeWildcardDestination_m3211D143132301B404C1DB8BA906F48020F6DB5A (void);
-// 0x00000A21 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A22 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ChangeTypeWildcardSource_mCF2BAD93DF040CEF5ABB937591E9B2EBF00F1B96 (void);
-// 0x00000A22 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A23 System.Object System.Xml.Schema.XmlUntypedConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlUntypedConverter_ChangeListType_m56081414572E63A4CE7F6E3A00A9059A9D880CF4 (void);
-// 0x00000A23 System.Boolean System.Xml.Schema.XmlUntypedConverter::SupportsType(System.Type)
+// 0x00000A24 System.Boolean System.Xml.Schema.XmlUntypedConverter::SupportsType(System.Type)
 extern void XmlUntypedConverter_SupportsType_mA8F11C36ADAD56602320799E7EBBFF0829C149EC (void);
-// 0x00000A24 System.Void System.Xml.Schema.XmlUntypedConverter::.cctor()
+// 0x00000A25 System.Void System.Xml.Schema.XmlUntypedConverter::.cctor()
 extern void XmlUntypedConverter__cctor_m94DFC44EAC8B243F60BC373AF4C061D4A2FC52FA (void);
-// 0x00000A25 System.Void System.Xml.Schema.XmlAnyConverter::.ctor(System.Xml.Schema.XmlTypeCode)
+// 0x00000A26 System.Void System.Xml.Schema.XmlAnyConverter::.ctor(System.Xml.Schema.XmlTypeCode)
 extern void XmlAnyConverter__ctor_mC37E1BD62F255937CE9E845D70872CAD7943AAC4 (void);
-// 0x00000A26 System.Boolean System.Xml.Schema.XmlAnyConverter::ToBoolean(System.Object)
+// 0x00000A27 System.Boolean System.Xml.Schema.XmlAnyConverter::ToBoolean(System.Object)
 extern void XmlAnyConverter_ToBoolean_m3A26D2B41FEC9E84BBB19C52A7173059147C3D67 (void);
-// 0x00000A27 System.DateTime System.Xml.Schema.XmlAnyConverter::ToDateTime(System.Object)
+// 0x00000A28 System.DateTime System.Xml.Schema.XmlAnyConverter::ToDateTime(System.Object)
 extern void XmlAnyConverter_ToDateTime_mC92E49F464D7392CF9BEC1E515F7EF27304F3369 (void);
-// 0x00000A28 System.DateTimeOffset System.Xml.Schema.XmlAnyConverter::ToDateTimeOffset(System.Object)
+// 0x00000A29 System.DateTimeOffset System.Xml.Schema.XmlAnyConverter::ToDateTimeOffset(System.Object)
 extern void XmlAnyConverter_ToDateTimeOffset_m00A1CEDCF852ADC6784F9C002D82B0DB7711F2DC (void);
-// 0x00000A29 System.Decimal System.Xml.Schema.XmlAnyConverter::ToDecimal(System.Object)
+// 0x00000A2A System.Decimal System.Xml.Schema.XmlAnyConverter::ToDecimal(System.Object)
 extern void XmlAnyConverter_ToDecimal_m4C393123BD63C71B6AFC300FCD261A622E9B3D3E (void);
-// 0x00000A2A System.Double System.Xml.Schema.XmlAnyConverter::ToDouble(System.Object)
+// 0x00000A2B System.Double System.Xml.Schema.XmlAnyConverter::ToDouble(System.Object)
 extern void XmlAnyConverter_ToDouble_m3C5710F8F74CBC860E5B29D92EB1099BFC595B23 (void);
-// 0x00000A2B System.Int32 System.Xml.Schema.XmlAnyConverter::ToInt32(System.Object)
+// 0x00000A2C System.Int32 System.Xml.Schema.XmlAnyConverter::ToInt32(System.Object)
 extern void XmlAnyConverter_ToInt32_mB1B32CF791659BBC1CA9E593AB27D353B44604B4 (void);
-// 0x00000A2C System.Int64 System.Xml.Schema.XmlAnyConverter::ToInt64(System.Object)
+// 0x00000A2D System.Int64 System.Xml.Schema.XmlAnyConverter::ToInt64(System.Object)
 extern void XmlAnyConverter_ToInt64_m1EFEFAA444A5C9B5E4A62662F890A582B36C21C9 (void);
-// 0x00000A2D System.Single System.Xml.Schema.XmlAnyConverter::ToSingle(System.Object)
+// 0x00000A2E System.Single System.Xml.Schema.XmlAnyConverter::ToSingle(System.Object)
 extern void XmlAnyConverter_ToSingle_mA0C121FA8637E82DE889C6EEE293360969BC5260 (void);
-// 0x00000A2E System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Boolean,System.Type)
+// 0x00000A2F System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Boolean,System.Type)
 extern void XmlAnyConverter_ChangeType_m96A6B8E6ED6109AEE90668DFE76652E587B82FD1 (void);
-// 0x00000A2F System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.DateTime,System.Type)
+// 0x00000A30 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.DateTime,System.Type)
 extern void XmlAnyConverter_ChangeType_mA7201A4C1ACE26EA35D1DE3444D7F62A9C2568FB (void);
-// 0x00000A30 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Decimal,System.Type)
+// 0x00000A31 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Decimal,System.Type)
 extern void XmlAnyConverter_ChangeType_m14024A08E769496A50AACE8F8A4AC8693DF88AA3 (void);
-// 0x00000A31 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Double,System.Type)
+// 0x00000A32 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Double,System.Type)
 extern void XmlAnyConverter_ChangeType_mD4C9518A504738A55A8052A61868643277C5F180 (void);
-// 0x00000A32 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Int32,System.Type)
+// 0x00000A33 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Int32,System.Type)
 extern void XmlAnyConverter_ChangeType_mAADBB6C9AF7978420700FB9805706EBFE0E7B710 (void);
-// 0x00000A33 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Int64,System.Type)
+// 0x00000A34 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Int64,System.Type)
 extern void XmlAnyConverter_ChangeType_m1E1182DD2F816191CF79B328CD22039CE194B929 (void);
-// 0x00000A34 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A35 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.String,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAnyConverter_ChangeType_m34B629B194FAA6C62C4BC44CBC9231D3DA567AB1 (void);
-// 0x00000A35 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A36 System.Object System.Xml.Schema.XmlAnyConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAnyConverter_ChangeType_mAF24A2C607A9527EB0C1B505A5E6E46A6FB99920 (void);
-// 0x00000A36 System.Object System.Xml.Schema.XmlAnyConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A37 System.Object System.Xml.Schema.XmlAnyConverter::ChangeTypeWildcardDestination(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAnyConverter_ChangeTypeWildcardDestination_mCFD0FC84EEC87CBC94D1B94F6317F6C8D38E1E50 (void);
-// 0x00000A37 System.Object System.Xml.Schema.XmlAnyConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A38 System.Object System.Xml.Schema.XmlAnyConverter::ChangeTypeWildcardSource(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAnyConverter_ChangeTypeWildcardSource_mEE58A89B9A9F2EE03606B0CF2B88DCD2BED3B404 (void);
-// 0x00000A38 System.Xml.XPath.XPathNavigator System.Xml.Schema.XmlAnyConverter::ToNavigator(System.Xml.XPath.XPathNavigator)
+// 0x00000A39 System.Xml.XPath.XPathNavigator System.Xml.Schema.XmlAnyConverter::ToNavigator(System.Xml.XPath.XPathNavigator)
 extern void XmlAnyConverter_ToNavigator_mE0637E73228846BF8C3375430C8B63CF73A3C2A0 (void);
-// 0x00000A39 System.Void System.Xml.Schema.XmlAnyConverter::.cctor()
+// 0x00000A3A System.Void System.Xml.Schema.XmlAnyConverter::.cctor()
 extern void XmlAnyConverter__cctor_mDF48A121CB3BB139A1DB47EC8A7CF445B4455100 (void);
-// 0x00000A3A System.Void System.Xml.Schema.XmlAnyListConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
+// 0x00000A3B System.Void System.Xml.Schema.XmlAnyListConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
 extern void XmlAnyListConverter__ctor_mE39C5C71DDEDA4AF0C31FF46DAA625173F08AC0C (void);
-// 0x00000A3B System.Object System.Xml.Schema.XmlAnyListConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A3C System.Object System.Xml.Schema.XmlAnyListConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlAnyListConverter_ChangeType_m1BE4913561E1287C94B093B9EBFB153F32655F61 (void);
-// 0x00000A3C System.Void System.Xml.Schema.XmlAnyListConverter::.cctor()
+// 0x00000A3D System.Void System.Xml.Schema.XmlAnyListConverter::.cctor()
 extern void XmlAnyListConverter__cctor_m8A6FD6A2E4F63D768AF412662E5DF789AF34DFEB (void);
-// 0x00000A3D System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
+// 0x00000A3E System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlBaseConverter)
 extern void XmlListConverter__ctor_mCA63578E7441F5966685695A7BF7653645AAE5C3 (void);
-// 0x00000A3E System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlBaseConverter,System.Type)
+// 0x00000A3F System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlBaseConverter,System.Type)
 extern void XmlListConverter__ctor_mC1229A31617E5443F831E698FC7096B4A8874502 (void);
-// 0x00000A3F System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlSchemaType)
+// 0x00000A40 System.Void System.Xml.Schema.XmlListConverter::.ctor(System.Xml.Schema.XmlSchemaType)
 extern void XmlListConverter__ctor_mC8B3F9BE510652A2EA2FC249C506605A025401F7 (void);
-// 0x00000A40 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlListConverter::Create(System.Xml.Schema.XmlValueConverter)
+// 0x00000A41 System.Xml.Schema.XmlValueConverter System.Xml.Schema.XmlListConverter::Create(System.Xml.Schema.XmlValueConverter)
 extern void XmlListConverter_Create_mEE368B2D0A2A9440E6A6E5F6570A2DB284B832E3 (void);
-// 0x00000A41 System.Object System.Xml.Schema.XmlListConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A42 System.Object System.Xml.Schema.XmlListConverter::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlListConverter_ChangeType_m630DCB9CD3B6B383341BA451EAAA25F165B6B66D (void);
-// 0x00000A42 System.Object System.Xml.Schema.XmlListConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
+// 0x00000A43 System.Object System.Xml.Schema.XmlListConverter::ChangeListType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver)
 extern void XmlListConverter_ChangeListType_mE0AAB3D151C68A0D04C45239AC2899272F009220 (void);
-// 0x00000A43 System.Boolean System.Xml.Schema.XmlListConverter::IsListType(System.Type)
+// 0x00000A44 System.Boolean System.Xml.Schema.XmlListConverter::IsListType(System.Type)
 extern void XmlListConverter_IsListType_m21C7A6B5F57551FF2D989720667EF4E1D9E1399F (void);
-// 0x00000A44 T[] System.Xml.Schema.XmlListConverter::ToArray(System.Object,System.Xml.IXmlNamespaceResolver)
-// 0x00000A45 System.Collections.IList System.Xml.Schema.XmlListConverter::ToList(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x00000A45 T[] System.Xml.Schema.XmlListConverter::ToArray(System.Object,System.Xml.IXmlNamespaceResolver)
+// 0x00000A46 System.Collections.IList System.Xml.Schema.XmlListConverter::ToList(System.Object,System.Xml.IXmlNamespaceResolver)
 extern void XmlListConverter_ToList_m2770032A553C42EA62A43232A06D8784826B4668 (void);
-// 0x00000A46 System.Collections.Generic.List`1<System.String> System.Xml.Schema.XmlListConverter::StringAsList(System.String)
+// 0x00000A47 System.Collections.Generic.List`1<System.String> System.Xml.Schema.XmlListConverter::StringAsList(System.String)
 extern void XmlListConverter_StringAsList_m3E1DDA543BC8CBEB3D5FE7741297A4B15EA5EF14 (void);
-// 0x00000A47 System.String System.Xml.Schema.XmlListConverter::ListAsString(System.Collections.IEnumerable,System.Xml.IXmlNamespaceResolver)
+// 0x00000A48 System.String System.Xml.Schema.XmlListConverter::ListAsString(System.Collections.IEnumerable,System.Xml.IXmlNamespaceResolver)
 extern void XmlListConverter_ListAsString_m48242450B8AF496252BB093BB75E86D8C274A19B (void);
-// 0x00000A48 System.Exception System.Xml.Schema.XmlListConverter::CreateInvalidClrMappingException(System.Type,System.Type)
+// 0x00000A49 System.Exception System.Xml.Schema.XmlListConverter::CreateInvalidClrMappingException(System.Type,System.Type)
 extern void XmlListConverter_CreateInvalidClrMappingException_m6D579969524A99137757F66105F72C9DFB83B0B1 (void);
-// 0x00000A49 System.Void System.Xml.Schema.XsdDateTime::.ctor(System.String,System.Xml.Schema.XsdDateTimeFlags)
+// 0x00000A4A System.Void System.Xml.Schema.XsdDateTime::.ctor(System.String,System.Xml.Schema.XsdDateTimeFlags)
 extern void XsdDateTime__ctor_m3E0873E7B93556D02209B348843C713D51F73B4E (void);
-// 0x00000A4A System.Void System.Xml.Schema.XsdDateTime::.ctor(System.Xml.Schema.XsdDateTime/Parser)
+// 0x00000A4B System.Void System.Xml.Schema.XsdDateTime::.ctor(System.Xml.Schema.XsdDateTime/Parser)
 extern void XsdDateTime__ctor_m9D9086E04F4BF6D3C09746A40FE8811B3CF4CA88 (void);
-// 0x00000A4B System.Void System.Xml.Schema.XsdDateTime::InitiateXsdDateTime(System.Xml.Schema.XsdDateTime/Parser)
+// 0x00000A4C System.Void System.Xml.Schema.XsdDateTime::InitiateXsdDateTime(System.Xml.Schema.XsdDateTime/Parser)
 extern void XsdDateTime_InitiateXsdDateTime_m91814AB11DA2BA2D0079F9F73E2B9B62B98B533E (void);
-// 0x00000A4C System.Boolean System.Xml.Schema.XsdDateTime::TryParse(System.String,System.Xml.Schema.XsdDateTimeFlags,System.Xml.Schema.XsdDateTime&)
+// 0x00000A4D System.Boolean System.Xml.Schema.XsdDateTime::TryParse(System.String,System.Xml.Schema.XsdDateTimeFlags,System.Xml.Schema.XsdDateTime&)
 extern void XsdDateTime_TryParse_mC39A6E2B28D57F7A0FD1AD35909833DA1354B6E9 (void);
-// 0x00000A4D System.Void System.Xml.Schema.XsdDateTime::.ctor(System.DateTime,System.Xml.Schema.XsdDateTimeFlags)
+// 0x00000A4E System.Void System.Xml.Schema.XsdDateTime::.ctor(System.DateTime,System.Xml.Schema.XsdDateTimeFlags)
 extern void XsdDateTime__ctor_m9EE15399BB38384CC624A7079BA193790D121712 (void);
-// 0x00000A4E System.Void System.Xml.Schema.XsdDateTime::.ctor(System.DateTimeOffset,System.Xml.Schema.XsdDateTimeFlags)
+// 0x00000A4F System.Void System.Xml.Schema.XsdDateTime::.ctor(System.DateTimeOffset,System.Xml.Schema.XsdDateTimeFlags)
 extern void XsdDateTime__ctor_m127DD6E3D834498A172B1FD34DD1AC4505C7AA4C (void);
-// 0x00000A4F System.Xml.Schema.XsdDateTime/DateTimeTypeCode System.Xml.Schema.XsdDateTime::get_InternalTypeCode()
+// 0x00000A50 System.Xml.Schema.XsdDateTime/DateTimeTypeCode System.Xml.Schema.XsdDateTime::get_InternalTypeCode()
 extern void XsdDateTime_get_InternalTypeCode_mAE60E4DBF9D642870B0D715A5E260F4DD5BC4A4B (void);
-// 0x00000A50 System.Xml.Schema.XsdDateTime/XsdDateTimeKind System.Xml.Schema.XsdDateTime::get_InternalKind()
+// 0x00000A51 System.Xml.Schema.XsdDateTime/XsdDateTimeKind System.Xml.Schema.XsdDateTime::get_InternalKind()
 extern void XsdDateTime_get_InternalKind_m40658E3A6C5DA52E96BCF334BF5760EB7092A88E (void);
-// 0x00000A51 System.Int32 System.Xml.Schema.XsdDateTime::get_Year()
+// 0x00000A52 System.Int32 System.Xml.Schema.XsdDateTime::get_Year()
 extern void XsdDateTime_get_Year_mD24DE1C1790E7306B5AF6F78EBAC41CCC7750CEA (void);
-// 0x00000A52 System.Int32 System.Xml.Schema.XsdDateTime::get_Month()
+// 0x00000A53 System.Int32 System.Xml.Schema.XsdDateTime::get_Month()
 extern void XsdDateTime_get_Month_m205FE2FB59CF6A1692300A21A77FFBB37144E99B (void);
-// 0x00000A53 System.Int32 System.Xml.Schema.XsdDateTime::get_Day()
+// 0x00000A54 System.Int32 System.Xml.Schema.XsdDateTime::get_Day()
 extern void XsdDateTime_get_Day_m4F8E33F38809CDEEFFAB2BFC3E14AC6B08AF1F6D (void);
-// 0x00000A54 System.Int32 System.Xml.Schema.XsdDateTime::get_Hour()
+// 0x00000A55 System.Int32 System.Xml.Schema.XsdDateTime::get_Hour()
 extern void XsdDateTime_get_Hour_mE4B191CD33490CA5BC5EA87E00314FA50BDB741A (void);
-// 0x00000A55 System.Int32 System.Xml.Schema.XsdDateTime::get_Minute()
+// 0x00000A56 System.Int32 System.Xml.Schema.XsdDateTime::get_Minute()
 extern void XsdDateTime_get_Minute_m38120FA2B75440A56BD49C552DDD3032D9A6DFA6 (void);
-// 0x00000A56 System.Int32 System.Xml.Schema.XsdDateTime::get_Second()
+// 0x00000A57 System.Int32 System.Xml.Schema.XsdDateTime::get_Second()
 extern void XsdDateTime_get_Second_m46202D39713A213E9F514CD4E2F5F04C5278780F (void);
-// 0x00000A57 System.Int32 System.Xml.Schema.XsdDateTime::get_Fraction()
+// 0x00000A58 System.Int32 System.Xml.Schema.XsdDateTime::get_Fraction()
 extern void XsdDateTime_get_Fraction_m40D9B327318B0D061E02D59889E0919A95EB9098 (void);
-// 0x00000A58 System.Int32 System.Xml.Schema.XsdDateTime::get_ZoneHour()
+// 0x00000A59 System.Int32 System.Xml.Schema.XsdDateTime::get_ZoneHour()
 extern void XsdDateTime_get_ZoneHour_m9E35CDE49237CC3ECD3DE3D51AAB8E99300A2739 (void);
-// 0x00000A59 System.Int32 System.Xml.Schema.XsdDateTime::get_ZoneMinute()
+// 0x00000A5A System.Int32 System.Xml.Schema.XsdDateTime::get_ZoneMinute()
 extern void XsdDateTime_get_ZoneMinute_m1D120C367B38D2F8B926469F418B6C2560C8E228 (void);
-// 0x00000A5A System.DateTime System.Xml.Schema.XsdDateTime::op_Implicit(System.Xml.Schema.XsdDateTime)
+// 0x00000A5B System.DateTime System.Xml.Schema.XsdDateTime::op_Implicit(System.Xml.Schema.XsdDateTime)
 extern void XsdDateTime_op_Implicit_m0ADFEE964709917141BF6B590F97EB79AF270132 (void);
-// 0x00000A5B System.DateTimeOffset System.Xml.Schema.XsdDateTime::op_Implicit(System.Xml.Schema.XsdDateTime)
+// 0x00000A5C System.DateTimeOffset System.Xml.Schema.XsdDateTime::op_Implicit(System.Xml.Schema.XsdDateTime)
 extern void XsdDateTime_op_Implicit_m3215BA40174F5D3877B0F2E88A641368B3BF37EC (void);
-// 0x00000A5C System.String System.Xml.Schema.XsdDateTime::ToString()
+// 0x00000A5D System.String System.Xml.Schema.XsdDateTime::ToString()
 extern void XsdDateTime_ToString_m7753E41D2C4A8E0687796143C9220155B9837535 (void);
-// 0x00000A5D System.Void System.Xml.Schema.XsdDateTime::PrintDate(System.Text.StringBuilder)
+// 0x00000A5E System.Void System.Xml.Schema.XsdDateTime::PrintDate(System.Text.StringBuilder)
 extern void XsdDateTime_PrintDate_mF29EDBFFB4F5A9EACE93E05D257421B72A74B61E (void);
-// 0x00000A5E System.Void System.Xml.Schema.XsdDateTime::PrintTime(System.Text.StringBuilder)
+// 0x00000A5F System.Void System.Xml.Schema.XsdDateTime::PrintTime(System.Text.StringBuilder)
 extern void XsdDateTime_PrintTime_mCE1029E13A352DB34EC2EF991632A85E26133EDB (void);
-// 0x00000A5F System.Void System.Xml.Schema.XsdDateTime::PrintZone(System.Text.StringBuilder)
+// 0x00000A60 System.Void System.Xml.Schema.XsdDateTime::PrintZone(System.Text.StringBuilder)
 extern void XsdDateTime_PrintZone_mA1766FF80B24A4E1D666DBB8C818C01A94330CF6 (void);
-// 0x00000A60 System.Void System.Xml.Schema.XsdDateTime::IntToCharArray(System.Char[],System.Int32,System.Int32,System.Int32)
+// 0x00000A61 System.Void System.Xml.Schema.XsdDateTime::IntToCharArray(System.Char[],System.Int32,System.Int32,System.Int32)
 extern void XsdDateTime_IntToCharArray_mB95DA3CAFA3F603DFB73CB309A062670C217C131 (void);
-// 0x00000A61 System.Void System.Xml.Schema.XsdDateTime::ShortToCharArray(System.Char[],System.Int32,System.Int32)
+// 0x00000A62 System.Void System.Xml.Schema.XsdDateTime::ShortToCharArray(System.Char[],System.Int32,System.Int32)
 extern void XsdDateTime_ShortToCharArray_mC76C1DE32E31949CF46213E55D4C3DE7B21B621A (void);
-// 0x00000A62 System.Void System.Xml.Schema.XsdDateTime::.cctor()
+// 0x00000A63 System.Void System.Xml.Schema.XsdDateTime::.cctor()
 extern void XsdDateTime__cctor_m0F7B602DECCB2F9B36B923451833938FB6AFF997 (void);
-// 0x00000A63 System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse(System.String,System.Xml.Schema.XsdDateTimeFlags)
+// 0x00000A64 System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse(System.String,System.Xml.Schema.XsdDateTimeFlags)
 extern void Parser_Parse_m4027B362756419C910E1D041BB6CE2035B3603D9 (void);
-// 0x00000A64 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseDate(System.Int32)
+// 0x00000A65 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseDate(System.Int32)
 extern void Parser_ParseDate_mDD1FC2A4390DBB0F116BCA9CAA17D3ECE36D90E3 (void);
-// 0x00000A65 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTimeAndZoneAndWhitespace(System.Int32)
+// 0x00000A66 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTimeAndZoneAndWhitespace(System.Int32)
 extern void Parser_ParseTimeAndZoneAndWhitespace_m7D228802D6E72D8F6640D71EA9603F40358B77DD (void);
-// 0x00000A66 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTimeAndWhitespace(System.Int32)
+// 0x00000A67 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTimeAndWhitespace(System.Int32)
 extern void Parser_ParseTimeAndWhitespace_mF1CAE3E888701743D8C536884D629EE0F22B1D21 (void);
-// 0x00000A67 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTime(System.Int32&)
+// 0x00000A68 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseTime(System.Int32&)
 extern void Parser_ParseTime_mF90100413CE0C7543E81BB585E86322A64090420 (void);
-// 0x00000A68 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseZoneAndWhitespace(System.Int32)
+// 0x00000A69 System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseZoneAndWhitespace(System.Int32)
 extern void Parser_ParseZoneAndWhitespace_m59547EAFB80879B5FE3665C0EF560945A1003A25 (void);
-// 0x00000A69 System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse4Dig(System.Int32,System.Int32&)
+// 0x00000A6A System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse4Dig(System.Int32,System.Int32&)
 extern void Parser_Parse4Dig_m1CCFFA25225A107685596935A622002FDACEF084 (void);
-// 0x00000A6A System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse2Dig(System.Int32,System.Int32&)
+// 0x00000A6B System.Boolean System.Xml.Schema.XsdDateTime/Parser::Parse2Dig(System.Int32,System.Int32&)
 extern void Parser_Parse2Dig_m39FAABE5DA648F49504BB6561597C9D61AA5895A (void);
-// 0x00000A6B System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseChar(System.Int32,System.Char)
+// 0x00000A6C System.Boolean System.Xml.Schema.XsdDateTime/Parser::ParseChar(System.Int32,System.Char)
 extern void Parser_ParseChar_mE5B16C9B491B95DB733A1F23220E1A9433A3D344 (void);
-// 0x00000A6C System.Boolean System.Xml.Schema.XsdDateTime/Parser::Test(System.Xml.Schema.XsdDateTimeFlags,System.Xml.Schema.XsdDateTimeFlags)
+// 0x00000A6D System.Boolean System.Xml.Schema.XsdDateTime/Parser::Test(System.Xml.Schema.XsdDateTimeFlags,System.Xml.Schema.XsdDateTimeFlags)
 extern void Parser_Test_m78E312B37752A9D97C160A4C6DDE22245C4261F8 (void);
-// 0x00000A6D System.Void System.Xml.Schema.XsdDateTime/Parser::.cctor()
+// 0x00000A6E System.Void System.Xml.Schema.XsdDateTime/Parser::.cctor()
 extern void Parser__cctor_mA0A20CAC66966A1113D9B14270277869C2DD3FAC (void);
-// 0x00000A6E System.Void System.Xml.Schema.XsdDuration::.ctor(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000A6F System.Void System.Xml.Schema.XsdDuration::.ctor(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void XsdDuration__ctor_m38DC4CBC4227909F4B1AF6A15D90026E3EDA2E8A (void);
-// 0x00000A6F System.Void System.Xml.Schema.XsdDuration::.ctor(System.TimeSpan,System.Xml.Schema.XsdDuration/DurationType)
+// 0x00000A70 System.Void System.Xml.Schema.XsdDuration::.ctor(System.TimeSpan,System.Xml.Schema.XsdDuration/DurationType)
 extern void XsdDuration__ctor_m2CE789343F1EE7728BE48C8ABF3392B8ED7BD390 (void);
-// 0x00000A70 System.Void System.Xml.Schema.XsdDuration::.ctor(System.String,System.Xml.Schema.XsdDuration/DurationType)
+// 0x00000A71 System.Void System.Xml.Schema.XsdDuration::.ctor(System.String,System.Xml.Schema.XsdDuration/DurationType)
 extern void XsdDuration__ctor_m34337885047100969A6121F7CFAE5530C40E9B48 (void);
-// 0x00000A71 System.Boolean System.Xml.Schema.XsdDuration::get_IsNegative()
+// 0x00000A72 System.Boolean System.Xml.Schema.XsdDuration::get_IsNegative()
 extern void XsdDuration_get_IsNegative_m7AD0EE954916BAD77BE84976C1F9D8D3854F2B7E (void);
-// 0x00000A72 System.Int32 System.Xml.Schema.XsdDuration::get_Years()
+// 0x00000A73 System.Int32 System.Xml.Schema.XsdDuration::get_Years()
 extern void XsdDuration_get_Years_m2F16DEE4EB28A914B6C03A462BF6DE16079AEC5E (void);
-// 0x00000A73 System.Int32 System.Xml.Schema.XsdDuration::get_Months()
+// 0x00000A74 System.Int32 System.Xml.Schema.XsdDuration::get_Months()
 extern void XsdDuration_get_Months_m2003B42F20229209D88FFA62D3BAED1BF0E1A851 (void);
-// 0x00000A74 System.Int32 System.Xml.Schema.XsdDuration::get_Days()
+// 0x00000A75 System.Int32 System.Xml.Schema.XsdDuration::get_Days()
 extern void XsdDuration_get_Days_m7A66E8270BF719AC95604AD58AD2B9E35A47046A (void);
-// 0x00000A75 System.Int32 System.Xml.Schema.XsdDuration::get_Hours()
+// 0x00000A76 System.Int32 System.Xml.Schema.XsdDuration::get_Hours()
 extern void XsdDuration_get_Hours_m7390FD426C288A52C27DF12F034F29AC746BF1EF (void);
-// 0x00000A76 System.Int32 System.Xml.Schema.XsdDuration::get_Minutes()
+// 0x00000A77 System.Int32 System.Xml.Schema.XsdDuration::get_Minutes()
 extern void XsdDuration_get_Minutes_mB74DF6E89566B10A2AD63E88A4DF462B06B9548C (void);
-// 0x00000A77 System.Int32 System.Xml.Schema.XsdDuration::get_Seconds()
+// 0x00000A78 System.Int32 System.Xml.Schema.XsdDuration::get_Seconds()
 extern void XsdDuration_get_Seconds_m9F35896B9EF01634C2C584D89A5901A20D5F728C (void);
-// 0x00000A78 System.Int32 System.Xml.Schema.XsdDuration::get_Nanoseconds()
+// 0x00000A79 System.Int32 System.Xml.Schema.XsdDuration::get_Nanoseconds()
 extern void XsdDuration_get_Nanoseconds_m15052A05CD863DC5F37D1D614433B44D813F2AE7 (void);
-// 0x00000A79 System.TimeSpan System.Xml.Schema.XsdDuration::ToTimeSpan(System.Xml.Schema.XsdDuration/DurationType)
+// 0x00000A7A System.TimeSpan System.Xml.Schema.XsdDuration::ToTimeSpan(System.Xml.Schema.XsdDuration/DurationType)
 extern void XsdDuration_ToTimeSpan_mBE8EA5F151FE97572999EDFA85A3DAAA13B04B9A (void);
-// 0x00000A7A System.Exception System.Xml.Schema.XsdDuration::TryToTimeSpan(System.TimeSpan&)
+// 0x00000A7B System.Exception System.Xml.Schema.XsdDuration::TryToTimeSpan(System.TimeSpan&)
 extern void XsdDuration_TryToTimeSpan_m7B81B7074288D60D1CB8E15006291E3227BAFBA3 (void);
-// 0x00000A7B System.Exception System.Xml.Schema.XsdDuration::TryToTimeSpan(System.Xml.Schema.XsdDuration/DurationType,System.TimeSpan&)
+// 0x00000A7C System.Exception System.Xml.Schema.XsdDuration::TryToTimeSpan(System.Xml.Schema.XsdDuration/DurationType,System.TimeSpan&)
 extern void XsdDuration_TryToTimeSpan_mD2D18571E29C257F265B446E3DF060DC71336171 (void);
-// 0x00000A7C System.String System.Xml.Schema.XsdDuration::ToString()
+// 0x00000A7D System.String System.Xml.Schema.XsdDuration::ToString()
 extern void XsdDuration_ToString_m678A09FD579D77D415021761FE814A1C49A50DFD (void);
-// 0x00000A7D System.String System.Xml.Schema.XsdDuration::ToString(System.Xml.Schema.XsdDuration/DurationType)
+// 0x00000A7E System.String System.Xml.Schema.XsdDuration::ToString(System.Xml.Schema.XsdDuration/DurationType)
 extern void XsdDuration_ToString_mAB96AA9C1E85D555476303E2D1D741B02FD6C698 (void);
-// 0x00000A7E System.Exception System.Xml.Schema.XsdDuration::TryParse(System.String,System.Xml.Schema.XsdDuration&)
+// 0x00000A7F System.Exception System.Xml.Schema.XsdDuration::TryParse(System.String,System.Xml.Schema.XsdDuration&)
 extern void XsdDuration_TryParse_mE39AAE64C1A7373A6301B44201C1EFB1E44D2AA4 (void);
-// 0x00000A7F System.Exception System.Xml.Schema.XsdDuration::TryParse(System.String,System.Xml.Schema.XsdDuration/DurationType,System.Xml.Schema.XsdDuration&)
+// 0x00000A80 System.Exception System.Xml.Schema.XsdDuration::TryParse(System.String,System.Xml.Schema.XsdDuration/DurationType,System.Xml.Schema.XsdDuration&)
 extern void XsdDuration_TryParse_mCA5684ABF12ECFD3874A498B613879ADE9222F34 (void);
-// 0x00000A80 System.String System.Xml.Schema.XsdDuration::TryParseDigits(System.String,System.Int32&,System.Boolean,System.Int32&,System.Int32&)
+// 0x00000A81 System.String System.Xml.Schema.XsdDuration::TryParseDigits(System.String,System.Int32&,System.Boolean,System.Int32&,System.Int32&)
 extern void XsdDuration_TryParseDigits_m4930FE80A792995148BE34DCA664BD9067CC5BD4 (void);
-// 0x00000A81 System.Void MS.Internal.Xml.Cache.XPathDocumentNavigator::.ctor(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[],System.Int32)
+// 0x00000A82 System.Void MS.Internal.Xml.Cache.XPathDocumentNavigator::.ctor(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[],System.Int32)
 extern void XPathDocumentNavigator__ctor_m6F90203C3B45DB6A10BB1918689F3D71F26780C6 (void);
-// 0x00000A82 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_Value()
+// 0x00000A83 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_Value()
 extern void XPathDocumentNavigator_get_Value_mE96242DB762C568A14F391207FDC2C03B1A571B9 (void);
-// 0x00000A83 System.Xml.XPath.XPathNavigator MS.Internal.Xml.Cache.XPathDocumentNavigator::Clone()
+// 0x00000A84 System.Xml.XPath.XPathNavigator MS.Internal.Xml.Cache.XPathDocumentNavigator::Clone()
 extern void XPathDocumentNavigator_Clone_mEA5660CEAC916ADDB9842FAD03AF85490BE10012 (void);
-// 0x00000A84 System.Xml.XPath.XPathNodeType MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NodeType()
+// 0x00000A85 System.Xml.XPath.XPathNodeType MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NodeType()
 extern void XPathDocumentNavigator_get_NodeType_m458402B3D576A3FF1D39245C22FF2F80E5D50E3A (void);
-// 0x00000A85 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_LocalName()
+// 0x00000A86 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_LocalName()
 extern void XPathDocumentNavigator_get_LocalName_mC9BABE5F2A1FC796BF3E7259DE00C5DAAD2D07EB (void);
-// 0x00000A86 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NamespaceURI()
+// 0x00000A87 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NamespaceURI()
 extern void XPathDocumentNavigator_get_NamespaceURI_mB00D4F973DBD8FD19AF700080E1219D02F433980 (void);
-// 0x00000A87 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_Prefix()
+// 0x00000A88 System.String MS.Internal.Xml.Cache.XPathDocumentNavigator::get_Prefix()
 extern void XPathDocumentNavigator_get_Prefix_mA7F9D844ADDD32B82819A4E63B7071E8590420D6 (void);
-// 0x00000A88 System.Xml.XmlNameTable MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NameTable()
+// 0x00000A89 System.Xml.XmlNameTable MS.Internal.Xml.Cache.XPathDocumentNavigator::get_NameTable()
 extern void XPathDocumentNavigator_get_NameTable_m59D13F04A5676148C79D3E6C59D2B7B119D98418 (void);
-// 0x00000A89 System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
+// 0x00000A8A System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)
 extern void XPathDocumentNavigator_MoveToFirstNamespace_mA388DA9DA031B281C612F90FD4C9BAB10DF11725 (void);
-// 0x00000A8A System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
+// 0x00000A8B System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)
 extern void XPathDocumentNavigator_MoveToNextNamespace_mCA462BDFF18F453C2EC658D4EF3E23E5AF923A5A (void);
-// 0x00000A8B System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToParent()
+// 0x00000A8C System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::MoveToParent()
 extern void XPathDocumentNavigator_MoveToParent_m5EC7735A18E2A9D29DB45F7710609843D6D105C2 (void);
-// 0x00000A8C System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator)
+// 0x00000A8D System.Boolean MS.Internal.Xml.Cache.XPathDocumentNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator)
 extern void XPathDocumentNavigator_IsSamePosition_m789BC3510DDD7962DB43BFB17255DB6CF6FD933F (void);
-// 0x00000A8D System.Object MS.Internal.Xml.Cache.XPathDocumentNavigator::get_UnderlyingObject()
+// 0x00000A8E System.Object MS.Internal.Xml.Cache.XPathDocumentNavigator::get_UnderlyingObject()
 extern void XPathDocumentNavigator_get_UnderlyingObject_mFFB387925C58C1D7AC3DD87523778A1EC0528569 (void);
-// 0x00000A8E System.Int32 MS.Internal.Xml.Cache.XPathDocumentNavigator::GetPositionHashCode()
+// 0x00000A8F System.Int32 MS.Internal.Xml.Cache.XPathDocumentNavigator::GetPositionHashCode()
 extern void XPathDocumentNavigator_GetPositionHashCode_m785F066D786EADA3F9B508477C4BFDCE72515841 (void);
-// 0x00000A8F System.Xml.XPath.XPathNodeType MS.Internal.Xml.Cache.XPathNode::get_NodeType()
+// 0x00000A90 System.Xml.XPath.XPathNodeType MS.Internal.Xml.Cache.XPathNode::get_NodeType()
 extern void XPathNode_get_NodeType_mF01B7F501A4D243B476CB1F67AC0275F70EC1A99 (void);
-// 0x00000A90 System.String MS.Internal.Xml.Cache.XPathNode::get_Prefix()
+// 0x00000A91 System.String MS.Internal.Xml.Cache.XPathNode::get_Prefix()
 extern void XPathNode_get_Prefix_m499096BCD31E503FF89FDADD69F1C916686BDFA7 (void);
-// 0x00000A91 System.String MS.Internal.Xml.Cache.XPathNode::get_LocalName()
+// 0x00000A92 System.String MS.Internal.Xml.Cache.XPathNode::get_LocalName()
 extern void XPathNode_get_LocalName_m4C7DCD240996EDE990F6924B176B80008141A367 (void);
-// 0x00000A92 System.String MS.Internal.Xml.Cache.XPathNode::get_NamespaceUri()
+// 0x00000A93 System.String MS.Internal.Xml.Cache.XPathNode::get_NamespaceUri()
 extern void XPathNode_get_NamespaceUri_mA7E5CA21E8BCF798FC16E64F94158F54B1C95FC2 (void);
-// 0x00000A93 System.Xml.XPath.XPathDocument MS.Internal.Xml.Cache.XPathNode::get_Document()
+// 0x00000A94 System.Xml.XPath.XPathDocument MS.Internal.Xml.Cache.XPathNode::get_Document()
 extern void XPathNode_get_Document_mC2CF5341823E4B865BD0A92045A97F87B312516F (void);
-// 0x00000A94 MS.Internal.Xml.Cache.XPathNodePageInfo MS.Internal.Xml.Cache.XPathNode::get_PageInfo()
+// 0x00000A95 MS.Internal.Xml.Cache.XPathNodePageInfo MS.Internal.Xml.Cache.XPathNode::get_PageInfo()
 extern void XPathNode_get_PageInfo_mBBC3212C44B8131B6948CCEDD5BCCA4DDEE77724 (void);
-// 0x00000A95 System.Int32 MS.Internal.Xml.Cache.XPathNode::GetParent(MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x00000A96 System.Int32 MS.Internal.Xml.Cache.XPathNode::GetParent(MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathNode_GetParent_m57F106763ECB0EC827677747A4B95E6A10095720 (void);
-// 0x00000A96 System.Int32 MS.Internal.Xml.Cache.XPathNode::GetSibling(MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x00000A97 System.Int32 MS.Internal.Xml.Cache.XPathNode::GetSibling(MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathNode_GetSibling_m818366A817C7694A4B3B07DA03E33A821960A085 (void);
-// 0x00000A97 System.Boolean MS.Internal.Xml.Cache.XPathNode::get_IsXmlNamespaceNode()
+// 0x00000A98 System.Boolean MS.Internal.Xml.Cache.XPathNode::get_IsXmlNamespaceNode()
 extern void XPathNode_get_IsXmlNamespaceNode_m7307A314989230B7F6E4F573F8B2FC505F969C5A (void);
-// 0x00000A98 System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasSibling()
+// 0x00000A99 System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasSibling()
 extern void XPathNode_get_HasSibling_mC8BDEDD3659561E20B769E205BB85377C47537AF (void);
-// 0x00000A99 System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasCollapsedText()
+// 0x00000A9A System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasCollapsedText()
 extern void XPathNode_get_HasCollapsedText_mFFE7E8DB4C7142A0004EF4F12D195E022ADF1691 (void);
-// 0x00000A9A System.Boolean MS.Internal.Xml.Cache.XPathNode::get_IsText()
+// 0x00000A9B System.Boolean MS.Internal.Xml.Cache.XPathNode::get_IsText()
 extern void XPathNode_get_IsText_m420F5C6B021A6598E5F3BBAF92C0F16DF3C678E0 (void);
-// 0x00000A9B System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasNamespaceDecls()
+// 0x00000A9C System.Boolean MS.Internal.Xml.Cache.XPathNode::get_HasNamespaceDecls()
 extern void XPathNode_get_HasNamespaceDecls_m25569CE7015AD2BDA2F4B2C357D4044394125DEA (void);
-// 0x00000A9C System.String MS.Internal.Xml.Cache.XPathNode::get_Value()
+// 0x00000A9D System.String MS.Internal.Xml.Cache.XPathNode::get_Value()
 extern void XPathNode_get_Value_mC18CEAE4371BD37328FA857F57ACEE9DF747734F (void);
-// 0x00000A9D System.Void MS.Internal.Xml.Cache.XPathNodeRef::.ctor(MS.Internal.Xml.Cache.XPathNode[],System.Int32)
+// 0x00000A9E System.Void MS.Internal.Xml.Cache.XPathNodeRef::.ctor(MS.Internal.Xml.Cache.XPathNode[],System.Int32)
 extern void XPathNodeRef__ctor_m14862547984A3EE8A767C1C8415C6E73E3EF30E8 (void);
-// 0x00000A9E MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeRef::get_Page()
+// 0x00000A9F MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeRef::get_Page()
 extern void XPathNodeRef_get_Page_m8624EDC1840BD05BD55D4E8137095B5986ED54F3 (void);
-// 0x00000A9F System.Int32 MS.Internal.Xml.Cache.XPathNodeRef::get_Index()
+// 0x00000AA0 System.Int32 MS.Internal.Xml.Cache.XPathNodeRef::get_Index()
 extern void XPathNodeRef_get_Index_m37FE9027EA38BDC66D3E83142E7BBEBB18073E33 (void);
-// 0x00000AA0 System.Int32 MS.Internal.Xml.Cache.XPathNodeRef::GetHashCode()
+// 0x00000AA1 System.Int32 MS.Internal.Xml.Cache.XPathNodeRef::GetHashCode()
 extern void XPathNodeRef_GetHashCode_mA438A76A5D2970E8AEC24529F5D03905D9A71F0C (void);
-// 0x00000AA1 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetLocalNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x00000AA2 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetLocalNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathNodeHelper_GetLocalNamespaces_m8827609E893638235596FF153AECA4FD13119069 (void);
-// 0x00000AA2 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetInScopeNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
+// 0x00000AA3 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetInScopeNamespaces(MS.Internal.Xml.Cache.XPathNode[],System.Int32,MS.Internal.Xml.Cache.XPathNode[]&)
 extern void XPathNodeHelper_GetInScopeNamespaces_mB12984C452F59C0FED90B9C876B31AA8CE422E12 (void);
-// 0x00000AA3 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetParent(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&)
+// 0x00000AA4 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetParent(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&)
 extern void XPathNodeHelper_GetParent_mDB68FBBA320D2C47C591B226846C76D582A8B0C2 (void);
-// 0x00000AA4 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetLocation(MS.Internal.Xml.Cache.XPathNode[],System.Int32)
+// 0x00000AA5 System.Int32 MS.Internal.Xml.Cache.XPathNodeHelper::GetLocation(MS.Internal.Xml.Cache.XPathNode[],System.Int32)
 extern void XPathNodeHelper_GetLocation_m2B00B160663B5FF7ED4B64A4EE640759BE7E36F7 (void);
-// 0x00000AA5 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetTextFollowing(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&,MS.Internal.Xml.Cache.XPathNode[],System.Int32)
+// 0x00000AA6 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetTextFollowing(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&,MS.Internal.Xml.Cache.XPathNode[],System.Int32)
 extern void XPathNodeHelper_GetTextFollowing_m86CF5377B24C27AAA0C85A27CA456BF30B7247BA (void);
-// 0x00000AA6 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetNonDescendant(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&)
+// 0x00000AA7 System.Boolean MS.Internal.Xml.Cache.XPathNodeHelper::GetNonDescendant(MS.Internal.Xml.Cache.XPathNode[]&,System.Int32&)
 extern void XPathNodeHelper_GetNonDescendant_mF62C3504316DB9BE40C524503587A2F914A69F65 (void);
-// 0x00000AA7 System.Int32 MS.Internal.Xml.Cache.XPathNodePageInfo::get_PageNumber()
+// 0x00000AA8 System.Int32 MS.Internal.Xml.Cache.XPathNodePageInfo::get_PageNumber()
 extern void XPathNodePageInfo_get_PageNumber_m0CF191DCF066234C1A660E76CB8C903779823DD5 (void);
-// 0x00000AA8 System.Int32 MS.Internal.Xml.Cache.XPathNodePageInfo::get_NodeCount()
+// 0x00000AA9 System.Int32 MS.Internal.Xml.Cache.XPathNodePageInfo::get_NodeCount()
 extern void XPathNodePageInfo_get_NodeCount_m9A4307635C53F9A47265CD2E0C96BE0E00990C37 (void);
-// 0x00000AA9 MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodePageInfo::get_NextPage()
+// 0x00000AAA MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodePageInfo::get_NextPage()
 extern void XPathNodePageInfo_get_NextPage_m464BB6A5FD7F7211D98C952E035BFE8022B115A2 (void);
-// 0x00000AAA MS.Internal.Xml.Cache.XPathNodePageInfo MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_PageInfo()
+// 0x00000AAB MS.Internal.Xml.Cache.XPathNodePageInfo MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_PageInfo()
 extern void XPathNodeInfoAtom_get_PageInfo_m168850BB26701B63DE38924B49F8B5FF0240B602 (void);
-// 0x00000AAB System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_LocalName()
+// 0x00000AAC System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_LocalName()
 extern void XPathNodeInfoAtom_get_LocalName_m717A834A1CF042C3AEFCFA4EA2C20D2CD3F53430 (void);
-// 0x00000AAC System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_NamespaceUri()
+// 0x00000AAD System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_NamespaceUri()
 extern void XPathNodeInfoAtom_get_NamespaceUri_m4E325FC93F28603B48BEE521FA1A93C426D8C78D (void);
-// 0x00000AAD System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_Prefix()
+// 0x00000AAE System.String MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_Prefix()
 extern void XPathNodeInfoAtom_get_Prefix_m288E1BED13375EFD17014F55730E1EE85CE6ACA1 (void);
-// 0x00000AAE MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_SiblingPage()
+// 0x00000AAF MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_SiblingPage()
 extern void XPathNodeInfoAtom_get_SiblingPage_mAD3229A141E5D5B949B4B5F31FB8DB500BD56505 (void);
-// 0x00000AAF MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_ParentPage()
+// 0x00000AB0 MS.Internal.Xml.Cache.XPathNode[] MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_ParentPage()
 extern void XPathNodeInfoAtom_get_ParentPage_m6346F715CF977F296915E47A1A23993B878755FC (void);
-// 0x00000AB0 System.Xml.XPath.XPathDocument MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_Document()
+// 0x00000AB1 System.Xml.XPath.XPathDocument MS.Internal.Xml.Cache.XPathNodeInfoAtom::get_Document()
 extern void XPathNodeInfoAtom_get_Document_m4BE8672A871D25E702E3D77F2A33ED390533EDA1 (void);
-static Il2CppMethodPointer s_methodPointers[2736] = 
+static Il2CppMethodPointer s_methodPointers[2737] = 
 {
 	SR_GetString_m7F8908958668A311ABC7D6AF4374BE0AA8DC482E,
 	SR_GetString_m6A6BD49958B858312DCE20B7918DC9166BFB57FD,
@@ -5870,6 +5872,7 @@ static Il2CppMethodPointer s_methodPointers[2736] =
 	XmlAttributeCollection_RemoveAt_m583E3956863E0E138940CEA8231B8491743785F0,
 	XmlAttributeCollection_RemoveAll_mF68383A7E9C4F688F73A27EDCBC926799E66DE47,
 	XmlAttributeCollection_System_Collections_ICollection_CopyTo_mCE6F6C659719B2C8B224A881784DC1773895ACCE,
+	XmlAttributeCollection_System_Collections_ICollection_get_IsSynchronized_m3622FAFE54ADE051023F578B1EF1D0D0AE4C7B74,
 	XmlAttributeCollection_System_Collections_ICollection_get_SyncRoot_m3BC4AC72765846A98383A5FF08A7D747F5E588BC,
 	XmlAttributeCollection_System_Collections_ICollection_get_Count_m70C89B8FC98B2EA13CFA2CBA59BE40723D8E8014,
 	XmlAttributeCollection_AddNode_mB24F8CE4497E6991D673ADE92643A3B943FA1732,
@@ -8114,114 +8117,114 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[97] =
 	{ 0x060001AA, ParsingState_get_LinePos_mB1B743FEEB24A5442698AEF3FD1FEB5826F4C810_AdjustorThunk },
 	{ 0x06000219, TagInfo_Init_m351285BE790D79A15E824AE90114E1DD5734BAB6_AdjustorThunk },
 	{ 0x0600021A, Namespace_Set_mA421F92F59A44FCD987802098A78CA52CA3867BD_AdjustorThunk },
-	{ 0x060003B1, SmallXmlNodeList_get_Count_m79F61C89FC8ABD73BCB56938310461EFF1DF14BF_AdjustorThunk },
-	{ 0x060003B2, SmallXmlNodeList_get_Item_mFE828A47A297981D034EFC9244E53B3D34FC9576_AdjustorThunk },
-	{ 0x060003B3, SmallXmlNodeList_Add_m4BA68D6D8E4613E79365ACDF2413B287FA4A4F06_AdjustorThunk },
-	{ 0x060003B4, SmallXmlNodeList_RemoveAt_m36308613FA8129C77990E7650BB0A1CE49ABC882_AdjustorThunk },
-	{ 0x060003B5, SmallXmlNodeList_Insert_m8DCFF8C4C69AAA8B19C891D4A7304EA420946344_AdjustorThunk },
-	{ 0x060003B6, SmallXmlNodeList_GetEnumerator_mB3807963AF68C5F75E6FF22AD8515F2F966F21CE_AdjustorThunk },
-	{ 0x06000438, LineInfo__ctor_mFF99DC657778EB3519A941F3CB7E7C33710B0EE0_AdjustorThunk },
-	{ 0x06000439, LineInfo_Set_m5D59B42332EDBA296FA9AED5CF63D8BECC18214E_AdjustorThunk },
-	{ 0x060004BB, XmlCharType__ctor_mB4A379AC51751894C31365E176E3B9BFB5ABC771_AdjustorThunk },
-	{ 0x060004BD, XmlCharType_IsWhiteSpace_m6F9F3A19B8A95FF5CBF1B197E400A0F194AC9387_AdjustorThunk },
-	{ 0x060004BE, XmlCharType_IsNCNameSingleChar_mAE9940C767975DB6F8EA438AAE5F7DFC7666DB54_AdjustorThunk },
-	{ 0x060004BF, XmlCharType_IsStartNCNameSingleChar_m471CCC08015F68609798979A3C5AA7C20533AA08_AdjustorThunk },
-	{ 0x060004C0, XmlCharType_IsNameSingleChar_mA5C27AEE5BABB098031EA8BE197F9E2E63F0478A_AdjustorThunk },
-	{ 0x060004C1, XmlCharType_IsCharData_m39C87F830CD89F4F0029AA0338BB9AB5EFCC1AF5_AdjustorThunk },
-	{ 0x060004C2, XmlCharType_IsPubidChar_m1B6AF6006A2514C09A7AE467296FAA1C3372F520_AdjustorThunk },
-	{ 0x060004C9, XmlCharType_IsOnlyWhitespace_m6A7AD69BFF7BE6878F6984C952284C0755601490_AdjustorThunk },
-	{ 0x060004CA, XmlCharType_IsOnlyWhitespaceWithPos_mED48C365F707662F8D0AD0113155B24CAD53800C_AdjustorThunk },
-	{ 0x060004CB, XmlCharType_IsOnlyCharData_m5BFEFD55C4578A0117D1ED3305ACF4C062DCE9D3_AdjustorThunk },
-	{ 0x060004CD, XmlCharType_IsPublicId_m1119A6921A99A357141333030F425EDD2AAFE2AE_AdjustorThunk },
-	{ 0x06000518, U3CGetNonFileStreamAsyncU3Ed__5_MoveNext_m401EF9DB64A96F37087DBCBD2CA09F888772FE03_AdjustorThunk },
-	{ 0x06000519, U3CGetNonFileStreamAsyncU3Ed__5_SetStateMachine_m3ED5E31DE04EF6769B01E7F1BAC976A9286ACEE1_AdjustorThunk },
-	{ 0x06000589, NamespaceDeclaration_Set_mF2995843239E0B27FC94945EF6EDCC804A95D0E3_AdjustorThunk },
-	{ 0x060005A6, U3CGetEntityAsyncU3Ed__15_MoveNext_m4EB8A902AF6652E48FDC2EF0D9CF57B9D5683678_AdjustorThunk },
-	{ 0x060005A7, U3CGetEntityAsyncU3Ed__15_SetStateMachine_m48617EED026EB279AE59A61FC293534D9C4763D1_AdjustorThunk },
-	{ 0x060005FB, Position__ctor_m5F3F9E6D826756F17C8F02643C4AC1CEF9F63FE5_AdjustorThunk },
-	{ 0x0600061B, SequenceConstructPosContext__ctor_mAF64A500D91F3309A8CB87C5712C12BCE0B4FE0E_AdjustorThunk },
-	{ 0x06000A49, XsdDateTime__ctor_m3E0873E7B93556D02209B348843C713D51F73B4E_AdjustorThunk },
-	{ 0x06000A4A, XsdDateTime__ctor_m9D9086E04F4BF6D3C09746A40FE8811B3CF4CA88_AdjustorThunk },
-	{ 0x06000A4B, XsdDateTime_InitiateXsdDateTime_m91814AB11DA2BA2D0079F9F73E2B9B62B98B533E_AdjustorThunk },
-	{ 0x06000A4D, XsdDateTime__ctor_m9EE15399BB38384CC624A7079BA193790D121712_AdjustorThunk },
-	{ 0x06000A4E, XsdDateTime__ctor_m127DD6E3D834498A172B1FD34DD1AC4505C7AA4C_AdjustorThunk },
-	{ 0x06000A4F, XsdDateTime_get_InternalTypeCode_mAE60E4DBF9D642870B0D715A5E260F4DD5BC4A4B_AdjustorThunk },
-	{ 0x06000A50, XsdDateTime_get_InternalKind_m40658E3A6C5DA52E96BCF334BF5760EB7092A88E_AdjustorThunk },
-	{ 0x06000A51, XsdDateTime_get_Year_mD24DE1C1790E7306B5AF6F78EBAC41CCC7750CEA_AdjustorThunk },
-	{ 0x06000A52, XsdDateTime_get_Month_m205FE2FB59CF6A1692300A21A77FFBB37144E99B_AdjustorThunk },
-	{ 0x06000A53, XsdDateTime_get_Day_m4F8E33F38809CDEEFFAB2BFC3E14AC6B08AF1F6D_AdjustorThunk },
-	{ 0x06000A54, XsdDateTime_get_Hour_mE4B191CD33490CA5BC5EA87E00314FA50BDB741A_AdjustorThunk },
-	{ 0x06000A55, XsdDateTime_get_Minute_m38120FA2B75440A56BD49C552DDD3032D9A6DFA6_AdjustorThunk },
-	{ 0x06000A56, XsdDateTime_get_Second_m46202D39713A213E9F514CD4E2F5F04C5278780F_AdjustorThunk },
-	{ 0x06000A57, XsdDateTime_get_Fraction_m40D9B327318B0D061E02D59889E0919A95EB9098_AdjustorThunk },
-	{ 0x06000A58, XsdDateTime_get_ZoneHour_m9E35CDE49237CC3ECD3DE3D51AAB8E99300A2739_AdjustorThunk },
-	{ 0x06000A59, XsdDateTime_get_ZoneMinute_m1D120C367B38D2F8B926469F418B6C2560C8E228_AdjustorThunk },
-	{ 0x06000A5C, XsdDateTime_ToString_m7753E41D2C4A8E0687796143C9220155B9837535_AdjustorThunk },
-	{ 0x06000A5D, XsdDateTime_PrintDate_mF29EDBFFB4F5A9EACE93E05D257421B72A74B61E_AdjustorThunk },
-	{ 0x06000A5E, XsdDateTime_PrintTime_mCE1029E13A352DB34EC2EF991632A85E26133EDB_AdjustorThunk },
-	{ 0x06000A5F, XsdDateTime_PrintZone_mA1766FF80B24A4E1D666DBB8C818C01A94330CF6_AdjustorThunk },
-	{ 0x06000A60, XsdDateTime_IntToCharArray_mB95DA3CAFA3F603DFB73CB309A062670C217C131_AdjustorThunk },
-	{ 0x06000A61, XsdDateTime_ShortToCharArray_mC76C1DE32E31949CF46213E55D4C3DE7B21B621A_AdjustorThunk },
-	{ 0x06000A63, Parser_Parse_m4027B362756419C910E1D041BB6CE2035B3603D9_AdjustorThunk },
-	{ 0x06000A64, Parser_ParseDate_mDD1FC2A4390DBB0F116BCA9CAA17D3ECE36D90E3_AdjustorThunk },
-	{ 0x06000A65, Parser_ParseTimeAndZoneAndWhitespace_m7D228802D6E72D8F6640D71EA9603F40358B77DD_AdjustorThunk },
-	{ 0x06000A66, Parser_ParseTimeAndWhitespace_mF1CAE3E888701743D8C536884D629EE0F22B1D21_AdjustorThunk },
-	{ 0x06000A67, Parser_ParseTime_mF90100413CE0C7543E81BB585E86322A64090420_AdjustorThunk },
-	{ 0x06000A68, Parser_ParseZoneAndWhitespace_m59547EAFB80879B5FE3665C0EF560945A1003A25_AdjustorThunk },
-	{ 0x06000A69, Parser_Parse4Dig_m1CCFFA25225A107685596935A622002FDACEF084_AdjustorThunk },
-	{ 0x06000A6A, Parser_Parse2Dig_m39FAABE5DA648F49504BB6561597C9D61AA5895A_AdjustorThunk },
-	{ 0x06000A6B, Parser_ParseChar_mE5B16C9B491B95DB733A1F23220E1A9433A3D344_AdjustorThunk },
-	{ 0x06000A6E, XsdDuration__ctor_m38DC4CBC4227909F4B1AF6A15D90026E3EDA2E8A_AdjustorThunk },
-	{ 0x06000A6F, XsdDuration__ctor_m2CE789343F1EE7728BE48C8ABF3392B8ED7BD390_AdjustorThunk },
-	{ 0x06000A70, XsdDuration__ctor_m34337885047100969A6121F7CFAE5530C40E9B48_AdjustorThunk },
-	{ 0x06000A71, XsdDuration_get_IsNegative_m7AD0EE954916BAD77BE84976C1F9D8D3854F2B7E_AdjustorThunk },
-	{ 0x06000A72, XsdDuration_get_Years_m2F16DEE4EB28A914B6C03A462BF6DE16079AEC5E_AdjustorThunk },
-	{ 0x06000A73, XsdDuration_get_Months_m2003B42F20229209D88FFA62D3BAED1BF0E1A851_AdjustorThunk },
-	{ 0x06000A74, XsdDuration_get_Days_m7A66E8270BF719AC95604AD58AD2B9E35A47046A_AdjustorThunk },
-	{ 0x06000A75, XsdDuration_get_Hours_m7390FD426C288A52C27DF12F034F29AC746BF1EF_AdjustorThunk },
-	{ 0x06000A76, XsdDuration_get_Minutes_mB74DF6E89566B10A2AD63E88A4DF462B06B9548C_AdjustorThunk },
-	{ 0x06000A77, XsdDuration_get_Seconds_m9F35896B9EF01634C2C584D89A5901A20D5F728C_AdjustorThunk },
-	{ 0x06000A78, XsdDuration_get_Nanoseconds_m15052A05CD863DC5F37D1D614433B44D813F2AE7_AdjustorThunk },
-	{ 0x06000A79, XsdDuration_ToTimeSpan_mBE8EA5F151FE97572999EDFA85A3DAAA13B04B9A_AdjustorThunk },
-	{ 0x06000A7A, XsdDuration_TryToTimeSpan_m7B81B7074288D60D1CB8E15006291E3227BAFBA3_AdjustorThunk },
-	{ 0x06000A7B, XsdDuration_TryToTimeSpan_mD2D18571E29C257F265B446E3DF060DC71336171_AdjustorThunk },
-	{ 0x06000A7C, XsdDuration_ToString_m678A09FD579D77D415021761FE814A1C49A50DFD_AdjustorThunk },
-	{ 0x06000A7D, XsdDuration_ToString_mAB96AA9C1E85D555476303E2D1D741B02FD6C698_AdjustorThunk },
-	{ 0x06000A8F, XPathNode_get_NodeType_mF01B7F501A4D243B476CB1F67AC0275F70EC1A99_AdjustorThunk },
-	{ 0x06000A90, XPathNode_get_Prefix_m499096BCD31E503FF89FDADD69F1C916686BDFA7_AdjustorThunk },
-	{ 0x06000A91, XPathNode_get_LocalName_m4C7DCD240996EDE990F6924B176B80008141A367_AdjustorThunk },
-	{ 0x06000A92, XPathNode_get_NamespaceUri_mA7E5CA21E8BCF798FC16E64F94158F54B1C95FC2_AdjustorThunk },
-	{ 0x06000A93, XPathNode_get_Document_mC2CF5341823E4B865BD0A92045A97F87B312516F_AdjustorThunk },
-	{ 0x06000A94, XPathNode_get_PageInfo_mBBC3212C44B8131B6948CCEDD5BCCA4DDEE77724_AdjustorThunk },
-	{ 0x06000A95, XPathNode_GetParent_m57F106763ECB0EC827677747A4B95E6A10095720_AdjustorThunk },
-	{ 0x06000A96, XPathNode_GetSibling_m818366A817C7694A4B3B07DA03E33A821960A085_AdjustorThunk },
-	{ 0x06000A97, XPathNode_get_IsXmlNamespaceNode_m7307A314989230B7F6E4F573F8B2FC505F969C5A_AdjustorThunk },
-	{ 0x06000A98, XPathNode_get_HasSibling_mC8BDEDD3659561E20B769E205BB85377C47537AF_AdjustorThunk },
-	{ 0x06000A99, XPathNode_get_HasCollapsedText_mFFE7E8DB4C7142A0004EF4F12D195E022ADF1691_AdjustorThunk },
-	{ 0x06000A9A, XPathNode_get_IsText_m420F5C6B021A6598E5F3BBAF92C0F16DF3C678E0_AdjustorThunk },
-	{ 0x06000A9B, XPathNode_get_HasNamespaceDecls_m25569CE7015AD2BDA2F4B2C357D4044394125DEA_AdjustorThunk },
-	{ 0x06000A9C, XPathNode_get_Value_mC18CEAE4371BD37328FA857F57ACEE9DF747734F_AdjustorThunk },
-	{ 0x06000A9D, XPathNodeRef__ctor_m14862547984A3EE8A767C1C8415C6E73E3EF30E8_AdjustorThunk },
-	{ 0x06000A9E, XPathNodeRef_get_Page_m8624EDC1840BD05BD55D4E8137095B5986ED54F3_AdjustorThunk },
-	{ 0x06000A9F, XPathNodeRef_get_Index_m37FE9027EA38BDC66D3E83142E7BBEBB18073E33_AdjustorThunk },
-	{ 0x06000AA0, XPathNodeRef_GetHashCode_mA438A76A5D2970E8AEC24529F5D03905D9A71F0C_AdjustorThunk },
+	{ 0x060003B2, SmallXmlNodeList_get_Count_m79F61C89FC8ABD73BCB56938310461EFF1DF14BF_AdjustorThunk },
+	{ 0x060003B3, SmallXmlNodeList_get_Item_mFE828A47A297981D034EFC9244E53B3D34FC9576_AdjustorThunk },
+	{ 0x060003B4, SmallXmlNodeList_Add_m4BA68D6D8E4613E79365ACDF2413B287FA4A4F06_AdjustorThunk },
+	{ 0x060003B5, SmallXmlNodeList_RemoveAt_m36308613FA8129C77990E7650BB0A1CE49ABC882_AdjustorThunk },
+	{ 0x060003B6, SmallXmlNodeList_Insert_m8DCFF8C4C69AAA8B19C891D4A7304EA420946344_AdjustorThunk },
+	{ 0x060003B7, SmallXmlNodeList_GetEnumerator_mB3807963AF68C5F75E6FF22AD8515F2F966F21CE_AdjustorThunk },
+	{ 0x06000439, LineInfo__ctor_mFF99DC657778EB3519A941F3CB7E7C33710B0EE0_AdjustorThunk },
+	{ 0x0600043A, LineInfo_Set_m5D59B42332EDBA296FA9AED5CF63D8BECC18214E_AdjustorThunk },
+	{ 0x060004BC, XmlCharType__ctor_mB4A379AC51751894C31365E176E3B9BFB5ABC771_AdjustorThunk },
+	{ 0x060004BE, XmlCharType_IsWhiteSpace_m6F9F3A19B8A95FF5CBF1B197E400A0F194AC9387_AdjustorThunk },
+	{ 0x060004BF, XmlCharType_IsNCNameSingleChar_mAE9940C767975DB6F8EA438AAE5F7DFC7666DB54_AdjustorThunk },
+	{ 0x060004C0, XmlCharType_IsStartNCNameSingleChar_m471CCC08015F68609798979A3C5AA7C20533AA08_AdjustorThunk },
+	{ 0x060004C1, XmlCharType_IsNameSingleChar_mA5C27AEE5BABB098031EA8BE197F9E2E63F0478A_AdjustorThunk },
+	{ 0x060004C2, XmlCharType_IsCharData_m39C87F830CD89F4F0029AA0338BB9AB5EFCC1AF5_AdjustorThunk },
+	{ 0x060004C3, XmlCharType_IsPubidChar_m1B6AF6006A2514C09A7AE467296FAA1C3372F520_AdjustorThunk },
+	{ 0x060004CA, XmlCharType_IsOnlyWhitespace_m6A7AD69BFF7BE6878F6984C952284C0755601490_AdjustorThunk },
+	{ 0x060004CB, XmlCharType_IsOnlyWhitespaceWithPos_mED48C365F707662F8D0AD0113155B24CAD53800C_AdjustorThunk },
+	{ 0x060004CC, XmlCharType_IsOnlyCharData_m5BFEFD55C4578A0117D1ED3305ACF4C062DCE9D3_AdjustorThunk },
+	{ 0x060004CE, XmlCharType_IsPublicId_m1119A6921A99A357141333030F425EDD2AAFE2AE_AdjustorThunk },
+	{ 0x06000519, U3CGetNonFileStreamAsyncU3Ed__5_MoveNext_m401EF9DB64A96F37087DBCBD2CA09F888772FE03_AdjustorThunk },
+	{ 0x0600051A, U3CGetNonFileStreamAsyncU3Ed__5_SetStateMachine_m3ED5E31DE04EF6769B01E7F1BAC976A9286ACEE1_AdjustorThunk },
+	{ 0x0600058A, NamespaceDeclaration_Set_mF2995843239E0B27FC94945EF6EDCC804A95D0E3_AdjustorThunk },
+	{ 0x060005A7, U3CGetEntityAsyncU3Ed__15_MoveNext_m4EB8A902AF6652E48FDC2EF0D9CF57B9D5683678_AdjustorThunk },
+	{ 0x060005A8, U3CGetEntityAsyncU3Ed__15_SetStateMachine_m48617EED026EB279AE59A61FC293534D9C4763D1_AdjustorThunk },
+	{ 0x060005FC, Position__ctor_m5F3F9E6D826756F17C8F02643C4AC1CEF9F63FE5_AdjustorThunk },
+	{ 0x0600061C, SequenceConstructPosContext__ctor_mAF64A500D91F3309A8CB87C5712C12BCE0B4FE0E_AdjustorThunk },
+	{ 0x06000A4A, XsdDateTime__ctor_m3E0873E7B93556D02209B348843C713D51F73B4E_AdjustorThunk },
+	{ 0x06000A4B, XsdDateTime__ctor_m9D9086E04F4BF6D3C09746A40FE8811B3CF4CA88_AdjustorThunk },
+	{ 0x06000A4C, XsdDateTime_InitiateXsdDateTime_m91814AB11DA2BA2D0079F9F73E2B9B62B98B533E_AdjustorThunk },
+	{ 0x06000A4E, XsdDateTime__ctor_m9EE15399BB38384CC624A7079BA193790D121712_AdjustorThunk },
+	{ 0x06000A4F, XsdDateTime__ctor_m127DD6E3D834498A172B1FD34DD1AC4505C7AA4C_AdjustorThunk },
+	{ 0x06000A50, XsdDateTime_get_InternalTypeCode_mAE60E4DBF9D642870B0D715A5E260F4DD5BC4A4B_AdjustorThunk },
+	{ 0x06000A51, XsdDateTime_get_InternalKind_m40658E3A6C5DA52E96BCF334BF5760EB7092A88E_AdjustorThunk },
+	{ 0x06000A52, XsdDateTime_get_Year_mD24DE1C1790E7306B5AF6F78EBAC41CCC7750CEA_AdjustorThunk },
+	{ 0x06000A53, XsdDateTime_get_Month_m205FE2FB59CF6A1692300A21A77FFBB37144E99B_AdjustorThunk },
+	{ 0x06000A54, XsdDateTime_get_Day_m4F8E33F38809CDEEFFAB2BFC3E14AC6B08AF1F6D_AdjustorThunk },
+	{ 0x06000A55, XsdDateTime_get_Hour_mE4B191CD33490CA5BC5EA87E00314FA50BDB741A_AdjustorThunk },
+	{ 0x06000A56, XsdDateTime_get_Minute_m38120FA2B75440A56BD49C552DDD3032D9A6DFA6_AdjustorThunk },
+	{ 0x06000A57, XsdDateTime_get_Second_m46202D39713A213E9F514CD4E2F5F04C5278780F_AdjustorThunk },
+	{ 0x06000A58, XsdDateTime_get_Fraction_m40D9B327318B0D061E02D59889E0919A95EB9098_AdjustorThunk },
+	{ 0x06000A59, XsdDateTime_get_ZoneHour_m9E35CDE49237CC3ECD3DE3D51AAB8E99300A2739_AdjustorThunk },
+	{ 0x06000A5A, XsdDateTime_get_ZoneMinute_m1D120C367B38D2F8B926469F418B6C2560C8E228_AdjustorThunk },
+	{ 0x06000A5D, XsdDateTime_ToString_m7753E41D2C4A8E0687796143C9220155B9837535_AdjustorThunk },
+	{ 0x06000A5E, XsdDateTime_PrintDate_mF29EDBFFB4F5A9EACE93E05D257421B72A74B61E_AdjustorThunk },
+	{ 0x06000A5F, XsdDateTime_PrintTime_mCE1029E13A352DB34EC2EF991632A85E26133EDB_AdjustorThunk },
+	{ 0x06000A60, XsdDateTime_PrintZone_mA1766FF80B24A4E1D666DBB8C818C01A94330CF6_AdjustorThunk },
+	{ 0x06000A61, XsdDateTime_IntToCharArray_mB95DA3CAFA3F603DFB73CB309A062670C217C131_AdjustorThunk },
+	{ 0x06000A62, XsdDateTime_ShortToCharArray_mC76C1DE32E31949CF46213E55D4C3DE7B21B621A_AdjustorThunk },
+	{ 0x06000A64, Parser_Parse_m4027B362756419C910E1D041BB6CE2035B3603D9_AdjustorThunk },
+	{ 0x06000A65, Parser_ParseDate_mDD1FC2A4390DBB0F116BCA9CAA17D3ECE36D90E3_AdjustorThunk },
+	{ 0x06000A66, Parser_ParseTimeAndZoneAndWhitespace_m7D228802D6E72D8F6640D71EA9603F40358B77DD_AdjustorThunk },
+	{ 0x06000A67, Parser_ParseTimeAndWhitespace_mF1CAE3E888701743D8C536884D629EE0F22B1D21_AdjustorThunk },
+	{ 0x06000A68, Parser_ParseTime_mF90100413CE0C7543E81BB585E86322A64090420_AdjustorThunk },
+	{ 0x06000A69, Parser_ParseZoneAndWhitespace_m59547EAFB80879B5FE3665C0EF560945A1003A25_AdjustorThunk },
+	{ 0x06000A6A, Parser_Parse4Dig_m1CCFFA25225A107685596935A622002FDACEF084_AdjustorThunk },
+	{ 0x06000A6B, Parser_Parse2Dig_m39FAABE5DA648F49504BB6561597C9D61AA5895A_AdjustorThunk },
+	{ 0x06000A6C, Parser_ParseChar_mE5B16C9B491B95DB733A1F23220E1A9433A3D344_AdjustorThunk },
+	{ 0x06000A6F, XsdDuration__ctor_m38DC4CBC4227909F4B1AF6A15D90026E3EDA2E8A_AdjustorThunk },
+	{ 0x06000A70, XsdDuration__ctor_m2CE789343F1EE7728BE48C8ABF3392B8ED7BD390_AdjustorThunk },
+	{ 0x06000A71, XsdDuration__ctor_m34337885047100969A6121F7CFAE5530C40E9B48_AdjustorThunk },
+	{ 0x06000A72, XsdDuration_get_IsNegative_m7AD0EE954916BAD77BE84976C1F9D8D3854F2B7E_AdjustorThunk },
+	{ 0x06000A73, XsdDuration_get_Years_m2F16DEE4EB28A914B6C03A462BF6DE16079AEC5E_AdjustorThunk },
+	{ 0x06000A74, XsdDuration_get_Months_m2003B42F20229209D88FFA62D3BAED1BF0E1A851_AdjustorThunk },
+	{ 0x06000A75, XsdDuration_get_Days_m7A66E8270BF719AC95604AD58AD2B9E35A47046A_AdjustorThunk },
+	{ 0x06000A76, XsdDuration_get_Hours_m7390FD426C288A52C27DF12F034F29AC746BF1EF_AdjustorThunk },
+	{ 0x06000A77, XsdDuration_get_Minutes_mB74DF6E89566B10A2AD63E88A4DF462B06B9548C_AdjustorThunk },
+	{ 0x06000A78, XsdDuration_get_Seconds_m9F35896B9EF01634C2C584D89A5901A20D5F728C_AdjustorThunk },
+	{ 0x06000A79, XsdDuration_get_Nanoseconds_m15052A05CD863DC5F37D1D614433B44D813F2AE7_AdjustorThunk },
+	{ 0x06000A7A, XsdDuration_ToTimeSpan_mBE8EA5F151FE97572999EDFA85A3DAAA13B04B9A_AdjustorThunk },
+	{ 0x06000A7B, XsdDuration_TryToTimeSpan_m7B81B7074288D60D1CB8E15006291E3227BAFBA3_AdjustorThunk },
+	{ 0x06000A7C, XsdDuration_TryToTimeSpan_mD2D18571E29C257F265B446E3DF060DC71336171_AdjustorThunk },
+	{ 0x06000A7D, XsdDuration_ToString_m678A09FD579D77D415021761FE814A1C49A50DFD_AdjustorThunk },
+	{ 0x06000A7E, XsdDuration_ToString_mAB96AA9C1E85D555476303E2D1D741B02FD6C698_AdjustorThunk },
+	{ 0x06000A90, XPathNode_get_NodeType_mF01B7F501A4D243B476CB1F67AC0275F70EC1A99_AdjustorThunk },
+	{ 0x06000A91, XPathNode_get_Prefix_m499096BCD31E503FF89FDADD69F1C916686BDFA7_AdjustorThunk },
+	{ 0x06000A92, XPathNode_get_LocalName_m4C7DCD240996EDE990F6924B176B80008141A367_AdjustorThunk },
+	{ 0x06000A93, XPathNode_get_NamespaceUri_mA7E5CA21E8BCF798FC16E64F94158F54B1C95FC2_AdjustorThunk },
+	{ 0x06000A94, XPathNode_get_Document_mC2CF5341823E4B865BD0A92045A97F87B312516F_AdjustorThunk },
+	{ 0x06000A95, XPathNode_get_PageInfo_mBBC3212C44B8131B6948CCEDD5BCCA4DDEE77724_AdjustorThunk },
+	{ 0x06000A96, XPathNode_GetParent_m57F106763ECB0EC827677747A4B95E6A10095720_AdjustorThunk },
+	{ 0x06000A97, XPathNode_GetSibling_m818366A817C7694A4B3B07DA03E33A821960A085_AdjustorThunk },
+	{ 0x06000A98, XPathNode_get_IsXmlNamespaceNode_m7307A314989230B7F6E4F573F8B2FC505F969C5A_AdjustorThunk },
+	{ 0x06000A99, XPathNode_get_HasSibling_mC8BDEDD3659561E20B769E205BB85377C47537AF_AdjustorThunk },
+	{ 0x06000A9A, XPathNode_get_HasCollapsedText_mFFE7E8DB4C7142A0004EF4F12D195E022ADF1691_AdjustorThunk },
+	{ 0x06000A9B, XPathNode_get_IsText_m420F5C6B021A6598E5F3BBAF92C0F16DF3C678E0_AdjustorThunk },
+	{ 0x06000A9C, XPathNode_get_HasNamespaceDecls_m25569CE7015AD2BDA2F4B2C357D4044394125DEA_AdjustorThunk },
+	{ 0x06000A9D, XPathNode_get_Value_mC18CEAE4371BD37328FA857F57ACEE9DF747734F_AdjustorThunk },
+	{ 0x06000A9E, XPathNodeRef__ctor_m14862547984A3EE8A767C1C8415C6E73E3EF30E8_AdjustorThunk },
+	{ 0x06000A9F, XPathNodeRef_get_Page_m8624EDC1840BD05BD55D4E8137095B5986ED54F3_AdjustorThunk },
+	{ 0x06000AA0, XPathNodeRef_get_Index_m37FE9027EA38BDC66D3E83142E7BBEBB18073E33_AdjustorThunk },
+	{ 0x06000AA1, XPathNodeRef_GetHashCode_mA438A76A5D2970E8AEC24529F5D03905D9A71F0C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[2736] = 
+static const int32_t s_InvokerIndices[2737] = 
 {
-	8351,
-	7558,
+	9360,
+	8520,
 	0,
-	6065,
-	1356,
-	5857,
-	1126,
-	8341,
-	6273,
-	7552,
-	6989,
-	9011,
-	9011,
-	9514,
+	6854,
+	1519,
+	6628,
+	1272,
+	9350,
+	7109,
+	8514,
+	7888,
+	10086,
+	10086,
+	10691,
 	0,
 	0,
 	0,
@@ -8289,2665 +8292,2666 @@ static const int32_t s_InvokerIndices[2736] =
 	0,
 	0,
 	0,
-	6065,
-	5857,
-	1126,
-	6065,
-	6065,
-	1574,
-	3973,
-	7466,
-	9475,
-	2612,
-	1127,
-	39,
-	15,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	5955,
-	5857,
-	5955,
-	0,
-	5955,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5857,
-	5955,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6065,
-	0,
-	0,
-	0,
-	5857,
-	0,
-	6065,
-	4716,
-	5955,
-	9007,
-	6065,
-	9514,
-	6065,
-	4811,
-	4716,
-	4811,
-	5955,
-	4784,
-	4784,
-	4784,
-	4716,
-	4785,
-	4785,
-	4716,
-	4716,
-	4716,
-	4784,
-	5924,
-	5955,
-	4716,
-	4811,
-	6065,
-	4811,
-	9475,
-	9443,
-	4811,
-	4891,
-	4716,
-	6065,
-	5955,
-	2682,
-	4811,
-	4811,
-	1356,
-	4811,
-	940,
-	4891,
-	4811,
-	4811,
-	2615,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5857,
-	3386,
-	5857,
-	5857,
-	5857,
-	5857,
-	5857,
-	6065,
-	5924,
-	5955,
-	4236,
-	5857,
-	6065,
-	4236,
-	4236,
-	4784,
-	4811,
-	5955,
-	4716,
-	5955,
-	4811,
-	2615,
-	1379,
-	1359,
-	2615,
-	6065,
-	6065,
-	6065,
-	5955,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5857,
-	5924,
-	5955,
-	5857,
-	3386,
-	5857,
-	5857,
-	5857,
-	6065,
-	5857,
-	6065,
-	4236,
-	5857,
-	6065,
-	4811,
-	4236,
-	4236,
-	4236,
-	4716,
-	4784,
-	4811,
-	5955,
-	5955,
-	5857,
-	5857,
-	5857,
-	5857,
-	5955,
-	5857,
-	5955,
-	5924,
-	5924,
-	4784,
-	5924,
-	5857,
-	5955,
-	4784,
-	5924,
-	5924,
-	5924,
-	3973,
-	1753,
-	4811,
-	4811,
-	5857,
-	5955,
-	1567,
-	1490,
-	1574,
-	2615,
-	4811,
-	1372,
-	1372,
-	1318,
-	1318,
-	2388,
-	4811,
-	1356,
-	2615,
-	959,
-	2615,
-	1379,
-	1379,
-	4811,
-	1356,
-	4811,
-	2615,
-	1379,
-	1356,
-	6065,
-	444,
-	2388,
-	5857,
-	6065,
-	5857,
-	1379,
-	965,
-	233,
-	2615,
-	1379,
-	1379,
-	1316,
-	4811,
-	6065,
-	4811,
-	5955,
-	4811,
-	4811,
-	4236,
-	6065,
-	6065,
-	5924,
-	3949,
-	2118,
-	4716,
-	1307,
-	3299,
-	5857,
-	5857,
-	6065,
-	6065,
-	6065,
-	6065,
-	4811,
-	6065,
-	6065,
-	6065,
-	6065,
-	4811,
-	4811,
-	4811,
-	1324,
-	1374,
-	5857,
-	1009,
-	6065,
-	6065,
-	6065,
-	6065,
-	6065,
-	6065,
-	5857,
-	6065,
-	1109,
-	647,
-	5857,
-	3299,
-	6065,
-	6065,
-	5857,
-	3386,
-	1490,
-	5857,
-	6065,
-	4784,
-	1022,
-	5857,
-	6065,
-	6065,
-	6065,
-	2680,
-	3973,
-	1111,
-	1110,
-	273,
-	1753,
-	1112,
-	5924,
-	3900,
-	1109,
-	3248,
-	5955,
-	1983,
-	1983,
-	1996,
-	1983,
-	1172,
-	6065,
-	4784,
-	6065,
-	4236,
-	1379,
-	6065,
-	6065,
-	6065,
-	6065,
-	5924,
-	3949,
-	965,
-	3386,
-	3386,
-	4811,
-	6065,
-	4811,
-	6065,
-	6065,
-	6065,
-	5924,
-	6065,
-	5857,
-	5857,
-	6065,
-	2388,
-	4811,
-	1318,
-	2615,
-	4230,
-	5955,
-	4784,
-	3973,
-	3973,
-	3357,
-	6065,
-	3299,
-	5955,
-	4811,
-	4716,
-	1052,
-	19,
-	4716,
-	2572,
-	9124,
-	7859,
-	6815,
-	6815,
-	6065,
-	4716,
-	5924,
-	5924,
-	6065,
-	4811,
-	6065,
-	5955,
-	6065,
-	5857,
-	2615,
-	5955,
-	4236,
-	4236,
-	4811,
-	5955,
-	5955,
-	5955,
-	5857,
-	5955,
-	5924,
-	5924,
-	4784,
-	5924,
-	5857,
-	4784,
-	5924,
-	5924,
-	5924,
-	3973,
-	1753,
-	4811,
-	4811,
-	1567,
-	1490,
-	1574,
-	2615,
-	4811,
-	1372,
-	1372,
-	5857,
-	5955,
-	5857,
-	5857,
-	5857,
-	9475,
-	6065,
-	5924,
-	5924,
-	5857,
-	4716,
-	5857,
-	4716,
-	5857,
-	5955,
-	6065,
-	4784,
-	6065,
-	2364,
-	2364,
-	2388,
-	892,
-	2388,
-	894,
-	4811,
-	1356,
-	6065,
-	2388,
-	4236,
-	4236,
-	3973,
-	9475,
-	1811,
-	6065,
-	9514,
-	2612,
-	2615,
-	6065,
-	4811,
-	965,
-	1379,
-	6065,
-	6065,
-	1379,
-	6065,
-	4811,
-	4811,
-	2615,
-	4811,
-	4811,
-	4811,
-	5924,
-	6065,
-	4784,
-	6065,
-	4716,
-	4716,
-	6065,
-	4716,
-	1375,
-	1375,
-	4784,
-	2364,
-	5955,
-	2615,
-	3973,
-	3973,
-	4236,
-	2600,
-	6065,
-	2615,
-	6065,
-	6065,
-	9514,
-	4784,
-	1375,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6065,
-	6065,
-	4716,
-	6065,
-	4811,
-	816,
-	816,
-	6065,
-	2615,
-	5924,
-	965,
-	5955,
-	4811,
-	4219,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	5857,
-	4811,
-	5857,
-	1998,
-	5955,
-	4811,
-	3357,
-	5857,
-	4236,
-	4236,
-	5955,
-	4811,
-	4811,
-	4811,
-	5955,
-	4811,
-	4811,
-	4230,
-	4236,
-	4236,
-	4236,
-	4236,
-	4230,
-	6065,
-	2610,
-	5955,
-	5924,
-	4236,
-	1984,
-	4230,
-	4811,
-	4811,
-	4811,
-	3973,
-	1574,
-	2615,
-	4236,
-	2615,
-	5955,
-	5955,
-	5924,
-	5955,
-	4219,
-	4811,
-	4811,
-	5857,
-	2615,
-	5955,
-	5955,
-	5955,
-	3386,
-	4811,
-	5857,
-	5857,
-	6065,
-	5955,
-	5955,
-	4811,
-	5924,
-	5955,
-	2615,
-	5955,
-	5955,
-	5924,
-	4219,
-	4811,
-	4811,
-	965,
-	5955,
-	4811,
-	5955,
-	4811,
-	5955,
-	4811,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	4219,
-	4811,
-	4811,
-	3386,
-	6065,
-	4811,
-	5955,
-	4811,
-	9315,
-	816,
-	816,
-	816,
-	1574,
-	4236,
-	4236,
-	1998,
-	2615,
-	2615,
-	4219,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5955,
-	4811,
-	5955,
-	4811,
-	5857,
-	5857,
-	5955,
-	3357,
-	1538,
-	1538,
-	1574,
-	1374,
-	4236,
-	4236,
-	816,
-	5955,
-	4811,
-	4236,
-	816,
-	4236,
-	1998,
-	1172,
-	4236,
-	4236,
-	4236,
-	4236,
-	1993,
-	2615,
-	1375,
-	5955,
-	1172,
-	1172,
-	1172,
-	5857,
-	5955,
-	4811,
-	5857,
-	4716,
-	5857,
-	4236,
-	4811,
-	4811,
-	5955,
-	4811,
-	4811,
-	4811,
-	4811,
-	4811,
-	4811,
-	4811,
-	190,
-	1998,
-	4811,
-	4811,
-	816,
-	4236,
-	5955,
-	4811,
-	1998,
-	9514,
-	4811,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	5955,
-	4811,
-	4219,
-	5857,
-	5955,
-	4811,
-	3357,
-	1574,
-	4811,
-	4811,
-	482,
-	5955,
-	5955,
-	5924,
-	4219,
-	5857,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	4811,
-	4811,
-	5955,
-	4811,
-	4811,
-	1379,
-	1379,
-	1348,
-	965,
-	5955,
-	4811,
-	4219,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	5857,
-	1998,
-	5857,
-	4716,
-	5955,
-	4811,
-	3357,
-	5955,
-	5857,
-	4236,
-	4811,
-	8648,
-	4811,
-	4811,
-	6065,
-	6065,
-	6065,
-	5955,
-	4811,
-	5955,
-	5955,
-	4811,
-	4811,
-	6065,
-	4811,
-	2615,
-	5924,
-	4236,
-	4236,
-	3386,
-	1993,
-	4236,
-	5924,
-	5955,
-	6065,
-	4716,
-	4811,
-	5857,
-	6065,
-	5955,
-	4811,
-	5857,
-	6065,
-	5955,
-	2615,
-	2615,
-	6065,
-	236,
-	4219,
-	5857,
-	5955,
-	5955,
-	5955,
-	5857,
-	5955,
-	4811,
-	3357,
-	5924,
-	5955,
-	5955,
-	4811,
-	4811,
-	4811,
-	5955,
-	4811,
-	2615,
-	5955,
-	5955,
-	5955,
-	5924,
-	4219,
-	5857,
-	5857,
-	4811,
-	4811,
-	5955,
-	4811,
-	3357,
-	4811,
-	4811,
-	5955,
-	1998,
-	5955,
-	6065,
-	4811,
-	5955,
-	5955,
-	4811,
-	5955,
-	5955,
-	6065,
-	1375,
-	4811,
-	4219,
-	5955,
-	5955,
-	2600,
-	4219,
-	5955,
-	5955,
-	5955,
-	5955,
-	4811,
-	1348,
-	2615,
-	4236,
-	1170,
-	2615,
-	2615,
-	1375,
-	4236,
-	4811,
-	4811,
-	803,
-	7238,
-	9120,
-	6310,
-	231,
-	5955,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	5857,
-	5857,
-	5955,
-	5955,
-	5955,
-	5955,
-	3386,
-	9007,
-	140,
-	5924,
-	5857,
-	5857,
-	5955,
-	5955,
-	5955,
-	5955,
-	4784,
-	4716,
-	4716,
-	3386,
-	4811,
-	4236,
-	4236,
-	5924,
-	5955,
-	3973,
-	1811,
-	4236,
-	1998,
-	4230,
-	1984,
-	1984,
-	5924,
-	4230,
-	4811,
-	4784,
-	2388,
-	5955,
-	4811,
-	5955,
-	5857,
-	6065,
-	6065,
-	4811,
-	0,
-	5955,
-	0,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5955,
-	4811,
-	3386,
-	4236,
-	4236,
-	1998,
-	3357,
-	1574,
-	5857,
-	0,
-	1375,
-	5955,
-	5955,
-	0,
-	5857,
-	8900,
-	5955,
-	5955,
-	5955,
-	4811,
-	5955,
-	5955,
-	4811,
-	5955,
-	0,
-	0,
-	6065,
-	5955,
-	4236,
-	4811,
-	4811,
-	4230,
-	190,
-	4811,
-	4811,
-	5857,
-	8648,
-	8648,
-	235,
-	5924,
-	5955,
-	2612,
-	2615,
-	0,
-	0,
-	6065,
-	6065,
-	6065,
-	965,
-	5955,
-	5955,
-	5924,
-	4219,
-	5857,
-	5955,
-	4811,
-	4811,
-	4811,
-	1379,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	4219,
-	4811,
-	4811,
-	2615,
-	5955,
-	5955,
-	5924,
-	5955,
-	4219,
-	5955,
-	4811,
-	4811,
-	5857,
-	4811,
-	2615,
-	5955,
-	5955,
-	5924,
-	5955,
-	4219,
-	5955,
-	4811,
-	4811,
-	5857,
-	965,
-	5857,
-	4219,
-	4236,
-	4236,
-	4811,
-	4716,
-	2615,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	4219,
-	4811,
-	4811,
-	5857,
-	5857,
-	6065,
-	5955,
-	6065,
-	0,
-	0,
-	2364,
-	2364,
-	6065,
-	4236,
-	1165,
-	4236,
-	1996,
-	6065,
-	6902,
-	1359,
-	8068,
-	6065,
-	9475,
-	4811,
-	236,
-	1993,
-	191,
-	5857,
-	5857,
-	5857,
-	5857,
-	5857,
-	5857,
-	4716,
-	4716,
-	6065,
-	6065,
-	6065,
-	6065,
-	6065,
-	1375,
-	2600,
-	6065,
-	2610,
-	4811,
-	2610,
-	6065,
-	6065,
-	4811,
-	6065,
-	6065,
-	6065,
-	878,
-	3911,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	3949,
-	5955,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	6065,
-	6065,
-	4716,
-	5857,
-	6065,
-	5857,
-	5857,
-	4219,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	6065,
-	6065,
-	4784,
-	1013,
-	521,
-	3299,
-	793,
-	888,
-	1318,
-	2388,
-	3357,
-	5924,
-	5924,
-	5955,
-	6065,
-	2388,
-	1318,
-	1318,
-	959,
-	1317,
-	1356,
-	2388,
-	1318,
-	4230,
-	9124,
-	1356,
-	4784,
-	8271,
-	8271,
-	8271,
-	8900,
-	8271,
-	9007,
-	7463,
-	7849,
-	7861,
-	7552,
-	9514,
-	9475,
-	9514,
-	7871,
-	4811,
-	9526,
-	3475,
-	3475,
-	3475,
-	3475,
-	3475,
-	3475,
-	8909,
-	8897,
-	8897,
-	8897,
-	8261,
-	7814,
-	3386,
-	3973,
-	3973,
-	7374,
-	3973,
-	7362,
-	9124,
-	9124,
-	8341,
-	9124,
-	9124,
-	9124,
-	9124,
-	9124,
-	9124,
-	9124,
-	9108,
-	9114,
-	9131,
-	9119,
-	9120,
-	9121,
-	9108,
-	9135,
-	9136,
-	9137,
-	9132,
-	9115,
-	8900,
-	8340,
-	9246,
-	8340,
-	8943,
-	8340,
-	8943,
-	8340,
-	8340,
-	8340,
-	9007,
-	8340,
-	9022,
-	8340,
-	8340,
-	8340,
-	8340,
-	8340,
-	9204,
-	8340,
-	8957,
-	8340,
-	8340,
-	8972,
-	8340,
-	9124,
-	8340,
-	6894,
-	9124,
-	9124,
-	8894,
-	9018,
-	6624,
-	6624,
-	8373,
-	7570,
-	6636,
-	9135,
-	8371,
-	7153,
-	7552,
-	8351,
-	9514,
-	816,
-	816,
-	4811,
-	816,
-	816,
-	6065,
-	6065,
-	5955,
-	6065,
-	4811,
-	6065,
-	1379,
-	6065,
-	4716,
-	392,
-	392,
-	3973,
-	4811,
-	6065,
-	1126,
-	5924,
-	1953,
-	1356,
-	4716,
-	5857,
-	5857,
-	5857,
-	5925,
-	5925,
-	4785,
-	2615,
-	4716,
-	1126,
-	670,
-	305,
-	14,
-	6065,
-	1126,
-	305,
-	14,
-	5955,
-	5955,
-	1126,
-	4236,
-	305,
-	3949,
-	1126,
-	305,
-	3949,
-	5924,
-	5955,
-	9475,
-	9475,
-	9475,
-	9475,
-	6065,
-	6065,
-	5955,
-	5955,
-	6065,
-	5955,
-	5955,
-	6065,
-	5955,
-	5955,
-	6065,
-	5955,
-	5955,
-	1126,
-	0,
-	305,
-	14,
-	1405,
-	6065,
-	305,
-	6065,
-	305,
-	6065,
-	305,
-	6065,
-	305,
-	6065,
-	2620,
-	2620,
-	6065,
-	4811,
-	959,
-	474,
-	2615,
-	2615,
-	1379,
-	959,
-	474,
-	959,
-	474,
-	479,
-	229,
-	7552,
-	7137,
-	8347,
-	7552,
-	8373,
-	5924,
-	5924,
-	5955,
-	5955,
-	0,
-	0,
-	0,
-	6065,
-	6065,
-	4811,
-	5955,
-	5955,
-	6065,
-	5857,
-	2615,
-	5955,
-	4236,
-	3973,
-	4236,
-	959,
-	6065,
-	4811,
-	2615,
-	5955,
-	5955,
-	5924,
-	5857,
-	5955,
-	3386,
-	8068,
-	8068,
-	9475,
-	9443,
-	7466,
-	7555,
-	9514,
-	2612,
-	1127,
-	0,
-	1998,
-	1574,
-	1172,
-	6065,
-	9475,
-	6065,
-	1172,
-	1998,
-	1172,
-	6065,
-	4811,
-	9443,
-	9124,
-	8351,
-	5955,
-	3900,
-	1124,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4236,
-	0,
-	6065,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5874,
-	5879,
-	5924,
-	5925,
-	1998,
-	5955,
-	0,
-	4236,
-	4236,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5955,
-	3386,
-	0,
-	0,
-	0,
-	0,
-	5955,
-	8897,
-	6065,
-	9514,
-	1574,
-	3973,
-	6065,
-	4811,
-	2615,
-	4811,
-	6065,
-	9443,
-	9443,
-	6065,
-	4784,
-	5924,
-	3357,
-	6065,
-	4784,
-	3357,
-	3949,
-	4811,
-	4811,
-	5924,
-	3386,
-	5955,
-	3386,
-	3949,
-	4784,
-	2615,
-	6065,
-	5924,
-	5857,
-	4716,
-	1811,
-	1375,
-	2615,
-	4236,
-	3386,
-	4230,
-	2388,
-	1788,
-	4278,
-	5924,
-	6065,
-	0,
-	0,
-	0,
-	5857,
-	6065,
-	4784,
-	5924,
-	4784,
-	1379,
-	1379,
-	5857,
-	2615,
-	4236,
-	1379,
-	1379,
-	5857,
-	5955,
-	4811,
-	5955,
-	4811,
-	1379,
-	1379,
-	6065,
-	1379,
-	5857,
-	1379,
-	6065,
-	1379,
-	7260,
-	1379,
-	5857,
-	1379,
-	6065,
-	1379,
-	5857,
-	6065,
-	1379,
-	5857,
-	6065,
-	1379,
-	5857,
-	6065,
-	5876,
-	5876,
-	5955,
-	4811,
-	4784,
-	1301,
-	5924,
-	5857,
-	9514,
-	4784,
-	2326,
-	6065,
-	6065,
-	6065,
-	3386,
-	2615,
-	2615,
-	4811,
-	6065,
-	6065,
-	6065,
-	6065,
-	6065,
-	4811,
-	4219,
-	1167,
-	4811,
-	1172,
-	2615,
-	4811,
-	1170,
-	472,
-	89,
+	6854,
+	6628,
+	1272,
+	6854,
+	6854,
+	1763,
+	4430,
+	8424,
+	10650,
+	2915,
+	1273,
+	58,
+	30,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	6733,
+	6628,
+	6733,
+	0,
+	6733,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6628,
+	6733,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6854,
+	0,
+	0,
+	0,
+	6628,
+	0,
+	6854,
+	5268,
+	6733,
+	10082,
+	6854,
+	10691,
+	6854,
+	5370,
+	5268,
+	5370,
+	6733,
+	5340,
+	5340,
+	5340,
+	5268,
+	5341,
+	5341,
+	5268,
+	5268,
+	5268,
+	5340,
+	6699,
+	6733,
+	5268,
+	5370,
+	6854,
+	5370,
+	10650,
+	10618,
+	5370,
+	5457,
+	5268,
+	6854,
+	6733,
+	2995,
+	5370,
+	5370,
+	1519,
+	5370,
+	1065,
+	5457,
+	5370,
+	5370,
+	2918,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6628,
+	3790,
+	6628,
+	6628,
+	6628,
+	6628,
+	6628,
+	6854,
+	6699,
+	6733,
+	4727,
+	6628,
+	6854,
+	4727,
+	4727,
+	5340,
+	5370,
+	6733,
+	5268,
+	6733,
+	5370,
+	2918,
+	1545,
+	1522,
+	2918,
+	6854,
+	6854,
+	6854,
+	6733,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6628,
+	6699,
+	6733,
+	6628,
+	3790,
+	6628,
+	6628,
+	6628,
+	6854,
+	6628,
+	6854,
+	4727,
+	6628,
+	6854,
+	5370,
+	4727,
+	4727,
+	4727,
+	5268,
+	5340,
+	5370,
+	6733,
+	6733,
+	6628,
+	6628,
+	6628,
+	6628,
+	6733,
+	6628,
+	6733,
+	6699,
+	6699,
+	5340,
+	6699,
+	6628,
+	6733,
+	5340,
+	6699,
+	6699,
+	6699,
+	4430,
+	1976,
+	5370,
+	5370,
+	6628,
+	6733,
+	1754,
+	1669,
+	1763,
+	2918,
+	5370,
+	1537,
+	1537,
+	1476,
+	1476,
+	2670,
+	5370,
+	1519,
+	2918,
+	1087,
+	2918,
+	1545,
+	1545,
+	5370,
+	1519,
+	5370,
+	2918,
+	1545,
+	1519,
+	6854,
+	509,
+	2670,
+	6628,
+	6854,
+	6628,
+	1545,
+	1093,
+	275,
+	2918,
+	1545,
+	1545,
+	1474,
+	5370,
+	6854,
+	5370,
+	6733,
+	5370,
+	5370,
+	4727,
+	6854,
+	6854,
+	6699,
+	4403,
+	2376,
+	5268,
+	1465,
+	3698,
+	6628,
+	6628,
+	6854,
+	6854,
+	6854,
+	6854,
+	5370,
+	6854,
+	6854,
+	6854,
+	6854,
+	5370,
+	5370,
+	5370,
+	1482,
+	1539,
+	6628,
+	1140,
+	6854,
+	6854,
+	6854,
+	6854,
+	6854,
+	6854,
+	6628,
+	6854,
+	1253,
+	734,
+	6628,
+	3698,
+	6854,
+	6854,
+	6628,
+	3790,
+	1669,
+	6628,
+	6854,
+	5340,
+	1154,
+	6628,
+	6854,
+	6854,
+	6854,
+	2993,
+	4430,
+	1255,
+	1254,
+	317,
+	1976,
+	1256,
+	6699,
+	4353,
+	1253,
+	3647,
+	6733,
+	2235,
+	2235,
+	2249,
+	2235,
+	1322,
+	6854,
+	5340,
+	6854,
+	4727,
+	1545,
+	6854,
+	6854,
+	6854,
+	6854,
+	6699,
+	4403,
+	1093,
+	3790,
+	3790,
+	5370,
+	6854,
+	5370,
+	6854,
+	6854,
+	6854,
+	6699,
+	6854,
+	6628,
+	6628,
+	6854,
+	2670,
+	5370,
+	1476,
+	2918,
+	4721,
+	6733,
+	5340,
+	4430,
+	4430,
+	3758,
+	6854,
+	3698,
+	6733,
+	5370,
+	5268,
+	1187,
 	37,
-	5955,
-	5955,
-	9514,
-	9475,
-	9475,
-	9120,
-	9124,
-	8351,
-	8648,
-	9514,
-	9120,
-	1984,
-	1574,
-	4236,
-	5955,
-	5955,
-	5924,
-	5955,
-	5924,
-	5924,
-	5955,
-	0,
-	5924,
-	1172,
-	5955,
-	1811,
-	6065,
-	2615,
-	1377,
-	9124,
-	5955,
-	5924,
-	3973,
-	4236,
-	2610,
-	1811,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	813,
-	5857,
-	9514,
-	4236,
-	5955,
-	5955,
-	5924,
-	5955,
-	5924,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5924,
-	5924,
-	6065,
-	4236,
-	5924,
-	5924,
-	6065,
-	4236,
-	5924,
-	5955,
-	5924,
-	5924,
-	813,
-	6065,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	813,
-	5924,
-	6065,
-	813,
-	5924,
-	6065,
-	4236,
-	5955,
-	5924,
-	4784,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	9514,
-	6065,
-	6065,
-	6065,
-	6065,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5955,
-	5955,
-	5924,
-	1811,
-	813,
-	6065,
-	9514,
-	4236,
-	5955,
-	5924,
-	5924,
-	5955,
-	5955,
-	5924,
-	813,
-	6065,
-	9514,
-	5924,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	5924,
-	6065,
-	5924,
-	6065,
-	5924,
-	813,
-	6065,
-	5924,
-	5924,
-	6065,
-	5924,
-	5924,
-	6065,
-	5924,
-	5924,
-	6065,
-	4236,
-	5955,
-	5924,
-	5924,
-	5955,
-	5955,
-	5924,
-	813,
-	6065,
-	9514,
-	5924,
-	813,
-	6065,
-	5955,
-	5924,
-	6065,
-	9514,
-	5955,
-	5924,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	1811,
-	5955,
-	5955,
-	813,
-	6065,
-	9514,
-	5955,
-	5924,
-	6065,
-	9514,
-	1172,
-	6065,
-	1172,
-	6065,
-	5924,
-	1172,
-	5955,
-	5955,
-	6065,
-	9514,
-	5924,
-	6065,
-	5955,
-	5955,
-	1811,
-	1172,
-	813,
-	6065,
-	9514,
-	1172,
-	813,
-	6065,
-	5955,
-	5955,
-	1811,
-	1172,
-	813,
-	6065,
-	9514,
-	8648,
-	9514,
-	4236,
-	6065,
-	1970,
-	1998,
-	1977,
-	1987,
-	1984,
-	1979,
+	5268,
+	2873,
+	10242,
+	8830,
+	7691,
+	7691,
+	6854,
+	5268,
+	6699,
+	6699,
+	6854,
+	5370,
+	6854,
+	6733,
+	6854,
+	6628,
+	2918,
+	6733,
+	4727,
+	4727,
+	5370,
+	6733,
+	6733,
+	6733,
+	6628,
+	6733,
+	6699,
+	6699,
+	5340,
+	6699,
+	6628,
+	5340,
+	6699,
+	6699,
+	6699,
+	4430,
 	1976,
-	1978,
-	2000,
-	1998,
-	1998,
-	2002,
-	1998,
-	2122,
-	1998,
-	1062,
-	8205,
-	6065,
-	2153,
-	1998,
-	1977,
-	1987,
-	1984,
-	1979,
-	1062,
-	1016,
-	381,
-	9514,
-	1998,
-	1978,
-	2000,
-	1062,
-	1017,
-	6065,
-	1998,
-	2002,
-	1062,
-	1618,
-	6065,
-	1998,
-	1976,
-	1062,
-	1015,
-	6065,
-	9475,
-	1998,
-	1998,
-	1168,
-	1062,
-	1062,
-	1163,
-	6065,
-	1998,
-	1998,
-	1062,
-	1574,
-	6065,
-	6065,
-	1998,
-	1998,
-	1062,
-	1062,
-	6065,
-	1998,
-	1062,
-	6065,
-	1998,
-	1062,
-	6065,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6065,
-	2615,
-	5924,
-	5955,
-	5955,
-	3386,
-	3386,
-	5955,
-	2615,
-	6065,
-	5955,
-	5955,
-	5924,
-	5924,
-	5857,
-	5857,
-	5857,
-	5955,
-	5955,
-	5924,
-	5924,
-	5924,
-	4784,
-	5924,
-	4784,
-	5924,
-	4784,
-	5924,
-	4784,
-	5955,
-	4811,
-	5924,
-	4784,
-	5924,
-	4784,
-	4811,
-	9514,
-	2615,
-	6065,
-	5955,
-	5955,
-	5857,
-	4716,
-	5924,
-	4784,
-	4811,
-	5955,
-	4811,
-	4811,
-	5955,
-	5955,
-	5955,
-	4811,
-	6065,
-	4811,
-	2615,
-	9475,
-	5857,
-	1998,
-	5955,
-	5857,
-	4716,
-	5857,
-	4716,
-	5857,
-	4716,
-	5955,
-	4811,
-	4811,
-	4811,
-	4236,
-	5955,
-	5955,
-	9514,
-	2600,
-	5955,
-	5857,
-	5857,
-	5857,
-	5857,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	5924,
-	5955,
-	5955,
-	4811,
-	5955,
-	4811,
-	5857,
-	4716,
-	5857,
-	4716,
-	5955,
-	4811,
-	5955,
-	4811,
-	5924,
-	4784,
-	5924,
-	4784,
-	5955,
-	4811,
-	5857,
-	4716,
-	5955,
-	4811,
-	6065,
-	4811,
-	4811,
-	5955,
-	5955,
-	5955,
-	5955,
-	5924,
-	4784,
-	5955,
-	6065,
-	5857,
-	5857,
-	1998,
-	4236,
-	5955,
-	5955,
-	4811,
-	5955,
-	5955,
-	4811,
-	5955,
-	4811,
-	5924,
-	5955,
-	2612,
-	2615,
-	2600,
-	2605,
-	2606,
-	2610,
-	2611,
-	2615,
-	1379,
-	2615,
-	1379,
-	5955,
-	5955,
-	5955,
-	5955,
-	5857,
-	5874,
-	5879,
-	5924,
-	5925,
-	1998,
-	5955,
-	5955,
-	4236,
-	2615,
-	4236,
-	4236,
-	6065,
-	4784,
-	5955,
-	4811,
-	6065,
-	4784,
-	4811,
-	6065,
-	5955,
-	6065,
-	9514,
-	9120,
-	6065,
-	9475,
-	9475,
-	4716,
-	5955,
-	4811,
-	4811,
-	0,
-	0,
-	0,
-	5924,
-	5924,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5955,
-	4230,
-	9120,
-	6065,
-	2620,
-	2620,
-	6065,
-	4811,
-	2615,
-	959,
-	2615,
-	479,
-	143,
-	8351,
-	5955,
-	0,
-	6065,
-	6065,
-	4784,
-	5924,
-	5857,
-	5857,
-	5955,
-	5955,
-	5955,
-	5955,
-	6065,
-	2615,
-	2615,
-	4811,
-	6065,
-	6065,
-	3973,
-	2388,
-	1318,
-	6065,
-	2388,
-	4738,
-	4738,
-	6065,
-	9514,
-	6065,
-	5955,
-	6065,
-	6065,
-	4811,
-	2615,
-	6065,
-	5955,
-	4811,
-	6065,
-	4811,
-	5955,
-	4811,
-	6065,
-	4811,
-	6065,
-	9120,
-	5955,
-	5955,
-	5955,
-	4716,
-	5924,
-	5955,
-	4811,
-	4811,
-	4784,
-	4811,
-	5955,
-	4811,
-	4784,
-	6065,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6065,
-	4811,
-	4784,
-	4811,
-	2615,
-	3317,
-	3322,
-	3357,
-	3358,
-	3386,
-	3386,
-	3667,
-	3669,
-	3670,
-	3671,
-	3672,
-	3673,
-	3673,
-	3675,
-	3677,
-	3677,
-	3680,
-	3680,
-	3685,
-	3686,
-	3688,
-	3689,
-	3690,
-	3690,
-	3911,
-	3922,
-	3927,
-	3950,
-	3973,
-	3973,
-	4157,
-	4158,
-	4159,
-	4160,
-	4162,
-	4162,
-	4314,
-	4317,
-	4317,
-	4219,
-	4221,
-	4222,
-	4223,
-	4224,
-	4230,
-	4231,
-	4239,
-	1998,
-	4236,
-	1974,
-	1976,
-	1977,
-	1978,
-	1984,
-	1987,
-	1172,
-	1998,
-	5955,
-	5924,
-	5955,
-	5955,
-	8068,
-	1998,
-	9124,
-	1172,
-	9124,
-	8931,
-	8931,
-	9232,
-	9232,
-	8931,
-	8931,
-	8931,
-	8931,
-	8931,
-	8935,
-	8935,
-	8935,
-	8935,
-	8935,
-	8935,
-	8935,
-	9124,
-	8351,
-	8931,
-	8935,
-	9232,
-	9124,
-	9124,
-	9112,
-	9112,
-	9134,
-	9134,
-	9112,
-	9112,
-	9112,
-	9112,
-	9112,
-	9113,
-	9113,
-	9113,
-	9113,
-	9113,
-	9113,
-	9113,
-	8351,
-	9112,
-	9113,
-	9134,
-	8929,
-	8997,
-	9017,
-	9267,
-	8897,
-	8980,
-	9182,
-	9243,
-	9004,
-	9258,
-	8931,
-	8935,
-	9514,
-	4811,
-	9124,
-	3680,
-	3680,
-	3950,
-	3973,
-	3973,
-	4160,
-	4162,
-	4162,
-	4223,
-	4230,
-	4231,
-	1998,
-	1977,
-	1984,
-	1987,
-	1172,
-	1172,
-	1172,
-	1172,
-	4811,
-	9124,
-	3690,
-	3690,
-	4314,
-	4317,
-	4317,
-	4224,
-	4239,
-	1998,
-	1978,
-	1172,
-	1172,
-	4811,
-	9124,
-	3669,
-	3673,
-	3673,
-	3675,
-	3677,
-	3677,
-	4221,
-	4222,
-	1998,
-	1976,
-	1172,
-	1172,
-	4811,
-	9124,
-	3386,
-	3386,
-	4219,
-	1998,
-	1974,
-	1172,
-	1172,
-	4811,
-	9124,
-	1998,
-	1172,
-	1172,
-	1172,
-	1172,
-	4811,
-	9124,
-	1998,
-	1172,
-	1172,
-	6065,
-	2600,
-	3386,
-	3386,
-	3673,
-	3673,
-	3677,
-	3677,
-	3680,
-	3680,
-	3690,
-	3690,
-	3973,
-	3973,
-	4162,
-	4162,
-	4317,
-	4317,
-	4219,
-	4221,
-	4222,
-	4223,
-	4224,
-	4230,
-	4231,
-	4239,
-	1998,
-	1974,
-	1976,
-	1977,
-	1978,
-	1984,
-	1987,
-	1172,
-	1172,
-	1172,
-	1172,
-	1172,
-	3386,
-	9514,
-	4784,
-	3386,
-	3673,
-	3677,
-	3680,
-	3690,
-	3973,
-	4162,
-	4317,
-	1974,
-	1976,
-	1977,
-	1978,
-	1984,
-	1987,
-	1172,
-	1172,
-	1172,
-	1172,
-	4236,
-	9514,
-	4811,
-	1172,
-	9514,
-	4811,
-	2615,
-	4811,
-	9124,
-	1172,
-	1172,
-	3386,
-	0,
-	1998,
-	4236,
-	1998,
-	1998,
-	2610,
-	5045,
-	5045,
-	7372,
-	2150,
-	2152,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	8932,
-	8936,
-	5955,
-	4811,
-	4811,
-	4811,
-	939,
-	1356,
-	9514,
-	1572,
-	3357,
-	3357,
-	3357,
-	3248,
-	3357,
-	1532,
-	1532,
-	1543,
-	8048,
-	9514,
-	77,
-	2673,
-	2610,
-	5857,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	5924,
-	4361,
-	4216,
-	1980,
-	5955,
-	4230,
-	8340,
-	7550,
-	6612,
-	943,
-	5955,
-	5955,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	3357,
-	3357,
-	5857,
-	3386,
-	5955,
-	5924,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	3900,
-	3900,
-	5857,
-	5857,
-	5857,
-	5857,
-	5857,
-	5955,
-	2610,
-	5955,
-	5924,
-	5924,
-	7463,
-	7463,
-	7971,
-	8271,
-	6873,
-	7971,
-	5924,
-	5924,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
-	5955,
+	5370,
+	5370,
+	1754,
+	1669,
+	1763,
+	2918,
+	5370,
+	1537,
+	1537,
+	6628,
+	6733,
+	6628,
+	6628,
+	6628,
+	10650,
+	6854,
+	6699,
+	6699,
+	6628,
+	5268,
+	6628,
+	5268,
+	6628,
+	6733,
+	6854,
+	5340,
+	6854,
+	2643,
+	2643,
+	2670,
+	1012,
+	2670,
+	1014,
+	5370,
+	1519,
+	6854,
+	2670,
+	4727,
+	4727,
+	4430,
+	10650,
+	2043,
+	6854,
+	10691,
+	2915,
+	2918,
+	6854,
+	5370,
+	1093,
+	1545,
+	6854,
+	6854,
+	1545,
+	6854,
+	5370,
+	5370,
+	2918,
+	5370,
+	5370,
+	5370,
+	6699,
+	6854,
+	5340,
+	6854,
+	5268,
+	5268,
+	6854,
+	5268,
+	1540,
+	1540,
+	5340,
+	2643,
+	6733,
+	2918,
+	4430,
+	4430,
+	4727,
+	2903,
+	6854,
+	2918,
+	6854,
+	6854,
+	10691,
+	5340,
+	1540,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6854,
+	6854,
+	5268,
+	6854,
+	5370,
+	928,
+	928,
+	6854,
+	2918,
+	6699,
+	1093,
+	6733,
+	5370,
+	4708,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	6628,
+	5370,
+	6628,
+	2252,
+	6733,
+	5370,
+	3758,
+	6628,
+	4727,
+	4727,
+	6733,
+	5370,
+	5370,
+	5370,
+	6733,
+	5370,
+	5370,
+	4721,
+	4727,
+	4727,
+	4727,
+	4727,
+	4721,
+	6854,
+	2913,
+	6628,
+	6733,
+	6699,
+	4727,
+	2236,
+	4721,
+	5370,
+	5370,
+	5370,
+	4430,
+	1763,
+	2918,
+	4727,
+	2918,
+	6733,
+	6733,
+	6699,
+	6733,
+	4708,
+	5370,
+	5370,
+	6628,
+	2918,
+	6733,
+	6733,
+	6733,
+	3790,
+	5370,
+	6628,
+	6628,
+	6854,
+	6733,
+	6733,
+	5370,
+	6699,
+	6733,
+	2918,
+	6733,
+	6733,
+	6699,
+	4708,
+	5370,
+	5370,
+	1093,
+	6733,
+	5370,
+	6733,
+	5370,
+	6733,
+	5370,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	4708,
+	5370,
+	5370,
+	3790,
+	6854,
+	5370,
+	6733,
+	5370,
+	10453,
+	928,
+	928,
+	928,
+	1763,
+	4727,
+	4727,
+	2252,
+	2918,
+	2918,
+	4708,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6733,
+	5370,
+	6733,
+	5370,
+	6628,
+	6628,
+	6733,
+	3758,
+	1720,
+	1720,
+	1763,
+	1539,
+	4727,
+	4727,
+	928,
+	6733,
+	5370,
+	4727,
+	928,
+	4727,
+	2252,
+	1322,
+	4727,
+	4727,
+	4727,
+	4727,
+	2246,
+	2918,
+	1540,
+	6733,
+	1322,
+	1322,
+	1322,
+	6628,
+	6733,
+	5370,
+	6628,
+	5268,
+	6628,
+	4727,
+	5370,
+	5370,
+	6733,
+	5370,
+	5370,
+	5370,
+	5370,
+	5370,
+	5370,
+	5370,
+	225,
+	2252,
+	5370,
+	5370,
+	928,
+	4727,
+	6733,
+	5370,
+	2252,
+	10691,
+	5370,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	6733,
+	5370,
+	4708,
+	6628,
+	6733,
+	5370,
+	3758,
+	1763,
+	5370,
+	5370,
+	548,
+	6733,
+	6733,
+	6699,
+	4708,
+	6628,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	5370,
+	5370,
+	6733,
+	5370,
+	5370,
+	1545,
+	1545,
+	1510,
+	1093,
+	6733,
+	5370,
+	4708,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	6628,
+	2252,
+	6628,
+	5268,
+	6733,
+	5370,
+	3758,
+	6733,
+	6628,
+	4727,
+	5370,
+	9670,
+	5370,
+	5370,
+	6854,
+	6854,
+	6854,
+	6733,
+	5370,
+	6733,
+	6733,
+	5370,
+	5370,
+	6854,
+	5370,
+	2918,
+	6699,
+	4727,
+	4727,
+	3790,
+	2246,
+	4727,
+	6699,
+	6733,
+	6854,
+	5268,
+	5370,
+	6628,
+	6854,
+	6733,
+	5370,
+	6628,
+	6854,
+	6733,
+	2918,
+	2918,
+	6854,
+	278,
+	4708,
+	6628,
+	6733,
+	6733,
+	6733,
+	6628,
+	6733,
+	5370,
+	3758,
+	6699,
+	6733,
+	6733,
+	5370,
+	5370,
+	5370,
+	6733,
+	5370,
+	2918,
+	6733,
+	6733,
+	6733,
+	6699,
+	4708,
+	6628,
+	6628,
+	5370,
+	5370,
+	6733,
+	5370,
+	3758,
+	5370,
+	5370,
+	6733,
+	2252,
+	6733,
+	6854,
+	5370,
+	6733,
+	6733,
+	5370,
+	6733,
+	6733,
+	6854,
+	1540,
+	5370,
+	4708,
+	6733,
+	6733,
+	2903,
+	4708,
+	6733,
+	6733,
+	6733,
+	6733,
+	5370,
+	1510,
+	2918,
+	4727,
+	1319,
+	2918,
+	2918,
+	1540,
+	4727,
+	5370,
+	5370,
+	913,
+	8164,
+	10238,
+	7150,
+	272,
+	6733,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	6628,
+	6628,
+	6733,
+	6733,
+	6733,
+	6733,
+	3790,
+	10082,
+	170,
+	6699,
+	6628,
+	6628,
+	6733,
+	6733,
+	6733,
+	6733,
+	5340,
+	5268,
+	5268,
+	3790,
+	5370,
+	4727,
+	4727,
+	6699,
+	6733,
+	4430,
+	2043,
+	4727,
+	2252,
+	4721,
+	2236,
+	2236,
+	6699,
+	4721,
+	5370,
+	5340,
+	2670,
+	6733,
+	5370,
+	6733,
+	6628,
+	6854,
+	6854,
+	5370,
+	0,
+	6733,
+	0,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6733,
+	5370,
+	3790,
+	4727,
+	4727,
+	2252,
+	3758,
+	1763,
+	6628,
+	0,
+	1540,
+	6733,
+	6733,
+	0,
+	6628,
+	9968,
+	6733,
+	6733,
+	6733,
+	5370,
+	6733,
+	6733,
+	5370,
+	6733,
+	0,
+	0,
+	6854,
+	6733,
+	4727,
+	5370,
+	5370,
+	4721,
+	225,
+	5370,
+	5370,
+	6628,
+	9670,
+	9670,
+	277,
+	6699,
+	6733,
+	2915,
+	2918,
+	0,
+	0,
+	6854,
+	6854,
+	6854,
+	1093,
+	6733,
+	6733,
+	6699,
+	4708,
+	6628,
+	6733,
+	5370,
+	5370,
+	5370,
+	1545,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	4708,
+	5370,
+	5370,
+	2918,
+	6733,
+	6733,
+	6699,
+	6733,
+	4708,
+	6733,
+	5370,
+	5370,
+	6628,
+	5370,
+	2918,
+	6733,
+	6733,
+	6699,
+	6733,
+	4708,
+	6733,
+	5370,
+	5370,
+	6628,
+	1093,
+	6628,
+	4708,
+	4727,
+	4727,
+	5370,
+	5268,
+	2918,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	4708,
+	5370,
+	5370,
+	6628,
+	6628,
+	6854,
+	6733,
+	6854,
+	0,
+	0,
+	2643,
+	2643,
+	6854,
+	4727,
+	1313,
+	4727,
+	2249,
+	6854,
+	7783,
+	1522,
+	9053,
+	6854,
+	10650,
+	5370,
+	278,
+	2246,
+	226,
+	6628,
+	6628,
+	6628,
+	6628,
+	6628,
+	6628,
+	5268,
+	5268,
+	6854,
+	6854,
+	6854,
+	6854,
+	6854,
+	1540,
+	2903,
+	6854,
+	2913,
+	5370,
+	2913,
+	6854,
+	6854,
+	5370,
+	6854,
+	6854,
+	6854,
+	998,
+	4364,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	4403,
+	6733,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6854,
+	6854,
+	5268,
+	6628,
+	6854,
+	6628,
+	6628,
+	4708,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	6854,
+	6854,
+	5340,
+	1144,
+	589,
+	3698,
+	903,
+	1008,
+	1476,
+	2670,
+	3758,
+	6699,
+	6699,
+	6733,
+	6854,
+	2670,
+	1476,
+	1476,
+	1087,
+	1475,
+	1519,
+	2670,
+	1476,
+	4721,
+	10242,
+	1519,
+	5340,
+	9272,
+	9272,
+	9272,
+	9968,
+	9272,
+	10082,
+	8420,
+	8820,
+	8832,
+	8514,
+	10691,
+	10650,
+	10691,
+	8843,
+	5370,
+	10713,
+	3884,
+	3884,
+	3884,
+	3884,
+	3884,
+	3884,
+	9978,
+	9965,
+	9965,
+	9965,
+	9260,
+	8784,
+	3790,
+	4430,
+	4430,
+	8312,
+	4430,
+	8295,
+	10242,
+	10242,
+	9350,
+	10242,
+	10242,
+	10242,
+	10242,
+	10242,
+	10242,
+	10242,
+	10224,
+	10230,
+	10249,
+	10237,
+	10238,
+	10239,
+	10224,
+	10253,
+	10254,
+	10255,
+	10250,
+	10231,
+	9968,
+	9349,
+	10377,
+	9349,
+	10014,
+	9349,
+	10014,
+	9349,
+	9349,
+	9349,
+	10082,
+	9349,
+	10099,
+	9349,
+	9349,
+	9349,
+	9349,
+	9349,
+	10334,
+	9349,
+	10028,
+	9349,
+	9349,
+	10044,
+	9349,
+	10242,
+	9349,
+	7775,
+	10242,
+	10242,
+	9962,
+	10094,
+	7496,
+	7496,
+	9384,
+	8536,
+	7509,
+	10253,
+	9382,
+	8074,
+	8514,
+	9360,
+	10691,
+	928,
+	928,
+	5370,
+	928,
+	928,
+	6854,
+	6854,
+	6733,
+	6854,
+	5370,
+	6854,
+	1545,
+	6854,
+	5268,
+	453,
+	453,
+	4430,
+	5370,
+	6854,
+	1272,
+	6699,
+	2204,
+	1519,
+	5268,
+	6628,
+	6628,
+	6628,
+	6700,
+	6700,
+	5341,
+	2918,
+	5268,
+	1272,
+	759,
+	355,
+	29,
+	6854,
+	1272,
+	355,
+	29,
+	6733,
+	6733,
+	1272,
+	4727,
+	355,
+	4403,
+	1272,
+	355,
+	4403,
+	6699,
+	6733,
+	10650,
+	10650,
+	10650,
+	10650,
+	6854,
+	6854,
+	6733,
+	6733,
+	6854,
+	6733,
+	6733,
+	6854,
+	6733,
+	6733,
+	6854,
+	6733,
+	6733,
+	1272,
+	0,
+	355,
+	29,
+	1580,
+	6854,
+	355,
+	6854,
+	355,
+	6854,
+	355,
+	6854,
+	355,
+	6854,
+	2924,
+	2924,
+	6854,
+	5370,
+	1087,
+	539,
+	2918,
+	2918,
+	1545,
+	1087,
+	539,
+	1087,
+	539,
+	545,
+	270,
+	8514,
+	8054,
+	9356,
+	8514,
+	9384,
+	6699,
+	6699,
+	6733,
+	6733,
+	0,
+	0,
+	0,
+	6854,
+	6854,
+	5370,
+	6733,
+	6733,
+	6854,
+	6628,
+	2918,
+	6733,
+	4727,
+	4430,
+	4727,
+	1087,
+	6854,
+	5370,
+	2918,
+	6733,
+	6733,
+	6699,
+	6628,
+	6733,
+	3790,
+	9053,
+	9053,
+	10650,
+	10618,
+	8424,
+	8517,
+	10691,
+	2915,
+	1273,
+	0,
+	2252,
+	1763,
+	1322,
+	6854,
+	10650,
+	6854,
+	1322,
+	2252,
+	1322,
+	6854,
+	5370,
+	10618,
+	10242,
+	9360,
+	6733,
+	4353,
+	1270,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4727,
+	0,
+	6854,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6646,
+	6652,
+	6699,
+	6700,
+	2252,
+	6733,
+	0,
+	4727,
+	4727,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6733,
+	3790,
+	0,
+	0,
+	0,
+	0,
+	6733,
+	9965,
+	6854,
+	10691,
+	1763,
+	4430,
+	6854,
+	5370,
+	2918,
+	5370,
+	6854,
+	10618,
+	10618,
+	6854,
+	5340,
+	6699,
+	3758,
+	6854,
+	5340,
+	3758,
+	4403,
+	5370,
+	5370,
+	6699,
+	3790,
+	6733,
+	3790,
+	4403,
+	5340,
+	2918,
+	6854,
+	6699,
+	6628,
+	5268,
+	2043,
+	1540,
+	2918,
+	4727,
+	3790,
+	4721,
+	2670,
+	2015,
+	4777,
+	6699,
+	6854,
+	0,
+	0,
+	0,
+	6628,
+	6854,
+	5340,
+	6699,
+	5340,
+	1545,
+	1545,
+	6628,
+	2918,
+	4727,
+	1545,
+	1545,
+	6628,
+	6733,
+	5370,
+	6733,
+	5370,
+	1545,
+	1545,
+	6854,
+	1545,
+	6628,
+	1545,
+	6854,
+	1545,
+	8191,
+	1545,
+	6628,
+	1545,
+	6854,
+	1545,
+	6628,
+	6854,
+	1545,
+	6628,
+	6854,
+	1545,
+	6628,
+	6854,
+	6648,
+	6648,
+	6733,
+	5370,
+	5340,
+	1459,
+	6699,
+	6628,
+	10691,
+	5340,
+	2604,
+	6854,
+	6854,
+	6854,
+	3790,
+	2918,
+	2918,
+	5370,
+	6854,
+	6854,
+	6854,
+	6854,
+	6854,
+	5370,
+	4708,
+	1316,
+	5370,
+	1322,
+	2918,
+	5370,
+	1319,
+	537,
+	110,
+	56,
+	6733,
+	6733,
+	10691,
+	10650,
+	10650,
+	10238,
+	10242,
+	9360,
+	9670,
+	10691,
+	10238,
+	2236,
+	1763,
+	4727,
+	6733,
+	6733,
+	6699,
+	6733,
+	6699,
+	6699,
+	6733,
+	0,
+	6699,
+	1322,
+	6733,
+	2043,
+	6854,
+	2918,
+	1542,
+	10242,
+	6733,
+	6699,
+	4430,
+	4727,
+	2913,
+	2043,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	925,
+	6628,
+	10691,
+	4727,
+	6733,
+	6733,
+	6699,
+	6733,
+	6699,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6699,
+	6699,
+	6854,
+	4727,
+	6699,
+	6699,
+	6854,
+	4727,
+	6699,
+	6733,
+	6699,
+	6699,
+	925,
+	6854,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	925,
+	6699,
+	6854,
+	925,
+	6699,
+	6854,
+	4727,
+	6733,
+	6699,
+	5340,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	10691,
+	6854,
+	6854,
+	6854,
+	6854,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6733,
+	6733,
+	6699,
+	2043,
+	925,
+	6854,
+	10691,
+	4727,
+	6733,
+	6699,
+	6699,
+	6733,
+	6733,
+	6699,
+	925,
+	6854,
+	10691,
+	6699,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	6699,
+	6854,
+	6699,
+	6854,
+	6699,
+	925,
+	6854,
+	6699,
+	6699,
+	6854,
+	6699,
+	6699,
+	6854,
+	6699,
+	6699,
+	6854,
+	4727,
+	6733,
+	6699,
+	6699,
+	6733,
+	6733,
+	6699,
+	925,
+	6854,
+	10691,
+	6699,
+	925,
+	6854,
+	6733,
+	6699,
+	6854,
+	10691,
+	6733,
+	6699,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	2043,
+	6733,
+	6733,
+	925,
+	6854,
+	10691,
+	6733,
+	6699,
+	6854,
+	10691,
+	1322,
+	6854,
+	1322,
+	6854,
+	6699,
+	1322,
+	6733,
+	6733,
+	6854,
+	10691,
+	6699,
+	6854,
+	6733,
+	6733,
+	2043,
+	1322,
+	925,
+	6854,
+	10691,
+	1322,
+	925,
+	6854,
+	6733,
+	6733,
+	2043,
+	1322,
+	925,
+	6854,
+	10691,
+	9670,
+	10691,
+	4727,
+	6854,
+	2222,
+	2252,
+	2229,
+	2239,
+	2236,
+	2231,
+	2228,
+	2230,
+	2255,
+	2252,
+	2252,
+	2257,
+	2252,
+	2380,
+	2252,
+	1198,
+	9202,
+	6854,
+	2411,
+	2252,
+	2229,
+	2239,
+	2236,
+	2231,
+	1198,
+	1148,
+	440,
+	10691,
+	2252,
+	2230,
+	2255,
+	1198,
+	1149,
+	6854,
+	2252,
+	2257,
+	1198,
+	1816,
+	6854,
+	2252,
+	2228,
+	1198,
+	1147,
+	6854,
+	10650,
+	2252,
+	2252,
+	1317,
+	1198,
+	1198,
+	1311,
+	6854,
+	2252,
+	2252,
+	1198,
+	1763,
+	6854,
+	6854,
+	2252,
+	2252,
+	1198,
+	1198,
+	6854,
+	2252,
+	1198,
+	6854,
+	2252,
+	1198,
+	6854,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6854,
+	2918,
+	6699,
+	6733,
+	6733,
+	3790,
+	3790,
+	6733,
+	2918,
+	6854,
+	6733,
+	6733,
+	6699,
+	6699,
+	6628,
+	6628,
+	6628,
+	6733,
+	6733,
+	6699,
+	6699,
+	6699,
+	5340,
+	6699,
+	5340,
+	6699,
+	5340,
+	6699,
+	5340,
+	6733,
+	5370,
+	6699,
+	5340,
+	6699,
+	5340,
+	5370,
+	10691,
+	2918,
+	6854,
+	6733,
+	6733,
+	6628,
+	5268,
+	6699,
+	5340,
+	5370,
+	6733,
+	5370,
+	5370,
+	6733,
+	6733,
+	6733,
+	5370,
+	6854,
+	5370,
+	2918,
+	10650,
+	6628,
+	2252,
+	6733,
+	6628,
+	5268,
+	6628,
+	5268,
+	6628,
+	5268,
+	6733,
+	5370,
+	5370,
+	5370,
+	4727,
+	6733,
+	6733,
+	10691,
+	2903,
+	6733,
+	6628,
+	6628,
+	6628,
+	6628,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	6699,
+	6733,
+	6733,
+	5370,
+	6733,
+	5370,
+	6628,
+	5268,
+	6628,
+	5268,
+	6733,
+	5370,
+	6733,
+	5370,
+	6699,
+	5340,
+	6699,
+	5340,
+	6733,
+	5370,
+	6628,
+	5268,
+	6733,
+	5370,
+	6854,
+	5370,
+	5370,
+	6733,
+	6733,
+	6733,
+	6733,
+	6699,
+	5340,
+	6733,
+	6854,
+	6628,
+	6628,
+	2252,
+	4727,
+	6733,
+	6733,
+	5370,
+	6733,
+	6733,
+	5370,
+	6733,
+	5370,
+	6699,
+	6733,
+	2915,
+	2918,
+	2903,
+	2908,
+	2909,
+	2913,
+	2914,
+	2918,
+	1545,
+	2918,
+	1545,
+	6733,
+	6733,
+	6733,
+	6733,
+	6628,
+	6646,
+	6652,
+	6699,
+	6700,
+	2252,
+	6733,
+	6733,
+	4727,
+	2918,
+	4727,
+	4727,
+	6854,
+	5340,
+	6733,
+	5370,
+	6854,
+	5340,
+	5370,
+	6854,
+	6733,
+	6854,
+	10691,
+	10238,
+	6854,
+	10650,
+	10650,
+	5268,
+	6733,
+	5370,
+	5370,
+	0,
+	0,
+	0,
+	6699,
+	6699,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6733,
+	4721,
+	10238,
+	6854,
+	2924,
+	2924,
+	6854,
+	5370,
+	2918,
+	1087,
+	2918,
+	545,
+	173,
+	9360,
+	6733,
+	0,
+	6854,
+	6854,
+	5340,
+	6699,
+	6628,
+	6628,
+	6733,
+	6733,
+	6733,
+	6733,
+	6854,
+	2918,
+	2918,
+	5370,
+	6854,
+	6854,
+	4430,
+	2670,
+	1476,
+	6854,
+	2670,
+	5290,
+	5290,
+	6854,
+	10691,
+	6854,
+	6733,
+	6854,
+	6854,
+	5370,
+	2918,
+	6854,
+	6733,
+	5370,
+	6854,
+	5370,
+	6733,
+	5370,
+	6854,
+	5370,
+	6854,
+	10238,
+	6733,
+	6733,
+	6733,
+	5268,
+	6699,
+	6733,
+	5370,
+	5370,
+	5340,
+	5370,
+	6733,
+	5370,
+	5340,
+	6854,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6854,
+	5370,
+	5340,
+	5370,
+	2918,
+	3717,
+	3722,
+	3758,
+	3759,
+	3790,
+	3790,
+	4092,
+	4094,
+	4095,
+	4096,
+	4097,
+	4098,
+	4098,
+	4100,
+	4103,
+	4103,
+	4106,
+	4106,
+	4112,
+	4113,
+	4115,
+	4116,
+	4117,
+	4117,
+	4364,
+	4375,
+	4380,
+	4404,
+	4430,
+	4430,
+	4632,
+	4633,
+	4634,
+	4635,
+	4637,
+	4637,
+	4819,
+	4822,
+	4822,
+	4708,
+	4711,
+	4712,
+	4713,
+	4715,
+	4721,
+	4722,
+	4731,
+	2252,
+	4727,
+	2226,
+	2228,
+	2229,
+	2230,
+	2236,
+	2239,
+	1322,
+	2252,
+	6733,
+	6699,
+	6733,
+	6733,
+	9053,
+	2252,
+	10242,
+	1322,
+	10242,
+	10002,
+	10002,
+	10363,
+	10363,
+	10002,
+	10002,
+	10002,
+	10002,
+	10002,
+	10006,
+	10006,
+	10006,
+	10006,
+	10006,
+	10006,
+	10006,
+	10242,
+	9360,
+	10002,
+	10006,
+	10363,
+	10242,
+	10242,
+	10228,
+	10228,
+	10252,
+	10252,
+	10228,
+	10228,
+	10228,
+	10228,
+	10228,
+	10229,
+	10229,
+	10229,
+	10229,
+	10229,
+	10229,
+	10229,
+	9360,
+	10228,
+	10229,
+	10252,
+	9999,
+	10072,
+	10093,
+	10398,
+	9965,
+	10054,
+	10311,
+	10374,
+	10079,
+	10389,
+	10002,
+	10006,
+	10691,
+	5370,
+	10242,
+	4106,
+	4106,
+	4404,
+	4430,
+	4430,
+	4635,
+	4637,
+	4637,
+	4713,
+	4721,
+	4722,
+	2252,
+	2229,
+	2236,
+	2239,
+	1322,
+	1322,
+	1322,
+	1322,
+	5370,
+	10242,
+	4117,
+	4117,
+	4819,
+	4822,
+	4822,
+	4715,
+	4731,
+	2252,
+	2230,
+	1322,
+	1322,
+	5370,
+	10242,
+	4094,
+	4098,
+	4098,
+	4100,
+	4103,
+	4103,
+	4711,
+	4712,
+	2252,
+	2228,
+	1322,
+	1322,
+	5370,
+	10242,
+	3790,
+	3790,
+	4708,
+	2252,
+	2226,
+	1322,
+	1322,
+	5370,
+	10242,
+	2252,
+	1322,
+	1322,
+	1322,
+	1322,
+	5370,
+	10242,
+	2252,
+	1322,
+	1322,
+	6854,
+	2903,
+	3790,
+	3790,
+	4098,
+	4098,
+	4103,
+	4103,
+	4106,
+	4106,
+	4117,
+	4117,
+	4430,
+	4430,
+	4637,
+	4637,
+	4822,
+	4822,
+	4708,
+	4711,
+	4712,
+	4713,
+	4715,
+	4721,
+	4722,
+	4731,
+	2252,
+	2226,
+	2228,
+	2229,
+	2230,
+	2236,
+	2239,
+	1322,
+	1322,
+	1322,
+	1322,
+	1322,
+	3790,
+	10691,
+	5340,
+	3790,
+	4098,
+	4103,
+	4106,
+	4117,
+	4430,
+	4637,
+	4822,
+	2226,
+	2228,
+	2229,
+	2230,
+	2236,
+	2239,
+	1322,
+	1322,
+	1322,
+	1322,
+	4727,
+	10691,
+	5370,
+	1322,
+	10691,
+	5370,
+	2918,
+	5370,
+	10242,
+	1322,
+	1322,
+	3790,
+	0,
+	2252,
+	4727,
+	2252,
+	2252,
+	2913,
+	5647,
+	5647,
+	8309,
+	2408,
+	2410,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	10003,
+	10007,
+	6733,
+	5370,
+	5370,
+	5370,
+	1064,
+	1519,
+	10691,
+	1759,
+	3758,
+	3758,
+	3758,
+	3647,
+	3758,
+	1713,
+	1713,
+	1725,
+	9031,
+	10691,
+	98,
+	2986,
+	2913,
+	6628,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	6699,
+	4868,
+	4705,
+	2232,
+	6733,
+	4721,
+	9349,
+	8512,
+	7484,
+	1068,
+	6733,
+	6733,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	3758,
+	3758,
+	6628,
+	3790,
+	6733,
+	6699,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	4353,
+	4353,
+	6628,
+	6628,
+	6628,
+	6628,
+	6628,
+	6733,
+	2913,
+	6733,
+	6699,
+	6699,
+	8420,
+	8420,
+	8954,
+	9272,
+	7752,
+	8954,
+	6699,
+	6699,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
+	6733,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x06000A44, { 0, 7 } },
+	{ 0x06000A45, { 0, 7 } },
 };
 extern const uint32_t g_rgctx_TU5BU5D_t04C88BAB96DB1DED8BD44FC7F4AB875AAC5A2514;
 extern const uint32_t g_rgctx_T_tDC5A1FFD4912C532F838E238130A2E3F50CA030C;
@@ -10970,7 +10974,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_CodeGenModule;
 const Il2CppCodeGenModule g_System_Xml_CodeGenModule = 
 {
 	"System.Xml.dll",
-	2736,
+	2737,
 	s_methodPointers,
 	97,
 	s_adjustorThunks,

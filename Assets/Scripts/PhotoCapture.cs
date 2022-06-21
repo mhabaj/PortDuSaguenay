@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
+/// Class that manages the capture of the photo.
+/// </summary>
 public class PhotoCapture : MonoBehaviour
 {
     /// <summary>
@@ -22,9 +32,9 @@ public class PhotoCapture : MonoBehaviour
     {
         //photo capture actions
         string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
-        string fileName = "Photo" + timeStamp + ".png";
-        string pathToSave = fileName;
-        ScreenCapture.CaptureScreenshot(pathToSave);
+        string fileName = "Photo" + timeStamp + ".jpg";
+
+        ScreenCapture.CaptureScreenshot(@"/Screenshots/" + fileName);
         yield return new WaitForEndOfFrame();
     }
 }

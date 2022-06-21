@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="panneau_vieuxport" size="10.000000 17.194719" />
+    <ImageTarget name="poubelle" size="5.000000 6.203768" />
+    <ImageTarget name="panneau_port_saguenay" size="3.000000 5.677130" />
+    <ImageTarget name="panneau" size="2.000000 6.138925" />
+    <ImageTarget name="uqac_photo" size="30.000000 25.867550" />
+  </Tracking>
+</QCARConfig>

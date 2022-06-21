@@ -4,9 +4,19 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Android;
 
+/// <summary>
+/// PORT DU SAGUENAY
+///  ____   ______     _____
+/// |  o |  | ___ \   /  ___\
+/// | ___|  | | | |   | |___
+/// | |     | |_| |   \___| \
+/// |_|     |____/    \_____/
+/// 
+///Class allows us to display the current location of the user
+/// </summary>
 public class UserLocation : MonoBehaviour
 {
-    public TextMeshProUGUI debug; // debug 
+    public TMP_Text debug; // debug 
 
     private void Start()
     {
@@ -38,7 +48,6 @@ public class UserLocation : MonoBehaviour
             debug.text = "Unable to determine device location";
             yield break;
         }
-        debug.text = "Latitude : " + Input.location.lastData.latitude + " Longitude : " + Input.location.lastData.longitude + " Altitude : " + Input.location.lastData.altitude;
     }
 
     // Update is called once per frame
@@ -47,11 +56,12 @@ public class UserLocation : MonoBehaviour
         if (Input.location.status == LocationServiceStatus.Running)
         {
             //Access granted to GPS values and it has been init
-            debug.text = "(updated) Latitude : " + Input.location.lastData.latitude + " Longitude : " + Input.location.lastData.longitude + " Altitude : " + Input.location.lastData.altitude;
+            debug.text = "(updated) Latitude : " + Input.location.lastData.latitude + "; Longitude : " + Input.location.lastData.longitude + "; Altitude : " + Input.location.lastData.altitude;
         }
         else
         {
-            //service is stopped
+            //there is a problem within the function
+            debug.text = "unable to start coroutine";
 
         }
     }
